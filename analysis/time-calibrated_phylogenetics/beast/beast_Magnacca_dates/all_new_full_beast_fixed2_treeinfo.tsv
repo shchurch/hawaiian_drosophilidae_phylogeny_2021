@@ -1,0 +1,12 @@
+Summary Statistic	TreeHeight
+mean	15.6262
+stderr of mean	0.1946
+stdev	2.2811
+variance	5.2035
+median	15.4815
+value range	[8.8, 25.2931]
+geometric mean	15.4608
+95% HPD interval	[11.4063, 20.2297]
+auto-correlation time (ACT)	1.4384E5
+effective sample size (ESS)	137.4
+number of samples	19766

@@ -1,0 +1,1434 @@
+IQ-TREE 2.1.1 COVID-edition built Aug 22 2020
+
+Input file name: /n/holyscratch01/extavour_lab/shchurch/Hawaiian_time-calibrated_March2021/all_new_full.nex
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 104527
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 316 sequences with 30362 nucleotide sites
+Number of constant sites: 21954 (= 72.3075% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 21954 (= 72.3075% of all sites)
+Number of parsimony informative sites: 5194
+Number of distinct site patterns: 10109
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+R4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+GTR+F+R4        -204091.463  409468.926 +    0.742  409496.794 +    0.759  414819.295 +        1
+GTR+F+R5        -204090.522  409471.043 +    0.258  409499.087 +    0.241  414838.054 - 8.44e-05
+TIM+F+R4        -204276.745  409835.491 - 1.87e-80  409863.184 - 2.09e-80  415169.218 - 1.04e-76
+TIM2+F+R4       -204290.213  409862.426 - 2.65e-86  409890.120 - 2.96e-86  415196.153 - 1.47e-82
+TVM+F+R4        -204286.238  409856.476 - 5.19e-85  409884.257 - 5.54e-85  415198.524 - 4.48e-83
+K3Pu+F+R4       -204473.074  410226.148 - 2.77e-165  410253.754 - 3.22e-165  415551.555 - 9.81e-160
+TPM2+F+R4       -204487.295  410254.591 - 1.84e-171  410282.197 - 2.15e-171  415579.997 - 6.54e-166
+TPM2u+F+R4      -204487.295  410254.591 - 1.84e-171  410282.197 - 2.15e-171  415579.997 - 6.54e-166
+TIM3+F+R4       -204527.379  410336.758 - 2.65e-189  410364.451 - 2.96e-189  415670.485 - 1.47e-185
+TN+F+R4         -204568.419  410416.837 - 1.08e-206  410444.443 - 1.26e-206  415742.243 - 3.84e-201
+TPM3u+F+R4      -204722.801  410725.601 - 9.71e-274  410753.207 - 1.13e-273  416051.008 - 3.44e-268
+TPM3+F+R4       -204722.801  410725.601 - 9.71e-274  410753.207 - 1.13e-273  416051.008 - 3.44e-268
+GTR+F+R3        -204740.528  410763.056 - 7.15e-282  410790.749 - 7.97e-282  416096.783 - 3.95e-278
+SYM+R4          -204756.487  410792.974 - 2.28e-288  410820.580 - 2.65e-288  416118.380 - 8.08e-283
+HKY+F+R4        -204765.336  410808.672 - 8.88e-292  410836.191 - 1.08e-291  416125.757 - 2.02e-284
+TVMe+R4         -204973.999  411225.998 -        0  411253.517 -        0  416543.084 -        0
+TIM2e+R4        -205150.879  411577.758 -        0  411605.190 -        0  416886.522 -        0
+TIMe+R4         -205286.442  411848.885 -        0  411876.317 -        0  417157.649 -        0
+GTR+F+I+G4      -205284.050  411846.099 -        0  411873.618 -        0  417163.185 -        0
+K3P+R4          -205506.994  412287.988 -        0  412315.334 -        0  417588.432 -        0
+TIM3e+R4        -205507.345  412290.690 -        0  412318.122 -        0  417599.455 -        0
+TNe+R4          -205709.712  412693.424 -        0  412720.769 -        0  417993.867 -        0
+K2P+R4          -205930.984  413133.968 -        0  413161.227 -        0  418426.091 -        0
+GTR+F+G4        -206504.194  414284.389 -        0  414311.821 -        0  419593.153 -        0
+GTR+F+R2        -208024.645  417327.290 -        0  417354.809 -        0  422644.375 -        0
+F81+F+R4        -210648.849  422573.698 -        0  422601.130 -        0  427882.463 -        0
+JC+R4           -211416.050  424102.101 -        0  424129.273 -        0  429385.902 -        0
+GTR+F+I         -211856.757  424989.513 -        0  425016.945 -        0  430298.278 -        0
+GTR+F           -225778.601  452831.203 -        0  452858.548 -        0  458131.646 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+R4
+
+Rate parameter R:
+
+  A-C: 1.4688
+  A-G: 5.0192
+  A-T: 2.3904
+  C-G: 1.4449
+  C-T: 7.4254
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.276
+  pi(C) = 0.2159
+  pi(G) = 0.2173
+  pi(T) = 0.2908
+
+Rate matrix Q:
+
+  A   -0.8929    0.1346    0.4631    0.2952
+  C    0.1721    -1.222    0.1333    0.9169
+  G    0.5882    0.1325   -0.8441    0.1235
+  T    0.2801    0.6807   0.09227    -1.053
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.585,0.05528) (0.3023,1.216) (0.09289,3.932) (0.01974,11.9)
+
+ Category  Relative_rate  Proportion
+  1         0.05528        0.585
+  2         1.216          0.3023
+  3         3.932          0.09289
+  4         11.9           0.01974
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+
+**NOTE**: Consensus tree has higher likelihood than ML tree found! Please use consensus tree below.
+Log-likelihood of the tree: -203787.9484 (s.e. 2565.4636)
+Unconstrained log-likelihood (without tree): -224335.7464
+Number of free parameters (#branches + #model parameters): 643
+Akaike information criterion (AIC) score: 408861.8967
+Corrected Akaike information criterion (AICc) score: 408889.7648
+Bayesian information criterion (BIC) score: 414212.2657
+
+Total tree length (sum of branch lengths): 6.2112
+Sum of internal branch lengths: 1.6911 (27.2259% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Drosophila_adunca' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--Drosophila_adunca
+|
+|                          +--Drosophila_ancyla
+|                       +--| (94.6/100)
+|                       |  +--Drosophila_fundita
+|                    +--| (53.6/91)
+|                    |  +--Drosophila_nr_fundita_RL_2010
+|                 +--| (97.9/96)
+|                 |  |  +--Drosophila_nr_ancyla_RTL_2014
+|                 |  +--| (89.2/100)
+|                 |     +--Drosophila_nr_fundita_RTL_2014
+|              +--| (98.4/90)
+|              |  |           +--Drosophila_cracens
+|              |  |        +--| (95.7/100)
+|              |  |        |  |  +--Drosophila_paracracens
+|              |  |        |  +--| (99.6/100)
+|              |  |        |     +--Drosophila_propiofacies
+|              |  |     +--| (98.6/100)
+|              |  |     |  +--Drosophila_proceriseta
+|              |  |  +**| (0/89)
+|              |  |  |  +--Drosophila_systenopeza
+|              |  +--| (72.4/95)
+|              |     +--Drosophila_variabilis
+|           +--| (86.2/85)
+|           |  |     +--Drosophila_cnecopleura
+|           |  |  +--| (100/99)
+|           |  |  |  +--Drosophila_nr_ancyla_RL_2010
+|           |  +--| (98.3/90)
+|           |     +--Drosophila_paucitarsus
+|        +--| (100/100)
+|        |  |        +--Drosophila_basisetosa
+|        |  |     +--| (42.5/83)
+|        |  |     |  |        +--Drosophila_forficata
+|        |  |     |  |     +--| (73/100)
+|        |  |     |  |     |  |     +--Drosophila_furcatarsus
+|        |  |     |  |     |  |  +--| (53.4/100)
+|        |  |     |  |     |  |  |  +---Drosophila_nr_dorsigera_RL_2010
+|        |  |     |  |     |  +--| (45/100)
+|        |  |     |  |     |     +--Drosophila_nr_dorsigera_RTL_2014
+|        |  |     |  |  +--| (97.9/100)
+|        |  |     |  |  |  +--Drosophila_pectinitarsus
+|        |  |     |  +--| (94.4/99)
+|        |  |     |     +--Drosophila_kokeensis
+|        |  |  +--| (75.5/86)
+|        |  |  |  +--Drosophila_attenuata
+|        |  +--| (43.8/80)
+|        |     |  +---Drosophila_capitata
+|        |     +--| (63.8/96)
+|        |        +----Drosophila_chaetocephala
+|     +--| (99.9/100)
+|     |  |                          +--Drosophila_apodasta
+|     |  |                       +--| (75.4/75)
+|     |  |                       |  +--Drosophila_nr_basimacula_2_RL_2010
+|     |  |                    +--| (94/74)
+|     |  |                    |  +--Drosophila_nr_expansa_1_KNM_2012
+|     |  |                 +--| (100/100)
+|     |  |                 |  |              +--Drosophila_basimacula
+|     |  |                 |  |           +--| (43.2/95)
+|     |  |                 |  |           |  +--Drosophila_nr_basimacula_1_RL_2010
+|     |  |                 |  |        +--| (0/61)
+|     |  |                 |  |        |  +--Drosophila_nr_basimacula_3_RTL_2014
+|     |  |                 |  |     +--| (59.8/68)
+|     |  |                 |  |     |  +--Drosophila_nr_basimacula_2_KNM_2012
+|     |  |                 |  |  +--| (0/25)
+|     |  |                 |  |  |  |        +--Drosophila_nr_perissopoda_1_KNM_2012
+|     |  |                 |  |  |  |     +**| (0/78)
+|     |  |                 |  |  |  |     |  +**Drosophila_nr_perissopoda_1_RTL_2014
+|     |  |                 |  |  |  |  +--| (98.6/88)
+|     |  |                 |  |  |  |  |  +**Drosophila_nr_perissopoda_4_KNM_2012
+|     |  |                 |  |  |  +--| (76.5/53)
+|     |  |                 |  |  |     +--Drosophila_nr_basimacula_2_RTL_2014
+|     |  |                 |  +--| (74.4/69)
+|     |  |                 |     |  +--Drosophila_nr_basimacula_3_RL_2010
+|     |  |                 |     +--| (66.4/59)
+|     |  |                 |        +--Drosophila_nr_perissopoda_1_RL_2010
+|     |  |              +--| (62.1/98)
+|     |  |              |  |     +**Drosophila_nr_perissopoda_2_RL_2010
+|     |  |              |  |  +--| (100/100)
+|     |  |              |  |  |  +--Drosophila_nr_perissopoda_3_RL_2010
+|     |  |              |  +--| (91.7/99)
+|     |  |              |     +--Drosophila_perissopoda
+|     |  |           +--| (76/99)
+|     |  |           |  +--Drosophila_nr_perissopoda_5_RTL_2014
+|     |  |        +--| (99.6/94)
+|     |  |        |  |  +--Drosophila_expansa
+|     |  |        |  +--| (97.9/94)
+|     |  |        |     |     +--Drosophila_prodita
+|     |  |        |     |  +--| (32.5/94)
+|     |  |        |     |  |  +--Drosophila_redunca
+|     |  |        |     +--| (100/100)
+|     |  |        |        +--Drosophila_seclusa
+|     |  |     +--| (70.8/74)
+|     |  |     |  |                    +--Drosophila_brunneifrons
+|     |  |     |  |                 +--| (19/99)
+|     |  |     |  |                 |  +---Drosophila_nr_brunneisetae_RL_2010
+|     |  |     |  |              +--| (94.2/100)
+|     |  |     |  |              |  +--Drosophila_nr_brunneisetae_RTL_2014
+|     |  |     |  |           +--| (100/100)
+|     |  |     |  |           |  |  +--Drosophila_kraussi
+|     |  |     |  |           |  +--| (3.4/73)
+|     |  |     |  |           |     +--Drosophila_nigritarsus
+|     |  |     |  |        +--| (85/79)
+|     |  |     |  |        |  |  +--Drosophila_imparisetae
+|     |  |     |  |        |  +--| (91.3/79)
+|     |  |     |  |        |     |  +--Drosophila_quasiexpansa
+|     |  |     |  |        |     +--| (88.7/95)
+|     |  |     |  |        |        |  +--Drosophila_unicula
+|     |  |     |  |        |        +--| (43.7/96)
+|     |  |     |  |        |           +--Drosophila_brevitarsus
+|     |  |     |  |     +--| (38.4/78)
+|     |  |     |  |     |  +--Drosophila_sp_4_KNM_2012
+|     |  |     |  |  +--| (52.7/58)
+|     |  |     |  |  |  |  +--Drosophila_petalopeza
+|     |  |     |  |  |  +--| (94.5/85)
+|     |  |     |  |  |     +--Drosophila_torula
+|     |  |     |  +--| (42.9/64)
+|     |  |     |     |                 +--Drosophila_conformis
+|     |  |     |     |              +--| (99/100)
+|     |  |     |     |              |  |  +--Drosophila_kikalaeleele
+|     |  |     |     |              |  +--| (97.5/100)
+|     |  |     |     |              |     +--Drosophila_sordidapex
+|     |  |     |     |           +--| (100/100)
+|     |  |     |     |           |  +--Drosophila_incognita
+|     |  |     |     |        +--| (98.9/100)
+|     |  |     |     |        |  |        +--Drosophila_dasycnemia
+|     |  |     |     |        |  |     +--| (96.1/100)
+|     |  |     |     |        |  |     |  +--Drosophila_waddingtoni
+|     |  |     |     |        |  |  +--| (48.8/99)
+|     |  |     |     |        |  |  |  +--Drosophila_neutralis
+|     |  |     |     |        |  +--| (100/100)
+|     |  |     |     |        |     +--Drosophila_percnosoma
+|     |  |     |     |     +--| (91.1/100)
+|     |  |     |     |     |  +--Drosophila_contorta
+|     |  |     |     |  +--| (87.9/89)
+|     |  |     |     |  |  +--Drosophila_nr_melanopedis_RTL_2014
+|     |  |     |     +--| (76.9/76)
+|     |  |     |        +---Drosophila_latigena
+|     |  |  +--| (88.8/81)
+|     |  |  |  |        +--Drosophila_atroscutellata
+|     |  |  |  |     +--| (97.9/100)
+|     |  |  |  |     |  +--Drosophila_paucula
+|     |  |  |  |  +--| (95.6/99)
+|     |  |  |  |  |  +--Drosophila_williamsi
+|     |  |  |  +--| (100/93/96)
+|     |  |  |     |  +--Drosophila_clavitibia
+|     |  |  |     +--| (78.9/98)
+|     |  |  |        |  +--Drosophila_nr_melanopedis_RL_2010
+|     |  |  |        +--| (93.7/99)
+|     |  |  |           +--Drosophila_trichaetosa
+|     |  +--| (93.6/100)
+|     |     |  +--Drosophila_fastigata
+|     |     +--| (91.6/97)
+|     |        +--Drosophila_medialis
+|  +--| (100/100/100)
+|  |  |                     +--Drosophila_antecedens
+|  |  |                  +--| (83.8/98)
+|  |  |                  |  |  +---Drosophila_mimica
+|  |  |                  |  +--| (42.8/99)
+|  |  |                  |     +----Drosophila_soonae
+|  |  |               +--| (99.2/96)
+|  |  |               |  |           +--Drosophila_flavibasis
+|  |  |               |  |        +--| (66.6/100)
+|  |  |               |  |        |  +--Drosophila_involuta
+|  |  |               |  |     +--| (98.2/100)
+|  |  |               |  |     |  |  +--Drosophila_infuscata
+|  |  |               |  |     |  +--| (98.6/100)
+|  |  |               |  |     |     |  +--Drosophila_kambysellisi
+|  |  |               |  |     |     +--| (94.4/100)
+|  |  |               |  |     |        |  +**Drosophila_xenophaga
+|  |  |               |  |     |        +--| (96.9/100)
+|  |  |               |  |     |           +--Drosophila_sp_spKNMa
+|  |  |               |  |  +--| (93.6/100)
+|  |  |               |  |  |  |  +--Drosophila_reschae
+|  |  |               |  |  |  +--| (97.9/100)
+|  |  |               |  |  |     +--Drosophila_kauluai
+|  |  |               |  +--| (85.1/99)
+|  |  |               |     +-----Drosophila_nr_hirtitarsus_RL_2010
+|  |  |            +--| (83.8/87)
+|  |  |            |  |     +----------Drosophila_apicipuncta
+|  |  |            |  |  +--| (98.2/100)
+|  |  |            |  |  |  +----Drosophila_nr_humeralis_RL_2010
+|  |  |            |  +--| (93.8/98)
+|  |  |            |     |     +----Drosophila_desallei
+|  |  |            |     |  +--| (94.5/100)
+|  |  |            |     |  |  +--Drosophila_tetraspilota
+|  |  |            |     +--| (99.8/100)
+|  |  |            |        +-----Drosophila_eurypeza
+|  |  |         +--| (100/79.8/97)
+|  |  |         |  |           +--------Drosophila_comatifemora
+|  |  |         |  |        +--| (83/92)
+|  |  |         |  |        |  |     +--Drosophila_dolomata
+|  |  |         |  |        |  |  +--| (97/100)
+|  |  |         |  |        |  |  |  +--Drosophila_ischnotrix
+|  |  |         |  |        |  +--| (97.4/100)
+|  |  |         |  |        |     +----Drosophila_nanella
+|  |  |         |  |     +--| (57.6/85)
+|  |  |         |  |     |  |           +----Drosophila_furvifacies
+|  |  |         |  |     |  |        +--| (99.2/100)
+|  |  |         |  |     |  |        |  +---Drosophila_biseriata
+|  |  |         |  |     |  |     +--| (96.8/100)
+|  |  |         |  |     |  |     |  |     +----Drosophila_hystricosa
+|  |  |         |  |     |  |     |  |  +--| (99.5/100)
+|  |  |         |  |     |  |     |  |  |  +--Drosophila_mitchelli
+|  |  |         |  |     |  |     |  +--| (90.6/100)
+|  |  |         |  |     |  |     |     +---Drosophila_nigrocirrus
+|  |  |         |  |     |  |  +--| (57.2/96)
+|  |  |         |  |     |  |  |  +------Drosophila_hirtitarsus
+|  |  |         |  |     |  +--| (50.4/80)
+|  |  |         |  |     |     +-----Drosophila_aethostoma
+|  |  |         |  |  +--| (86.8/90)
+|  |  |         |  |  |  +------Drosophila_larifuga
+|  |  |         |  +--| (80.9/87)
+|  |  |         |     +------Drosophila_sp_n_large_spots
+|  |  |      +--| (87.3/98)
+|  |  |      |  |   +----Drosophila_aquila
+|  |  |      |  +---| (99.3/100)
+|  |  |      |      +----Drosophila_fuscoamoeba
+|  |  |   +--| (97.6/99)
+|  |  |   |  |        +--Drosophila_barbata
+|  |  |   |  |     +--| (97.4/100)
+|  |  |   |  |     |  +--Drosophila_polliciforma
+|  |  |   |  |  +--| (42.7/31)
+|  |  |   |  |  |  |  +---Drosophila_dissita
+|  |  |   |  |  |  +--| (91.8/100)
+|  |  |   |  |  |     +---Drosophila_pychnochaetae
+|  |  |   |  +--| (38.5/95)
+|  |  |   |     |  +--Drosophila_nr_residua_RL_2010
+|  |  |   |     +--| (77.4/31)
+|  |  |   |        +----Drosophila_toxacantha
+|  |  +---| (100/100)
+|  |      |                                            +--Drosophila_bostrycha
+|  |      |                                         +--| (99.8/100)
+|  |      |                                         |  |  +--Drosophila_disjuncta
+|  |      |                                         |  +**| (0/79)
+|  |      |                                         |     +--Drosophila_affinidisjuncta
+|  |      |                                      +--| (72.5/89)
+|  |      |                                      |  +--Drosophila_balioptera
+|  |      |                                   +--| (25/79)
+|  |      |                                   |  +---Drosophila_crucigera
+|  |      |                                +--| (98.6/100)
+|  |      |                                |  |  +--Drosophila_pullipes
+|  |      |                                |  +--| (99.9/100)
+|  |      |                                |     +--Drosophila_craddockae
+|  |      |                             +--| (71.7/56)
+|  |      |                             |  |              +--Drosophila_glabriapex
+|  |      |                             |  |           +--| (70.4/100)
+|  |      |                             |  |           |  +--Drosophila_pilimana
+|  |      |                             |  |        +--| (100/100)
+|  |      |                             |  |        |  |     +--Drosophila_lineosetae
+|  |      |                             |  |        |  |  +--| (83.6/100)
+|  |      |                             |  |        |  |  |  +--Drosophila_fasciculisetae
+|  |      |                             |  |        |  +--| (98.1/100)
+|  |      |                             |  |        |     +--Drosophila_discreta
+|  |      |                             |  |     +--| (87.8/56)
+|  |      |                             |  |     |  |  +--Drosophila_conspicua
+|  |      |                             |  |     |  +--| (88.4/56)
+|  |      |                             |  |     |     |  +--Drosophila_kikiko
+|  |      |                             |  |     |     +--| (95.4/97)
+|  |      |                             |  |     |        +--Drosophila_nr_alsophila_KNM_2012
+|  |      |                             |  |  +--| (78.9/81)
+|  |      |                             |  |  |  |           +--Drosophila_ambochila
+|  |      |                             |  |  |  |        +--| (99.6/100)
+|  |      |                             |  |  |  |        |  +--Drosophila_vesciseta
+|  |      |                             |  |  |  |     +--| (99/100)
+|  |      |                             |  |  |  |     |  |  +--Drosophila_montgomeryi
+|  |      |                             |  |  |  |     |  +--| (96.3/100)
+|  |      |                             |  |  |  |     |     +--Drosophila_pihulu
+|  |      |                             |  |  |  |  +--| (59.9/45)
+|  |      |                             |  |  |  |  |  +--Drosophila_odontophallus
+|  |      |                             |  |  |  +--| (90.7/51)
+|  |      |                             |  |  |     |        +--Drosophila_digressa
+|  |      |                             |  |  |     |     +--| (99.6/100)
+|  |      |                             |  |  |     |     |  +--Drosophila_lanaiensis
+|  |      |                             |  |  |     |  +--| (96.1/100)
+|  |      |                             |  |  |     |  |  +--Drosophila_moli
+|  |      |                             |  |  |     +--| (90.1/99)
+|  |      |                             |  |  |        +---Drosophila_hexachaetae
+|  |      |                             |  +--| (68.8/56)
+|  |      |                             |     |              +--Drosophila_prolaticilia
+|  |      |                             |     |           +--| (59.8/100)
+|  |      |                             |     |           |  +--Drosophila_basisetae
+|  |      |                             |     |        +--| (99.9/100)
+|  |      |                             |     |        |  +--Drosophila_paucipuncta
+|  |      |                             |     |     +--| (97.6/100)
+|  |      |                             |     |     |  +--Drosophila_prostopalpis
+|  |      |                             |     |  +--| (52.6/86)
+|  |      |                             |     |  |  +---Drosophila_punalua
+|  |      |                             |     +--| (96.8/97)
+|  |      |                             |        |     +--Drosophila_distinguenda
+|  |      |                             |        |  +--| (59.7/100)
+|  |      |                             |        |  |  +--Drosophila_inedita
+|  |      |                             |        +--| (98.7/100)
+|  |      |                             |           +--Drosophila_divaricata
+|  |      |                          +--| (91.5/90)
+|  |      |                          |  |  +--Drosophila_flexipes
+|  |      |                          |  +--| (99.8/100)
+|  |      |                          |     |  +--Drosophila_formella
+|  |      |                          |     +--| (96.9/100)
+|  |      |                          |        |        +--Drosophila_gradata
+|  |      |                          |        |     +--| (85.4/76)
+|  |      |                          |        |     |  |  +--Drosophila_recticilia
+|  |      |                          |        |     |  +--| (94.1/100)
+|  |      |                          |        |     |     +--Drosophila_turbata
+|  |      |                          |        |  +--| (87.6/76)
+|  |      |                          |        |  |  +--Drosophila_hawaiiensis
+|  |      |                          |        +--| (97.3/100)
+|  |      |                          |           |  +--Drosophila_musaphilia
+|  |      |                          |           +--| (93.5/100)
+|  |      |                          |              +--Drosophila_silvarentis
+|  |      |                       +--| (99.8/100)
+|  |      |                       |  |                 +--Drosophila_ochracea
+|  |      |                       |  |              +--| (37/100)
+|  |      |                       |  |              |  +--Drosophila_limitata
+|  |      |                       |  |           +--| (88.4/100)
+|  |      |                       |  |           |  +--Drosophila_claytonae
+|  |      |                       |  |        +--| (85.9/99)
+|  |      |                       |  |        |  |  +--Drosophila_sodomae
+|  |      |                       |  |        |  +--| (100/100)
+|  |      |                       |  |        |     +--Drosophila_obatai
+|  |      |                       |  |     +--| (57.7/99)
+|  |      |                       |  |     |  +--Drosophila_sejuncta
+|  |      |                       |  |  +--| (100/98.3/100)
+|  |      |                       |  |  |  |     +--Drosophila_villosipedis
+|  |      |                       |  |  |  |  +--| (100/73.1/100)
+|  |      |                       |  |  |  |  |  |     +--Drosophila_murphyi
+|  |      |                       |  |  |  |  |  |  +--| (84.4/100)
+|  |      |                       |  |  |  |  |  |  |  +--Drosophila_orphnopeza
+|  |      |                       |  |  |  |  |  +--| (90.3/100)
+|  |      |                       |  |  |  |  |     +--Drosophila_sproati
+|  |      |                       |  |  |  +--| (75.3/100)
+|  |      |                       |  |  |     |     +--Drosophila_ciliaticrus
+|  |      |                       |  |  |     |  +--| (97.2/100)
+|  |      |                       |  |  |     |  |  +--Drosophila_orthofascia
+|  |      |                       |  |  |     +--| (99.1/100)
+|  |      |                       |  |  |        +--Drosophila_sobrina
+|  |      |                       |  +--| (99.4/100)
+|  |      |                       |     +--Drosophila_engyochracea
+|  |      |                    +--| (52.4/65)
+|  |      |                    |  +----Drosophila_micromyia
+|  |      |                 +--| (44.5/57)
+|  |      |                 |  |                          +--Drosophila_cyrtoloma
+|  |      |                 |  |                       +--| (68.2/100)
+|  |      |                 |  |                       |  +--Drosophila_melanocephala
+|  |      |                 |  |                    +--| (96.5/100)
+|  |      |                 |  |                    |  +--Drosophila_obscuripes
+|  |      |                 |  |                 +--| (59.6/100)
+|  |      |                 |  |                 |  +--Drosophila_neoperkinsi
+|  |      |                 |  |              +--| (100/100)
+|  |      |                 |  |              |  |  +--Drosophila_hanaulae
+|  |      |                 |  |              |  +--| (98.9/100)
+|  |      |                 |  |              |     +--Drosophila_ingens
+|  |      |                 |  |           +--| (99.8/100)
+|  |      |                 |  |           |  +--Drosophila_oahuensis
+|  |      |                 |  |        +--| (99.6/100)
+|  |      |                 |  |        |  |  +--Drosophila_neopicta
+|  |      |                 |  |        |  +--| (96.6/100)
+|  |      |                 |  |        |     |  +--Drosophila_nigribasis
+|  |      |                 |  |        |     +--| (78.2/100)
+|  |      |                 |  |        |        +--Drosophila_substenoptera
+|  |      |                 |  |     +--| (99/100)
+|  |      |                 |  |     |  |        +--Drosophila_differens
+|  |      |                 |  |     |  |     +--| (98.1/100)
+|  |      |                 |  |     |  |     |  +--Drosophila_planitibia
+|  |      |                 |  |     |  |  +--| (99.9/100)
+|  |      |                 |  |     |  |  |  |  +--Drosophila_heteroneura
+|  |      |                 |  |     |  |  |  +--| (100/100)
+|  |      |                 |  |     |  |  |     +--Drosophila_silvestris
+|  |      |                 |  |     |  +--| (100/100)
+|  |      |                 |  |     |     +--Drosophila_hemipeza
+|  |      |                 |  |  +--| (97.7/100)
+|  |      |                 |  |  |  |  +--Drosophila_anomalipes
+|  |      |                 |  |  |  +--| (100/100)
+|  |      |                 |  |  |     +--Drosophila_quasianomalipes
+|  |      |                 |  +--| (93.2/91)
+|  |      |                 |     |           +------Drosophila_hirtitibia
+|  |      |                 |     |        +--| (99.9/100)
+|  |      |                 |     |        |  +---Drosophila_papaalai
+|  |      |                 |     |     +--| (52.1/99)
+|  |      |                 |     |     |  |  +---Drosophila_lauoho
+|  |      |                 |     |     |  +--| (100/100)
+|  |      |                 |     |     |     +----Drosophila_pohaka
+|  |      |                 |     |  +--| (100/100)
+|  |      |                 |     |  |  |        +--Drosophila_eximia
+|  |      |                 |     |  |  |     +--| (100/100)
+|  |      |                 |     |  |  |     |  +--Drosophila_panoanoa
+|  |      |                 |     |  |  |  +--| (95.2/100)
+|  |      |                 |     |  |  |  |  +--Drosophila_papala
+|  |      |                 |     |  |  +--| (97.4/100)
+|  |      |                 |     |  |     +----Drosophila_kuhao
+|  |      |                 |     +--| (79.9/91)
+|  |      |                 |        |  +------Drosophila_picticornis
+|  |      |                 |        +--| (99.9/100)
+|  |      |                 |           |  +------Drosophila_setosifrons
+|  |      |                 |           +--| (29.3/93)
+|  |      |                 |              +----Drosophila_pilipa
+|  |      |              +--| (85.5/93)
+|  |      |              |  |        +--Drosophila_kualapa
+|  |      |              |  |     +--| (89.5/97)
+|  |      |              |  |     |  +--Drosophila_poonia
+|  |      |              |  |  +--| (94.8/97)
+|  |      |              |  |  |  +---Drosophila_malele
+|  |      |              |  +--| (100/100)
+|  |      |              |     +-----Drosophila_preapicula
+|  |      |           +--| (99.7/94)
+|  |      |           |  |          +--Drosophila_hamifera
+|  |      |           |  |       +--| (100/100)
+|  |      |           |  |       |  +--Drosophila_paenehamifera
+|  |      |           |  |    +--| (92.9/100)
+|  |      |           |  |    |  +--Drosophila_truncipenna
+|  |      |           |  +----| (100/100)
+|  |      |           |       |        +--Drosophila_adiastola
+|  |      |           |       |     +--| (99.4/100)
+|  |      |           |       |     |  +--Drosophila_cilifera
+|  |      |           |       |  +--| (100/100)
+|  |      |           |       |  |  |  +--Drosophila_ochrobasis
+|  |      |           |       |  |  +--| (95.6/100)
+|  |      |           |       |  |     +--Drosophila_setosimentum
+|  |      |           |       +--| (94.9/100)
+|  |      |           |          +---Drosophila_clavisetae
+|  |      |        +--| (100/81)
+|  |      |        |  |                                                             +--Scaptomyza_abrupta
+|  |      |        |  |                                                        +----| (100/100)
+|  |      |        |  |                                                        |    +--Scaptomyza_nr_mitchelli_RL_2013
+|  |      |        |  |                                                     +--| (83.3/98)
+|  |      |        |  |                                                     |  |                 +--Scaptomyza_apiciguttula
+|  |      |        |  |                                                     |  |              +--| (68.7/67)
+|  |      |        |  |                                                     |  |              |  |  +--Scaptomyza_ctenophora
+|  |      |        |  |                                                     |  |              |  +--| (24.1/99)
+|  |      |        |  |                                                     |  |              |     +--Scaptomyza_nr_decepta_RL_2013
+|  |      |        |  |                                                     |  |           +--| (82.7/68)
+|  |      |        |  |                                                     |  |           |  |  +--Scaptomyza_vagabunda
+|  |      |        |  |                                                     |  |           |  +--| (99/99)
+|  |      |        |  |                                                     |  |           |     +--Scaptomyza_fastigata
+|  |      |        |  |                                                     |  |        +--| (94.3/88)
+|  |      |        |  |                                                     |  |        |  |     +--Scaptomyza_nr_longipecten_RL_2013
+|  |      |        |  |                                                     |  |        |  |  +--| (100/100)
+|  |      |        |  |                                                     |  |        |  |  |  +--Scaptomyza_pallifrons
+|  |      |        |  |                                                     |  |        |  +--| (87.9/95)
+|  |      |        |  |                                                     |  |        |     |   +--Scaptomyza_umbrosa
+|  |      |        |  |                                                     |  |        |     +---| (100/100)
+|  |      |        |  |                                                     |  |        |         +--Scaptomyza_recava
+|  |      |        |  |                                                     |  |     +--| (56.7/87)
+|  |      |        |  |                                                     |  |     |  +--Scaptomyza_decepta
+|  |      |        |  |                                                     |  |  +--| (97.7/100)
+|  |      |        |  |                                                     |  |  |  +--Scaptomyza_latitergum
+|  |      |        |  |                                                     |  +--| (89/99)
+|  |      |        |  |                                                     |     +------Scaptomyza_trivittata
+|  |      |        |  |                                                  +--| (99.9/94)
+|  |      |        |  |                                                  |  +----Scaptomyza_recta
+|  |      |        |  |                                               +--| (96/99)
+|  |      |        |  |                                               |  |           +--Scaptomyza_exigua
+|  |      |        |  |                                               |  |        +--| (80.6/100)
+|  |      |        |  |                                               |  |        |  +--Scaptomyza_scoloplichas
+|  |      |        |  |                                               |  |     +--| (100/98/100)
+|  |      |        |  |                                               |  |     |  +--Scaptomyza_intricata
+|  |      |        |  |                                               |  |  +--| (83.7/100)
+|  |      |        |  |                                               |  |  |  +--Scaptomyza_varia
+|  |      |        |  |                                               |  +--| (57.9/92)
+|  |      |        |  |                                               |     +------Scaptomyza_Elmomyza_sp_n_KNM_2012
+|  |      |        |  |                                            +--| (18.2/47)
+|  |      |        |  |                                            |  |        +--Scaptomyza_cuspidata
+|  |      |        |  |                                            |  |     +--| (92.5/100)
+|  |      |        |  |                                            |  |     |  +--Scaptomyza_nr_cuspidata_RL_2013
+|  |      |        |  |                                            |  |  +--| (100/100)
+|  |      |        |  |                                            |  |  |  +--Scaptomyza_sp_akalae
+|  |      |        |  |                                            |  +--| (79.5/59)
+|  |      |        |  |                                            |     |  +----Scaptomyza_dentata
+|  |      |        |  |                                            |     +--| (97.6/100)
+|  |      |        |  |                                            |        |     +--Scaptomyza_pusilla
+|  |      |        |  |                                            |        |  +--| (96.5/100)
+|  |      |        |  |                                            |        |  |  +--Scaptomyza_devexa
+|  |      |        |  |                                            |        +--| (99.5/100)
+|  |      |        |  |                                            |           +--Scaptomyza_connata
+|  |      |        |  |                                         +--| (100/100)
+|  |      |        |  |                                         |  |        +-------Scaptomyza_albovittata
+|  |      |        |  |                                         |  |     +--| (95.5/96)
+|  |      |        |  |                                         |  |     |  +---Scaptomyza_varipicta
+|  |      |        |  |                                         |  |  +--| (87/88)
+|  |      |        |  |                                         |  |  |  +-----Scaptomyza_protensa
+|  |      |        |  |                                         |  +--| (100/99)
+|  |      |        |  |                                         |     |        +----Scaptomyza_cyrtandrae
+|  |      |        |  |                                         |     |     +--| (93.1/62)
+|  |      |        |  |                                         |     |     |  |  +---Scaptomyza_lobifera
+|  |      |        |  |                                         |     |     |  +--| (73.3/62)
+|  |      |        |  |                                         |     |     |     +----Scaptomyza_sp_neocyrtandrae
+|  |      |        |  |                                         |     |  +--| (3.6/45)
+|  |      |        |  |                                         |     |  |  +--------Scaptomyza_nigrosignata
+|  |      |        |  |                                         |     +--| (41.6/59)
+|  |      |        |  |                                         |        |  +---Scaptomyza_tumidula
+|  |      |        |  |                                         |        +--| (99/61)
+|  |      |        |  |                                         |           +---Scaptomyza_hackmani
+|  |      |        |  |                                      +--| (100/100)
+|  |      |        |  |                                      |  |                 +---Scaptomyza_ampliloba
+|  |      |        |  |                                      |  |              +--| (99.9/100)
+|  |      |        |  |                                      |  |              |  |        +--Scaptomyza_crassifemur
+|  |      |        |  |                                      |  |              |  |     +--| (99.5/100)
+|  |      |        |  |                                      |  |              |  |     |  +--Scaptomyza_reducta
+|  |      |        |  |                                      |  |              |  |  +--| (89.1/98)
+|  |      |        |  |                                      |  |              |  |  |  +----Scaptomyza_inflatus
+|  |      |        |  |                                      |  |              |  +--| (65.1/95)
+|  |      |        |  |                                      |  |              |     |  +----Scaptomyza_nr_inflatus_RL_2013
+|  |      |        |  |                                      |  |              |     +--| (0/25)
+|  |      |        |  |                                      |  |              |        +----Scaptomyza_amplilobus
+|  |      |        |  |                                      |  |           +--| (99.9/99)
+|  |      |        |  |                                      |  |           |  |     +--Scaptomyza_nasalis
+|  |      |        |  |                                      |  |           |  |  +--| (60.7/99)
+|  |      |        |  |                                      |  |           |  |  |  +----Scaptomyza_undulata
+|  |      |        |  |                                      |  |           |  +--| (0/88)
+|  |      |        |  |                                      |  |           |     +------Scaptomyza_palata
+|  |      |        |  |                                      |  |        +--| (88.3/75)
+|  |      |        |  |                                      |  |        |  |                 +--Scaptomyza_bryani
+|  |      |        |  |                                      |  |        |  |        +--------| (100/100)
+|  |      |        |  |                                      |  |        |  |        |        +--Scaptomyza_setosiscutellum
+|  |      |        |  |                                      |  |        |  |     +--| (100/0/59)
+|  |      |        |  |                                      |  |        |  |     |  +-----Scaptomyza_neosilvicola
+|  |      |        |  |                                      |  |        |  |  +--| (80.9/95)
+|  |      |        |  |                                      |  |        |  |  |  +----Scaptomyza_chauliodon
+|  |      |        |  |                                      |  |        |  +--| (99.1/72)
+|  |      |        |  |                                      |  |        |     +-------Scaptomyza_magnipalpa
+|  |      |        |  |                                      |  |     +--| (46.4/86)
+|  |      |        |  |                                      |  |     |  +------Scaptomyza_silvicola
+|  |      |        |  |                                      |  |  +--| (0/46)
+|  |      |        |  |                                      |  |  |  +----Scaptomyza_nr_lonchoptera_KNM_2012
+|  |      |        |  |                                      |  +--| (100/100)
+|  |      |        |  |                                      |     |   +--Scaptomyza_buccata
+|  |      |        |  |                                      |     +---| (100/92)
+|  |      |        |  |                                      |         |  +--Scaptomyza_longisetosa
+|  |      |        |  |                                      |         +--| (93.8/96)
+|  |      |        |  |                                      |            +--Scaptomyza_nr_longisetosa_RL_2013
+|  |      |        |  |                                   +--| (98.4/100)
+|  |      |        |  |                                   |  |                 +--Scaptomyza_elmoi
+|  |      |        |  |                                   |  |              +--| (36.3/95)
+|  |      |        |  |                                   |  |              |  +--Scaptomyza_pallida
+|  |      |        |  |                                   |  |           +--| (99.4/100)
+|  |      |        |  |                                   |  |           |  +--Scaptomyza_himalayana
+|  |      |        |  |                                   |  |        +--| (85.3/99)
+|  |      |        |  |                                   |  |        |  |   +---Scaptomyza_frustulifera
+|  |      |        |  |                                   |  |        |  +---| (100/100)
+|  |      |        |  |                                   |  |        |      +--Scaptomyza_remota
+|  |      |        |  |                                   |  +--------| (100/100)
+|  |      |        |  |                                   |           +------Scaptomyza_hexasticha
+|  |      |        |  |                                +--| (99.3/100)
+|  |      |        |  |                                |  +--------Scaptomyza_consimilis
+|  |      |        |  |                             +--| (80.7/95)
+|  |      |        |  |                             |  |                   +--Scaptomyza_anomala
+|  |      |        |  |                             |  |                +--| (97.8/100)
+|  |      |        |  |                             |  |                |  |  +**Scaptomyza_hamata
+|  |      |        |  |                             |  |                |  +--| (67.4/95)
+|  |      |        |  |                             |  |                |     +--Scaptomyza_nr_anomala_RL_2013
+|  |      |        |  |                             |  |             +--| (96.6/100)
+|  |      |        |  |                             |  |             |  +--Scaptomyza_varifrons
+|  |      |        |  |                             |  |          +--| (100/98.4/100)
+|  |      |        |  |                             |  |          |  +--Scaptomyza_palmae
+|  |      |        |  |                             |  |       +--| (99.6/100)
+|  |      |        |  |                             |  |       |  +----Scaptomyza_caliginosa
+|  |      |        |  |                             |  +-------| (100/100)
+|  |      |        |  |                             |          +------------Scaptomyza_boninensis
+|  |      |        |  |                          +--| (100/96)
+|  |      |        |  |                          |  |         +--Scaptomyza_baechlii
+|  |      |        |  |                          |  |      +--| (78.9/100)
+|  |      |        |  |                          |  |      |  +---------Scaptomyza_polygonia
+|  |      |        |  |                          |  +------| (100/100)
+|  |      |        |  |                          |         |     +-----Scaptomyza_flava
+|  |      |        |  |                          |         |  +--| (99.6/100)
+|  |      |        |  |                          |         |  |  +---Scaptomyza_nigrita
+|  |      |        |  |                          |         +--| (100/68.6/100)
+|  |      |        |  |                          |            +-------Scaptomyza_graminum
+|  |      |        |  +--------------------------| (100/100)
+|  |      |        |                             |         +---Scaptomyza_apicata
+|  |      |        |                             |      +--| (99.9/100)
+|  |      |        |                             |      |  +--------Scaptomyza_hennigi
+|  |      |        |                             +------| (100/100/100)
+|  |      |        |                                    |  +------Scaptomyza_hsui
+|  |      |        |                                    +--| (99.2/100)
+|  |      |        |                                       +-----Scaptomyza_okadai
+|  |      |     +--| (100/74.6/80)
+|  |      |     |  +---------Drosophila_primaeva
+|  |      |  +--| (42.8/97)
+|  |      |  |  +--------Drosophila_adventitia
+|  |      +--| (100/99)
+|  |         |                  +---Drosophila_iki
+|  |         |               +--| (43.1/94)
+|  |         |               |  +----Drosophila_paraanthrax
+|  |         |            +--| (85.8/93)
+|  |         |            |  +--Drosophila_multiciliata
+|  |         |         +--| (58.9/75)
+|  |         |         |  |           +--Drosophila_inciliata
+|  |         |         |  |        +--| (56.1/93)
+|  |         |         |  |        |  |     +--Drosophila_longiperda
+|  |         |         |  |        |  |  +--| (97.8/100)
+|  |         |         |  |        |  |  |  +-----Drosophila_sp_white_tip_scutellum
+|  |         |         |  |        |  +--| (22/76)
+|  |         |         |  |        |     |  +--Drosophila_ochropleura
+|  |         |         |  |        |     +--| (81.5/100)
+|  |         |         |  |        |        +--Drosophila_haleakalae
+|  |         |         |  |     +--| (92.7/51)
+|  |         |         |  |     |  +----Drosophila_dolichotarsis
+|  |         |         |  |  +--| (86.2/63)
+|  |         |         |  |  |  |        +--Drosophila_nigra
+|  |         |         |  |  |  |     +--| (100/49.6/100)
+|  |         |         |  |  |  |     |  |  +--Drosophila_fungiperda
+|  |         |         |  |  |  |     |  +--| (95.4/100)
+|  |         |         |  |  |  |     |     +--Drosophila_nigella
+|  |         |         |  |  |  |  +--| (93.9/80)
+|  |         |         |  |  |  |  |  +---Drosophila_fulgida
+|  |         |         |  |  |  +--| (90.5/76)
+|  |         |         |  |  |     +----Drosophila_melanosoma
+|  |         |         |  +--| (22.4/88)
+|  |         |         |     |  +--Drosophila_polita
+|  |         |         |     +--| (99.8/100)
+|  |         |         |        |     +--Drosophila_bipolita
+|  |         |         |        |  +--| (100/85.5/100)
+|  |         |         |        |  |  +--Drosophila_canipolita
+|  |         |         |        +--| (98.9/100)
+|  |         |         |           +--Drosophila_insignita
+|  |         |      +--| (83.5/81)
+|  |         |      |  +----Drosophila_scitula
+|  |         +------| (100/100)
+|  |                +--Drosophila_melanoloma
++--| (96.3/100)
+|  |        +--Drosophila_diamphidiopoda
+|  |     +--| (96.1/100)
+|  |     |  |  +--Drosophila_tanythrix
+|  |     |  +--| (99.9/100)
+|  |     |     +--Drosophila_yooni
+|  |  +--| (29.7/98)
+|  |  |  +--Drosophila_orthoptera
+|  +--| (25.4/95)
+|     +--Drosophila_stigma
+|
++--Drosophila_longiseta
+
+Tree in newick format:
+
+(Drosophila_adunca:0.0063783421,(((((((((Drosophila_ancyla:0.0055487147,Drosophila_fundita:0.0070375088)94.6/100:0.0026103167,Drosophila_nr_fundita_RL_2010:0.0088233512)53.6/91:0.0013611528,(Drosophila_nr_ancyla_RTL_2014:0.0037595359,Drosophila_nr_fundita_RTL_2014:0.0041584482)89.2/100:0.0020726125)97.9/96:0.0045286125,((((Drosophila_cracens:0.0066762895,(Drosophila_paracracens:0.0027656739,Drosophila_propiofacies:0.0023315425)99.6/100:0.0043954284)95.7/100:0.0016502529,Drosophila_proceriseta:0.0091089946)98.6/100:0.0032253610,Drosophila_systenopeza:0.0107688027)0/89:0.0000021853,Drosophila_variabilis:0.0090770420)72.4/95:0.0024874827)98.4/90:0.0017515059,((Drosophila_cnecopleura:0.0029705265,Drosophila_nr_ancyla_RL_2010:0.0071517158)100/99:0.0100335735,Drosophila_paucitarsus:0.0097226298)98.3/90:0.0035758427)86.2/85:0.0006896692,(((Drosophila_basisetosa:0.0146434068,(((Drosophila_forficata:0.0153301959,((Drosophila_furcatarsus:0.0098054711,Drosophila_nr_dorsigera_RL_2010:0.0212501984)53.4/100:0.0031794963,Drosophila_nr_dorsigera_RTL_2014:0.0137994888)45/100:0.0033688560)73/100:0.0013203877,Drosophila_pectinitarsus:0.0168906953)97.9/100:0.0024263661,Drosophila_kokeensis:0.0171154391)94.4/99:0.0020455480)42.5/83:0.0019240124,Drosophila_attenuata:0.0125742579)75.5/86:0.0011826875,(Drosophila_capitata:0.0208452107,Drosophila_chaetocephala:0.0244387517)63.8/96:0.0014620674)43.8/80:0.0009316827)100/100:0.0042486378,(((((((((Drosophila_apodasta:0.0074770822,Drosophila_nr_basimacula_2_RL_2010:0.0019585888)75.4/75:0.0017723549,Drosophila_nr_expansa_1_KNM_2012:0.0084441429)94/74:0.0020460527,(((((Drosophila_basimacula:0.0039040524,Drosophila_nr_basimacula_1_RL_2010:0.0023345980)43.2/95:0.0010072942,Drosophila_nr_basimacula_3_RTL_2014:0.0064328363)0/61:0.0001774916,Drosophila_nr_basimacula_2_KNM_2012:0.0077780032)59.8/68:0.0013153827,(((Drosophila_nr_perissopoda_1_KNM_2012:0.0071234751,Drosophila_nr_perissopoda_1_RTL_2014:0.0000025165)0/78:0.0000020371,Drosophila_nr_perissopoda_4_KNM_2012:0.0000029245)98.6/88:0.0059862546,Drosophila_nr_basimacula_2_RTL_2014:0.0059913776)76.5/53:0.0008818505)0/25:0.0001298338,(Drosophila_nr_basimacula_3_RL_2010:0.0078125225,Drosophila_nr_perissopoda_1_RL_2010:0.0089904342)66.4/59:0.0010273132)74.4/69:0.0012401982)100/100:0.0049188647,((Drosophila_nr_perissopoda_2_RL_2010:0.0000026677,Drosophila_nr_perissopoda_3_RL_2010:0.0002732401)100/100:0.0078573140,Drosophila_perissopoda:0.0062930072)91.7/99:0.0022323131)62.1/98:0.0004951492,Drosophila_nr_perissopoda_5_RTL_2014:0.0050283450)76/99:0.0005388545,(Drosophila_expansa:0.0097159868,((Drosophila_prodita:0.0055097722,Drosophila_redunca:0.0044032799)32.5/94:0.0009892619,Drosophila_seclusa:0.0071742597)100/100:0.0075636684)97.9/94:0.0014430930)99.6/94:0.0014644644,(((((((Drosophila_brunneifrons:0.0054659034,Drosophila_nr_brunneisetae_RL_2010:0.0202378880)19/99:0.0007726052,Drosophila_nr_brunneisetae_RTL_2014:0.0045947094)94.2/100:0.0032925667,(Drosophila_kraussi:0.0176610059,Drosophila_nigritarsus:0.0109672958)3.4/73:0.0025260980)100/100:0.0074399016,(Drosophila_imparisetae:0.0118453021,(Drosophila_quasiexpansa:0.0149867776,(Drosophila_unicula:0.0162684115,Drosophila_brevitarsus:0.0152390705)43.7/96:0.0013441317)88.7/95:0.0016987641)91.3/79:0.0012479651)85/79:0.0004596038,Drosophila_sp_4_KNM_2012:0.0116070604)38.4/78:0.0005741940,(Drosophila_petalopeza:0.0122061016,Drosophila_torula:0.0119369776)94.5/85:0.0019958458)52.7/58:0.0007871891,((((((Drosophila_conformis:0.0033371039,(Drosophila_kikalaeleele:0.0023478489,Drosophila_sordidapex:0.0022979090)97.5/100:0.0011054506)99/100:0.0018703250,Drosophila_incognita:0.0068382125)100/100:0.0039749521,(((Drosophila_dasycnemia:0.0015681176,Drosophila_waddingtoni:0.0018919532)96.1/100:0.0010485495,Drosophila_neutralis:0.0041931304)48.8/99:0.0008079820,Drosophila_percnosoma:0.0026041251)100/100:0.0057862149)98.9/100:0.0024009680,Drosophila_contorta:0.0097937064)91.1/100:0.0013750721,Drosophila_nr_melanopedis_RTL_2014:0.0167681875)87.9/89:0.0008538302,Drosophila_latigena:0.0201253150)76.9/76:0.0002847192)42.9/64:0.0005349230)70.8/74:0.0005395286,(((Drosophila_atroscutellata:0.0084460818,Drosophila_paucula:0.0105349559)97.9/100:0.0049486347,Drosophila_williamsi:0.0130020824)95.6/99:0.0022429611,(Drosophila_clavitibia:0.0183782259,(Drosophila_nr_melanopedis_RL_2010:0.0094276031,Drosophila_trichaetosa:0.0079729516)93.7/99:0.0024202666)78.9/98:0.0011355875)100/93/96:0.0009918004)88.8/81:0.0007176675,(Drosophila_fastigata:0.0147219689,Drosophila_medialis:0.0132302394)91.6/97:0.0014745169)93.6/100:0.0013454026)99.9/100:0.0057927489,(((((((Drosophila_antecedens:0.0169169231,(Drosophila_mimica:0.0212921642,Drosophila_soonae:0.0235597906)42.8/99:0.0020635460)83.8/98:0.0028599346,((((Drosophila_flavibasis:0.0114353344,Drosophila_involuta:0.0068653521)66.6/100:0.0025854152,(Drosophila_infuscata:0.0075383451,(Drosophila_kambysellisi:0.0102569338,(Drosophila_xenophaga:0.0000024475,Drosophila_sp_spKNMa:0.0023197001)96.9/100:0.0036464752)94.4/100:0.0034036507)98.6/100:0.0061613909)98.2/100:0.0055603992,(Drosophila_reschae:0.0080658791,Drosophila_kauluai:0.0123156578)97.9/100:0.0082496941)93.6/100:0.0047752539,Drosophila_nr_hirtitarsus_RL_2010:0.0299248031)85.1/99:0.0019696673)99.2/96:0.0062792900,((Drosophila_apicipuncta:0.0554706441,Drosophila_nr_humeralis_RL_2010:0.0257934240)98.2/100:0.0120235676,((Drosophila_desallei:0.0272478145,Drosophila_tetraspilota:0.0179507096)94.5/100:0.0080990633,Drosophila_eurypeza:0.0328130322)99.8/100:0.0175153904)93.8/98:0.0069704752)83.8/87:0.0021873251,((((Drosophila_comatifemora:0.0451353526,((Drosophila_dolomata:0.0181230678,Drosophila_ischnotrix:0.0122906486)97/100:0.0120764714,Drosophila_nanella:0.0249638780)97.4/100:0.0081200685)83/92:0.0022670443,((((Drosophila_furvifacies:0.0271760742,Drosophila_biseriata:0.0233662449)99.2/100:0.0121172952,((Drosophila_hystricosa:0.0246432413,Drosophila_mitchelli:0.0092640598)99.5/100:0.0129696674,Drosophila_nigrocirrus:0.0234733098)90.6/100:0.0048252578)96.8/100:0.0102452771,Drosophila_hirtitarsus:0.0371244540)57.2/96:0.0031506012,Drosophila_aethostoma:0.0312141510)50.4/80:0.0035598031)57.6/85:0.0006905200,Drosophila_larifuga:0.0343458024)86.8/90:0.0016391185,Drosophila_sp_n_large_spots:0.0353926205)80.9/87:0.0029322164)100/79.8/97:0.0014738970,(Drosophila_aquila:0.0265526397,Drosophila_fuscoamoeba:0.0273402945)99.3/100:0.0188543805)87.3/98:0.0020535694,(((Drosophila_barbata:0.0131976541,Drosophila_polliciforma:0.0137259652)97.4/100:0.0077076176,(Drosophila_dissita:0.0205854064,Drosophila_pychnochaetae:0.0227229990)91.8/100:0.0046607358)42.7/31:0.0019217352,(Drosophila_nr_residua_RL_2010:0.0150567133,Drosophila_toxacantha:0.0271855411)77.4/31:0.0063490483)38.5/95:0.0019687067)97.6/99:0.0050793758,(((((((((((((((Drosophila_bostrycha:0.0075628605,(Drosophila_disjuncta:0.0063981893,Drosophila_affinidisjuncta:0.0024575349)0/79:0.0000021672)99.8/100:0.0082390619,Drosophila_balioptera:0.0108346348)72.5/89:0.0009837824,Drosophila_crucigera:0.0188272589)25/79:0.0011042084,(Drosophila_pullipes:0.0104981810,Drosophila_craddockae:0.0035901031)99.9/100:0.0088077610)98.6/100:0.0030032168,(((((Drosophila_glabriapex:0.0061444001,Drosophila_pilimana:0.0066900737)70.4/100:0.0010019830,((Drosophila_lineosetae:0.0034665612,Drosophila_fasciculisetae:0.0073532213)83.6/100:0.0011707782,Drosophila_discreta:0.0051487591)98.1/100:0.0031046617)100/100:0.0100216124,(Drosophila_conspicua:0.0165546661,(Drosophila_kikiko:0.0124687544,Drosophila_nr_alsophila_KNM_2012:0.0115854215)95.4/97:0.0027642593)88.4/56:0.0010532949)87.8/56:0.0008920070,((((Drosophila_ambochila:0.0163071916,Drosophila_vesciseta:0.0070700243)99.6/100:0.0072748772,(Drosophila_montgomeryi:0.0117406888,Drosophila_pihulu:0.0110320833)96.3/100:0.0031994067)99/100:0.0058284519,Drosophila_odontophallus:0.0172162197)59.9/45:0.0002461792,(((Drosophila_digressa:0.0031777997,Drosophila_lanaiensis:0.0026085957)99.6/100:0.0057001280,Drosophila_moli:0.0079532847)96.1/100:0.0023979786,Drosophila_hexachaetae:0.0207791459)90.1/99:0.0015320634)90.7/51:0.0017363735)78.9/81:0.0007291709,(((((Drosophila_prolaticilia:0.0099293963,Drosophila_basisetae:0.0116176847)59.8/100:0.0023462495,Drosophila_paucipuncta:0.0127342670)99.9/100:0.0071770171,Drosophila_prostopalpis:0.0182986479)97.6/100:0.0040751986,Drosophila_punalua:0.0197505158)52.6/86:0.0024677634,((Drosophila_distinguenda:0.0106505916,Drosophila_inedita:0.0098148484)59.7/100:0.0005322934,Drosophila_divaricata:0.0132288047)98.7/100:0.0039673542)96.8/97:0.0029648293)68.8/56:0.0007789719)71.7/56:0.0004150320,(Drosophila_flexipes:0.0115645406,(Drosophila_formella:0.0100787548,(((Drosophila_gradata:0.0081858617,(Drosophila_recticilia:0.0036040601,Drosophila_turbata:0.0042854349)94.1/100:0.0021346957)85.4/76:0.0007289017,Drosophila_hawaiiensis:0.0056889364)87.6/76:0.0010226596,(Drosophila_musaphilia:0.0028432039,Drosophila_silvarentis:0.0092864727)93.5/100:0.0015833058)97.3/100:0.0027062095)96.9/100:0.0028246206)99.8/100:0.0065548944)91.5/90:0.0018532361,((((((Drosophila_ochracea:0.0116047661,Drosophila_limitata:0.0047746717)37/100:0.0027578476,Drosophila_claytonae:0.0080446863)88.4/100:0.0054362660,(Drosophila_sodomae:0.0037729731,Drosophila_obatai:0.0035570412)100/100:0.0135449654)85.9/99:0.0013939137,Drosophila_sejuncta:0.0089638930)57.7/99:0.0005996432,((Drosophila_villosipedis:0.0172515984,((Drosophila_murphyi:0.0025486690,Drosophila_orphnopeza:0.0070737200)84.4/100:0.0010633504,Drosophila_sproati:0.0072383938)90.3/100:0.0012901742)100/73.1/100:0.0006061571,((Drosophila_ciliaticrus:0.0064641923,Drosophila_orthofascia:0.0056915422)97.2/100:0.0035194912,Drosophila_sobrina:0.0084438107)99.1/100:0.0035889733)75.3/100:0.0006951767)100/98.3/100:0.0032932251,Drosophila_engyochracea:0.0096531521)99.4/100:0.0054561149)99.8/100:0.0043039199,Drosophila_micromyia:0.0273703122)52.4/65:0.0015110430,(((((((((Drosophila_cyrtoloma:0.0037454827,Drosophila_melanocephala:0.0055767228)68.2/100:0.0019329628,Drosophila_obscuripes:0.0048158796)96.5/100:0.0029333707,Drosophila_neoperkinsi:0.0078736465)59.6/100:0.0009226757,(Drosophila_hanaulae:0.0049812481,Drosophila_ingens:0.0062097898)98.9/100:0.0038071251)100/100:0.0057779196,Drosophila_oahuensis:0.0159759371)99.8/100:0.0045049427,(Drosophila_neopicta:0.0089647909,(Drosophila_nigribasis:0.0096050322,Drosophila_substenoptera:0.0111613683)78.2/100:0.0025756928)96.6/100:0.0025172808)99.6/100:0.0041795012,(((Drosophila_differens:0.0112226377,Drosophila_planitibia:0.0022150162)98.1/100:0.0040912029,(Drosophila_heteroneura:0.0015020604,Drosophila_silvestris:0.0061320447)100/100:0.0058054518)99.9/100:0.0065636259,Drosophila_hemipeza:0.0180282313)100/100:0.0079051975)99/100:0.0054592649,(Drosophila_anomalipes:0.0075552671,Drosophila_quasianomalipes:0.0067437371)100/100:0.0184645055)97.7/100:0.0037333873,((((Drosophila_hirtitibia:0.0343892943,Drosophila_papaalai:0.0229488219)99.9/100:0.0094631002,(Drosophila_lauoho:0.0195144322,Drosophila_pohaka:0.0236273193)100/100:0.0139442727)52.1/99:0.0011599518,(((Drosophila_eximia:0.0081195184,Drosophila_panoanoa:0.0108720180)100/100:0.0126725134,Drosophila_papala:0.0103484718)95.2/100:0.0028304091,Drosophila_kuhao:0.0250889281)97.4/100:0.0037296821)100/100:0.0068720010,(Drosophila_picticornis:0.0347833040,(Drosophila_setosifrons:0.0343229075,Drosophila_pilipa:0.0250767161)29.3/93:0.0028843424)99.9/100:0.0072798666)79.9/91:0.0010733531)93.2/91:0.0034503902)44.5/57:0.0048912455,(((Drosophila_kualapa:0.0093090772,Drosophila_poonia:0.0088812986)89.5/97:0.0028885642,Drosophila_malele:0.0202150711)94.8/97:0.0047377623,Drosophila_preapicula:0.0283405724)100/100:0.0106655621)85.5/93:0.0035407144,(((Drosophila_hamifera:0.0031022340,Drosophila_paenehamifera:0.0049452415)100/100:0.0090860343,Drosophila_truncipenna:0.0109179527)92.9/100:0.0025147172,(((Drosophila_adiastola:0.0022149356,Drosophila_cilifera:0.0041432615)99.4/100:0.0048690936,(Drosophila_ochrobasis:0.0039797365,Drosophila_setosimentum:0.0013235102)95.6/100:0.0031373010)100/100:0.0121076441,Drosophila_clavisetae:0.0190662241)94.9/100:0.0029964410)100/100:0.0239513821)99.7/94:0.0062094494,((((((((((((Scaptomyza_abrupta:0.0025312700,Scaptomyza_nr_mitchelli_RL_2013:0.0024971130)100/100:0.0247188346,((((((Scaptomyza_apiciguttula:0.0166191208,(Scaptomyza_ctenophora:0.0076121193,Scaptomyza_nr_decepta_RL_2013:0.0132846294)24.1/99:0.0018554288)68.7/67:0.0008366092,(Scaptomyza_vagabunda:0.0101491821,Scaptomyza_fastigata:0.0097486202)99/99:0.0045995945)82.7/68:0.0010364718,((Scaptomyza_nr_longipecten_RL_2013:0.0020152976,Scaptomyza_pallifrons:0.0020826418)100/100:0.0130942122,(Scaptomyza_umbrosa:0.0058353678,Scaptomyza_recava:0.0112300667)100/100:0.0191199342)87.9/95:0.0024243217)94.3/88:0.0015753933,Scaptomyza_decepta:0.0127294367)56.7/87:0.0009444733,Scaptomyza_latitergum:0.0149600399)97.7/100:0.0033751428,Scaptomyza_trivittata:0.0339729154)89/99:0.0031441271)83.3/98:0.0020208853,Scaptomyza_recta:0.0246103546)99.9/94:0.0055587592,((((Scaptomyza_exigua:0.0069832306,Scaptomyza_scoloplichas:0.0080514021)80.6/100:0.0026284233,Scaptomyza_intricata:0.0119868786)100/98/100:0.0082486084,Scaptomyza_varia:0.0149707097)83.7/100:0.0041049837,Scaptomyza_Elmomyza_sp_n_KNM_2012:0.0338712993)57.9/92:0.0020695397)96/99:0.0023859515,(((Scaptomyza_cuspidata:0.0026303787,Scaptomyza_nr_cuspidata_RL_2013:0.0042990264)92.5/100:0.0037761249,Scaptomyza_sp_akalae:0.0052784861)100/100:0.0172354878,(Scaptomyza_dentata:0.0270371364,((Scaptomyza_pusilla:0.0102293822,Scaptomyza_devexa:0.0116987990)96.5/100:0.0041555377,Scaptomyza_connata:0.0184026693)99.5/100:0.0079806881)97.6/100:0.0075977146)79.5/59:0.0016259965)18.2/47:0.0003668494,(((Scaptomyza_albovittata:0.0405826428,Scaptomyza_varipicta:0.0226332293)95.5/96:0.0067760894,Scaptomyza_protensa:0.0304402612)87/88:0.0058715437,(((Scaptomyza_cyrtandrae:0.0237515035,(Scaptomyza_lobifera:0.0233449123,Scaptomyza_sp_neocyrtandrae:0.0250174917)73.3/62:0.0072452528)93.1/62:0.0055231601,Scaptomyza_nigrosignata:0.0436703564)3.6/45:0.0006078734,(Scaptomyza_tumidula:0.0205542084,Scaptomyza_hackmani:0.0188673585)99/61:0.0057028187)41.6/59:0.0014220300)100/99:0.0027790179)100/100:0.0068165796,((((((Scaptomyza_ampliloba:0.0201984302,(((Scaptomyza_crassifemur:0.0176049320,Scaptomyza_reducta:0.0135855621)99.5/100:0.0054209162,Scaptomyza_inflatus:0.0237624235)89.1/98:0.0031386294,(Scaptomyza_nr_inflatus_RL_2013:0.0243807707,Scaptomyza_amplilobus:0.0269373667)0/25:0.0018045329)65.1/95:0.0039616244)99.9/100:0.0102173116,((Scaptomyza_nasalis:0.0148349638,Scaptomyza_undulata:0.0242998056)60.7/99:0.0101431251,Scaptomyza_palata:0.0344685142)0/88:0.0014427175)99.9/99:0.0052639619,((((Scaptomyza_bryani:0.0050761358,Scaptomyza_setosiscutellum:0.0023419834)100/100:0.0435754562,Scaptomyza_neosilvicola:0.0312970005)100/0/59:0.0002857130,Scaptomyza_chauliodon:0.0242667417)80.9/95:0.0073758189,Scaptomyza_magnipalpa:0.0420430462)99.1/72:0.0061899648)88.3/75:0.0035680041,Scaptomyza_silvicola:0.0365929832)46.4/86:0.0017007106,Scaptomyza_nr_lonchoptera_KNM_2012:0.0279089830)0/46:0.0003442117,(Scaptomyza_buccata:0.0148771192,(Scaptomyza_longisetosa:0.0064922835,Scaptomyza_nr_longisetosa_RL_2013:0.0108514634)93.8/96:0.0048517176)100/92:0.0225476580)100/100:0.0079607405)100/100:0.0143171176,((((Scaptomyza_elmoi:0.0063167974,Scaptomyza_pallida:0.0087830991)36.3/95:0.0015662477,Scaptomyza_himalayana:0.0051173207)99.4/100:0.0145278756,(Scaptomyza_frustulifera:0.0210684607,Scaptomyza_remota:0.0170051770)100/100:0.0199441197)85.3/99:0.0060631891,Scaptomyza_hexasticha:0.0349013424)100/100:0.0423973101)98.4/100:0.0062593311,Scaptomyza_consimilis:0.0439235874)99.3/100:0.0078147990,(((((Scaptomyza_anomala:0.0019301608,(Scaptomyza_hamata:0.0000022382,Scaptomyza_nr_anomala_RL_2013:0.0007365040)67.4/95:0.0009235484)97.8/100:0.0046272376,Scaptomyza_varifrons:0.0070935533)96.6/100:0.0053635146,Scaptomyza_palmae:0.0141385726)100/98.4/100:0.0081889063,Scaptomyza_caliginosa:0.0270756506)99.6/100:0.0130603252,Scaptomyza_boninensis:0.0623825324)100/100:0.0402821634)80.7/95:0.0051964232,((Scaptomyza_baechlii:0.0167727448,Scaptomyza_polygonia:0.0484992386)78.9/100:0.0036469476,((Scaptomyza_flava:0.0316582371,Scaptomyza_nigrita:0.0210826278)99.6/100:0.0083098145,Scaptomyza_graminum:0.0381212558)100/68.6/100:0.0024400956)100/100:0.0341200691)100/96:0.0063842707,((Scaptomyza_apicata:0.0192574658,Scaptomyza_hennigi:0.0431279825)99.9/100:0.0159440183,(Scaptomyza_hsui:0.0364708578,Scaptomyza_okadai:0.0323983549)99.2/100:0.0103906245)100/100/100:0.0344888285)100/100:0.1277408882)100/81:0.0002720789,Drosophila_primaeva:0.0501602168)100/74.6/80:0.0008628578,Drosophila_adventitia:0.0457222829)42.8/97:0.0016510776,(((((Drosophila_iki:0.0201976158,Drosophila_paraanthrax:0.0259763650)43.1/94:0.0036413257,Drosophila_multiciliata:0.0185231550)85.8/93:0.0018373002,((((Drosophila_inciliata:0.0142762832,((Drosophila_longiperda:0.0069643045,Drosophila_sp_white_tip_scutellum:0.0282734566)97.8/100:0.0076714986,(Drosophila_ochropleura:0.0118232188,Drosophila_haleakalae:0.0079737562)81.5/100:0.0034878836)22/76:0.0064473193)56.1/93:0.0017692189,Drosophila_dolichotarsis:0.0244248391)92.7/51:0.0023957323,(((Drosophila_nigra:0.0174717718,(Drosophila_fungiperda:0.0114411607,Drosophila_nigella:0.0093552981)95.4/100:0.0041540163)100/49.6/100:0.0012432795,Drosophila_fulgida:0.0188274921)93.9/80:0.0032868169,Drosophila_melanosoma:0.0278984088)90.5/76:0.0019364782)86.2/63:0.0009403193,(Drosophila_polita:0.0121189409,((Drosophila_bipolita:0.0096039429,Drosophila_canipolita:0.0031166468)100/85.5/100:0.0013490295,Drosophila_insignita:0.0095310272)98.9/100:0.0057648058)99.8/100:0.0052052781)22.4/88:0.0009827330)58.9/75:0.0007954729,Drosophila_scitula:0.0277546231)83.5/81:0.0017347248,Drosophila_melanoloma:0.0185881116)100/100:0.0370125816)100/99:0.0009917863)100/100:0.0191158610)100/100/100:0.0096648704,(((Drosophila_diamphidiopoda:0.0060128305,(Drosophila_tanythrix:0.0048593199,Drosophila_yooni:0.0008103984)99.9/100:0.0061049911)96.1/100:0.0020990515,Drosophila_orthoptera:0.0104208032)29.7/98:0.0005420895,Drosophila_stigma:0.0156390820)25.4/95:0.0011426927)96.3/100:0.0054545871,Drosophila_longiseta:0.0164309180);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -203787.655728
+Robinson-Foulds distance between ML tree and consensus tree: 8
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Drosophila_adunca
+|
+|                          +--Drosophila_ancyla
+|                       +--| (100)
+|                       |  +--Drosophila_fundita
+|                    +--| (91)
+|                    |  +--Drosophila_nr_fundita_RL_2010
+|                 +--| (96)
+|                 |  |  +--Drosophila_nr_ancyla_RTL_2014
+|                 |  +--| (100)
+|                 |     +--Drosophila_nr_fundita_RTL_2014
+|              +--| (90)
+|              |  |           +--Drosophila_cracens
+|              |  |        +--| (100)
+|              |  |        |  |  +--Drosophila_paracracens
+|              |  |        |  +--| (100)
+|              |  |        |     +--Drosophila_propiofacies
+|              |  |     +--| (100)
+|              |  |     |  +--Drosophila_proceriseta
+|              |  |  +--| (89)
+|              |  |  |  +--Drosophila_systenopeza
+|              |  +--| (95)
+|              |     +--Drosophila_variabilis
+|           +--| (85)
+|           |  |     +--Drosophila_cnecopleura
+|           |  |  +--| (99)
+|           |  |  |  +--Drosophila_nr_ancyla_RL_2010
+|           |  +--| (90)
+|           |     +--Drosophila_paucitarsus
+|        +--| (100)
+|        |  |        +--Drosophila_basisetosa
+|        |  |     +--| (83)
+|        |  |     |  |        +--Drosophila_forficata
+|        |  |     |  |     +--| (100)
+|        |  |     |  |     |  |     +--Drosophila_furcatarsus
+|        |  |     |  |     |  |  +--| (100)
+|        |  |     |  |     |  |  |  +---Drosophila_nr_dorsigera_RL_2010
+|        |  |     |  |     |  +--| (100)
+|        |  |     |  |     |     +--Drosophila_nr_dorsigera_RTL_2014
+|        |  |     |  |  +--| (100)
+|        |  |     |  |  |  +--Drosophila_pectinitarsus
+|        |  |     |  +--| (99)
+|        |  |     |     +--Drosophila_kokeensis
+|        |  |  +--| (86)
+|        |  |  |  +--Drosophila_attenuata
+|        |  +--| (80)
+|        |     |  +---Drosophila_capitata
+|        |     +--| (96)
+|        |        +----Drosophila_chaetocephala
+|     +--| (100)
+|     |  |                          +--Drosophila_apodasta
+|     |  |                       +--| (75)
+|     |  |                       |  +--Drosophila_nr_basimacula_2_RL_2010
+|     |  |                    +--| (74)
+|     |  |                    |  +--Drosophila_nr_expansa_1_KNM_2012
+|     |  |                 +--| (100)
+|     |  |                 |  |           +--Drosophila_basimacula
+|     |  |                 |  |        +--| (95)
+|     |  |                 |  |        |  +--Drosophila_nr_basimacula_1_RL_2010
+|     |  |                 |  |     +--| (61)
+|     |  |                 |  |     |  +--Drosophila_nr_basimacula_3_RTL_2014
+|     |  |                 |  |  +--| (68)
+|     |  |                 |  |  |  +--Drosophila_nr_basimacula_2_KNM_2012
+|     |  |                 |  +--| (69)
+|     |  |                 |     |     +--Drosophila_nr_basimacula_3_RL_2010
+|     |  |                 |     |  +--| (59)
+|     |  |                 |     |  |  +--Drosophila_nr_perissopoda_1_RL_2010
+|     |  |                 |     +--| (42)
+|     |  |                 |        |        +--Drosophila_nr_perissopoda_1_KNM_2012
+|     |  |                 |        |     +--| (78)
+|     |  |                 |        |     |  +--Drosophila_nr_perissopoda_1_RTL_2014
+|     |  |                 |        |  +--| (88)
+|     |  |                 |        |  |  +--Drosophila_nr_perissopoda_4_KNM_2012
+|     |  |                 |        +--| (53)
+|     |  |                 |           +--Drosophila_nr_basimacula_2_RTL_2014
+|     |  |              +--| (98)
+|     |  |              |  |     +--Drosophila_nr_perissopoda_2_RL_2010
+|     |  |              |  |  +--| (100)
+|     |  |              |  |  |  +--Drosophila_nr_perissopoda_3_RL_2010
+|     |  |              |  +--| (99)
+|     |  |              |     +--Drosophila_perissopoda
+|     |  |           +--| (99)
+|     |  |           |  +--Drosophila_nr_perissopoda_5_RTL_2014
+|     |  |        +--| (94)
+|     |  |        |  |  +--Drosophila_expansa
+|     |  |        |  +--| (94)
+|     |  |        |     |     +--Drosophila_prodita
+|     |  |        |     |  +--| (94)
+|     |  |        |     |  |  +--Drosophila_redunca
+|     |  |        |     +--| (100)
+|     |  |        |        +--Drosophila_seclusa
+|     |  |     +--| (74)
+|     |  |     |  |                    +--Drosophila_brunneifrons
+|     |  |     |  |                 +--| (99)
+|     |  |     |  |                 |  +---Drosophila_nr_brunneisetae_RL_2010
+|     |  |     |  |              +--| (100)
+|     |  |     |  |              |  +--Drosophila_nr_brunneisetae_RTL_2014
+|     |  |     |  |           +--| (100)
+|     |  |     |  |           |  |  +--Drosophila_kraussi
+|     |  |     |  |           |  +--| (73)
+|     |  |     |  |           |     +--Drosophila_nigritarsus
+|     |  |     |  |        +--| (79)
+|     |  |     |  |        |  |  +--Drosophila_imparisetae
+|     |  |     |  |        |  +--| (79)
+|     |  |     |  |        |     |  +--Drosophila_quasiexpansa
+|     |  |     |  |        |     +--| (95)
+|     |  |     |  |        |        |  +--Drosophila_unicula
+|     |  |     |  |        |        +--| (96)
+|     |  |     |  |        |           +--Drosophila_brevitarsus
+|     |  |     |  |     +--| (78)
+|     |  |     |  |     |  +--Drosophila_sp_4_KNM_2012
+|     |  |     |  |  +--| (58)
+|     |  |     |  |  |  |  +--Drosophila_petalopeza
+|     |  |     |  |  |  +--| (85)
+|     |  |     |  |  |     +--Drosophila_torula
+|     |  |     |  +--| (64)
+|     |  |     |     |                 +--Drosophila_conformis
+|     |  |     |     |              +--| (100)
+|     |  |     |     |              |  |  +--Drosophila_kikalaeleele
+|     |  |     |     |              |  +--| (100)
+|     |  |     |     |              |     +--Drosophila_sordidapex
+|     |  |     |     |           +--| (100)
+|     |  |     |     |           |  +--Drosophila_incognita
+|     |  |     |     |        +--| (100)
+|     |  |     |     |        |  |        +--Drosophila_dasycnemia
+|     |  |     |     |        |  |     +--| (100)
+|     |  |     |     |        |  |     |  +--Drosophila_waddingtoni
+|     |  |     |     |        |  |  +--| (99)
+|     |  |     |     |        |  |  |  +--Drosophila_neutralis
+|     |  |     |     |        |  +--| (100)
+|     |  |     |     |        |     +--Drosophila_percnosoma
+|     |  |     |     |     +--| (100)
+|     |  |     |     |     |  +--Drosophila_contorta
+|     |  |     |     |  +--| (89)
+|     |  |     |     |  |  +--Drosophila_nr_melanopedis_RTL_2014
+|     |  |     |     +--| (76)
+|     |  |     |        +---Drosophila_latigena
+|     |  |  +--| (81)
+|     |  |  |  |        +--Drosophila_atroscutellata
+|     |  |  |  |     +--| (100)
+|     |  |  |  |     |  +--Drosophila_paucula
+|     |  |  |  |  +--| (99)
+|     |  |  |  |  |  +--Drosophila_williamsi
+|     |  |  |  +--| (96)
+|     |  |  |     |  +--Drosophila_clavitibia
+|     |  |  |     +--| (98)
+|     |  |  |        |  +--Drosophila_nr_melanopedis_RL_2010
+|     |  |  |        +--| (99)
+|     |  |  |           +--Drosophila_trichaetosa
+|     |  +--| (100)
+|     |     |  +--Drosophila_fastigata
+|     |     +--| (97)
+|     |        +--Drosophila_medialis
+|  +--| (100)
+|  |  |                     +--Drosophila_antecedens
+|  |  |                  +--| (98)
+|  |  |                  |  |  +---Drosophila_mimica
+|  |  |                  |  +--| (99)
+|  |  |                  |     +----Drosophila_soonae
+|  |  |               +--| (96)
+|  |  |               |  |           +--Drosophila_flavibasis
+|  |  |               |  |        +--| (100)
+|  |  |               |  |        |  +--Drosophila_involuta
+|  |  |               |  |     +--| (100)
+|  |  |               |  |     |  |  +--Drosophila_infuscata
+|  |  |               |  |     |  +--| (100)
+|  |  |               |  |     |     |  +--Drosophila_kambysellisi
+|  |  |               |  |     |     +--| (100)
+|  |  |               |  |     |        |  +--Drosophila_xenophaga
+|  |  |               |  |     |        +--| (100)
+|  |  |               |  |     |           +--Drosophila_sp_spKNMa
+|  |  |               |  |  +--| (100)
+|  |  |               |  |  |  |  +--Drosophila_reschae
+|  |  |               |  |  |  +--| (100)
+|  |  |               |  |  |     +--Drosophila_kauluai
+|  |  |               |  +--| (99)
+|  |  |               |     +-----Drosophila_nr_hirtitarsus_RL_2010
+|  |  |            +--| (87)
+|  |  |            |  |     +----------Drosophila_apicipuncta
+|  |  |            |  |  +--| (100)
+|  |  |            |  |  |  +----Drosophila_nr_humeralis_RL_2010
+|  |  |            |  +--| (98)
+|  |  |            |     |     +----Drosophila_desallei
+|  |  |            |     |  +--| (100)
+|  |  |            |     |  |  +--Drosophila_tetraspilota
+|  |  |            |     +--| (100)
+|  |  |            |        +-----Drosophila_eurypeza
+|  |  |         +--| (97)
+|  |  |         |  |           +--------Drosophila_comatifemora
+|  |  |         |  |        +--| (92)
+|  |  |         |  |        |  |     +--Drosophila_dolomata
+|  |  |         |  |        |  |  +--| (100)
+|  |  |         |  |        |  |  |  +--Drosophila_ischnotrix
+|  |  |         |  |        |  +--| (100)
+|  |  |         |  |        |     +----Drosophila_nanella
+|  |  |         |  |     +--| (85)
+|  |  |         |  |     |  |           +----Drosophila_furvifacies
+|  |  |         |  |     |  |        +--| (100)
+|  |  |         |  |     |  |        |  +---Drosophila_biseriata
+|  |  |         |  |     |  |     +--| (100)
+|  |  |         |  |     |  |     |  |     +----Drosophila_hystricosa
+|  |  |         |  |     |  |     |  |  +--| (100)
+|  |  |         |  |     |  |     |  |  |  +--Drosophila_mitchelli
+|  |  |         |  |     |  |     |  +--| (100)
+|  |  |         |  |     |  |     |     +----Drosophila_nigrocirrus
+|  |  |         |  |     |  |  +--| (96)
+|  |  |         |  |     |  |  |  +------Drosophila_hirtitarsus
+|  |  |         |  |     |  +--| (80)
+|  |  |         |  |     |     +-----Drosophila_aethostoma
+|  |  |         |  |  +--| (90)
+|  |  |         |  |  |  +------Drosophila_larifuga
+|  |  |         |  +--| (87)
+|  |  |         |     +------Drosophila_sp_n_large_spots
+|  |  |      +--| (98)
+|  |  |      |  |  +----Drosophila_aquila
+|  |  |      |  +--| (100)
+|  |  |      |     +----Drosophila_fuscoamoeba
+|  |  |   +--| (99)
+|  |  |   |  |           +--Drosophila_barbata
+|  |  |   |  |        +--| (100)
+|  |  |   |  |        |  +--Drosophila_polliciforma
+|  |  |   |  |     +--| (68)
+|  |  |   |  |     |  +--Drosophila_nr_residua_RL_2010
+|  |  |   |  |  +--| (68)
+|  |  |   |  |  |  |  +---Drosophila_dissita
+|  |  |   |  |  |  +--| (100)
+|  |  |   |  |  |     +---Drosophila_pychnochaetae
+|  |  |   |  +--| (95)
+|  |  |   |     +-----Drosophila_toxacantha
+|  |  +---| (100)
+|  |      |                                            +--Drosophila_bostrycha
+|  |      |                                         +--| (100)
+|  |      |                                         |  |  +--Drosophila_disjuncta
+|  |      |                                         |  +--| (79)
+|  |      |                                         |     +--Drosophila_affinidisjuncta
+|  |      |                                      +--| (89)
+|  |      |                                      |  +--Drosophila_balioptera
+|  |      |                                   +--| (79)
+|  |      |                                   |  +---Drosophila_crucigera
+|  |      |                                +--| (100)
+|  |      |                                |  |  +--Drosophila_pullipes
+|  |      |                                |  +--| (100)
+|  |      |                                |     +--Drosophila_craddockae
+|  |      |                             +--| (56)
+|  |      |                             |  |              +--Drosophila_glabriapex
+|  |      |                             |  |           +--| (100)
+|  |      |                             |  |           |  +--Drosophila_pilimana
+|  |      |                             |  |        +--| (100)
+|  |      |                             |  |        |  |     +--Drosophila_lineosetae
+|  |      |                             |  |        |  |  +--| (100)
+|  |      |                             |  |        |  |  |  +--Drosophila_fasciculisetae
+|  |      |                             |  |        |  +--| (100)
+|  |      |                             |  |        |     +--Drosophila_discreta
+|  |      |                             |  |     +--| (56)
+|  |      |                             |  |     |  |  +--Drosophila_conspicua
+|  |      |                             |  |     |  +--| (56)
+|  |      |                             |  |     |     |  +--Drosophila_kikiko
+|  |      |                             |  |     |     +--| (97)
+|  |      |                             |  |     |        +--Drosophila_nr_alsophila_KNM_2012
+|  |      |                             |  |  +--| (81)
+|  |      |                             |  |  |  |           +--Drosophila_ambochila
+|  |      |                             |  |  |  |        +--| (100)
+|  |      |                             |  |  |  |        |  +--Drosophila_vesciseta
+|  |      |                             |  |  |  |     +--| (100)
+|  |      |                             |  |  |  |     |  |  +--Drosophila_montgomeryi
+|  |      |                             |  |  |  |     |  +--| (100)
+|  |      |                             |  |  |  |     |     +--Drosophila_pihulu
+|  |      |                             |  |  |  |  +--| (45)
+|  |      |                             |  |  |  |  |  +--Drosophila_odontophallus
+|  |      |                             |  |  |  +--| (51)
+|  |      |                             |  |  |     |        +--Drosophila_digressa
+|  |      |                             |  |  |     |     +--| (100)
+|  |      |                             |  |  |     |     |  +--Drosophila_lanaiensis
+|  |      |                             |  |  |     |  +--| (100)
+|  |      |                             |  |  |     |  |  +--Drosophila_moli
+|  |      |                             |  |  |     +--| (99)
+|  |      |                             |  |  |        +---Drosophila_hexachaetae
+|  |      |                             |  +--| (56)
+|  |      |                             |     |              +--Drosophila_prolaticilia
+|  |      |                             |     |           +--| (100)
+|  |      |                             |     |           |  +--Drosophila_basisetae
+|  |      |                             |     |        +--| (100)
+|  |      |                             |     |        |  +--Drosophila_paucipuncta
+|  |      |                             |     |     +--| (100)
+|  |      |                             |     |     |  +--Drosophila_prostopalpis
+|  |      |                             |     |  +--| (86)
+|  |      |                             |     |  |  +---Drosophila_punalua
+|  |      |                             |     +--| (97)
+|  |      |                             |        |     +--Drosophila_distinguenda
+|  |      |                             |        |  +--| (100)
+|  |      |                             |        |  |  +--Drosophila_inedita
+|  |      |                             |        +--| (100)
+|  |      |                             |           +--Drosophila_divaricata
+|  |      |                          +--| (90)
+|  |      |                          |  |  +--Drosophila_flexipes
+|  |      |                          |  +--| (100)
+|  |      |                          |     |  +--Drosophila_formella
+|  |      |                          |     +--| (100)
+|  |      |                          |        |        +--Drosophila_gradata
+|  |      |                          |        |     +--| (76)
+|  |      |                          |        |     |  |  +--Drosophila_recticilia
+|  |      |                          |        |     |  +--| (100)
+|  |      |                          |        |     |     +--Drosophila_turbata
+|  |      |                          |        |  +--| (76)
+|  |      |                          |        |  |  +--Drosophila_hawaiiensis
+|  |      |                          |        +--| (100)
+|  |      |                          |           |  +--Drosophila_musaphilia
+|  |      |                          |           +--| (100)
+|  |      |                          |              +--Drosophila_silvarentis
+|  |      |                       +--| (100)
+|  |      |                       |  |                 +--Drosophila_ochracea
+|  |      |                       |  |              +--| (100)
+|  |      |                       |  |              |  +--Drosophila_limitata
+|  |      |                       |  |           +--| (100)
+|  |      |                       |  |           |  +--Drosophila_claytonae
+|  |      |                       |  |        +--| (99)
+|  |      |                       |  |        |  |  +--Drosophila_sodomae
+|  |      |                       |  |        |  +--| (100)
+|  |      |                       |  |        |     +--Drosophila_obatai
+|  |      |                       |  |     +--| (99)
+|  |      |                       |  |     |  +--Drosophila_sejuncta
+|  |      |                       |  |  +--| (100)
+|  |      |                       |  |  |  |     +--Drosophila_villosipedis
+|  |      |                       |  |  |  |  +--| (100)
+|  |      |                       |  |  |  |  |  |     +--Drosophila_murphyi
+|  |      |                       |  |  |  |  |  |  +--| (100)
+|  |      |                       |  |  |  |  |  |  |  +--Drosophila_orphnopeza
+|  |      |                       |  |  |  |  |  +--| (100)
+|  |      |                       |  |  |  |  |     +--Drosophila_sproati
+|  |      |                       |  |  |  +--| (100)
+|  |      |                       |  |  |     |     +--Drosophila_ciliaticrus
+|  |      |                       |  |  |     |  +--| (100)
+|  |      |                       |  |  |     |  |  +--Drosophila_orthofascia
+|  |      |                       |  |  |     +--| (100)
+|  |      |                       |  |  |        +--Drosophila_sobrina
+|  |      |                       |  +--| (100)
+|  |      |                       |     +--Drosophila_engyochracea
+|  |      |                    +--| (65)
+|  |      |                    |  +----Drosophila_micromyia
+|  |      |                 +--| (57)
+|  |      |                 |  |                          +--Drosophila_cyrtoloma
+|  |      |                 |  |                       +--| (100)
+|  |      |                 |  |                       |  +--Drosophila_melanocephala
+|  |      |                 |  |                    +--| (100)
+|  |      |                 |  |                    |  +--Drosophila_obscuripes
+|  |      |                 |  |                 +--| (100)
+|  |      |                 |  |                 |  +--Drosophila_neoperkinsi
+|  |      |                 |  |              +--| (100)
+|  |      |                 |  |              |  |  +--Drosophila_hanaulae
+|  |      |                 |  |              |  +--| (100)
+|  |      |                 |  |              |     +--Drosophila_ingens
+|  |      |                 |  |           +--| (100)
+|  |      |                 |  |           |  +--Drosophila_oahuensis
+|  |      |                 |  |        +--| (100)
+|  |      |                 |  |        |  |  +--Drosophila_neopicta
+|  |      |                 |  |        |  +--| (100)
+|  |      |                 |  |        |     |  +--Drosophila_nigribasis
+|  |      |                 |  |        |     +--| (100)
+|  |      |                 |  |        |        +--Drosophila_substenoptera
+|  |      |                 |  |     +--| (100)
+|  |      |                 |  |     |  |        +--Drosophila_differens
+|  |      |                 |  |     |  |     +--| (100)
+|  |      |                 |  |     |  |     |  +--Drosophila_planitibia
+|  |      |                 |  |     |  |  +--| (100)
+|  |      |                 |  |     |  |  |  |  +--Drosophila_heteroneura
+|  |      |                 |  |     |  |  |  +--| (100)
+|  |      |                 |  |     |  |  |     +--Drosophila_silvestris
+|  |      |                 |  |     |  +--| (100)
+|  |      |                 |  |     |     +--Drosophila_hemipeza
+|  |      |                 |  |  +--| (100)
+|  |      |                 |  |  |  |  +--Drosophila_anomalipes
+|  |      |                 |  |  |  +--| (100)
+|  |      |                 |  |  |     +--Drosophila_quasianomalipes
+|  |      |                 |  +--| (91)
+|  |      |                 |     |           +------Drosophila_hirtitibia
+|  |      |                 |     |        +--| (100)
+|  |      |                 |     |        |  +---Drosophila_papaalai
+|  |      |                 |     |     +--| (99)
+|  |      |                 |     |     |  |  +---Drosophila_lauoho
+|  |      |                 |     |     |  +--| (100)
+|  |      |                 |     |     |     +----Drosophila_pohaka
+|  |      |                 |     |  +--| (100)
+|  |      |                 |     |  |  |        +--Drosophila_eximia
+|  |      |                 |     |  |  |     +--| (100)
+|  |      |                 |     |  |  |     |  +--Drosophila_panoanoa
+|  |      |                 |     |  |  |  +--| (100)
+|  |      |                 |     |  |  |  |  +--Drosophila_papala
+|  |      |                 |     |  |  +--| (100)
+|  |      |                 |     |  |     +----Drosophila_kuhao
+|  |      |                 |     +--| (91)
+|  |      |                 |        |  +------Drosophila_picticornis
+|  |      |                 |        +--| (100)
+|  |      |                 |           |  +------Drosophila_setosifrons
+|  |      |                 |           +--| (93)
+|  |      |                 |              +----Drosophila_pilipa
+|  |      |              +--| (93)
+|  |      |              |  |        +--Drosophila_kualapa
+|  |      |              |  |     +--| (97)
+|  |      |              |  |     |  +--Drosophila_poonia
+|  |      |              |  |  +--| (97)
+|  |      |              |  |  |  +---Drosophila_malele
+|  |      |              |  +--| (100)
+|  |      |              |     +-----Drosophila_preapicula
+|  |      |           +--| (94)
+|  |      |           |  |          +--Drosophila_hamifera
+|  |      |           |  |       +--| (100)
+|  |      |           |  |       |  +--Drosophila_paenehamifera
+|  |      |           |  |    +--| (100)
+|  |      |           |  |    |  +--Drosophila_truncipenna
+|  |      |           |  +----| (100)
+|  |      |           |       |        +--Drosophila_adiastola
+|  |      |           |       |     +--| (100)
+|  |      |           |       |     |  +--Drosophila_cilifera
+|  |      |           |       |  +--| (100)
+|  |      |           |       |  |  |  +--Drosophila_ochrobasis
+|  |      |           |       |  |  +--| (100)
+|  |      |           |       |  |     +--Drosophila_setosimentum
+|  |      |           |       +--| (100)
+|  |      |           |          +---Drosophila_clavisetae
+|  |      |        +--| (81)
+|  |      |        |  |                                                             +--Scaptomyza_abrupta
+|  |      |        |  |                                                        +----| (100)
+|  |      |        |  |                                                        |    +--Scaptomyza_nr_mitchelli_RL_2013
+|  |      |        |  |                                                     +--| (98)
+|  |      |        |  |                                                     |  |                 +--Scaptomyza_apiciguttula
+|  |      |        |  |                                                     |  |              +--| (67)
+|  |      |        |  |                                                     |  |              |  |  +--Scaptomyza_ctenophora
+|  |      |        |  |                                                     |  |              |  +--| (99)
+|  |      |        |  |                                                     |  |              |     +--Scaptomyza_nr_decepta_RL_2013
+|  |      |        |  |                                                     |  |           +--| (68)
+|  |      |        |  |                                                     |  |           |  |  +--Scaptomyza_vagabunda
+|  |      |        |  |                                                     |  |           |  +--| (99)
+|  |      |        |  |                                                     |  |           |     +--Scaptomyza_fastigata
+|  |      |        |  |                                                     |  |        +--| (88)
+|  |      |        |  |                                                     |  |        |  |     +--Scaptomyza_nr_longipecten_RL_2013
+|  |      |        |  |                                                     |  |        |  |  +--| (100)
+|  |      |        |  |                                                     |  |        |  |  |  +--Scaptomyza_pallifrons
+|  |      |        |  |                                                     |  |        |  +--| (95)
+|  |      |        |  |                                                     |  |        |     |   +--Scaptomyza_umbrosa
+|  |      |        |  |                                                     |  |        |     +---| (100)
+|  |      |        |  |                                                     |  |        |         +--Scaptomyza_recava
+|  |      |        |  |                                                     |  |     +--| (87)
+|  |      |        |  |                                                     |  |     |  +--Scaptomyza_decepta
+|  |      |        |  |                                                     |  |  +--| (100)
+|  |      |        |  |                                                     |  |  |  +--Scaptomyza_latitergum
+|  |      |        |  |                                                     |  +--| (99)
+|  |      |        |  |                                                     |     +------Scaptomyza_trivittata
+|  |      |        |  |                                                  +--| (94)
+|  |      |        |  |                                                  |  +----Scaptomyza_recta
+|  |      |        |  |                                               +--| (99)
+|  |      |        |  |                                               |  |           +--Scaptomyza_exigua
+|  |      |        |  |                                               |  |        +--| (100)
+|  |      |        |  |                                               |  |        |  +--Scaptomyza_scoloplichas
+|  |      |        |  |                                               |  |     +--| (100)
+|  |      |        |  |                                               |  |     |  +--Scaptomyza_intricata
+|  |      |        |  |                                               |  |  +--| (100)
+|  |      |        |  |                                               |  |  |  +--Scaptomyza_varia
+|  |      |        |  |                                               |  +--| (92)
+|  |      |        |  |                                               |     +------Scaptomyza_Elmomyza_sp_n_KNM_2012
+|  |      |        |  |                                            +--| (47)
+|  |      |        |  |                                            |  |        +--Scaptomyza_cuspidata
+|  |      |        |  |                                            |  |     +--| (100)
+|  |      |        |  |                                            |  |     |  +--Scaptomyza_nr_cuspidata_RL_2013
+|  |      |        |  |                                            |  |  +--| (100)
+|  |      |        |  |                                            |  |  |  +--Scaptomyza_sp_akalae
+|  |      |        |  |                                            |  +--| (59)
+|  |      |        |  |                                            |     |  +----Scaptomyza_dentata
+|  |      |        |  |                                            |     +--| (100)
+|  |      |        |  |                                            |        |     +--Scaptomyza_pusilla
+|  |      |        |  |                                            |        |  +--| (100)
+|  |      |        |  |                                            |        |  |  +--Scaptomyza_devexa
+|  |      |        |  |                                            |        +--| (100)
+|  |      |        |  |                                            |           +--Scaptomyza_connata
+|  |      |        |  |                                         +--| (100)
+|  |      |        |  |                                         |  |        +-------Scaptomyza_albovittata
+|  |      |        |  |                                         |  |     +--| (96)
+|  |      |        |  |                                         |  |     |  +---Scaptomyza_varipicta
+|  |      |        |  |                                         |  |  +--| (88)
+|  |      |        |  |                                         |  |  |  +-----Scaptomyza_protensa
+|  |      |        |  |                                         |  +--| (99)
+|  |      |        |  |                                         |     |        +----Scaptomyza_cyrtandrae
+|  |      |        |  |                                         |     |     +--| (62)
+|  |      |        |  |                                         |     |     |  |  +---Scaptomyza_lobifera
+|  |      |        |  |                                         |     |     |  +--| (62)
+|  |      |        |  |                                         |     |     |     +----Scaptomyza_sp_neocyrtandrae
+|  |      |        |  |                                         |     |  +--| (45)
+|  |      |        |  |                                         |     |  |  +--------Scaptomyza_nigrosignata
+|  |      |        |  |                                         |     +--| (59)
+|  |      |        |  |                                         |        |  +---Scaptomyza_tumidula
+|  |      |        |  |                                         |        +--| (61)
+|  |      |        |  |                                         |           +---Scaptomyza_hackmani
+|  |      |        |  |                                      +--| (100)
+|  |      |        |  |                                      |  |                 +---Scaptomyza_ampliloba
+|  |      |        |  |                                      |  |              +--| (100)
+|  |      |        |  |                                      |  |              |  |           +--Scaptomyza_crassifemur
+|  |      |        |  |                                      |  |              |  |        +--| (100)
+|  |      |        |  |                                      |  |              |  |        |  +--Scaptomyza_reducta
+|  |      |        |  |                                      |  |              |  |     +--| (98)
+|  |      |        |  |                                      |  |              |  |     |  +----Scaptomyza_inflatus
+|  |      |        |  |                                      |  |              |  |  +--| (65)
+|  |      |        |  |                                      |  |              |  |  |  +-----Scaptomyza_amplilobus
+|  |      |        |  |                                      |  |              |  +--| (95)
+|  |      |        |  |                                      |  |              |     +----Scaptomyza_nr_inflatus_RL_2013
+|  |      |        |  |                                      |  |           +--| (99)
+|  |      |        |  |                                      |  |           |  |     +--Scaptomyza_nasalis
+|  |      |        |  |                                      |  |           |  |  +--| (99)
+|  |      |        |  |                                      |  |           |  |  |  +----Scaptomyza_undulata
+|  |      |        |  |                                      |  |           |  +--| (88)
+|  |      |        |  |                                      |  |           |     +------Scaptomyza_palata
+|  |      |        |  |                                      |  |        +--| (75)
+|  |      |        |  |                                      |  |        |  |                 +--Scaptomyza_bryani
+|  |      |        |  |                                      |  |        |  |        +--------| (100)
+|  |      |        |  |                                      |  |        |  |        |        +--Scaptomyza_setosiscutellum
+|  |      |        |  |                                      |  |        |  |     +--| (59)
+|  |      |        |  |                                      |  |        |  |     |  +-----Scaptomyza_neosilvicola
+|  |      |        |  |                                      |  |        |  |  +--| (95)
+|  |      |        |  |                                      |  |        |  |  |  +----Scaptomyza_chauliodon
+|  |      |        |  |                                      |  |        |  +--| (72)
+|  |      |        |  |                                      |  |        |     +-------Scaptomyza_magnipalpa
+|  |      |        |  |                                      |  |     +--| (86)
+|  |      |        |  |                                      |  |     |  +------Scaptomyza_silvicola
+|  |      |        |  |                                      |  |  +--| (46)
+|  |      |        |  |                                      |  |  |  +----Scaptomyza_nr_lonchoptera_KNM_2012
+|  |      |        |  |                                      |  +--| (100)
+|  |      |        |  |                                      |     |   +--Scaptomyza_buccata
+|  |      |        |  |                                      |     +---| (92)
+|  |      |        |  |                                      |         |  +--Scaptomyza_longisetosa
+|  |      |        |  |                                      |         +--| (96)
+|  |      |        |  |                                      |            +--Scaptomyza_nr_longisetosa_RL_2013
+|  |      |        |  |                                   +--| (100)
+|  |      |        |  |                                   |  |                 +--Scaptomyza_elmoi
+|  |      |        |  |                                   |  |              +--| (95)
+|  |      |        |  |                                   |  |              |  +--Scaptomyza_pallida
+|  |      |        |  |                                   |  |           +--| (100)
+|  |      |        |  |                                   |  |           |  +--Scaptomyza_himalayana
+|  |      |        |  |                                   |  |        +--| (99)
+|  |      |        |  |                                   |  |        |  |   +---Scaptomyza_frustulifera
+|  |      |        |  |                                   |  |        |  +---| (100)
+|  |      |        |  |                                   |  |        |      +--Scaptomyza_remota
+|  |      |        |  |                                   |  +--------| (100)
+|  |      |        |  |                                   |           +------Scaptomyza_hexasticha
+|  |      |        |  |                                +--| (100)
+|  |      |        |  |                                |  +--------Scaptomyza_consimilis
+|  |      |        |  |                             +--| (95)
+|  |      |        |  |                             |  |                   +--Scaptomyza_anomala
+|  |      |        |  |                             |  |                +--| (100)
+|  |      |        |  |                             |  |                |  |  +--Scaptomyza_hamata
+|  |      |        |  |                             |  |                |  +--| (95)
+|  |      |        |  |                             |  |                |     +--Scaptomyza_nr_anomala_RL_2013
+|  |      |        |  |                             |  |             +--| (100)
+|  |      |        |  |                             |  |             |  +--Scaptomyza_varifrons
+|  |      |        |  |                             |  |          +--| (100)
+|  |      |        |  |                             |  |          |  +--Scaptomyza_palmae
+|  |      |        |  |                             |  |       +--| (100)
+|  |      |        |  |                             |  |       |  +----Scaptomyza_caliginosa
+|  |      |        |  |                             |  +-------| (100)
+|  |      |        |  |                             |          +------------Scaptomyza_boninensis
+|  |      |        |  |                          +--| (96)
+|  |      |        |  |                          |  |         +--Scaptomyza_baechlii
+|  |      |        |  |                          |  |      +--| (100)
+|  |      |        |  |                          |  |      |  +---------Scaptomyza_polygonia
+|  |      |        |  |                          |  +------| (100)
+|  |      |        |  |                          |         |     +-----Scaptomyza_flava
+|  |      |        |  |                          |         |  +--| (100)
+|  |      |        |  |                          |         |  |  +---Scaptomyza_nigrita
+|  |      |        |  |                          |         +--| (100)
+|  |      |        |  |                          |            +-------Scaptomyza_graminum
+|  |      |        |  +--------------------------| (100)
+|  |      |        |                             |         +---Scaptomyza_apicata
+|  |      |        |                             |      +--| (100)
+|  |      |        |                             |      |  +--------Scaptomyza_hennigi
+|  |      |        |                             +------| (100)
+|  |      |        |                                    |  +------Scaptomyza_hsui
+|  |      |        |                                    +--| (100)
+|  |      |        |                                       +-----Scaptomyza_okadai
+|  |      |     +--| (80)
+|  |      |     |  +---------Drosophila_primaeva
+|  |      |  +--| (97)
+|  |      |  |  +--------Drosophila_adventitia
+|  |      +--| (99)
+|  |         |                  +---Drosophila_iki
+|  |         |               +--| (94)
+|  |         |               |  +----Drosophila_paraanthrax
+|  |         |            +--| (93)
+|  |         |            |  +--Drosophila_multiciliata
+|  |         |         +--| (75)
+|  |         |         |  |           +--Drosophila_inciliata
+|  |         |         |  |        +--| (93)
+|  |         |         |  |        |  |     +--Drosophila_longiperda
+|  |         |         |  |        |  |  +--| (100)
+|  |         |         |  |        |  |  |  +-----Drosophila_sp_white_tip_scutellum
+|  |         |         |  |        |  +--| (76)
+|  |         |         |  |        |     |  +--Drosophila_ochropleura
+|  |         |         |  |        |     +--| (100)
+|  |         |         |  |        |        +--Drosophila_haleakalae
+|  |         |         |  |     +--| (51)
+|  |         |         |  |     |  +----Drosophila_dolichotarsis
+|  |         |         |  |  +--| (63)
+|  |         |         |  |  |  |        +--Drosophila_nigra
+|  |         |         |  |  |  |     +--| (100)
+|  |         |         |  |  |  |     |  |  +--Drosophila_fungiperda
+|  |         |         |  |  |  |     |  +--| (100)
+|  |         |         |  |  |  |     |     +--Drosophila_nigella
+|  |         |         |  |  |  |  +--| (80)
+|  |         |         |  |  |  |  |  +---Drosophila_fulgida
+|  |         |         |  |  |  +--| (76)
+|  |         |         |  |  |     +----Drosophila_melanosoma
+|  |         |         |  +--| (88)
+|  |         |         |     |  +--Drosophila_polita
+|  |         |         |     +--| (100)
+|  |         |         |        |     +--Drosophila_bipolita
+|  |         |         |        |  +--| (100)
+|  |         |         |        |  |  +--Drosophila_canipolita
+|  |         |         |        +--| (100)
+|  |         |         |           +--Drosophila_insignita
+|  |         |      +--| (81)
+|  |         |      |  +----Drosophila_scitula
+|  |         +------| (100)
+|  |                +--Drosophila_melanoloma
++--| (100)
+|  |        +--Drosophila_diamphidiopoda
+|  |     +--| (100)
+|  |     |  |  +--Drosophila_tanythrix
+|  |     |  +--| (100)
+|  |     |     +--Drosophila_yooni
+|  |  +--| (98)
+|  |  |  +--Drosophila_orthoptera
+|  +--| (95)
+|     +--Drosophila_stigma
+|
++--Drosophila_longiseta
+
+
+Consensus tree in newick format: 
+
+(Drosophila_adunca:0.0063681123,(((((((((Drosophila_ancyla:0.0055543516,Drosophila_fundita:0.0070499456)100:0.0026113865,Drosophila_nr_fundita_RL_2010:0.0088441220)91:0.0013647236,(Drosophila_nr_ancyla_RTL_2014:0.0037617107,Drosophila_nr_fundita_RTL_2014:0.0041607088)100:0.0020743926)96:0.0045317707,((((Drosophila_cracens:0.0066858545,(Drosophila_paracracens:0.0027702826,Drosophila_propiofacies:0.0023355832)100:0.0044021704)100:0.0016509484,Drosophila_proceriseta:0.0091243109)100:0.0032300824,Drosophila_systenopeza:0.0107835904)89:0.0000020942,Drosophila_variabilis:0.0090783983)95:0.0024940094)90:0.0017532196,((Drosophila_cnecopleura:0.0029731533,Drosophila_nr_ancyla_RL_2010:0.0071667031)99:0.0100461583,Drosophila_paucitarsus:0.0097371250)90:0.0035827712)85:0.0006895485,(((Drosophila_basisetosa:0.0146641040,(((Drosophila_forficata:0.0153559644,((Drosophila_furcatarsus:0.0098133173,Drosophila_nr_dorsigera_RL_2010:0.0213143642)100:0.0031939008,Drosophila_nr_dorsigera_RTL_2014:0.0138153687)100:0.0033707567)100:0.0013225048,Drosophila_pectinitarsus:0.0169160486)100:0.0024301459,Drosophila_kokeensis:0.0171414333)99:0.0020479880)83:0.0019249913,Drosophila_attenuata:0.0125951901)86:0.0011846706,(Drosophila_capitata:0.0208725820,Drosophila_chaetocephala:0.0244799065)96:0.0014675581)80:0.0009315805)100:0.0042608228,(((((((((Drosophila_apodasta:0.0074783985,Drosophila_nr_basimacula_2_RL_2010:0.0019785708)75:0.0017814026,Drosophila_nr_expansa_1_KNM_2012:0.0084496732)74:0.0020454238,((((Drosophila_basimacula:0.0038595462,Drosophila_nr_basimacula_1_RL_2010:0.0023405638)95:0.0010850815,Drosophila_nr_basimacula_3_RTL_2014:0.0064371734)61:0.0001814449,Drosophila_nr_basimacula_2_KNM_2012:0.0077832760)68:0.0013266760,((Drosophila_nr_basimacula_3_RL_2010:0.0078303781,Drosophila_nr_perissopoda_1_RL_2010:0.0090180429)59:0.0007207882,(((Drosophila_nr_perissopoda_1_KNM_2012:0.0071274647,Drosophila_nr_perissopoda_1_RTL_2014:0.0000029304)78:0.0000028084,Drosophila_nr_perissopoda_4_KNM_2012:0.0000024120)88:0.0059905787,Drosophila_nr_basimacula_2_RTL_2014:0.0059991034)53:0.0005775618)42:0.0003061080)69:0.0013352264)100:0.0049187149,((Drosophila_nr_perissopoda_2_RL_2010:0.0000029961,Drosophila_nr_perissopoda_3_RL_2010:0.0002735383)100:0.0078750946,Drosophila_perissopoda:0.0063014500)99:0.0022332657)98:0.0005003182,Drosophila_nr_perissopoda_5_RTL_2014:0.0050317677)99:0.0005394183,(Drosophila_expansa:0.0097253519,((Drosophila_prodita:0.0055164292,Drosophila_redunca:0.0044081956)94:0.0009896794,Drosophila_seclusa:0.0071829151)100:0.0075732338)94:0.0014440570)94:0.0014664580,(((((((Drosophila_brunneifrons:0.0054751423,Drosophila_nr_brunneisetae_RL_2010:0.0202868950)99:0.0007716181,Drosophila_nr_brunneisetae_RTL_2014:0.0045977455)100:0.0032937533,(Drosophila_kraussi:0.0176895494,Drosophila_nigritarsus:0.0109822031)73:0.0025318756)100:0.0074500516,(Drosophila_imparisetae:0.0118592802,(Drosophila_quasiexpansa:0.0150039626,(Drosophila_unicula:0.0162999859,Drosophila_brevitarsus:0.0152628106)96:0.0013464386)95:0.0017031137)79:0.0012487377)79:0.0004604614,Drosophila_sp_4_KNM_2012:0.0116139853)78:0.0005752234,(Drosophila_petalopeza:0.0122196419,Drosophila_torula:0.0119476015)85:0.0019991118)58:0.0007874510,((((((Drosophila_conformis:0.0033395570,(Drosophila_kikalaeleele:0.0023499922,Drosophila_sordidapex:0.0022993085)100:0.0011062753)100:0.0018707648,Drosophila_incognita:0.0068448477)100:0.0039779796,(((Drosophila_dasycnemia:0.0015679157,Drosophila_waddingtoni:0.0018938922)100:0.0010490147,Drosophila_neutralis:0.0041971070)99:0.0008068255,Drosophila_percnosoma:0.0026068824)100:0.0057920390)100:0.0024028785,Drosophila_contorta:0.0098043626)100:0.0013770722,Drosophila_nr_melanopedis_RTL_2014:0.0167804790)89:0.0008547961,Drosophila_latigena:0.0201574463)76:0.0002851090)64:0.0005345711)74:0.0005414277,(((Drosophila_atroscutellata:0.0084526582,Drosophila_paucula:0.0105527589)100:0.0049552047,Drosophila_williamsi:0.0130253878)99:0.0022446026,(Drosophila_clavitibia:0.0184067167,(Drosophila_nr_melanopedis_RL_2010:0.0094495565,Drosophila_trichaetosa:0.0079819016)99:0.0024242974)98:0.0011370380)96:0.0009918615)81:0.0007133411,(Drosophila_fastigata:0.0147403312,Drosophila_medialis:0.0132465726)97:0.0014783571)100:0.0013428873)100:0.0057705895,(((((((Drosophila_antecedens:0.0170031638,(Drosophila_mimica:0.0213551725,Drosophila_soonae:0.0235744546)99:0.0021035003)98:0.0028692589,((((Drosophila_flavibasis:0.0114792618,Drosophila_involuta:0.0068636881)100:0.0026016315,(Drosophila_infuscata:0.0075477204,(Drosophila_kambysellisi:0.0102816226,(Drosophila_xenophaga:0.0000026696,Drosophila_sp_spKNMa:0.0023259823)100:0.0036540534)100:0.0034175402)100:0.0061793447)100:0.0055536990,(Drosophila_reschae:0.0081336144,Drosophila_kauluai:0.0123105889)100:0.0082488789)100:0.0047286937,Drosophila_nr_hirtitarsus_RL_2010:0.0300520004)99:0.0019800384)96:0.0063225573,((Drosophila_apicipuncta:0.0556597426,Drosophila_nr_humeralis_RL_2010:0.0258610990)100:0.0121514076,((Drosophila_desallei:0.0273173657,Drosophila_tetraspilota:0.0180275257)100:0.0081789576,Drosophila_eurypeza:0.0328108025)100:0.0175113366)98:0.0069677231)87:0.0020648982,((((Drosophila_comatifemora:0.0451766279,((Drosophila_dolomata:0.0182778565,Drosophila_ischnotrix:0.0122373554)100:0.0120631750,Drosophila_nanella:0.0250453049)100:0.0081208734)92:0.0022364548,((((Drosophila_furvifacies:0.0272053215,Drosophila_biseriata:0.0234639118)100:0.0121447309,((Drosophila_hystricosa:0.0247003781,Drosophila_mitchelli:0.0092832169)100:0.0129647584,Drosophila_nigrocirrus:0.0235326001)100:0.0048346449)100:0.0102601419,Drosophila_hirtitarsus:0.0371419414)96:0.0031320419,Drosophila_aethostoma:0.0314875655)80:0.0035953706)85:0.0006932589,Drosophila_larifuga:0.0343640773)90:0.0016486182,Drosophila_sp_n_large_spots:0.0354119156)87:0.0029991181)97:0.0014946450,(Drosophila_aquila:0.0269047942,Drosophila_fuscoamoeba:0.0271257865)100:0.0187425455)98:0.0020737060,((((Drosophila_barbata:0.0136949254,Drosophila_polliciforma:0.0134045149)100:0.0060890854,Drosophila_nr_residua_RL_2010:0.0187709760)68:0.0030413951,(Drosophila_dissita:0.0204180129,Drosophila_pychnochaetae:0.0228024457)100:0.0051901270)68:0.0020784378,Drosophila_toxacantha:0.0326798939)95:0.0009312912)99:0.0050378549,(((((((((((((((Drosophila_bostrycha:0.0075680856,(Drosophila_disjuncta:0.0064067061,Drosophila_affinidisjuncta:0.0024579874)79:0.0000023602)100:0.0082465010,Drosophila_balioptera:0.0108385220)89:0.0009852771,Drosophila_crucigera:0.0188593144)79:0.0011050499,(Drosophila_pullipes:0.0105100216,Drosophila_craddockae:0.0035912329)100:0.0088268157)100:0.0030021404,(((((Drosophila_glabriapex:0.0061532636,Drosophila_pilimana:0.0066925716)100:0.0010035469,((Drosophila_lineosetae:0.0034680375,Drosophila_fasciculisetae:0.0073561958)100:0.0011717570,Drosophila_discreta:0.0051510326)100:0.0031076799)100:0.0100252710,(Drosophila_conspicua:0.0165620358,(Drosophila_kikiko:0.0124734305,Drosophila_nr_alsophila_KNM_2012:0.0115898810)97:0.0027656245)56:0.0010528832)56:0.0008928614,((((Drosophila_ambochila:0.0163315170,Drosophila_vesciseta:0.0070722275)100:0.0072905494,(Drosophila_montgomeryi:0.0117455311,Drosophila_pihulu:0.0110366189)100:0.0032000404)100:0.0058419526,Drosophila_odontophallus:0.0172239394)45:0.0002473665,(((Drosophila_digressa:0.0031785690,Drosophila_lanaiensis:0.0026092375)100:0.0057029042,Drosophila_moli:0.0079565299)100:0.0023992517,Drosophila_hexachaetae:0.0207887579)99:0.0015322518)51:0.0017401725)81:0.0007311038,(((((Drosophila_prolaticilia:0.0099441716,Drosophila_basisetae:0.0116221321)100:0.0023505089,Drosophila_paucipuncta:0.0127396203)100:0.0071898618,Drosophila_prostopalpis:0.0183065986)100:0.0040827231,Drosophila_punalua:0.0197603426)86:0.0024725163,((Drosophila_distinguenda:0.0106551119,Drosophila_inedita:0.0098190614)100:0.0005330875,Drosophila_divaricata:0.0132344387)100:0.0039689654)97:0.0029699124)56:0.0007798209)56:0.0004132519,(Drosophila_flexipes:0.0115684069,(Drosophila_formella:0.0100820810,(((Drosophila_gradata:0.0081887388,(Drosophila_recticilia:0.0036048079,Drosophila_turbata:0.0042871336)100:0.0021356501)76:0.0007282735,Drosophila_hawaiiensis:0.0056908918)76:0.0010216223,(Drosophila_musaphilia:0.0028436443,Drosophila_silvarentis:0.0092896572)100:0.0015840208)100:0.0027067693)100:0.0028252988)100:0.0065575885)90:0.0018524468,((((((Drosophila_ochracea:0.0116165303,Drosophila_limitata:0.0047760996)100:0.0027619220,Drosophila_claytonae:0.0080465598)100:0.0054462044,(Drosophila_sodomae:0.0037788088,Drosophila_obatai:0.0035573107)100:0.0135665838)99:0.0013958789,Drosophila_sejuncta:0.0089665908)99:0.0006000606,((Drosophila_villosipedis:0.0172742450,((Drosophila_murphyi:0.0025491322,Drosophila_orphnopeza:0.0070762060)100:0.0010622362,Drosophila_sproati:0.0072406630)100:0.0012898771)100:0.0006084358,((Drosophila_ciliaticrus:0.0064662353,Drosophila_orthofascia:0.0056933672)100:0.0035201786,Drosophila_sobrina:0.0084464617)100:0.0035897122)100:0.0006971302)100:0.0033007660,Drosophila_engyochracea:0.0096558515)100:0.0054699505)100:0.0043195047,Drosophila_micromyia:0.0274017337)65:0.0015212845,(((((((((Drosophila_cyrtoloma:0.0037525528,Drosophila_melanocephala:0.0055811113)100:0.0019356827,Drosophila_obscuripes:0.0048239617)100:0.0029367643,Drosophila_neoperkinsi:0.0078826690)100:0.0009229961,(Drosophila_hanaulae:0.0049860098,Drosophila_ingens:0.0062152318)100:0.0038129071)100:0.0057844492,Drosophila_oahuensis:0.0159929215)100:0.0045033047,(Drosophila_neopicta:0.0089632467,(Drosophila_nigribasis:0.0096150836,Drosophila_substenoptera:0.0111735984)100:0.0025895804)100:0.0025177640)100:0.0041827376,(((Drosophila_differens:0.0112386326,Drosophila_planitibia:0.0022170557)100:0.0040938170,(Drosophila_heteroneura:0.0015017711,Drosophila_silvestris:0.0061372066)100:0.0058129564)100:0.0065760859,Drosophila_hemipeza:0.0180397261)100:0.0079132308)100:0.0054613612,(Drosophila_anomalipes:0.0075673311,Drosophila_quasianomalipes:0.0067448154)100:0.0185045943)100:0.0037345060,((((Drosophila_hirtitibia:0.0344228314,Drosophila_papaalai:0.0229795561)100:0.0094756281,(Drosophila_lauoho:0.0195208221,Drosophila_pohaka:0.0236344998)100:0.0139490361)99:0.0011614210,(((Drosophila_eximia:0.0081215737,Drosophila_panoanoa:0.0108756571)100:0.0126770056,Drosophila_papala:0.0103510697)100:0.0028310202,Drosophila_kuhao:0.0250970218)100:0.0037308139)100:0.0068807863,(Drosophila_picticornis:0.0348289958,(Drosophila_setosifrons:0.0343529802,Drosophila_pilipa:0.0250720623)93:0.0029031714)100:0.0072924532)91:0.0010759184)91:0.0034440339)57:0.0045412265,(((Drosophila_kualapa:0.0093446237,Drosophila_poonia:0.0088918531)97:0.0029122003,Drosophila_malele:0.0202377043)97:0.0047566491,Drosophila_preapicula:0.0283738088)100:0.0109753035)93:0.0038402881,(((Drosophila_hamifera:0.0031067401,Drosophila_paenehamifera:0.0049457367)100:0.0090996907,Drosophila_truncipenna:0.0109208081)100:0.0025198236,(((Drosophila_adiastola:0.0022162965,Drosophila_cilifera:0.0041442316)100:0.0048741712,(Drosophila_ochrobasis:0.0039810550,Drosophila_setosimentum:0.0013237865)100:0.0031379909)100:0.0121184586,Drosophila_clavisetae:0.0190707983)100:0.0029998592)100:0.0239500117)94:0.0061962142,((((((((((((Scaptomyza_abrupta:0.0025343574,Scaptomyza_nr_mitchelli_RL_2013:0.0025021443)100:0.0247618220,((((((Scaptomyza_apiciguttula:0.0166514641,(Scaptomyza_ctenophora:0.0076292770,Scaptomyza_nr_decepta_RL_2013:0.0133077713)99:0.0018560680)67:0.0008387093,(Scaptomyza_vagabunda:0.0101669174,Scaptomyza_fastigata:0.0097663562)99:0.0046076740)68:0.0010379335,((Scaptomyza_nr_longipecten_RL_2013:0.0020173904,Scaptomyza_pallifrons:0.0020863114)100:0.0131138482,(Scaptomyza_umbrosa:0.0058456211,Scaptomyza_recava:0.0112459694)100:0.0191605420)95:0.0024278849)88:0.0015766707,Scaptomyza_decepta:0.0127503036)87:0.0009466135,Scaptomyza_latitergum:0.0149891367)100:0.0033735315,Scaptomyza_trivittata:0.0340283017)99:0.0031591423)98:0.0020202519,Scaptomyza_recta:0.0246530457)94:0.0055651784,((((Scaptomyza_exigua:0.0069979862,Scaptomyza_scoloplichas:0.0080648827)100:0.0026231125,Scaptomyza_intricata:0.0120098140)100:0.0082619538,Scaptomyza_varia:0.0149971207)100:0.0041069247,Scaptomyza_Elmomyza_sp_n_KNM_2012:0.0338742684)92:0.0020800488)99:0.0023898964,(((Scaptomyza_cuspidata:0.0026351541,Scaptomyza_nr_cuspidata_RL_2013:0.0043071339)100:0.0037779649,Scaptomyza_sp_akalae:0.0052925100)100:0.0172682003,(Scaptomyza_dentata:0.0270919282,((Scaptomyza_pusilla:0.0102531340,Scaptomyza_devexa:0.0117193601)100:0.0041622573,Scaptomyza_connata:0.0184382116)100:0.0079948969)100:0.0076072699)59:0.0016244257)47:0.0003608562,(((Scaptomyza_albovittata:0.0406424549,Scaptomyza_varipicta:0.0226664578)96:0.0067896590,Scaptomyza_protensa:0.0304987302)88:0.0058857753,(((Scaptomyza_cyrtandrae:0.0237738841,(Scaptomyza_lobifera:0.0233954731,Scaptomyza_sp_neocyrtandrae:0.0250653145)62:0.0072658251)62:0.0055318461,Scaptomyza_nigrosignata:0.0436767338)45:0.0006048173,(Scaptomyza_tumidula:0.0205998167,Scaptomyza_hackmani:0.0189037387)61:0.0057197132)59:0.0014227750)99:0.0027867709)100:0.0068233103,((((((Scaptomyza_ampliloba:0.0202585240,((((Scaptomyza_crassifemur:0.0176215232,Scaptomyza_reducta:0.0135872514)100:0.0053876425,Scaptomyza_inflatus:0.0237726034)98:0.0031149146,Scaptomyza_amplilobus:0.0287322326)65:0.0001782809,Scaptomyza_nr_inflatus_RL_2013:0.0262425542)95:0.0039189338)100:0.0101629930,((Scaptomyza_nasalis:0.0148430290,Scaptomyza_undulata:0.0243239643)99:0.0092230338,Scaptomyza_palata:0.0344182285)88:0.0024181823)99:0.0052653532,((((Scaptomyza_bryani:0.0050859005,Scaptomyza_setosiscutellum:0.0023460393)100:0.0436395026,Scaptomyza_neosilvicola:0.0313312236)59:0.0003238268,Scaptomyza_chauliodon:0.0243039162)95:0.0073618828,Scaptomyza_magnipalpa:0.0421141730)72:0.0062014419)75:0.0035650828,Scaptomyza_silvicola:0.0366617788)86:0.0017105413,Scaptomyza_nr_lonchoptera_KNM_2012:0.0279113150)46:0.0003436575,(Scaptomyza_buccata:0.0148974683,(Scaptomyza_longisetosa:0.0064994923,Scaptomyza_nr_longisetosa_RL_2013:0.0108765746)96:0.0048623305)92:0.0225940562)100:0.0079706278)100:0.0143472021,((((Scaptomyza_elmoi:0.0063246022,Scaptomyza_pallida:0.0087925322)95:0.0015688283,Scaptomyza_himalayana:0.0051206033)100:0.0145571165,(Scaptomyza_frustulifera:0.0211150921,Scaptomyza_remota:0.0170171426)100:0.0199603068)99:0.0060661479,Scaptomyza_hexasticha:0.0349463651)100:0.0424441936)100:0.0062589782,Scaptomyza_consimilis:0.0439897158)100:0.0078232714,(((((Scaptomyza_anomala:0.0019318267,(Scaptomyza_hamata:0.0000029961,Scaptomyza_nr_anomala_RL_2013:0.0007386344)95:0.0009274604)100:0.0046378888,Scaptomyza_varifrons:0.0071025605)100:0.0053662633,Scaptomyza_palmae:0.0141674889)100:0.0081945342,Scaptomyza_caliginosa:0.0271129399)100:0.0130719533,Scaptomyza_boninensis:0.0624827074)100:0.0403181849)95:0.0052343416,((Scaptomyza_baechlii:0.0167979007,Scaptomyza_polygonia:0.0485698282)100:0.0036515166,((Scaptomyza_flava:0.0317106398,Scaptomyza_nigrita:0.0211163264)100:0.0083276486,Scaptomyza_graminum:0.0381776709)100:0.0024460468)100:0.0341412414)96:0.0063946635,((Scaptomyza_apicata:0.0192884855,Scaptomyza_hennigi:0.0431853269)100:0.0159680102,(Scaptomyza_hsui:0.0365388999,Scaptomyza_okadai:0.0324461767)100:0.0104082680)100:0.0345369994)100:0.1277772608)81:0.0002740213,Drosophila_primaeva:0.0501918776)80:0.0008655416,Drosophila_adventitia:0.0457451853)97:0.0016497785,(((((Drosophila_iki:0.0202348392,Drosophila_paraanthrax:0.0259748031)94:0.0036470739,Drosophila_multiciliata:0.0185139020)93:0.0018368179,((((Drosophila_inciliata:0.0143958834,((Drosophila_longiperda:0.0069827174,Drosophila_sp_white_tip_scutellum:0.0283062811)100:0.0076972091,(Drosophila_ochropleura:0.0118453386,Drosophila_haleakalae:0.0079863658)100:0.0034580657)76:0.0064454734)93:0.0017898335,Drosophila_dolichotarsis:0.0244227996)51:0.0023988692,(((Drosophila_nigra:0.0174805002,(Drosophila_fungiperda:0.0114285505,Drosophila_nigella:0.0093897118)100:0.0041604025)100:0.0012399152,Drosophila_fulgida:0.0188910918)80:0.0032888421,Drosophila_melanosoma:0.0279883351)76:0.0019467130)63:0.0009423576,(Drosophila_polita:0.0121356455,((Drosophila_bipolita:0.0096189772,Drosophila_canipolita:0.0031215218)100:0.0013499116,Drosophila_insignita:0.0095397178)100:0.0057724952)100:0.0052107835)88:0.0009811264)75:0.0008186246,Drosophila_scitula:0.0278205610)81:0.0017220918,Drosophila_melanoloma:0.0185838997)100:0.0370005731)99:0.0009708369)100:0.0191868465)100:0.0096940517,(((Drosophila_diamphidiopoda:0.0060179648,(Drosophila_tanythrix:0.0048642875,Drosophila_yooni:0.0008108548)100:0.0061128654)100:0.0021040491,Drosophila_orthoptera:0.0104341881)98:0.0005423269,Drosophila_stigma:0.0156664577)95:0.0011421091)100:0.0054787759,Drosophila_longiseta:0.0164879717);
+
+TIME STAMP
+----------
+
+Date and time: Tue Mar  9 18:44:29 2021
+Total CPU time used: 16956.67273 seconds (4h:42m:36s)
+Total wall-clock time used: 2155.409213 seconds (0h:35m:55s)
+

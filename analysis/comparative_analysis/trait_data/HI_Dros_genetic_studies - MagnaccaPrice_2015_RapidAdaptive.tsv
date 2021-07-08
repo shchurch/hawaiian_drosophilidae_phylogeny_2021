@@ -1,0 +1,133 @@
+subgenus	group	genus	species	extraction	island	locality	sex	tissue	Ef1g	fz4	Gpdh	Pgi	Yp2
+	adiastola	Drosophila	adiastola	M09083	Maui	FBS transect 3, 3 Jun 2009	Female	Body soak	JN815430	JN815610	JN815767	JN815931	JN816123
+	adiastola	Drosophila	cilifera	M09217	Molokai	Mokomoko Gulch, 15 Dec 2010	Male	Genitalia	JN815535	JN815690	JN815853	JN816017	JN816219
+	adiastola	Drosophila	clavisetae	M09181	Maui	Waikamoi, Haiku Uka, 20 Aug 2009	Male	Genitalia	JN815508	JN815667	JN815830	JN815994	JN816197
+	adiastola	Drosophila	hamifera	M09182	Maui	Waikamoi, Haiku Uka, 21 Dec 2010	Male	Genitalia	JN815509	JN815668	JN815831	JN815995	JN816198
+	adiastola	Drosophila	ochrobasis	M09218	Hawaii	Kilohana exclosure, 25 Nov 2009	Male	Genitalia	JN815536	JN815691	JN815854	JN816018	JN816220
+	adiastola	Drosophila	paenihamifera	M09084	Maui	Puu Kukui trail, 5 Jun 2009	Female	Abdomen	JN815431	JN815611	JN815768	JN815932	JN816124
+	adiastola	Drosophila	setosimentum	M09219	Hawaii	Hionamoa Gulch, 6 Aug 2009	Male	Genitalia	JN815537	JN815692	JN815855	JN816019	JN816221
+	adiastola	Drosophila	truncipenna	M09183	Maui	Waikamoi, Haiku Uka, 21 Dec 2010	Male	Genitalia	JN815510	JN815669	JN815832	JN815996	JN816199
+	aglaia	Drosophila	conspicua	M09085	Hawaii	Kukuiopae, 29 Dec 2009	Male	Body soak	JN815432	JN815612	JN815769	JN815933	JN816125
+	aglaia	Drosophila	kikiko	M09095	Kauai	Nualolo Trail, 23 Jan 2010	Female	Abdomen	JN815442	JN815621	JN815779	JN815943	JN816135
+	aglaia	Drosophila	nr_alsophila	M09249	Maui	Waikapu Valley, 12 Oct 2011	Female	Abdomen	JQ845048	JQ845052	JQ845056	JQ845060	JQ845064
+	anomalipes	Drosophila	anomalipes	M09081	Kauai	Kokee nursery, 24 Jan 2010	Male	Body soak	JN815428	JN815608	JN815765	JN815929	JN816121
+	anomalipes	Drosophila	quasianomalipes	M09082	Kauai	Alakai Swamp Trail, 24 Jun 2009	Male	Body soak	JN815429	JN815609	JN815766	JN815930	JN816122
+	antopocerus	Drosophila	adunca	M09067	Maui	Waikamoi, Haiku Uka, 20 Aug 2009	Male	Body soak	JN815414	JN815595	JN815752	JN815916	JN816107
+	antopocerus	Drosophila	diamphidopoda	M09068	Maui	Waikamoi, Haiku Uka, 19 Aug 2009	Male	Body soak	JN815415	JN815596	JN815753	JN815917	JN816108
+	ateledrosophila	Drosophila	papala	M09221	Hawaii	Kukuiopae, 11 Sep 2010	Male	Genitalia	JN815539	JN815694	JN815857	JN816021	JN816223
+	bristle tarsus	Drosophila	nr_expansa_1	M09065	Kauai	Kokee nursery, 24 Jan 2010	Male	Body soak	JN815412	JN815593	JN815750	JN815914	JN816105
+	bristle tarsus	Drosophila	nr_perissopoda_4	M09066	Kauai	Mahanaloa exclosure, 21 Jan 2010	Male	Body soak	JN815413	JN815594	JN815751	JN815915	JN816106
+	bristle tarsus	Drosophila	quasiexpansa	M09115	Maui	Piinaau Ridge east, 2 Jun 2009	Male	Body soak	JN815462	JN815632	JN815790	JN815954	JN816155
+Bunostoma		Scaptomyza	anomala	M09244	Kauai	Nualolo Trail, 22 Jun 2009	Male	Abdomen	JN815559	JN815713	JN815877	JN816040	JN816244
+	ciliated tarsus	Drosophila	atroscutellata	M09075	Kauai	Nualolo Trail, 23 Jan 2010	Male	Body soak	JN815422	JN815603	JN815760	JN815924	JN816115
+	ciliated tarsus	Drosophila	brunneifrons	M09069	Maui	Puu Kukui bog, 5 Jun 2009	Male	Body soak	JN815416	JN815597	JN815754	JN815918	JN816109
+	ciliated tarsus	Drosophila	imparisetae	M09070	Hawaii	Puu Pili, 20 Jun 2009	Male	Body soak	JN815417	JN815598	JN815755	JN815919	JN816110
+	ciliated tarsus	Drosophila	medialis	M09071	Hawaii	Stainback Highway, 21 Jul 2009	Male	Body soak	JN815418	JN815599	JN815756	JN815920	JN816111
+	ciliated tarsus	Drosophila	sp_4	M09072	Hawaii	Kukuiopae, 29 Dec 2009	Male	Body soak	JN815419	JN815600	JN815757	JN815921	JN816112
+	crucigera	Drosophila	affinidisjuncta	M09049	Maui	Kahanaiki Valley, 18 Aug 2009	Male	Body soak	JN815396	JN815580	JN815737	JN815901	JN816089
+	crucigera	Drosophila	balioptera	M09099	Maui	Makawao FR nr. res., 27 Nov 2004	Male	Body soak	JN815446	JN815624	JN815782	JN815946	JN816139
+	crucigera	Drosophila	bostrycha	M09163	Molokai	West Kawela Gulch, 14 Dec 2010	Male	Genitalia	JN815490	JN815654	JN815817	JN815981	JN816184
+	crucigera	Drosophila	craddockae	M09050	Kauai	Alakai Swamp Trail, 24 Jun 2009	Male	Body soak	JN815397	JN815581	JN815738	JN815902	JN816090
+	crucigera	Drosophila	crucigera	M09052	Oahu	Palikea, 23 Sep 2009	Male	Body soak	JN815399	JN815583	JN815740	JN815904	JN816092
+	crucigera	Drosophila	disjuncta	M09053	Maui	Waikamoi, Haiku Uka, 20 Aug 2009	Female	Body soak	JN815400	JN815584	JN815741	JN815905	JN816093
+	crucigera	Drosophila	grimshawi	M09166	Maui	Waikamoi fence, 22 Dec 2010	Female	Genitalia	JN815493	JN815657	JN815820	JN815984	JN816187
+	crucigera	Drosophila	grimshawi	M09165	Molokai	Huewai Gulch, 16 Dec 2010	Male	Genitalia	JN815492	JN815656	JN815819	JN815983	JN816186
+	crucigera	Drosophila	pullipes	M09086	Hawaii	Stainback 3600’ trail, 12 Jan 2010	Female	Abdomen	JN815433	JN815613	JN815770	JN815934	JN816126
+	cyrtoloma	Drosophila	cyrtoloma	M09148	Maui	Waikamoi, Haiku Uka, 20 Aug 2009	Male	Genitalia	JN815479	JN815644	JN815806	JN815970	JN816172
+	cyrtoloma	Drosophila	hanaulae	M09149	Maui	Puu Kukui trail, 5 Jun 2009	Male	Genitalia	JN815480	JN815645	JN815807	JN815971	JN816173
+	cyrtoloma	Drosophila	ingens	M09150	Maui	Puu Kukui trail, 5 Jun 2009	Male	Genitalia	JN815481	JN815646	JN815808	JN815972	JN816174
+	cyrtoloma	Drosophila	melanocephala	M09185	Maui	Waikamoi, Haiku Uka, 21 Dec 2010	Male	Genitalia	JN815512	JN815671	JN815834	JN815998	JN816201
+	cyrtoloma	Drosophila	neoperkinsi	M09186	Molokai	Pepeopae trail, 14 Dec 2010	Male	Genitalia	JN815513	JN815672	JN815835	JN815999	JN816202
+	cyrtoloma	Drosophila	oahuensis	M09246	Oahu	Waianae-Kaala Trail, 12 Oct 2011	Male	Genitalia	JQ845045	JQ845049	JQ845053	JQ845057	JQ845061
+	discreta	Drosophila	discreta	M09167	Maui	Waikamoi, Haiku Uka, 21 Dec 2010	Male	Genitalia	JN815494	JN815658	JN815821	JN815985	JN816188
+	discreta	Drosophila	fasciculisetae	M09008	Maui	Maile Trail, 1 Jun 2009	Male	Body soak	JN815356	JN815567	JN815721	JN815885	JN816049
+	discreta	Drosophila	fasciculisetae	M09169	Molokai	Puu Kolekole trail, 16 Dec 2010	Female	Genitalia	JN815496	JN815660	JN815823	JN815987	JN816190
+	discreta	Drosophila	glabriapex	M09033	Kauai	Pihea Trail, 22 Jun 2009	Female	Body soak	JN815381	JN815570	JN815726	JN815890	JN816073
+	discreta	Drosophila	lineosetae	M09235	Maui	Hanaula, Pohakea Gulch, 28 May 2011	Female	Genitalia	JN815553	JN815707	JN815871	JN816034	JN816237
+	discreta	Drosophila	pilimana	M09210	Oahu	Manuwai Gulch, 1 Mar 2011	Male	Genitalia	JN815529	JN815686	JN815849	JN816013	JN816215
+	distinguenda	Drosophila	distinguenda	M09092	Oahu	Kaluaa Gulch, 26 Jan 2010	Female	Body soak	JN815439	JN815618	JN815776	JN815940	JN816132
+	distinguenda	Drosophila	divaricata	M09215	Oahu	Ekahanui Gulch, 2 Mar 2011	Male	Genitalia	JN815534	JN815689	JN815852	JN816016	JN816218
+	distinguenda	Drosophila	inedita	M09034	Oahu	Pia Valley, 26 Sep 2009	Male	Body soak	JN815382		JN815727	JN815891	JN816074
+Elmomyza		Scaptomyza	cyrtandrae	M09120	Hawaii	Army Rd. makai, 8 Dec 2009	Male	Body soak	JN815467	JN815636	JN815794	JN815958	JN816160
+Elmomyza		Scaptomyza	n_sp	M09016	Kauai	Nualolo Trail, 23 Jun 2009	Female	Body soak	JN815364	JN815569	JN815725	JN815889	JN816057
+Elmomyza		Scaptomyza	scoloplichas	M09232	Hawaii	Kilohana exclosure, 25 Nov 2009	Male	Body soak	JN815550		JN815868	JN816031	JN816234
+Engiscaptomyza		Scaptomyza	amplilobus	M09121	Kauai	Nualolo Trail, 24 Jan 2010	Male	Body soak	JN815468	JN815637	JN815795	JN815959	JN816161
+Engiscaptomyza		Scaptomyza	crassifemur	M09124	Maui	Piinaau Ridge east, 2 Jun 2009	Male	Body soak	JN815471		JN815798	JN815962	JN816164
+Engiscaptomyza		Scaptomyza	inflatus	M09123	Oahu	Palikea, 23 Sep 2009	Male	Body soak	JN815470		JN815797	JN815961	JN816163
+Engiscaptomyza		Scaptomyza	reducta	M09014	Hawaii	Kukuiopae, 5 Aug 2009	Male	Body soak	JN815362		JN815723	JN815887	JN816055
+Exalloscaptomyza		Scaptomyza	caliginosa	M09245	Hawaii	Kipuka Puaulu, 27 Aug 2011	Male	Abdomen	JN815560	JN815714	JN815878	JN816041	JN816245
+Grimshawomyia		Scaptomyza	nasalis	M09125	Maui	Piinaau Ridge east, 2 Jun 2009	Female	Body soak	JN815472	JN815639	JN815799	JN815963	JN816165
+Grimshawomyia		Scaptomyza	undulata	M09015	Hawaii	Kilohana exclosure, 3 Aug 2009	Female	Body soak	JN815363	JN815568	JN815724	JN815888	JN816056
+	haleakalae	Drosophila	iki	M09222	Hawaii	Kukuiopae, 11 Sep 2010	Male	Genitalia	JN815540	JN815695	JN815858	JN816022	JN816224
+	haleakalae	Drosophila	insignita	M09223	Oahu	Pahole Gulch, 27 Mar 2010	Male	Genitalia	JN815541	JN815696	JN815859	JN816023	JN816225
+	haleakalae	Drosophila	melanoloma	M09224	Molokai	Pepeopae trail, 14 Dec 2010	Male	Genitalia	JN815542	JN815697	JN815860	JN816024	JN816226
+	haleakalae	Drosophila	ochropleura	M09225	Hawaii	Kukuiopae, 11 Sep 2010	Male	Genitalia	JN815543	JN815698	JN815861	JN816025	JN816227
+	hawaiiensis	Drosophila	flexipes	M09156	Oahu	Makaha Valley, 10 Aug 2010	Male	Genitalia	JN815487	JN815651	JN815813	JN815977	JN816180
+	hawaiiensis	Drosophila	formella	M09035	Hawaii	Kukuiopae, 5 Aug 2009	Female	Body soak	JN815383	JN815571	JN815728	JN815892	JN816075
+	hawaiiensis	Drosophila	gradata	M09036	Oahu	Palikea, 23 Sep 2009	Male	Body soak	JN815384	JN815572	JN815729	JN815893	JN816076
+	hawaiiensis	Drosophila	hawaiiensis	M09037	Hawaii	Laupahoehoe FR, 24 Jul 2009	Female	Body soak	JN815385	JN815573	JN815730	JN815894	JN816077
+	hawaiiensis	Drosophila	musaphilia	M09088	Kauai	Nualolo Trail, 23 Jan 2010	Female	Body soak	JN815435	JN815614	JN815772	JN815936	JN816128
+	hawaiiensis	Drosophila	recticilia	M09038	Maui	Maile Trail, 1 Jun 2009	Male	Body soak	JN815386	JN815574	JN815731	JN815895	JN816078
+	hawaiiensis	Drosophila	silvarentis	M09089	Hawaii	Kukuiopae, 29 Dec 2009	Female	Body soak	JN815436	JN815615	JN815773	JN815937	JN816129
+	hawaiiensis	Drosophila	turbata	M09039	Oahu	above Nuuanu Pali lookout, 2 Aug 2009	Female	Body soak	JN815387	JN815575	JN815732	JN815896	JN816079
+	hirtitibia	Drosophila	hirtitibia	M09191	Oahu	Makua Valley, 24 Mar 2010	Male	Genitalia	JN815518	JN815677	JN815840	JN816004	JN816207
+	hirtitibia	Drosophila	papaalai	M09192	Kauai	Mahanaloa exclosure, 21 Jan 2010	Female	Genitalia	JN815519	JN815678	JN815841	JN816005	
+	lanaiensis	Drosophila	digressa	M09045	Hawaii	Manuka, olopua kipuka, 7 Aug 2009	Male	Body soak	JN815392	JN815579	JN815736	JN815900	JN816085
+	lanaiensis	Drosophila	hexachaetae	M09042	Oahu	Pia Valley, 26 Sep 2009	Male	Body soak	JN815389	JN815576	JN815733	JN815897	JN816082
+	lanaiensis	Drosophila	lanaiensis	M09146	Lanai	Waiapaa Gulch, 29 Mar 2010	Male	Genitalia	JN815478	JN815643	JN815805	JN815969	JN816171
+	lanaiensis	Drosophila	moli	M09044	Oahu	above Nuuanu Pali lookout, 2 Aug 2009	Female	Body soak	JN815391	JN815578	JN815735	JN815899	JN816084
+	micromyia	Drosophila	micromyia	M09043	Kauai	Paaiki Valley, 23 Jun 2009	Male	Body soak	JN815390	JN815577	JN815734	JN815898	JN816083
+	modified mouthparts	Drosophila	hirtitarsus	M09227	Maui	Kahana Valley, 4 Jun 2009	Male	Genitalia	JN815545	JN815700	JN815863	JN816027	JN816229
+	modified mouthparts	Drosophila	larifuga	M09226	Oahu	Puu Hapapa shelf, 24 Feb 2010	Male	Genitalia	JN815544	JN815699	JN815862	JN816026	JN816228
+	modified mouthparts	Drosophila	n_sp_large_spots	M09230	Hawaii	Army Rd. makai, 8 Dec 2009	Female	Genitalia	JN815548	JN815703	JN815866	JN816029	JN816232
+	modified mouthparts	Drosophila	nanella	M09229	Kauai	Mahanaloa–Kuia Val. jct., 23 Jun 2009	Male	Genitalia	JN815547	JN815702	JN815865	JN816028	JN816231
+	modified mouthparts	Drosophila	nigrocirrus	M09228	Hawaii	Powerline Road kipukas, 23 Aug 2009	Male	Genitalia	JN815546	JN815701	JN815864		JN816230
+	neopicta	Drosophila	neopicta	M09187	Molokai	Pepeopae trail, 14 Dec 2010	Male	Genitalia	JN815514	JN815673	JN815836	JN816000	JN816203
+	neopicta	Drosophila	nigribasis	M09247	Oahu	Waianae-Kaala Trail, 12 Oct 2011	Female	Genitalia	JQ845046	JQ845050	JQ845054	JQ845058	JQ845062
+	neopicta	Drosophila	substenoptera	M09248	Oahu	Waianae-Kaala Trail, 12 Oct 2011	Female	Genitalia	JQ845047	JQ845051	JQ845055	JQ845059	JQ845063
+	nudidrosophila	Drosophila	eximia	M09193	Maui	Kahanaiki Valley, 18 Aug 2009	Male	Genitalia	JN815520	JN815679	JN815842	JN816006	JN816208
+	nudidrosophila	Drosophila	panoanoa	M09194	Hawaii	Makaula-Ooma forest, 29 Aug 2010	Male	Genitalia	JN815521	JN815680	JN815843	JN816007	JN816209
+	odontophallus	Drosophila	odontophallus	M09172	Maui	Makawao FR, 20 Dec 2010	Male	Genitalia	JN815499	JN815662	JN815825	JN815989	JN816192
+	odontophallus	Drosophila	odontophallus	M09170	Molokai	Makakupaia Gulch, 15 Dec 2010	Male	Genitalia	JN815497	JN815661	JN815824	JN815988	JN816191
+	okala	Drosophila	kuhao	M09195	Oahu	Kahanahaiki, 19 Feb 2010	Male	Genitalia	JN815522	JN815681	JN815844	JN816008	JN816210
+	orphnopeza	Drosophila	ciliaticrus	M09056	Hawaii	Tom’s Trail upper forest, 21 Jul 2009	Male	Body soak	JN815403	JN815586	JN815743	JN815907	JN816096
+	orphnopeza	Drosophila	claytonae	M09159	Hawaii	Olaa Small Tract, 28 Jan 1998	Male	Body soak			JN815815	JN815979	JN816182
+	orphnopeza	Drosophila	engyochracea	M09096	Hawaii	Kipuka Ki	Female	Body soak	JN815443	JN815622	JN815780	JN815944	JN816136
+	orphnopeza	Drosophila	limitata	M09207	Molokai	Makakupaia Gulch, 15 Dec 2010	Female	Genitalia	JN815526	JN815684	JN815847	JN816011	JN816213
+	orphnopeza	Drosophila	murphyi	M09059	Hawaii	Kilohana exclosure, 3 Aug 2009	Female	Body soak	JN815406	JN815588	JN815745	JN815909	JN816099
+	orphnopeza	Drosophila	obatai	M09213	Oahu	Manuwai Gulch, 1 Mar 2011	Female	Genitalia	JN815532	JN815687	JN815850	JN816014	JN816216
+	orphnopeza	Drosophila	ochracea	M09061	Hawaii	Hionamoa Gulch, 6 Aug 2009	Female	Body soak	JN815408	JN815590	JN815747	JN815911	JN816101
+	orphnopeza	Drosophila	orphnopeza	M09079	Maui	Waikamoi, Haiku Uka, 19 Aug 2009	Male	Abdomen	JN815426	JN815606	JN815763	JN815927	JN816119
+	orphnopeza	Drosophila	orphnopeza	M09177	Molokai	Hanalilolilo trail, 14 Dec 2010	Female	Genitalia	JN815504	JN815665	JN815828	JN815992	JN816195
+	orphnopeza	Drosophila	orthofascia	M09237	Maui	Waikapu Valley, 1 May 2011	Female	Genitalia	JN815555	JN815709	JN815873	JN816036	JN816239
+	orphnopeza	Drosophila	sejuncta	M09002	Kauai	Kuia Valley, 23 Jun 2009	Male	Body soak	JN815350	JN815562	JN815716	JN815880	JN816043
+	orphnopeza	Drosophila	sobrina	M09214	Oahu	Manuwai Gulch, 1 Mar 2011	Female	Genitalia	JN815533	JN815688	JN815851	JN816015	JN816217
+	orphnopeza	Drosophila	sodomae	M09175	Molokai	Makakupaia Gulch, 15 Dec 2010	Male	Genitalia	JN815502	JN815664	JN815827	JN815991	JN816194
+	orphnopeza	Drosophila	sproati	M09062	Hawaii	Puu Pili, 20 Jun 2009	Female	Body soak	JN815409	JN815591	JN815748	JN815912	JN816102
+	orphnopeza	Drosophila	villosipedis	M09003	Kauai	Kuia Valley, 23 Jun 2009	Male	Body soak	JN815351	JN815563	JN815717	JN815881	JN816044
+	picticornis	Drosophila	picticornis	M09153	Kauai	Nualolo Trail, 23 Jun 2009	female	genitalia	JN815484	JN815649	JN815811	JN815975	JN816177
+	picticornis	Drosophila	pilipa	M09105	Kauai	Mahanaloa Valley, 23 Jun 2009	male	abdomen	JN815452	JN815630	JN815788	JN815952	JN816145
+	picticornis	Drosophila	setosifrons	M09243	Hawaii	Cymbidium Acres, 7 Dec 1995	female	genitalia			AY006462		JN816243
+	planitibia	Drosophila	heteroneura	M09190	Hawaii	UH-Manoa lab stock	Male	Genitalia	JN815517	JN815676	JN815839	JN816003	JN816206
+	planitibia	Drosophila	planitibia	M09188	Maui	Waikamoi, Haiku Uka, 21 Dec 2010	Female	Genitalia	JN815515	JN815674	JN815837	JN816001	JN816204
+	planitibia	Drosophila	silvestris	M09129	Hawaii	Kukuiopae, 29 Dec 2009	Male	Body soak	JN815476	JN815641	JN815803	JN815967	JN816169
+	punalua	Drosophila	basisetae	M09004	Hawaii	Stainback Highway, 21 Jul 2009	Male	Body soak	JN815352	JN815564	JN815718	JN815882	JN816045
+	punalua	Drosophila	paucipuncta	M09090	Hawaii	Olaa Small Tract, 1 Jan 2010	Male	Body soak	JN815437	JN815616	JN815774	JN815938	JN816130
+	punalua	Drosophila	prolaticilia	M09091	Hawaii	Army R  D. makai, 8 Dec 2009	Female	Body soak	JN815438	JN815617	JN815775	JN815939	JN816131
+	punalua	Drosophila	prostopalpis	M09063	Maui	Puu Kukui trail, 5 Jun 2009	Male	Body soak	JN815410	JN815592	JN815749	JN815913	JN816103
+	punalua	Drosophila	punalua	M09006	Oahu	above Nuuanu Pali lookout, 2 Aug 2009	Female	Body soak	JN815354	JN815566	JN815720	JN815884	JN816047
+	split tarsus	Drosophila	ancyla	M09073	Maui	Kahanaiki Valley, 18 Aug 2009	Male	Body soak	JN815420	JN815601	JN815758	JN815922	JN816113
+	split tarsus	Drosophila	variabilis	M09074	Maui	Maile Trail, 1 Jun 2009	Male	Body soak	JN815421	JN815602	JN815759	JN815923	JN816114
+	spoon tarsus	Drosophila	neutralis	M09076	Hawaii	Tom’s Trail upper forest, 5 Oct 2009	Male	Body soak	JN815423	JN815604	JN815761	JN815925	JN816116
+	spoon tarsus	Drosophila	sordidapex	M09077	Hawaii	Laupahoehoe, FR side, 14 Jul 2009	Male	Body soak	JN815424	JN815605	JN815762	JN815926	JN816117
+Tantalia		Scaptomyza	nigrosignata	M09233	Hawaii	Puu Pili, 20 Jun 2009	Male	Body soak	JN815551	JN815705	JN815869	JN816032	JN816235
+Titanochaeta		Scaptomyza	chauliodon	M09234	Maui	Piinaau Ridge east, 2 Jun 2009	Male	Body soak	JN815552	JN815706	JN815870	JN816033	JN816236
+	unplaced	Drosophila	adventitia	M09231	Kauai	Puu O Kila Rd., 25 Jul 2010	Male	Genitalia	JN815549	JN815704	JN815867	JN816030	JN816233
+	unplaced	Drosophila	primaeva	M09157	Kauai	N. fork Wailua River, 19 Jul 2010	Male	Genitalia	JN815488	JN815652	JN815814	JN815978	JN816181
+	Unplaced	Drosophila	nr_lonchoptera	M09128	Kauai	Alakai Swamp Trail, 24 Jun 2009	Male	Body soak	JN815475	JN815640	JN815802	JN815966	JN816168
+	velata	Drosophila	lauoho	M09197	Molokai	Huewai Gulch, 16 Dec 2010	Male	Genitalia	JN815524	JN815682	JN815845	JN816009	JN816211
+	velata	Drosophila	pohaka	M09198	Maui	Kahanaiki Valley, 18 Aug 2009	Male	Genitalia	JN815525	JN815683	JN815846	JN816010	JN816212
+	vesciseta	Drosophila	ambochila	M09093	Oahu	Kaluaa Gulch, 26 Jan 2010	Male	Body soak	JN815440	JN815619	JN815777	JN815941	JN816133
+	vesciseta	Drosophila	montgomeryi	M09101	Oahu	Kaluaa Gulch, 26 Jan 2010	Male	Body soak	JN815448	JN815626	JN815784	JN815948	JN816141
+	vesciseta	Drosophila	pihulu	M09239	Maui	Waikapu Valley, 1 May 2011	Male	Genitalia	JN815557	JN815711	JN815875	JN816038	JN816241
+	vesciseta	Drosophila	vesciseta	M09102	Maui	Makawao FR nr. res., 11 Mar 2010	Female	Body soak	JN815449	JN815627	JN815785	JN815949	JN816142

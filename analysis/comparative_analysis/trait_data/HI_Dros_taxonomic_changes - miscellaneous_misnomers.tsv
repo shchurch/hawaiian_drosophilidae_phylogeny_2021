@@ -1,0 +1,53 @@
+original_group	original_subgenus	new_group	new_subgenus	original_genus	original_species	original_describer	new_genus	new_species	new_describer	change	publication
+				Drosophila	disticha	Hardy	Drosophila	waddingtoni	Basden	new name	Basden_1975_Waddingtoni
+				Drosophila	fungicola	Hardy	Drosophila	fungiperda	Hardy	new name	Hardy_1966_Descriptions_VIII
+				Drosophila	intermedia	Hardy	Drosophila	medialis	Hardy	new name	Hardy_1966_Descriptions_VIII
+				Idiomyia	bruneipenis	Hardy	Drosophila	nigribasis	Hardy	incorrect to literature	Hardy_1970_NotesIdiomyia_VI
+				Idiomyia	stenoptera	Hardy	Drosophila	substenoptera	Hardy	new name	Hardy_1970_NotesIdiomyia_VI
+				Drosophila	diamphidopoda	Hardy	Drosophila	diamphidiopoda	Hardy	mistyped	Hardy_1977_Antopocerus
+				Drosophila	nigricolor	Hardy	Drosophila	picea	Hardy	new name	Hardy_1978_ReplacementName
+	Hypenomyia			Drosophila	reburra	Hardy	Drosophila	nigra	Grimsahw	new synonym	Hardy_2001_Haleakala
+				Drosophila	transfuga	Hardy	Drosophila	polita	Grimshaw	new synonym	Hardy_2001_Haleakala
+				Idiomyia	grimshawi	Bryan	Drosophila	neogrimshawi		new name	HardyKaneshiro_1968_NewPW_I
+				Drosophila	musaphila	Hardy	Drosophila	musaphilia	Hardy	incorrect to literature	HardyKaneshiro_1968_NewPW_I
+				Drosophila	neglecta	Hardy	Drosophila	hexachaetae	Hardy	new synonym	HardyKaneshiro_1968_NewPW_I
+				Idiomyia	nigrifacies	Hardy	Drosophila	silvestris	Perkins	new synonym	HardyKaneshiro_1968_NewPW_I
+				Idiomyia	perkinsi	Grimshaw	Drosophila	neoperkinsi		new name	HardyKaneshiro_1968_NewPW_I
+				Idiomyia	picta	Grimshaw	Drosophila	neopicta		new name	HardyKaneshiro_1968_NewPW_I
+				Drosophila	reburra	Hardy	Drosophila	nigra	Hardy	new synonym	HardyKaneshiro_1968_NewPW_I
+				Idiomyia	silvestris	Perkins	Drosophila	silvestris	Perkins	new comb	HardyKaneshiro_1968_NewPW_I
+				Drosophila	mycetophila	Hardy	Drosophila	goureaui	Hardy & Kaneshiro	new name	HardyKaneshiro_1972_NewPW_III
+				Drosophila	septuosa	Hardy	Drosophila	percnosoma	Hardy	new synonym	Lapoint_2009_Spoon
+				Drosophila	aethostoma	Hardy & Kaneshiro	Drosophila	humeralis	Hardy	new synonym	MagnaccaOgrady_2006_SubgroupMouthparts
+mimica		mimica		Drosophila	odontostoma	Kam and Perreira	Drosophila	chaetopeza	Hardy	new synonym	MagnaccaOgrady_2006_SubgroupMouthparts
+				Drosophila	vicaria	Hardy	Drosophila	amydrospilota	Hardy	new synonym	MagnaccaOgrady_2006_SubgroupMouthparts
+				Drosophila	apoxyloma	Hardy	Drosophila	setiger	Grimsahw	new synonym	MagnaccaOgrady_2009_Mouthparts
+				Drosophila	paenihamifera	Hardy & Kaneshiro	Drosophila	paenehamifera	Hardy & Kaneshiro	incorrect to literature	MagnaccaPrice_2012_PictureWing
+				Drosophila	virgulata	Hardy & Kaneshiro	Drosophila	lanaiensis	Grimshaw	new synonym	MagnaccaPrice_2012_PictureWing
+	Engiscaptomyza		Engiscaptomyza	Scaptomyza	inflata	Kaneshiro	Scaptomyza	inflatus	Kaneshiro	mistyped	Ogrady_2003_PlacementTitanochaeta
+				Drosophila	affinisdisjuncta	Hardy	Drosophila	affinidisjuncta	Hardy	incorrect to literature	Ogrady_2010_TaxonomicRelationships
+	Engiscaptomyza		Engiscaptomyza	Scaptomyza	amplilobus	Hardy	Scaptomyza	ampliloba	Hardy	incorrect to literature	Ogrady_2010_TaxonomicRelationships
+				Scaptomyza	apicigutulla	Hardy	Scaptomyza	apiciguttula	Hardy	incorrect to literature	Ogrady_2010_TaxonomicRelationships
+				Drosophila	araiotricha	Hardy	Drosophila	araiotrichia	Hardy	incorrect to literature	Ogrady_2010_TaxonomicRelationships
+				Celidosoma	nigrocincta	Hardy	Scaptomyza	nigrocincta	Hardy	new synonym	Ogrady_2010_TaxonomicRelationships
+				Drosophila	obtatai	Hardy & Kaneshiro	Drosophila	obatai	Hardy & Kaneshiro	incorrect to literature	Ogrady_2010_TaxonomicRelationships
+				Scaptomyza	sweyzei	Wirth	Scaptomyza	swezeyi	Wirth	incorrect to literature	Ogrady_2010_TaxonomicRelationships
+				Drosophila	velutifrons	Hardy	Drosophila	velutinifrons	Hardy	incorrect to literature	Ogrady_2010_TaxonomicRelationships
+	Titanochaeta		Titanochaeta	Scaptomyza	vittiger	Hardy	Scaptomyza	vittigera	Hardy	incorrect to literature	Ogrady_2010_TaxonomicRelationships
+				Drosophila	variegata	Grimshaw	Drosophila	grimshawi	Oldenberg	new name	Oldenberg_1914_Grimshawi
+				Drosophila	carinata	Grimshaw	Drosophila	mercatorum	Patterson & Wheeler	suppressed name	Carson_1973_Carinata
+				Idiomyia	brunneipennis	Hardy	Drosophila	nigribasis	Hardy	new name	Hardy_1970_NotesIdiomyia_VI
+				Drosophila	cneucopleura	Hardy	Drosophila	cnecopleura	Hardy	incorrect to literature	Ogrady_2011_PhylogeneticMitochondrial
+				Drosophila	procerisetae	Hardy	Drosophila	proceriseta	Hardy	incorrect to literature	Ogrady_2011_PhylogeneticMitochondrial
+				Drosophila	prolacticilia	Hardy	Drosophila	prolaticilia	Hardy	incorrect to literature	Ogrady_2011_PhylogeneticMitochondrial
+				Drosophila	villosepedis	Hardy	Drosophila	villosipedis	Hardy	incorrect to literature	Ogrady_2011_PhylogeneticMitochondrial
+				Drosophila	aduncus	Hardy	Drosophila	adunca	Hardy	incorrect to literature	Starmer_2003_OvarioleNumber
+				Drosophila	diamphidiopodus	Hardy	Drosophila	diamphidiopoda	Hardy	incorrect to literature	Starmer_2003_OvarioleNumber
+				Drosophila	villosus	Hardy	Drosophila	villosa	Hardy	incorrect to literature	Starmer_2003_OvarioleNumber
+				Ateledrosophila	preapicala	Hardy	Ateledrosophila	preapicula	Hardy	incorrect to literature	Kambysellis_1971_Oogenesis
+				Drosophila	preapicala	Hardy	Drosophila	preapicula	Hardy	incorrect to literature	Starmer_2003_OvarioleNumber
+				Drosophila	trichetosa	Hardy	Drosophila	trichaetosa	Hardy	incorrect to literature	Starmer_2003_OvarioleNumber
+	Hemiscaptomyza		Hemiscaptomyza	Scaptomyza	parapicata	Hackman	Scaptomyza	maculifera	Becker	new synonym	WheelerTakada_1966_Scaptomyza
+				Scaptomyza	grahmi	Hackman	Scaptomyza	grahami	Hackman	incorrect to literature	Ogrady_2010_TaxonomicRelationships
+				Drosophila	entrichocnemia	Hardy	Drosophila	entrichocnema	Hardy	incorrect to literature	Magnacca_2013_HostPlants
+				Drosophila	melancephala	Hardy	Drosophila	melanocephala	Hardy	incorrect to literature	Magnacca_2013_HostPlants

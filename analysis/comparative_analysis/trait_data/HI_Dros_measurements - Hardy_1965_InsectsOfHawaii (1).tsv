@@ -1,0 +1,767 @@
+subgenus	genus	species	genus author	species author	body_length	wing_length	body_and_wing_length	sex	type	length notes
+	Antopocerus	villosus	n gen	n sp	5.6	6.5		male		
+	Antopocerus	aduncus	n gen	n sp	5.9	6.2		male		
+	Antopocerus	arcuatus	n gen	n sp	5.2	5.4		male		
+	Antopocerus	cognatus	n gen	Grimshaw	4.65-5.0	5.0-5.5		male		
+	Antopocerus	diamphidiopodus	n gen	n sp	4.66	4.5		male		
+	Antopocerus	entrichocnemus	n gen	n sp	5.3	5		male		
+	Antopocerus	longiseta	n gen	Grimshaw	6.4	6.75		male		
+	Antopocerus	orthopterus	n gen	n sp	4.6	4.8		male		
+	Antopocerus	tanythrix	n gen	n sp	5.2	5.5		male		
+	Antopocerus	villosus	n gen	n sp	5.5-6.3	6.3-7.0		female		
+	Antopocerus	aduncus	n gen	n sp				female		
+	Antopocerus	arcuatus	n gen	n sp				female		
+	Antopocerus	cognatus	n gen	Grimshaw				female		
+	Antopocerus	diamphidiopodus	n gen	n sp				female		
+	Antopocerus	entrichocnemus	n gen	n sp				female		
+	Antopocerus	longiseta	n gen	Grimshaw				female		
+	Antopocerus	orthopterus	n gen	n sp				female		
+	Antopocerus	tanythrix	n gen	n sp				female		
+	Ateledrosophila	diamphidia	n gen	n sp	2.2	2.4		male		
+	Ateledrosophila	preapicula	n gen	n sp	2.4	2.5		male		
+	Ateledrosophila	diamphidia	n gen	n sp				female		
+	Ateledrosophila	preapicula	n gen	n sp				female		
+	Celidosoma	nigrocincta	n gen	n sp			3.3	male		
+	Celidosoma	nigrocincta	n gen	n sp			3.3	female		
+	Drosophila	canipolita	sensu lato	n sp	2.00-2.25	2.2-2.5		male		
+	Drosophila	abjuncta	sensu lato	n sp	2.5	2.85		male		
+	Drosophila	humeralis	sensu lato	Grimshaw			2.5	male		
+	Drosophila	apodasta	sensu lato	n sp	2.2	2.7		male		
+	Drosophila	proceriseta	sensu lato	n sp	2.50-2.70	2.75-3.00		male		
+	Drosophila	freycinetiae	sensu lato	n sp	2.1	2.4		male		
+	Drosophila	ancyla	sensu lato	n sp	2.3	2.5		male		
+	Drosophila	nigropolita	sensu lato	n sp	2.2-2.5	2.5-2.8		male		
+	Drosophila	pectinitarsus	sensu lato	n sp	2.3	2.7		male		
+	Drosophila	torula	sensu lato	n sp	2.3	3		male		
+	Drosophila	totonigra	sensu lato	n sp	3	3.2		male		
+	Drosophila	velata	sensu lato	n sp	2.15	2.3		male		
+	Drosophila	hirtitibia	sensu lato	n sp			2.3-2.7	male		
+	Drosophila	bicondyla	sensu lato	n sp	2.6-3.0	3.2-3.5		male		
+	Drosophila	pychnochaetae	sensu lato	n sp	2.75	3.1		male		
+	Drosophila	brunneisetae	sensu lato	n sp	2.5	2.85		male		
+	Drosophila	dracaenae	sensu lato	n sp	2.5	2.85		male		
+	Drosophila	fusticula	sensu lato	n sp	2.5	2.7		male		
+	Drosophila	araiotrichia	sensu lato	n sp	2.5-2.8	2.7-3.0		male		
+	Drosophila	demipolita	sensu lato	n sp	2.5	2.85		male		
+	Drosophila	improcera	sensu lato	n sp	2.5	2.8		male		
+	Drosophila	propiofacies	sensu lato	n sp	2.5	2.85		male		
+	Drosophila	trichaetosa	sensu lato	n sp	2.7	3.2		male		
+	Drosophila	bipolita	sensu lato	n sp	2.50-2.65	2.8		male		
+	Drosophila	pretiosa	sensu lato	n sp				male		
+	Drosophila	aquila	sensu lato	n sp	2.7	3		male		
+	Drosophila	brevicilia	sensu lato	n sp	2.7	3		male		
+	Drosophila	fuscifrons	sensu lato	n sp	2.3	2.7		male		
+	Drosophila	melanoloma	sensu lato	n sp	2.3-2.6	2.5-3.1		male		
+	Drosophila	tetraspilota	sensu lato	n sp				male		
+	Drosophila	variabilis	sensu lato	n sp	2.7	3		male		
+	Drosophila	furvifacies	sensu lato	n sp	3	3.4		male		
+	Drosophila	confutata	sensu lato	n sp	3.2-3.5	3.6-3.9		male		
+	Drosophila	infuscata	sensu lato	Grimshaw	3	3.2		male		
+	Drosophila	neglecta	sensu lato	n sp	3	3.25		male		
+	Drosophila	z-notata	sensu lato	Bryan	3.75-4.00	4.00-4.30		male		
+	Drosophila	fundita	sensu lato	n sp	2.2	2.5		male		
+	Drosophila	agitona	sensu lato	n sp				male		
+	Drosophila	imparisetae	sensu lato	n sp	3	3.8		male		
+	Drosophila	melanosoma	sensu lato	Grimshaw	3	3.2		male		
+	Drosophila	tendomentum	sensu lato	n sp	2.7-3.0	3.2-3.4		male		
+	Drosophila	asketostoma	sensu lato	n sp	3	3.9		male		
+	Drosophila	perissopoda	sensu lato	n sp	2.6-2.8	3.0-3.4		male		
+	Drosophila	nigritarsus	sensu lato	n sp	3.5	3.7		male		
+	Drosophila	flavisternum	sensu lato	n sp			2.7-3.1	male		
+	Drosophila	percnosoma	sensu lato	n sp	4	4.35		male		
+	Drosophila	velutinifrons	sensu lato	n sp	3	3.6		male		
+	Drosophila	fungicola	sensu lato	n sp	3.2-3.5	3.8-4.3		male		
+	Drosophila	haleakalae	sensu lato	Grimshaw	3	3.8-4.0		male		
+	Drosophila	inedita	sensu lato	n sp	3.40-3.75	3.80-4.20		male		
+	Drosophila	lonchoptera	sensu lato	n sp				male		
+	Drosophila	prolixa	sensu lato	n sp	2.8-3.2	3.2-3.6		male		
+	Drosophila	mimica	sensu lato	n sp	3.30-3.50	3.75		male		
+	Drosophila	beardsleyi	sensu lato	n sp	3.6	3.9		male		
+	Drosophila	nigrocirrus	sensu lato	n sp	3.50-3.75	4.00-4.25		male		
+	Drosophila	paucipuncta	sensu lato	Grimshaw				male		
+	Drosophila	tarphytrichia	sensu lato	n sp	3.75	4		male		
+	Drosophila	magnimacula	sensu lato	n sp	4	4.5		male		
+	Drosophila	acrostichalis	sensu lato	n sp				male		
+	Drosophila	aglaia	sensu lato	n sp				male		
+	Drosophila	mediana	sensu lato	n sp	4.65	4.75		male		
+	Drosophila	oreas	sensu lato	n sp				male		
+	Drosophila	semifuscata	sensu lato	n sp	3.4	3.3		male		
+	Drosophila	eurypeza	sensu lato	n sp	2.5-2.7	2.8-3.2		male		
+	Drosophila	caccabata	sensu lato	n sp	3.0-3.6	3.5-4.2		male		
+	Drosophila	mitchelli	sensu lato	n sp	3.75-4.00	3.90-4.20		male		
+	Drosophila	basimacula	sensu lato	n sp	4	4.5		male		
+	Drosophila	cilifemorata	sensu lato	n sp	4.5-5.0	5.0-6.0		male		
+	Drosophila	apicipuncta	sensu lato	n sp	3.5	3.75		male		
+	Drosophila	bostrycha	sensu lato	n sp	4.50-5.00	4.75-5.25		male		
+	Drosophila	fasciculisetae	sensu lato	n sp	4.5	4.75		male		
+	Drosophila	villosipedis	sensu lato	n sp	5	5.25		male		
+	Drosophila	xuthoptera	sensu lato	n sp	4.0-4.5	5.0-5.4		male		
+	Drosophila	disjuncta	sensu lato	n sp	6.5	6		male		
+	Drosophila	spectabilis	sensu lato	n sp				male		
+	Drosophila	adiastola	sensu lato	n sp	5.4	5.55		male		
+	Drosophila	truncipenna	sensu lato	n sp	8.5	7.9		male		
+	Drosophila	adventitia	sensu lato	n sp	4.4	4.75		male		
+	Drosophila	albifacies	sensu lato	n sp	2.3	2.7		male		
+	Drosophila	amydrospilota	sensu lato	n sp	3.75	3.9		male		
+	Drosophila	anomalipes	sensu lato	Grimshaw	5.25	6		male		Grimshaw gave the length of the body as 4.5 mm. and the wings as 5.5 mm.
+	Drosophila	anthrax	sensu lato	n sp			2.9-3.4	male		
+	Drosophila	apicisetae	sensu lato	n sp	2.5	2.8		male		
+	Drosophila	apoxyloma	sensu lato	n sp			3.2	male		
+	Drosophila	artigena	sensu lato	n sp	3	3.75		male		
+	Drosophila	attenuata	sensu lato	n sp	2.7	3		male		
+	Drosophila	badia	sensu lato	n sp	3.2	3.6		male		
+	Drosophila	balioptera	sensu lato	n sp	5.50-5.70	6.25		male		
+	Drosophila	basisetosa	sensu lato	n sp	2.5	2.7		male		
+	Drosophila	biseriata	sensu lato	n sp	2.9	3.1		male		
+	Drosophila	brevissima	sensu lato	n sp	2.5	3		male		
+	Drosophila	brevitarsus	sensu lato	n sp	2.15	2.5		male		
+	Drosophila	bridwelli	sensu lato	n sp			3.7	male		
+	Drosophila	brunneifrons	sensu lato	n sp	2.7	3		male		
+	Drosophila	canuta	sensu lato	n sp	32	3.6		male		
+	Drosophila	capitata	sensu lato	n sp	2.25	2.75		male		
+	Drosophila	carnosa	sensu lato	n sp	2.3-2.4	2.7-2.8		male		
+	Drosophila	chaetopeza	sensu lato	n sp	3	3.8		male		
+	Drosophila	ciliaticrus	sensu lato	n sp	4.2-4.5	4.5-5.0		male		
+	Drosophila	clavata	sensu lato	n sp	2.25	2.5		male		
+	Drosophila	clavitibia	sensu lato	n sp	2.5	2.7		male		
+	Drosophila	clydonia	sensu lato	n sp	2.5-3.0	3.0-3.3		male		
+	Drosophila	cnecopleura	sensu lato	n sp	2.2	2.5		male		
+	Drosophila	comatifemora	sensu lato	n sp	4.75	4.5		male		
+	Drosophila	conformis	sensu lato	n sp	2.7-3.0	3.3-3.5		male		
+	Drosophila	conjectura	sensu lato	n sp	2.3-2.5	2.6-2.8		male		
+	Drosophila	conspicua	sensu lato	Grimshaw	5.5-6.0	6.5-7.0		male		Grimshaw, in the original description, measured the body as mm. and the wings as 6 mm.
+	Drosophila	contorta	sensu lato	n sp	2.15	2.5		male		
+	Drosophila	cracens	sensu lato	n sp	2.85	3.2		male		
+	Drosophila	crassifemur	sensu lato	Grimshaw	3.5-4.5	3.8-4.6		male		
+	Drosophila	crucigera	sensu lato	Grimshaw			3.10-4.75	male		This species is quite variable in size.
+	Drosophila	curticilia	sensu lato	n sp	1.85	2		male		
+	Drosophila	curvitibia	sensu lato	n sp	3.3	4		male		
+	Drosophila	dasycnemia	sensu lato	n sp	2.5-2.8	3.0-3.5		male		
+	Drosophila	deltaneuron	sensu lato	Bryan			3.7-4.0	male		
+	Drosophila	denotata	sensu lato	n sp	3.7-4.2	4.0-4.3		male		
+	Drosophila	diffusa	sensu lato	n sp	3.8	4.3		male		
+	Drosophila	diminuens	sensu lato	n sp	4	4.7		male		
+	Drosophila	dissita	sensu lato	n sp	3	3.4		male		
+	Drosophila	disticha	sensu lato	n sp	2.5	2.85		male		
+	Drosophila	distinguenda	sensu lato	n sp	6.5	6.7		male		
+	Drosophila	dolomata	sensu lato	n sp	1.8	2.15		male		
+	Drosophila	dorsigera	sensu lato	n sp			2.3	male		
+	Drosophila	dorsociliata	sensu lato	n sp			2.5	male		
+	Drosophila	dumalis	sensu lato	n sp	2.7	3		male		
+	Drosophila	engyochracea	sensu lato	n sp	4.8	5.5		male		
+	Drosophila	enoplotarsus	sensu lato	n sp			2.65	male		
+	Drosophila	eumecothrix	sensu lato	n sp	2.85	2.95		male		
+	Drosophila	expansa	sensu lato	n sp	2.5	2.85		male		
+	Drosophila	fastigata	sensu lato	n sp				male		
+	Drosophila	flavibasis	sensu lato	n sp	2.75	3.5		male		
+	Drosophila	flaviceps	sensu lato	Grimshaw	2.5	2.5		male		
+	Drosophila	furva	sensu lato	n sp	2.2	2.4		male		
+	Drosophila	fuscoamoeba	sensu lato	Bryan			2.5-3.5	male		
+	Drosophila	fuscoapex	sensu lato	n sp	2	2.4		male		
+	Drosophila	gilvilateralis	sensu lato	n sp	3	3.3		male		
+	Drosophila	grimshawi	sensu lato	Oldenberg			4.5-5.5	male		
+	Drosophila	hawaiiensis	sensu lato	Grimshaw	3.5-4.5	3.8-4.75		male		
+	Drosophila	hexachaetae	sensu lato	n sp	2.8	3.2		male		
+	Drosophila	hirticoxa	sensu lato	n sp	2.85	3.2		male		
+	Drosophila	hirtitarsus	sensu lato	n sp			2.3-2.7	male		
+	Drosophila	iki	sensu lato	Bryan			3.75-4.00	male		
+	Drosophila	illusiopolita	sensu lato	n sp	2.2-2.5	2.4-2.6		male		
+	Drosophila	imitator	sensu lato	n sp	2.6	2.85		male		
+	Drosophila	incognita	sensu lato	n sp	3	3.5		male		
+	Drosophila	incompleta	sensu lato	n sp	3.2	3.6		male		
+	Drosophila	insignita	sensu lato	n. sp,	2.5	2.65		male		
+	Drosophila	intermedia	sensu lato	n sp	3	3.4		male		
+	Drosophila	involuta	sensu lato	n sp	3.2	3.6		male		
+	Drosophila	ischnotrix	sensu lato	n sp	1.75-2.50	2.00-2.30		male		
+	Drosophila	joycei	sensu lato	n sp	3.8	4		male		
+	Drosophila	kauluai	sensu lato	Bryan	2.8-3.0	3.3-3.5		male		
+	Drosophila	kraussi	sensu lato	n sp			3.6	male		
+	Drosophila	laciniosa	sensu lato	n sp				male		
+	Drosophila	lanaiensis	sensu lato	Grimshaw			4.30-4.75	male		
+	Drosophila	larifuga	sensu lato	n sp	2	2.25		male		
+	Drosophila	latigena	sensu lato	n sp			2.75	male		
+	Drosophila	lemniscata	sensu lato	n sp	3.0-3.2	3.7		male		
+	Drosophila	luteola	sensu lato	n sp			2.5	male		
+	Drosophila	macrochaetae	sensu lato	n sp	4.5	4.75		male		
+	Drosophila	magnipalpa	sensu lato	n sp			2.8-3.0	male		
+	Drosophila	mecocnemia	sensu lato	n. sp,	3.2-3.4	3.4-3.6		male		
+	Drosophila	megasticta	sensu lato	n sp	3	3.7		male		
+	Drosophila	melanopedis	sensu lato	n sp			2.75-2.85	male		
+	Drosophila	mimiconformis	sensu lato	n sp			2.65-2.85	male		
+	Drosophila	mimiconfutata	sensu lato	n sp	3.2	3.6		male		
+	Drosophila	molokaiensis	sensu lato	Grimshaw		4.3		male		body without head, 3.25 mm.
+	Drosophila	musae	sensu lato	n sp	3.6	3.9		male		
+	Drosophila	musaphilia	sensu lato	n sp	5	5.25		male		
+	Drosophila	mycetophila	sensu lato	n sp			2.0-2.2	male		
+	Drosophila	nanella	sensu lato	n sp	1.8	2.15		male		
+	Drosophila	nasalis	sensu lato	Grimshaw	3.5-.4.4	4.0-5.0		male		
+	Drosophila	neutralis	sensu lato	n sp	2.8-3.2	3.2-3.7		male		
+	Drosophila	nigella	sensu lato	n sp	3.6	3.85		male		
+	Drosophila	nigra	sensu lato	Grimshaw			6.0-6.4	male		
+	Drosophila	nigripalpus	sensu lato	n sp	2.2	2.5		male		
+	Drosophila	ochracea	sensu lato	Grimshaw	4.8-5.2	5.0-5.5		male		
+	Drosophila	olaae	sensu lato	Grimshaw	5.0-5.3	5.3-5.6		male		
+	Drosophila	orestes	sensu lato	n sp	2.2	2.5		male		
+	Drosophila	parva	sensu lato	Grimshaw	1.5	1.65		male		
+	Drosophila	paucula	sensu lato	n sp			2.50-2.65	male		
+	Drosophila	peniculipedis	sensu lato	n sp			4.0-4.7	male		
+	Drosophila	picticomis	sensu lato	Grimshaw	3.20-3.65	3.50-4.00		male		
+	Drosophila	pilimana	sensu lato	Grimshaw			3.7-4.5	male		
+	Drosophila	plumosa	sensu lato	Grimshaw	2.5	3		male		
+	Drosophila	polita	sensu lato	Grimshaw	3.25	3.50	3.7-4.5	male		Grimshaw in the original gave the length as body 3.25 mm. and wings 3.50 mm.
+	Drosophila	polliciforma	sensu lato	n sp	3.80-4.00	4.25		male		
+	Drosophila	praesutilis	sensu lato	n sp	2.2	2.4		male		
+	Drosophila	prodita	sensu lato	n sp	2.5	2.9		male		
+	Drosophila	prolaticilia	sensu lato	n sp	4.5	5		male		
+	Drosophila	prominens	sensu lato	n sp	3	3.6		male		
+	Drosophila	punalua	sensu lato	Bryan	4.00-4.75	4.50-5.70		male		
+	Drosophila	quadrisetae	sensu lato	n sp	2.3	2.6		male		
+	Drosophila	quasianomalipes	sensu lato	n sp	4.5	5.25		male		
+	Drosophila	quasiexpansa	sensu lato	n sp	2.2	2.6		male		
+	Drosophila	reducta	sensu lato	n sp			2.5	male		
+	Drosophila	redunca	sensu lato	n sp	2.7	3.2		male		
+	Drosophila	residua	sensu lato	n sp	2.7	3		male		
+	Drosophila	retrusa	sensu lato	n sp	3.2	3.6		male		
+	Drosophila	rustica	sensu lato	n sp			2.8-3.0	male		
+	Drosophila	sabroskyi	sensu lato	n sp				male		
+	Drosophila	sadleria	sensu lato	Bryan	3	4		male		
+	Drosophila	scolostoma	sensu lato	n sp	4.1-4.6	4.7-5.2		male		
+	Drosophila	seclusa	sensu lato	n sp	2.4	2.8		male		
+	Drosophila	seorsa	sensu lato	n sp	2.5	2.9		male		
+	Drosophila	septuosa	sensu lato	n sp	2.87-3.7	3.6-4.3		male		
+	Drosophila	setiger	sensu lato	Grimshaw	2.50-2.70	2.75-3.00		male		
+	Drosophila	setipalpus	sensu lato	n sp	3.2	3.5		male		
+	Drosophila	sharpi	sensu lato	Grimshaw			5.5-6.3	male		
+	Drosophila	sordidapex	sensu lato	Grimshaw	2.3-2.5	2.5-2.8		male		
+	Drosophila	spicula	sensu lato	n sp	1.9-2.0	2.3		male		
+	Drosophila	stenoptera	sensu lato	n sp	4.5-5.7	5.2-5.5		male		
+	Drosophila	swezeyi	sensu lato	n sp	3.75	3.85		male		
+	Drosophila	taeniata	sensu lato	n sp	3	3.3		male		
+	Drosophila	tamashiroi	sensu lato	n sp	2	2.25		male		
+	Drosophila	taractica	sensu lato	n sp			2.5	male		
+	Drosophila	transfuga	sensu lato	n sp	2.8	3		male		
+	Drosophila	undulata	sensu lato	Grimshaw			4.0-4.5	male		
+	Drosophila	unicula	sensu lato	n sp			2.5	male		
+	Drosophila	varga	sensu lato	n sp			2.75	male		
+	Drosophila	venusta	sensu lato	n sp	4.3	4.75		male		
+	Drosophila	vicaria	sensu lato	n sp			3.3	male		
+	Drosophila	villitibia	sensu lato	n sp	4.7	5.2		male		
+	Drosophila	vinnula	sensu lato	n sp	2.4	2.7		male		
+	Drosophila	williamsi	sensu lato	n sp	2.5	2.8		male		
+	Drosophila	xanthognoma	sensu lato	n sp	2.30-2.50	2.70-2.85		male		
+	Drosophila	xanthosoma	sensu lato	Grimshaw			3.2-3.5	male		
+	Drosophila	canipolita	sensu lato	n sp	2.00-2.25	2.20-2.50		female		
+	Drosophila	abjuncta	sensu lato	n sp	2.2	2.4		female		
+	Drosophila	humeralis	sensu lato	Grimshaw	2.25-2.50	2.50-2.70		female		
+	Drosophila	apodasta	sensu lato	n sp	2.3	2.9		female		
+	Drosophila	proceriseta	sensu lato	n sp	2.3	2.5		female		
+	Drosophila	freycinetiae	sensu lato	n sp	2.30-2.50	2.50-2.75		female		
+	Drosophila	ancyla	sensu lato	n sp	2.5	2.8		female		
+	Drosophila	nigropolita	sensu lato	n sp	2.5	2.85		female		
+	Drosophila	pectinitarsus	sensu lato	n sp	2.5	2.75		female		
+	Drosophila	torula	sensu lato	n sp	2.5	2.9		female		
+	Drosophila	totonigra	sensu lato	n sp	2.5	2.7		female		
+	Drosophila	velata	sensu lato	n sp	2.5	2.8		female		
+	Drosophila	hirtitibia	sensu lato	n sp	2.5-2.8	2.7-3.0		female		
+	Drosophila	bicondyla	sensu lato	n sp	2.6-3.0	3.2-3.5		female		
+	Drosophila	pychnochaetae	sensu lato	n sp	2.60-2.75	2.75-3.00		female		
+	Drosophila	brunneisetae	sensu lato	n sp	2.7	3.2		female		
+	Drosophila	dracaenae	sensu lato	n sp	2.7	3		female		
+	Drosophila	fusticula	sensu lato	n sp	2.7	3		female		
+	Drosophila	araiotrichia	sensu lato	n sp	2.7-3.0	3.0-3.4		female		
+	Drosophila	demipolita	sensu lato	n sp	2.8	3.2		female		
+	Drosophila	improcera	sensu lato	n sp	2.80-3.00	3.00-3.25		female		
+	Drosophila	propiofacies	sensu lato	n sp	2.85	3.2		female		
+	Drosophila	trichaetosa	sensu lato	n sp	2.85	3.6		female		
+	Drosophila	bipolita	sensu lato	n sp	2.88	3.2		female		
+	Drosophila	pretiosa	sensu lato	n sp	2.9	3.1		female		
+	Drosophila	aquila	sensu lato	n sp	3	3.4		female		
+	Drosophila	brevicilia	sensu lato	n sp	3	3.3		female		
+	Drosophila	fuscifrons	sensu lato	n sp	3	3.5		female		
+	Drosophila	melanoloma	sensu lato	n sp	3	3.3-3.5		female		
+	Drosophila	tetraspilota	sensu lato	n sp	3	3.2		female		
+	Drosophila	variabilis	sensu lato	n sp	3	3.3		female		
+	Drosophila	furvifacies	sensu lato	n sp	3.0-3.5	3.3-3.7		female		
+	Drosophila	confutata	sensu lato	n sp	3.0-3.6	3.2-3.9		female		
+	Drosophila	infuscata	sensu lato	Grimshaw	3.1	3.4		female		
+	Drosophila	neglecta	sensu lato	n sp	3.15	3.4		female		
+	Drosophila	z-notata	sensu lato	Bryan	3.2	3.4		female		
+	Drosophila	fundita	sensu lato	n sp	3.2-3.5	3.8-4.3		female		
+	Drosophila	agitona	sensu lato	n sp	3.25	3.6		female		
+	Drosophila	imparisetae	sensu lato	n sp	3.25-3.75	3.75-4.25		female		
+	Drosophila	melanosoma	sensu lato	Grimshaw	3.3	3.75		female		
+	Drosophila	tendomentum	sensu lato	n sp	3.3	3.7		female		
+	Drosophila	asketostoma	sensu lato	n sp	3.3-4.0	4.0-5.0		female		
+	Drosophila	perissopoda	sensu lato	n sp	3.3-4.0	3.5-4.0		female		
+	Drosophila	nigritarsus	sensu lato	n sp	3.4	3.6		female		
+	Drosophila	flavisternum	sensu lato	n sp	3.5	3.75		female		
+	Drosophila	percnosoma	sensu lato	n sp	3.5	3.9		female		
+	Drosophila	velutinifrons	sensu lato	n sp	3.5	3.9		female		
+	Drosophila	fungicola	sensu lato	n sp	3.5-3.7	4.2-4.6		female		
+	Drosophila	haleakalae	sensu lato	Grimshaw	3.5-3.8			female		
+	Drosophila	inedita	sensu lato	n sp	3.5-3.8	4.0-4.5		female		
+	Drosophila	lonchoptera	sensu lato	n sp	3.6	3.4		female		
+	Drosophila	prolixa	sensu lato	n sp	3.6	4		female		
+	Drosophila	mimica	sensu lato	n sp	3.7	4		female		
+	Drosophila	beardsleyi	sensu lato	n sp	3.8	4		female		
+	Drosophila	nigrocirrus	sensu lato	n sp	3.8	4		female		
+	Drosophila	paucipuncta	sensu lato	Grimshaw	3.8	4		female		
+	Drosophila	tarphytrichia	sensu lato	n sp	3.8	4.2		female		
+	Drosophila	magnimacula	sensu lato	n sp	3.8-4.5	4.5		female		
+	Drosophila	acrostichalis	sensu lato	n sp	4	4.8		female		
+	Drosophila	aglaia	sensu lato	n sp	4	5		female		
+	Drosophila	mediana	sensu lato	n sp	4	4.4		female		
+	Drosophila	oreas	sensu lato	n sp	4	4.65		female		
+	Drosophila	semifuscata	sensu lato	n sp	4	4.5		female		
+	Drosophila	eurypeza	sensu lato	n sp	4.0-4.2	4.2-4.5		female		
+	Drosophila	caccabata	sensu lato	n sp	4.0-4.3	4.3-4.7		female		
+	Drosophila	mitchelli	sensu lato	n sp	4.0-4.4	4.3-4.5		female		
+	Drosophila	basimacula	sensu lato	n sp	4.25	4.75		female		
+	Drosophila	cilifemorata	sensu lato	n sp	4.6	5.3		female		
+	Drosophila	apicipuncta	sensu lato	n sp	4.7-5.2	5.0-5.3		female		
+	Drosophila	bostrycha	sensu lato	n sp	4.75-5.00	5.25-5.50		female		
+	Drosophila	fasciculisetae	sensu lato	n sp	4.8-5.2	5.0-5.5		female		
+	Drosophila	villosipedis	sensu lato	n sp	4.85-5.20	5.20-5.50		female		
+	Drosophila	xuthoptera	sensu lato	n sp	5	5.3		female		
+	Drosophila	disjuncta	sensu lato	n sp	5.3	5.7		female		
+	Drosophila	spectabilis	sensu lato	n sp	5.5	5.75		female		
+	Drosophila	adiastola	sensu lato	n sp	5.55	6.1		female		
+	Drosophila	truncipenna	sensu lato	n sp	7.3	7.4		female		
+	Drosophila	adventitia	sensu lato	n sp				female		
+	Drosophila	albifacies	sensu lato	n sp				female		
+	Drosophila	amydrospilota	sensu lato	n sp				female		
+	Drosophila	anomalipes	sensu lato	Grimshaw				female		
+	Drosophila	anthrax	sensu lato	n sp				female		
+	Drosophila	apicisetae	sensu lato	n sp				female		
+	Drosophila	apoxyloma	sensu lato	n sp				female		
+	Drosophila	artigena	sensu lato	n sp				female		
+	Drosophila	attenuata	sensu lato	n sp				female		
+	Drosophila	badia	sensu lato	n sp				female		
+	Drosophila	balioptera	sensu lato	n sp			5.0-5.2	female		
+	Drosophila	basisetosa	sensu lato	n sp				female		
+	Drosophila	biseriata	sensu lato	n sp			3.35	female		
+	Drosophila	brevissima	sensu lato	n sp				female		
+	Drosophila	brevitarsus	sensu lato	n sp				female		
+	Drosophila	bridwelli	sensu lato	n sp			4.3	female		
+	Drosophila	brunneifrons	sensu lato	n sp				female		
+	Drosophila	canuta	sensu lato	n sp				female		
+	Drosophila	capitata	sensu lato	n sp				female		
+	Drosophila	carnosa	sensu lato	n sp				female		
+	Drosophila	chaetopeza	sensu lato	n sp				female		
+	Drosophila	ciliaticrus	sensu lato	n sp				female		
+	Drosophila	clavata	sensu lato	n sp				female		
+	Drosophila	clavitibia	sensu lato	n sp				female		
+	Drosophila	clydonia	sensu lato	n sp				female		
+	Drosophila	cnecopleura	sensu lato	n sp				female		
+	Drosophila	comatifemora	sensu lato	n sp				female		
+	Drosophila	conformis	sensu lato	n sp				female		
+	Drosophila	conjectura	sensu lato	n sp				female		
+	Drosophila	conspicua	sensu lato	Grimshaw				female		
+	Drosophila	contorta	sensu lato	n sp				female		
+	Drosophila	cracens	sensu lato	n sp				female		
+	Drosophila	crassifemur	sensu lato	Grimshaw				female		
+	Drosophila	crucigera	sensu lato	Grimshaw				female		
+	Drosophila	curticilia	sensu lato	n sp				female		
+	Drosophila	curvitibia	sensu lato	n sp				female		
+	Drosophila	dasycnemia	sensu lato	n sp				female		
+	Drosophila	deltaneuron	sensu lato	Bryan				female		
+	Drosophila	denotata	sensu lato	n sp				female		
+	Drosophila	diffusa	sensu lato	n sp				female		
+	Drosophila	diminuens	sensu lato	n sp				female		
+	Drosophila	dissita	sensu lato	n sp				female		
+	Drosophila	disticha	sensu lato	n sp				female		
+	Drosophila	distinguenda	sensu lato	n sp				female		
+	Drosophila	dolomata	sensu lato	n sp				female		
+	Drosophila	dorsigera	sensu lato	n sp				female		
+	Drosophila	dorsociliata	sensu lato	n sp				female		
+	Drosophila	dumalis	sensu lato	n sp				female		
+	Drosophila	engyochracea	sensu lato	n sp				female		
+	Drosophila	enoplotarsus	sensu lato	n sp				female		
+	Drosophila	eumecothrix	sensu lato	n sp				female		
+	Drosophila	expansa	sensu lato	n sp				female		
+	Drosophila	fastigata	sensu lato	n sp				female		
+	Drosophila	flavibasis	sensu lato	n sp				female		
+	Drosophila	flaviceps	sensu lato	Grimshaw				female		
+	Drosophila	furva	sensu lato	n sp				female		
+	Drosophila	fuscoamoeba	sensu lato	Bryan				female		
+	Drosophila	fuscoapex	sensu lato	n sp				female		
+	Drosophila	gilvilateralis	sensu lato	n sp				female		
+	Drosophila	grimshawi	sensu lato	Oldenberg				female		
+	Drosophila	hawaiiensis	sensu lato	Grimshaw				female		
+	Drosophila	hexachaetae	sensu lato	n sp				female		
+	Drosophila	hirticoxa	sensu lato	n sp				female		
+	Drosophila	hirtitarsus	sensu lato	n sp				female		
+	Drosophila	iki	sensu lato	Bryan				female		
+	Drosophila	illusiopolita	sensu lato	n sp				female		
+	Drosophila	imitator	sensu lato	n sp				female		
+	Drosophila	incognita	sensu lato	n sp				female		
+	Drosophila	incompleta	sensu lato	n sp				female		
+	Drosophila	insignita	sensu lato	n. sp,				female		
+	Drosophila	intermedia	sensu lato	n sp				female		
+	Drosophila	involuta	sensu lato	n sp				female		
+	Drosophila	ischnotrix	sensu lato	n sp			2.30-2.65	female		
+	Drosophila	joycei	sensu lato	n sp				female		
+	Drosophila	kauluai	sensu lato	Bryan				female		
+	Drosophila	kraussi	sensu lato	n sp				female		
+	Drosophila	laciniosa	sensu lato	n sp				female		
+	Drosophila	lanaiensis	sensu lato	Grimshaw		6.00-6.70	4.30-4.75	female		
+	Drosophila	larifuga	sensu lato	n sp				female		
+	Drosophila	latigena	sensu lato	n sp				female		
+	Drosophila	lemniscata	sensu lato	n sp				female		
+	Drosophila	luteola	sensu lato	n sp				female		
+	Drosophila	macrochaetae	sensu lato	n sp				female		
+	Drosophila	magnipalpa	sensu lato	n sp				female		
+	Drosophila	mecocnemia	sensu lato	n. sp,			3.5	female		
+	Drosophila	megasticta	sensu lato	n sp				female		
+	Drosophila	melanopedis	sensu lato	n sp				female		
+	Drosophila	mimiconformis	sensu lato	n sp				female		
+	Drosophila	mimiconfutata	sensu lato	n sp				female		
+	Drosophila	molokaiensis	sensu lato	Grimshaw				female		
+	Drosophila	musae	sensu lato	n sp				female		
+	Drosophila	musaphilia	sensu lato	n sp				female		
+	Drosophila	mycetophila	sensu lato	n sp				female		
+	Drosophila	nanella	sensu lato	n sp				female		
+	Drosophila	nasalis	sensu lato	Grimshaw				female		
+	Drosophila	neutralis	sensu lato	n sp				female		
+	Drosophila	nigella	sensu lato	n sp			4	female		
+	Drosophila	nigra	sensu lato	Grimshaw				female		
+	Drosophila	nigripalpus	sensu lato	n sp				female		
+	Drosophila	ochracea	sensu lato	Grimshaw				female		
+	Drosophila	olaae	sensu lato	Grimshaw				female		
+	Drosophila	orestes	sensu lato	n sp				female		
+	Drosophila	parva	sensu lato	Grimshaw				female		
+	Drosophila	paucula	sensu lato	n sp				female		
+	Drosophila	peniculipedis	sensu lato	n sp			4.7	female		
+	Drosophila	picticomis	sensu lato	Grimshaw				female		
+	Drosophila	pilimana	sensu lato	Grimshaw				female		
+	Drosophila	plumosa	sensu lato	Grimshaw				female		
+	Drosophila	polita	sensu lato	Grimshaw				female		
+	Drosophila	polliciforma	sensu lato	n sp				female		
+	Drosophila	praesutilis	sensu lato	n sp				female		
+	Drosophila	prodita	sensu lato	n sp				female		
+	Drosophila	prolaticilia	sensu lato	n sp				female		
+	Drosophila	prominens	sensu lato	n sp				female		
+	Drosophila	punalua	sensu lato	Bryan				female		
+	Drosophila	quadrisetae	sensu lato	n sp				female		
+	Drosophila	quasianomalipes	sensu lato	n sp				female		
+	Drosophila	quasiexpansa	sensu lato	n sp				female		
+	Drosophila	reducta	sensu lato	n sp				female		
+	Drosophila	redunca	sensu lato	n sp				female		
+	Drosophila	residua	sensu lato	n sp				female		
+	Drosophila	retrusa	sensu lato	n sp				female		
+	Drosophila	rustica	sensu lato	n sp				female		
+	Drosophila	sabroskyi	sensu lato	n sp			5.35	female		
+	Drosophila	sadleria	sensu lato	Bryan				female		
+	Drosophila	scolostoma	sensu lato	n sp				female		
+	Drosophila	seclusa	sensu lato	n sp				female		
+	Drosophila	seorsa	sensu lato	n sp				female		
+	Drosophila	septuosa	sensu lato	n sp				female		
+	Drosophila	setiger	sensu lato	Grimshaw				female		
+	Drosophila	setipalpus	sensu lato	n sp				female		
+	Drosophila	sharpi	sensu lato	Grimshaw				female		
+	Drosophila	sordidapex	sensu lato	Grimshaw				female		
+	Drosophila	spicula	sensu lato	n sp				female		
+	Drosophila	stenoptera	sensu lato	n sp				female		
+	Drosophila	swezeyi	sensu lato	n sp				female		
+	Drosophila	taeniata	sensu lato	n sp				female		
+	Drosophila	tamashiroi	sensu lato	n sp				female		
+	Drosophila	taractica	sensu lato	n sp				female		
+	Drosophila	transfuga	sensu lato	n sp				female		
+	Drosophila	undulata	sensu lato	Grimshaw				female		
+	Drosophila	unicula	sensu lato	n sp				female		
+	Drosophila	varga	sensu lato	n sp				female		
+	Drosophila	venusta	sensu lato	n sp				female		
+	Drosophila	vicaria	sensu lato	n sp			3.9	female		
+	Drosophila	villitibia	sensu lato	n sp				female		
+	Drosophila	vinnula	sensu lato	n sp				female		
+	Drosophila	williamsi	sensu lato	n sp				female		
+	Drosophila	xanthognoma	sensu lato	n sp				female		
+	Drosophila	xanthosoma	sensu lato	Grimshaw				female		
+Trichotobregma	Drosophila	petalopeza	n. subgen.	n sp	3.75-4.25	4.50-5.00		male		
+Trichotobregma	Drosophila	petalopeza	n. subgen.	n sp	4.5	5.3		female		
+Hypenomyia	Drosophila	reburra	Grimshaw	n sp	6.25	5.75		male		
+Hypenomyia	Drosophila	varipennis	Grimshaw	Grimshaw	6.0-7.0	7.0	7.25	male		Grimshaw gave the length of the body as 6.0-7.0 mm. and the wings as 7.0 mm.
+Hypenomyia	Drosophila	reburra	Grimshaw	n sp				female		
+Hypenomyia	Drosophila	varipennis	Grimshaw	Grimshaw			7.6	female		
+	Idiomyia	heteroneura	Grimshaw	Perkins	6	6.5		male		
+	Idiomyia	brunneipennis	Grimshaw	n sp	4.6	5.8		male		
+	Idiomyia	grimshawi	Grimshaw	Bryan	5.0-5.5	5.3-6.0		male		
+	Idiomyia	hemipeza	Grimshaw	n sp	5	6		male		
+	Idiomyia	nigrifacies	Grimshaw	n sp	6.75	8		male		
+	Idiomyia	oahuensis	Grimshaw	Grimshaw	6.00-6.70	6.50-7.35		male		
+	Idiomyia	obscuripes	Grimshaw	Grimshaw	7.0-7.5	7.9-8.2		male		
+	Idiomyia	perkinsi	Grimshaw	Grimshaw	7.0	8.0		male		According to Grimshaw
+	Idiomyia	picta	Grimshaw	Grimshaw	4.5-6.0	5.3-6.4		male		
+	Idiomyia	silvestris	Grimshaw	Perkins	6.50-6.65	7.70-8.00		male		
+	Idiomyia	sternoptera	Grimshaw	n sp	4.35	5.00-5.30		male		
+	Idiomyia	heteroneura	Grimshaw	Perkins	5.7	7		female		
+	Idiomyia	brunneipennis	Grimshaw	n sp				female		
+	Idiomyia	grimshawi	Grimshaw	Bryan				female		
+	Idiomyia	hemipeza	Grimshaw	n sp				female		
+	Idiomyia	nigrifacies	Grimshaw	n sp				female		
+	Idiomyia	oahuensis	Grimshaw	Grimshaw				female		
+	Idiomyia	obscuripes	Grimshaw	Grimshaw				female		
+	Idiomyia	perkinsi	Grimshaw	Grimshaw				female		
+	Idiomyia	picta	Grimshaw	Grimshaw				female		
+	Idiomyia	silvestris	Grimshaw	Perkins				female		
+	Idiomyia	sternoptera	Grimshaw	n sp				female		
+	Nudidrosophila	gemmula	n gen	n sp	1.8-2.0	2.2		male		
+	Nudidrosophila	lepidobregma	n gen	n sp	2.15	2.5		male		
+	Nudidrosophila	amita	n gen	n sp	2.3	2.5		male		
+	Nudidrosophila	eximia	n gen	n sp	2	2.2		male		
+	Nudidrosophila	gemmula	n gen	n sp	2.25	2.75		female		
+	Nudidrosophila	lepidobregma	n gen	n sp	2.3	2.5		female		
+	Nudidrosophila	amita	n gen	n sp				female		
+	Nudidrosophila	eximia	n gen	n sp				female		
+Trogloscaptomyza	Scaptomyza	ochromata	Frey	n sp	1.42	1.8		male		
+	Titanochaeta	bryani	Knab	Wirth	1.85	2.05		male	allotype	
+	Titanochaeta	evexa	Knab	n sp	2	2.3		male		
+	Titanochaeta	setosiscutellum	Knab	n sp	2.75	3		male		
+	Titanochaeta	chauliodon	Knab	n sp	3.4	3.6		male		
+	Titanochaeta	glauca	Knab	n sp	1.8	1.9		male		
+	Titanochaeta	ichneumon	Knab	Knab			1.7-1.9	male		
+	Titanochaeta	kauaiensis	Knab	n sp			1.9-2.0	male		
+	Titanochaeta	silvicola	Knab	n sp	1.8	2		male		
+	Titanochaeta	swezeyi	Knab	Wirth	3	2.7		male		quoted from Wirth
+	Titanochaeta	vittiger	Knab	n sp				male		
+	Titanochaeta	bryani	Knab	Wirth	2	2.15		female	type	
+	Titanochaeta	evexa	Knab	n sp	2.1	2.3-2.5		female		
+	Titanochaeta	setosiscutellum	Knab	n sp	2.75-3.75	3.00-4.00		female		
+	Titanochaeta	chauliodon	Knab	n sp	4.5	4.3		female		
+	Titanochaeta	glauca	Knab	n sp				female		
+	Titanochaeta	ichneumon	Knab	Knab				female		
+	Titanochaeta	kauaiensis	Knab	n sp				female		
+	Titanochaeta	silvicola	Knab	n sp			1.9	female		
+	Titanochaeta	swezeyi	Knab	Wirth			2.3	female		
+	Titanochaeta	vittiger	Knab	n sp				female		
+Alloscaptomyza	Scaptomyza	semiflava	Hackman	n sp	1.6	1.9		male		
+Alloscaptomyza	Scaptomyza	aberrans	Hackman	n sp	2.2	2.5		male		
+Alloscaptomyza	Scaptomyza	buccata	Hackman	Hackman	1.8-2.0	2.2-2.3		male		
+Alloscaptomyza	Scaptomyza	cerina	Hackman	n sp	1.6	1.8		male		
+Alloscaptomyza	Scaptomyza	fuscifrons	Hackman	Hackman	1.6	1.8		male		
+Alloscaptomyza	Scaptomyza	longisetosa	Hackman	Hackman	2.2-2.4	2.5-2.7		male		
+Alloscaptomyza	Scaptomyza	mutica	Hackman	n sp	2.2-2.4	2.5-2.7		male		
+Alloscaptomyza	Scaptomyza	stramineifrons	Hackman	Hackman			2.1-2.3	male		
+Alloscaptomyza	Scaptomyza	semiflava	Hackman	n sp	1.42	1.6		female		
+Alloscaptomyza	Scaptomyza	aberrans	Hackman	n sp				female		
+Alloscaptomyza	Scaptomyza	buccata	Hackman	Hackman				female		
+Alloscaptomyza	Scaptomyza	cerina	Hackman	n sp				female		
+Alloscaptomyza	Scaptomyza	fuscifrons	Hackman	Hackman				female		
+Alloscaptomyza	Scaptomyza	longisetosa	Hackman	Hackman				female		
+Alloscaptomyza	Scaptomyza	mutica	Hackman	n sp				female		
+Alloscaptomyza	Scaptomyza	stramineifrons	Hackman	Hackman				female		
+Bunostoma	Scaptomyza	palmae	Malloch	n sp			1.8-2.0	male		
+Bunostoma	Scaptomyza	anomala	Malloch	n sp	1.8-2.0	2.0-2.2		male		
+Bunostoma	Scaptomyza	bryanti	Malloch	Hackman	2.1	2.5		male		
+Bunostoma	Scaptomyza	cnecosoma	Malloch	n sp	1.55	1.8		male		
+Bunostoma	Scaptomyza	confusa	Malloch	n sp	1.8	2		male		
+Bunostoma	Scaptomyza	hamata	Malloch	n sp	1.8	2		male		
+Bunostoma	Scaptomyza	varifrons	Malloch	Grimshaw	2.0-2.2	2.2-2.5		male		
+Bunostoma	Scaptomyza	xanthopleura	Malloch	n sp	1.8	2		male		
+Bunostoma	Scaptomyza	palmae	Malloch	n sp	2.1	2.25		female		
+Bunostoma	Scaptomyza	anomala	Malloch	n sp			2.3-2.5	female		
+Bunostoma	Scaptomyza	bryanti	Malloch	Hackman				female		
+Bunostoma	Scaptomyza	cnecosoma	Malloch	n sp			1.9-2.0	female		
+Bunostoma	Scaptomyza	confusa	Malloch	n sp				female		
+Bunostoma	Scaptomyza	hamata	Malloch	n sp				female		
+Bunostoma	Scaptomyza	varifrons	Malloch	Grimshaw				female		
+Bunostoma	Scaptomyza	xanthopleura	Malloch	n sp				female		
+Exalloscaptomyza	Scaptomyza	mauiensis	n. subgen.	Grimshaw	1.60-1.80	1.75-2.00		male		
+Exalloscaptomyza	Scaptomyza	mauiensis	n. subgen.	Grimshaw	2.00-2.25	2.20-2.40		female		
+Grimshawomyia	Scaptomyza	palata	n gen	n sp			3.5-3.6	male		
+Grimshawomyia	Scaptomyza	perkinsi	n gen	Grimshaw	3.4	3.2		male		
+Grimshawomyia	Scaptomyza	palata	n gen	n sp				female		
+Grimshawomyia	Scaptomyza	perkinsi	n gen	Grimshaw				female		
+Rosenwaldia	Scaptomyza	finitima	Malloch	n sp	1.6	1.8		male		
+Rosenwaldia	Scaptomyza	striatifrons	Malloch	Hackman	2	2.50-2.75		male		
+Rosenwaldia	Scaptomyza	abrupta	Malloch	Hackman				male		
+Rosenwaldia	Scaptomyza	aloha	Malloch	Hackman	2.3	2.9		male		
+Rosenwaldia	Scaptomyza	mediopallens	Malloch	Hackman	2	2.2-2.4		male		
+Rosenwaldia	Scaptomyza	mitchelli	Malloch	Hackman	2	2.50-2.75		male		
+Rosenwaldia	Scaptomyza	Hnitima	Malloch	n sp	1.75	2		female		
+Rosenwaldia	Scaptomyza	striatifrons	Malloch	Hackman	2.4	2.75-2.95		female		
+Rosenwaldia	Scaptomyza	abrupta	Malloch	Hackman				female		
+Rosenwaldia	Scaptomyza	aloha	Malloch	Hackman				female		
+Rosenwaldia	Scaptomyza	mediopallens	Malloch	Hackman				female		
+Rosenwaldia	Scaptomyza	mitchelli	Malloch	Hackman				female		
+Tantalia	Scaptomyza	varipicta	Malloch	n sp	1.7-1.9	2.0-2.3		male		
+Tantalia	Scaptomyza	albovittata	Malloch	Malloch	1.5-1.6	1.6-2.0		male		
+Tantalia	Scaptomyza	brunnimaculata	Malloch	n sp			1.9	male		
+Tantalia	Scaptomyza	flavida	Malloch	n sp	1.85	2		male		
+Tantalia	Scaptomyza	gilvivirilia	Malloch	n sp	1.8	2		male		
+Tantalia	Scaptomyza	nigrosignata	Malloch	n sp	1.7	1.8		male		
+Tantalia	Scaptomyza	varipicta	Malloch	n sp	1.9-2.2	2.2-2.5		female		
+Tantalia	Scaptomyza	albovittata	Malloch	Malloch				female		
+Tantalia	Scaptomyza	brunnimaculata	Malloch	n sp			2.22	female		
+Tantalia	Scaptomyza	flavida	Malloch	n sp				female		
+Tantalia	Scaptomyza	gilvivirilia	Malloch	n sp				female		
+Tantalia	Scaptomyza	nigrosignata	Malloch	n sp			2.0-2.4	female		
+Trogloscaptomyza	Scaptomyza	connata	Frey	n sp	1.7	1.9		male		
+Trogloscaptomyza	Scaptomyza	levata	Frey	n sp	1.5	1.8		male		
+Trogloscaptomyza	Scaptomyza	mediana	Frey	n sp	1.6	1.9		male		
+Trogloscaptomyza	Scaptomyza	quadridentata	Frey	n sp	1.6	1.8		male		
+Trogloscaptomyza	Scaptomyza	recta	Frey	n sp	2.15	2.5		male		
+Trogloscaptomyza	Scaptomyza	rostrata	Frey	n sp	1.6	1.8		male		
+Trogloscaptomyza	Scaptomyza	setiger	Frey	n sp	1.75	2		male		
+Trogloscaptomyza	Scaptomyza	univitta	Frey	n sp	1.6	1.8		male		
+Trogloscaptomyza	Scaptomyza	dubia	Frey	n sp	1.7	2		male		
+Trogloscaptomyza	Scaptomyza	articulate	Frey	n sp	1.8-2.0	2.2		male		
+Trogloscaptomyza	Scaptomyza	eurystylata	Frey	n sp	2	2.2		male		
+Trogloscaptomyza	Scaptomyza	fastigata	Frey	n sp	1.8	2.1		male		
+Trogloscaptomyza	Scaptomyza	lobifera	Frey	n sp	1.6	1.8		male		
+Trogloscaptomyza	Scaptomyza	mecocerca	Frey	n sp	1.8	2.15		male		
+Trogloscaptomyza	Scaptomyza	multidenta	Frey	n sp	2	2.3		male		
+Trogloscaptomyza	Scaptomyza	protensa	Frey	n sp	1.8	2.1		male		
+Trogloscaptomyza	Scaptomyza	recava	Frey	n sp	1.7	2		male		
+Trogloscaptomyza	Scaptomyza	silvicola	Frey	n sp	1.6	1.9		male		
+Trogloscaptomyza	Scaptomyza	pusilla	Frey	Grimshaw	1.5	1.8		male		
+Trogloscaptomyza	Scaptomyza	cuspidata	Frey	n sp	1.75-2.25	2.00-2.30		male		
+Trogloscaptomyza	Scaptomyza	diaphorocerca	Frey	n sp	2.5	2.85		male		
+Trogloscaptomyza	Scaptomyza	innotabilis	Frey	n sp	2	2.3		male		
+Trogloscaptomyza	Scaptomyza	paralobae	Frey	n sp	2	2.3		male		
+Trogloscaptomyza	Scaptomyza	varia	Frey	n sp	1.8	2.15		male		
+Trogloscaptomyza	Scaptomyza	umbrosa	Frey	n sp	1.8	2		male		
+Trogloscaptomyza	Scaptomyza	concinna	Frey	n sp	2.1	2.5		male		
+Trogloscaptomyza	Scaptomyza	ctenophora	Frey	n sp	1.9	2.2		male		
+Trogloscaptomyza	Scaptomyza	hackmani	Frey	n sp	1.8-2.0	2.1-2.3		male		
+Trogloscaptomyza	Scaptomyza	apiciguttula	Frey	n sp	1.8	2.4		male		
+Trogloscaptomyza	Scaptomyza	pallifrons	Frey	Hackman	2	2.30-2.50		male		
+Trogloscaptomyza	Scaptomyza	ostensa	Frey	n sp	2	2.3		male		
+Trogloscaptomyza	Scaptomyza	cornuta	Frey	n sp	2.2	2.5		male		
+Trogloscaptomyza	Scaptomyza	argentifrons	Frey	n sp	2.0-2.3	2.5		male		
+Trogloscaptomyza	Scaptomyza	devexa	Frey	n sp	2.5	2.85		male		
+Trogloscaptomyza	Scaptomyza	kauaiensis	Frey	Hackman	2.3	2.65		male		
+Trogloscaptomyza	Scaptomyza	basiloba	Frey	n sp	2	2.45		male		
+Trogloscaptomyza	Scaptomyza	adunca	Frey	n sp	2.2	2.5		male		
+Trogloscaptomyza	Scaptomyza	brachycerca	Frey	n sp	2.15	2.5		male		
+Trogloscaptomyza	Scaptomyza	domita	Frey	n sp	2	2.4		male		
+Trogloscaptomyza	Scaptomyza	intricata	Frey	n sp	2.3	2.5		male		
+Trogloscaptomyza	Scaptomyza	isopedon	Frey	n sp	2.2	2.5		male		
+Trogloscaptomyza	Scaptomyza	amnicuspidata	Frey	n sp	2.7	3.3		male		
+Trogloscaptomyza	Scaptomyza	spilota	Frey	n sp	2.4	2.75		male		
+Trogloscaptomyza	Scaptomyza	latitergum	Frey	n sp	2.8	3		male		
+Trogloscaptomyza	Scaptomyza	scoloplichas	Frey	n sp				male		
+Trogloscaptomyza	Scaptomyza	acronastes	Frey	n sp	1.5	1.8		male		
+Trogloscaptomyza	Scaptomyza	anechocerca	Frey	n sp	1.6	1.9		male		
+Trogloscaptomyza	Scaptomyza	apponopusilla	Frey	n sp				male		
+Trogloscaptomyza	Scaptomyza	bilobata	Frey	n sp	2	2.4		male		
+Trogloscaptomyza	Scaptomyza	bipars	Frey	n sp	1.6	1.9		male		
+Trogloscaptomyza	Scaptomyza	camptochaites	Frey	n sp	1.5	1.75		male		
+Trogloscaptomyza	Scaptomyza	cryptoloba	Frey	n sp	1.6	1.8		male		
+Trogloscaptomyza	Scaptomyza	cyrtandrae	Frey	n sp	1.8-2.0	2.2		male		
+Trogloscaptomyza	Scaptomyza	decepta	Frey	n sp	1.8	2.1		male		
+Trogloscaptomyza	Scaptomyza	dentata	Frey	n sp	1.75	2		male		
+Trogloscaptomyza	Scaptomyza	dubautiae	Frey	n sp	1.9	2.2		male		
+Trogloscaptomyza	Scaptomyza	evexa	Frey	n sp	1.8	2.1		male		
+Trogloscaptomyza	Scaptomyza	exigua	Frey	Grimshaw	1.8-2.3	2.0-2.5		male		
+Trogloscaptomyza	Scaptomyza	hardyi	Frey	Hackman	2	2.5		male		
+Trogloscaptomyza	Scaptomyza	inaequalis	Frey	Grimshaw	2	2.5		male		
+Trogloscaptomyza	Scaptomyza	inermis	Frey	n sp	1.8	2.1		male		
+Trogloscaptomyza	Scaptomyza	infurcula	Frey	n sp	1.7	2		male		
+Trogloscaptomyza	Scaptomyza	longipecten	Frey	Hackman	2.0-2.2	2.4-2.7		male		
+Trogloscaptomyza	Scaptomyza	longipecten	Frey	griseonigra n. subsp.				male		
+Trogloscaptomyza	Scaptomyza	mimula	Frey	n sp	1.6-1.8	1.7-2.0		male		
+Trogloscaptomyza	Scaptomyza	monticola	Frey	Grimshaw	2.5-3.0	3.0-3.5		male		
+Trogloscaptomyza	Scaptomyza	obscuricornis	Frey	Grimshaw	1.7	2		male		
+Trogloscaptomyza	Scaptomyza	obscurifrons	Frey	Grimshaw	2.2	2.5		male		
+Trogloscaptomyza	Scaptomyza	penicula	Frey	n sp	1.7	2		male		
+Trogloscaptomyza	Scaptomyza	photophilia	Frey	n sp	1.75	2		male		
+Trogloscaptomyza	Scaptomyza	phryxothrix	Frey	n sp	2	3.2		male		
+Trogloscaptomyza	Scaptomyza	punctivena	Frey	n sp	2.75	3		male		
+Trogloscaptomyza	Scaptomyza	retusa	Frey	n sp	2.3	2.7		male		
+Trogloscaptomyza	Scaptomyza	robusta	Frey	n sp	29-3.2	3.7		male		
+Trogloscaptomyza	Scaptomyza	rotundiloba	Frey	n sp	2	2.3		male		
+Trogloscaptomyza	Scaptomyza	scoliops	Frey	n sp	1.8	2		male		
+Trogloscaptomyza	Scaptomyza	setosiloba	Frey	n sp	2	2.2		male		
+Trogloscaptomyza	Scaptomyza	tenuata	Frey	n sp	2.3	2.7		male		
+Trogloscaptomyza	Scaptomyza	trivittata	Frey	n sp	2.1	2.5		male		
+Trogloscaptomyza	Scaptomyza	tumidula	Frey	n sp	1.8	2		male		
+Trogloscaptomyza	Scaptomyza	uliginosa	Frey	n sp	3.2	3.5		male		
+Trogloscaptomyza	Scaptomyza	vagabunda	Frey	n sp	1.8	2.1		male		
+Trogloscaptomyza	Scaptomyza	villosa	Frey	n sp	2.3-2.5	2.6-2.8		male		
+Trogloscaptomyza	Scaptomyza	waialealeae	Frey	n sp			2.75-3.25	male		
+Trogloscaptomyza	Scaptomyza	ochromata	Frey	n sp	1.6	2		female		
+Trogloscaptomyza	Scaptomyza	connata	Frey	n sp	1.75	2		female		
+Trogloscaptomyza	Scaptomyza	levata	Frey	n sp	1.8	2		female		
+Trogloscaptomyza	Scaptomyza	mediana	Frey	n sp	1.8	2.1		female		
+Trogloscaptomyza	Scaptomyza	quadridentata	Frey	n sp	1.8	2.1		female		
+Trogloscaptomyza	Scaptomyza	recta	Frey	n sp	1.8	2		female		
+Trogloscaptomyza	Scaptomyza	rostrata	Frey	n sp	1.8	2		female		
+Trogloscaptomyza	Scaptomyza	setiger	Frey	n sp	1.8	2.1		female		
+Trogloscaptomyza	Scaptomyza	univitta	Frey	n sp	1.8	2		female		
+Trogloscaptomyza	Scaptomyza	dubia	Frey	n sp	1.9	2.1		female		
+Trogloscaptomyza	Scaptomyza	articulate	Frey	n sp	2	2.5		female		
+Trogloscaptomyza	Scaptomyza	eurystylata	Frey	n sp	2	2.2		female		
+Trogloscaptomyza	Scaptomyza	fastigata	Frey	n sp	2	2.3		female		
+Trogloscaptomyza	Scaptomyza	lobifera	Frey	n sp	2	2.2		female		
+Trogloscaptomyza	Scaptomyza	mecocerca	Frey	n sp	2	2.3		female		
+Trogloscaptomyza	Scaptomyza	multidenta	Frey	n sp	2	2.3		female		
+Trogloscaptomyza	Scaptomyza	protensa	Frey	n sp	2	2.25		female		
+Trogloscaptomyza	Scaptomyza	recava	Frey	n sp	2	2.2		female		
+Trogloscaptomyza	Scaptomyza	silvicola	Frey	n sp	2	2.3		female		
+Trogloscaptomyza	Scaptomyza	pusilla	Frey	Grimshaw	2.0-2.3	2.4-2.7		female		
+Trogloscaptomyza	Scaptomyza	cuspidata	Frey	n sp	2.0-2.7	2.3-2.8		female		
+Trogloscaptomyza	Scaptomyza	diaphorocerca	Frey	n sp	2.1	2.25		female		
+Trogloscaptomyza	Scaptomyza	innotabilis	Frey	n sp	2.1	2.4		female		
+Trogloscaptomyza	Scaptomyza	paralobae	Frey	n sp	2.1	2.5		female		
+Trogloscaptomyza	Scaptomyza	varia	Frey	n sp	2.1	2.4		female		
+Trogloscaptomyza	Scaptomyza	umbrosa	Frey	n sp	2.15	2.5		female		
+Trogloscaptomyza	Scaptomyza	concinna	Frey	n sp	2.2	2.6		female		
+Trogloscaptomyza	Scaptomyza	ctenophora	Frey	n sp	2.2	2.5		female		
+Trogloscaptomyza	Scaptomyza	hackmani	Frey	n sp	2.2	2.5		female		
+Trogloscaptomyza	Scaptomyza	apiciguttula	Frey	n sp	2.2-2.4	2.5-2.9		female		
+Trogloscaptomyza	Scaptomyza	pallifrons	Frey	Hackman	2.20-2.50	2.75-8.10		female		
+Trogloscaptomyza	Scaptomyza	ostensa	Frey	n sp	2.25	2.5		female		
+Trogloscaptomyza	Scaptomyza	cornuta	Frey	n sp	2.3	2.7		female		
+Trogloscaptomyza	Scaptomyza	argentifrons	Frey	n sp	2.30-2.60	2.50-2.75		female		
+Trogloscaptomyza	Scaptomyza	devexa	Frey	n sp	2.35	2.7		female		
+Trogloscaptomyza	Scaptomyza	kauaiensis	Frey	Hackman	2.35	2.75		female		
+Trogloscaptomyza	Scaptomyza	basiloba	Frey	n sp	2.4	2.7		female		
+Trogloscaptomyza	Scaptomyza	adunca	Frey	n sp	2.5	2.8		female		
+Trogloscaptomyza	Scaptomyza	brachycerca	Frey	n sp	2.5	2.7		female		
+Trogloscaptomyza	Scaptomyza	domita	Frey	n sp	2.5	2.85		female		
+Trogloscaptomyza	Scaptomyza	intricata	Frey	n sp	2.5	2.8		female		
+Trogloscaptomyza	Scaptomyza	isopedon	Frey	n sp	2.5	2.8		female		
+Trogloscaptomyza	Scaptomyza	amnicuspidata	Frey	n sp	2.7	2.9		female		
+Trogloscaptomyza	Scaptomyza	spilota	Frey	n sp	2.7	2.9		female		
+Trogloscaptomyza	Scaptomyza	latitergum	Frey	n sp	3.2	3.35		female		
+Trogloscaptomyza	Scaptomyza	scoloplichas	Frey	n sp	3.4	3.8		female		
+Trogloscaptomyza	Scaptomyza	acronastes	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	anechocerca	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	apponopusilla	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	bilobata	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	bipars	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	camptochaites	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	cryptoloba	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	cyrtandrae	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	decepta	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	dentata	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	dubautiae	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	evexa	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	exigua	Frey	Grimshaw				female		
+Trogloscaptomyza	Scaptomyza	hardyi	Frey	Hackman				female		
+Trogloscaptomyza	Scaptomyza	inaequalis	Frey	Grimshaw				female		
+Trogloscaptomyza	Scaptomyza	inermis	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	infurcula	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	longipecten	Frey	Hackman				female		
+Trogloscaptomyza	Scaptomyza	longipecten	Frey	griseonigra n. subsp.				female		
+Trogloscaptomyza	Scaptomyza	mimula	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	monticola	Frey	Grimshaw				female		
+Trogloscaptomyza	Scaptomyza	obscuricornis	Frey	Grimshaw				female		
+Trogloscaptomyza	Scaptomyza	obscurifrons	Frey	Grimshaw				female		
+Trogloscaptomyza	Scaptomyza	penicula	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	photophilia	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	phryxothrix	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	punctivena	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	retusa	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	robusta	Frey	n sp			2.9-3.2	female		
+Trogloscaptomyza	Scaptomyza	rotundiloba	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	scoliops	Frey	n sp			2.15	female		
+Trogloscaptomyza	Scaptomyza	setosiloba	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	tenuata	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	trivittata	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	tumidula	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	uliginosa	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	vagabunda	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	villosa	Frey	n sp				female		
+Trogloscaptomyza	Scaptomyza	waialealeae	Frey	n sp				female		

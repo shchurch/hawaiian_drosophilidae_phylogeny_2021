@@ -1,0 +1,10 @@
+individual	sample	species match	reference male	external reference sequence	barcode sequence used for final identification	notes
+029A	029Atxt	D. atroscutellata	yes	yes	COII	
+088B	088Bb	S. cyrtandrae	none	yes	COII	
+040C	040Ctxt	D. mimica	yes	yes	16S	
+002D	002Dtxt	D. nanella	yes	yes	16S, COII	
+106A	106Atxt	D. sproati	none	none	COII	matched to other females, morphology is distinctive for females in this species
+043D	043Dtxt	D.tanythrix	yes	yes	COII	barcode sequences for D. cognata and D. yooni males suggest hidden complexity in this group
+CFB	CFBb	S. varia	yes	yes	COI	
+020A	020Atxt	S. varipicta	yes	yes	COII	
+16.1-1	16.1.4	D. cf dives	none	none	16S, COII	found no matching reference sequence and no males were caught

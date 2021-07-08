@@ -1,0 +1,20 @@
+subgroup	genus	species	island	Adh	COII	Gpdh	16S	Yp1	Yp2_rep	locality	notes	
+cyrtoloma	Drosophila	cyrtoloma	MAUI	AY006418	AY006437	AY006457	AY006399	U51581	U61699	Waikamoi Forest Preserve, JB & MPK		
+cyrtoloma	Drosophila	hanaulae	MAUI	AY006408	AY006427	AY006447	AY006389		U61703	M. P. Kambysellis Collection		
+cyrtoloma	Drosophila	ingens	MAUI	AY006425	AY006444	AY6446	AY006406		U61707	no collection date or location available, Y1862, MPK		
+cyrtoloma	Drosophila	melanocephala	MAUI	AY006422	AY006441	AY006461	AY006403	U51803	U61708	Waikamoi Forest Preserve, JB & MPK		
+cyrtoloma	Drosophila	neoperkinsi	MAUI/MOLOKA'I	AY006417	AY006436	AY006456	AY006398		U61711	M. P. Kambysellis Collection		
+cyrtoloma	Drosophila	oahuensis	O'AHU	AY006412	AY006431	AY006451	AY006393	U51877	U61714	R. DeSalle Collection		moved U51877 from Yp1 to Yp2, added U61714 to Yp2
+cyrtoloma	Drosophila	obscuripes	MAUI	AY006424	AY006443	AY006462	AY006405	U52009	U61715	Paliku Cabin, Haleakala, 6400 ft., 3.viii.1988, Y50, KYK, RD, RA, & WDP		
+neopicta	Drosophila	neopicta	MAUI	AY006420	AY006439	AY006459	AY006401		U61712	Upper Waikamoi Forest Preserve, 6.vii.1998, OG41.C, PMO & SLM	removed erroneous Yp1 id U51621 (COI) 	
+neopicta	Drosophila	nigribasis	O'AHU	AY006413	AY006432	AY006452	AY006394	U52017	U61713	M. P. Kambysellis Collection		
+neopicta	Drosophila	substenoptera	O'AHU	AY006421	AY006440	AY006460	AY006402	U52027	U61722	M. P. Kambysellis Collection		
+outgroup	Drosophila	primaeva	KAUA'I	AY006426	AY006445	AY006464	AY006407	U52020	U61718	Pihea Trail, Alakai Swamp, 10.viii.1983, W52P14, MPK, LO, & LF		
+outgroup	Drosophila	adunca	MAUI	AY006409	AY006428	AY006448	AY006390	U51579	U61698	Upper Waikamoi Forest Preserve, 6.vii.1998, OG41.3, PMO & SLM		
+picticornis	Drosophila	picticornis	KAUA'I	AY006411	AY006430	AY006450	AY006392	U52010	U61716	M. P. Kambysellis Collection		
+picticornis	Drosophila	setosifrons	HAWAI'I	AY006423	AY006442	AY006462	AY006404	U52128	U61720	Olaa Forest, Volcanoes National Park, 28.xi.1990, Y80, KYK		
+planitibia	Drosophila	differens	MOLOKA'I	AY006416	AY006435	AY006455	AY006397	U51582	U61700	Kaneshiro Lab Stock		
+planitibia	Drosophila	hemipeza	O'AHU	AY006410	AY006429	AY006449	AY006391	U51800	U61704	R. DeSalle Collection		
+planitibia	Drosophila	heteroneura	HAWAI'I	AY006415	AY006434	AY006454	AY006396	U51801	U61705	Waihaka Gulch, Kau Forest Preserve, Volcanoes National Park, 4200 ft., 5.i.1983, W33B4, KYK & KMK		
+planitibia	Drosophila	planitibia	MAUI	AY006419	AY006438	AY006458	AY006400	U52011	U61717	Waikamoi Forest Preserve, 27.iii.1979, U84N, WJD, LVG, & HP		
+planitibia	Drosophila	silvestris	HAWAI'I	AY006414	AY006433	AY006453	AY006395	U52026	U61721	Olaa Forest, Volcanoes National Park, 18—19.iii.1983, W34B4, HLC		

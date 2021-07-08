@@ -1,0 +1,110 @@
+genus	species	describer	sex	type	4C	4V	5X	CI	HW	HW/TL	M	N	TL	TL/WL	WL	pupal_length
+Drosophila	anthrax	Hardy 1965: 148	male	MOLOKA`I: Holotype male, Manawainui Valley, vii.1952, DEH, BPBM 6293	0.5	1.2	1.3	4.1	1.1	0.7	0.4	NA	1.5	0.6	2.6	
+Drosophila	anthrax	Hardy 1965: 148	male		0.5 (0.4-0.5)	1.3 (1.2-1.3)	1.5 (1.3-1.7)	4.4 (4.1-4.6)	1.1  (1.0-1.1)	0.7	0.4	2	1.4  (1.4-1.5)	0.6 (0.5-0.6)	2.6	
+Drosophila	atrifacies	n sp	female	Allotype female, MAUI: Trail to Pu`u Kukui, West Maui, 3500 ft.,17.ix.1975, KYK, BPBM 16360a	0.5	1.4	1.5	4.5	1.3	0.7	0.4	NA	1.8	0.5	3.8	
+Drosophila	atrifacies	n sp	female		NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	
+Drosophila	atrifacies	n sp	male	MAUI: Holotype male, Waikamoi, 10.v.1974, KYK, BPBM 16360	0.4	1.3	1.6	4.8	1.2	0.7	0.4	NA	1.7	0.5	3.5	
+Drosophila	atrifacies	n sp	male		0.4 (0.3-0.5)	1.2 (1.1-1.3)	1.4 (1.2-1.6)	4.7 (4.3-5.6)	1.2  (1.1-1.3)	0.7 (0.7-0.8)	0.4 (0.3-0.4)	6	1.7  (1.4-1.8)	0.5	3.2  (2.8-3.5)	
+Drosophila	bipolita	Hardy 1965: 177	female		0.5(0.5-0.6)	1.5 (1.4-1.5)	2.1 (1.5-2.7)	4.7 (3.7-5.2)	1.0  (0.8-1.1)	0.8 (0.7-0.8)	0.5 (0.4-0.6)	6	1.2  (1.0-1.3)	0.5 (0.4-0.5)	2.6  (2.2-3.3)	
+Drosophila	bipolita	Hardy 1965: 177	male		0.5	1.5 (1.4-1.6)	1.9 (1.6-2.1)	4.8 (4.7-5.0)	0.8  (0.7-0.9)	0.8 (0.8-0.9)	0.4 (0.4-0.5)	3	1.0  (0.8-1.1)	0.5	2.0  (1.7-2.2)	
+Drosophila	brunneicrus	n sp	male	HAWAI`I: Holotype male, Kilauea Forest Reserve, 26.vii.1975, HTS, BPBM 16361	0.5	1.3	1.8	5	1	0.7	0.4	NA	1.6	0.5	3.3	
+Drosophila	brunneicrus	n sp	male		0.5 (0.4-0.6)	1.4 (1.3-1.6)	1.6 (1.4-1.8)	4.6 (3.9-5.2)	1.0  (0.9-1.2)	0.7	0.4 (0.3-0.4)	9	1.4  (1.3-1.7)	0.5 (0.4-0.5)	3.2  (3.0-3.6)	
+Drosophila	canipolita	Hardy 1965: 198	female		0.5 (0.4-0.6)	1.5 (1.2-1.7)	1.8(1.6-2.3)	4.4 (4.0-4.9)	0.9 (0.8-1.0)	0.8 (0.8-0.9)	NA	10	1.1  (1.0-1.2)	0.5 (0.4-0.5)	2.4  (2.2-2.5)	
+Drosophila	canipolita	Hardy 1965: 198	male		0.6 (0.5-0.7)	1.6 (1.5-1.9)	1.9 (1.6-2.1)	4.1 (3.6-4.6)	0.8  (0.7-0.9)	0.9 (0.8-1.0)	0.5 (0.4-0.6)	10	0.9  (0.8-1.0)	0.5 (0.4-0.5)	2.0  (1.9-2.2)	
+Drosophila	chicae	n sp	female	Allotype female, Kilauea Forest,Volcano Hawai`i, 3.vi.1974, HTS, BPBM 16358a	0.5	1.6	2.2	5.7	0.7	0.8	0.4	NA	0.9	0.4	2.3	
+Drosophila	chicae	n sp	female		0.5 (0.5-0.6)	1.7 (1.5-1.9)	2.3 (2.0-2.6)	5.3 (4.6-5.6)	0.9  (0.7-1.0)	0.8	0.5 (0.4-0.6)	6	1.1 (0.9-1.3)	0.4	2.7  (2.3-2.9)	
+Drosophila	chicae	n sp	male	HAWAI`I: Holotype male, Kokoolau Overlook, Kilauea National Park, vi.1974, FCV,BPBM 16358	0.4	1.7	2.9	6.7	0.8	0.8	0.6	NA	0.9	0.3	2.6	
+Drosophila	chicae	n sp	male		0.4	1.7(1.6-1.7)	2.6 (2.0-2.9)	6.8 (6.1-8.1)	0.8 (0.7-0.9)	0.8 (0.8-0.9)	0.5 (0.5-0.6)	7	1.0  (0.9-1.1)	0.3 (0.3-0.4)	2.6  (2.6-2.7)	
+Drosophila	clara	n sp	female	Allotype female, same collection as type, BPBM16363a	0.5	1.4	1.6	4.8	1.1	0.7	0.4	NA	1.5	0.5	3.3	
+Drosophila	clara	n sp	female		0.5 (0.5-0.6)	1.4 (1.2-1.6)	2.1(1.6-2.3)	4.4 (3.9-4.9)	1.0 (0.9-1.1)	0.7 (0.7-0.8)	0.5 (0.4-0.5)	7	1.4  (1.2-1.6)	0.4 (0.4-0.5)	3.1  (2.8-3.4)	
+Drosophila	clara	n sp	male	HAWAI`I: Holotype male, Greenwell Ranch, Pauahi, Kona, 22.vi.1974, KYK, BPBM16363	0.5	1.4	1.8	4.6	1	0.8	0.4	NA	1.4	0.4	3.2	
+Drosophila	clara	n sp	male		0.6 (0.5-0.6)	1.4 (1.2-1.6)	1.9 (1.3-2.4)	4.3 (3.8-4.7)	1.0  (0.8-1.1)	0.8 (0.7-0.8)	0.4 (0.4-0.5)	11	1.3  (1.1-1.4)	0.4 (0.4-0.5)	2.9  (2.8-3.3)	
+Drosophila	cryptica	n sp	female	Allotype female, same collection as holotype, BPBM 16364a	0.5	1.3	1.8	5	1.2	0.7	0.4	NA	1.6	0.5	3.5	
+Drosophila	cryptica	n sp	female		0.5 (0.4-0.5)	1.3	1.7 (1.6-1.8)	5.4 (5.0-5.8)	1.2  (1.1-1.2)	0.7	0.4.88	2	1.6  (1.5-1.6)	0.5	3.3  (3.1-3.5)	
+Drosophila	cryptica	n sp	male	MOLOKA`I: Holotype male, Hanalilolilo, 9.i.1975, ATO, BPBM 16364	0.6	1.3	1.3	4.2	1.2	0.8	0.4	NA	1.4	0.5	3	
+Drosophila	cryptica	n sp	male		0.5 (0.4-0.6)	1.3 (1.2-1.6)	1.7 (1.3-2.0)	4.5 (4.2-5.0)	1.1  (1.0-1.2)	0.8 (0.7-0.8)	0.4 (0.3-0.4)	7	1.4  (1.2-1.5)	0.5 (0.4-0.5)	3.0  (2.9-3.2)	
+Drosophila	curtitarsis	n sp	female	Allotype female, samecollection as holotype	0.7	2.1	3	4.6	1	0.8	0.8	NA	1.3	0.4	2.9	
+Drosophila	curtitarsis	n sp	female		0.6 (0.5-0.7)	1.6 (1.5-2.1)	2.7(2.3-3.0)	4.7 (4.5-4.9)	0.9 (0.8-1.1)	0.8 (0.8-0.9)	0.6 (0.5-0.8)	7	1.2  (1.0-1.3)	0.5 (0.4-0.5)	2.6 (2.1-2.9)	
+Drosophila	curtitarsis	n sp	male	KAUA`I: Holotype male, Berry Flat Trail, Koke`e, 18.iv.1974, “ex: mushrooms,”HTS, BPBM 16539	0.5	1.6	3.7	4.9	0.9	0.8	0.6	NA	1	0.4	2.4	
+Drosophila	curtitarsis	n sp	male		0.5 (0.5-0.6)	1.6 (1.5-1.8)	3.3 (2.8-4.0)	5.2 (4.8-5.6)	0.9  (0.8-1.0)	0.8 (0.8-0.9)	0.6 (0.6-0.7)	10	1.0  (1.0-1.1)	0.4 (04-0.5)	2.4  (2.1-2.9)	
+Drosophila	demipolita	Hardy 1965: 239	female		0.5	1.4	2	4.4	1	0.8	0.5	1	1.2	0.5	2.6	
+Drosophila	demipolita	Hardy 1965: 239	male		0.6	1.3	1.9	3.4	0.8	0.8	0.4	1	1	0.4	2.5	
+Drosophila	denotata	Hardy 1965: 241	female		0.5	1.2 (1.1-1.2)	1.4 (1.1-1.5)	4.1(4.0-4.3)	1.4  (1.2-1.5)	0.7	0.3 (0.2-0.3)	4	1.8  (1.7-2.0)	0.5	3.6  (3.3-3.9)	
+Drosophila	denotata	Hardy 1965: 241	male		0.4 (0.4-0.5)	1.0 (1.0-1.1)	1.4 (1.1-1.7)	4.6 (4.5-4.7)	2.7  (2.7-2.8)	0.7 (0.7-0.8)	0.3 (0.2-0.3)	3	1.8	0.5	3.8  (3.7-3.9)	
+Drosophila	denotata	Hardy 1965: 241			NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	2.1 mm (2.0-2.2).
+Drosophila	dives	n sp	female	Allotype female, same collection asholotype, BPBM 16366a	0.6	1.5	1.8	3.8	0.9	0.7	0.4	NA	1.3	0.5	2.8	
+Drosophila	dives	n sp	female		NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	
+Drosophila	dives	n sp	male	HAWAI`I: Holotype male, Kilauea, Volcanoes National Park, 29.i.1969, MDD,BPBM 16366	0.5	1.4	1.6	4.1	1	0.8	0.4	NA	1.2	0.4	2.8	
+Drosophila	dives	n sp	male		0.6 (0.5-0.6)	1.6  (1.4-1.8)	1.9 (1.6-2.3)	4.3 (4.1-4.8)	1.0  (0.9-1.1)	0.8	0.5 (0.4-0.6)	5	1.3  (1.2-1.3)	0.4	2.9  (2.7-3.1)	
+Drosophila	dolichotarsis	Hardy 1966: 206	female	Allotypefemale, Kaupo Gap, Haleakala, 4750 ft., 19.vi.1975, KYK, BPBM 11260, right 3rd antennalsegment missing (Evenhuis, 1982)	0.3	1.2	0.9	7.4	1.4	0.7	0.3	NA	2.1	0.4	4.9	
+Drosophila	dolichotarsis	Hardy 1966: 206	female		NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	
+Drosophila	dolichotarsis	Hardy 1966: 206	male		0.4	1.3 (1.2-1.3)	0.9(0.7-1.0)	6	1.6  (1.5-1.7)	0.7	0.2	2	2.3  (2.2-2.4)	0.4 (0.3-0.4)	6.3	
+Drosophila	fascigera	n sp	male	KAUA`I: Holotype male, Mahanaloa Valley, Koke`e, 1950 ft., 23.iii.1973, KYK,BPBM 16354	0.6	1.6	2	4.4	0.9	0.9	0.4	NA	1	0.4	2.3	
+Drosophila	fascigera	n sp	male		0.6	1.7	2	4.1	0.9  (0.9 - 1.0)	0.9	0.5	5	1.0  (0.9 - 1.1)	0.5	2.0  (1.9 - 2.3)	
+Drosophila	flavisternum	Hardy 1965: 275	male		0.7	1.6	2.1	3.7	1	0.8	0.5	1	1.3	0.5	2.7	
+Drosophila	fulgida	n sp	female	Allotype female, same information as holotype,BPBM 16369a	0.6	1.4	1.9	4.1	1.1	0.7	0.5	NA	1.5	0.5	2.9	
+Drosophila	fulgida	n sp	female		0.5 (0.4-0.6)	1.4 (1.3-1.5)	2.1 (1.7-2.5)	4.5 (3.8-5.8)	1.1  (0.9-1.2)	0.8 (0.7-0.8)	0.5 (0.4-0.6)	11	1.4  (1.2-1.6)	0.5 (0.4-0.5)	2.9 (2.6-3.1)	
+Drosophila	fulgida	n sp	male	KAUA`I: Holotype male, Mohihi Stream, Koke`e, 2700 ft., 30.vii.1963, DEH, BPBM16369	0.6	1.5	2	4.3	0.9	0.8	0.5	NA	1.2	0.5	2.4	
+Drosophila	fulgida	n sp	male		0.6 (0.5-0.6)	1.5 (1.4-1.6)	2.2 (1.8-2.5)	4.2 (3.7-4.7)	1.0  (0.9-1.0)	0.8	0.5 (0.4-0.6)	11	1.2	0.5	2.6  (2.4-2.6)	
+Drosophila	fungiperda	Hardy 1966: 244	female		0.5 (0.5-0.6)	1.4 (1.3-1.6)	1.8(1.7-2.3)	4.4 (3.8-5.0)	1.2 (1.1-1.3)	0.7 (0.6-0.8)	0.5 (0.4-0.6)	10	1.6  (1.4-1.8)	0.4 (0.4-0.5)	3.7  (3.5-4.1)	
+Drosophila	fungiperda	Hardy 1966: 244	male		0.5 (0.4-0.5)	1.3 (1.3-1.4)	2.1 (1.7-2.5)	4.1 (3.3-4.5)	1.2  (1.1-1.2)	0.7 (0.7-0.8)	0.4 (0.4-0.5)	10	1.5  (1.4-1.7)	0.4 (0.4-0.5)	3.6  (3.4-3.8)	
+Drosophila	fuscifrons	Hardy 1965: 287	male		0.5	1.3 (1.2-1.4)	1.8 (1.6-1.9)	4.4 (4.3-4.5)	0.8	0.8 (0.7-0.8)	0.5 (0.4-0.5)	2	1.1  (0.9-1.2)	0.5 (0.4-0.5)	2.3  (2.2-2.3)	
+Drosophila	fuscoapex	Hardy 1965 291	male	KAUA`I: Holotype male, Alaka`i Swamp, 3800 ft., vii.1952, DEH, BPBM 6366	0.6	1.4	2.4	3.7	0.6	0.7	0.4	NA	0.8	0.4	1.9	
+Drosophila	haleakalae	Grimshaw 1901: 64	female		0.7	1.3	1.7	3.2	1.4	0.7	0.4	1	1.9	0.4	4.3	
+Drosophila	haleakalae	Grimshaw 1901: 64	male		0.5 (0.4-0.5)	1.4 (1.3-1.4)	1.5 (1.4-1.6)	5.1 (5.0-5.2)	1.2  (1.1-1.2)	0.7	0.4	2	1.6  (1.5-1.6)	0.5 (0.4-0.5)	3.4	
+Drosophila	hemianthrax	n sp	male	HAWAI`I: Holotype male, Kilauea Forest Reserve, 26.vii.1975, HTS, BPBM xxxx	0.5	1.3	1.5	4.2	1	0.8	0.4	NA	1.2	0.4	2.9	
+Drosophila	hemianthrax	n sp	male		0.5	1.4	1.6	4	0.9  (0.7 - 1.0)	0.8	0.4	3	1.2  (1.0 - 1.3)	0.4	2.6  (2.3 - 2.9)	
+Drosophila	iki	Hardy 1965: 310	female		0.5 (0.4-0.5)	1.2	1.0 (0.9-1.1)	4.5 (4.3-4.7)	2.5  (2.3-2.6)	0.7	0.3	2	1.8 (1.7-1.8)	0.5	3.5  (3.3-3.7)	
+Drosophila	iki	Hardy 1965: 310	male		0.5	1.4	0.9	4.8	1.2	0.8	0.3	1	1.7	0.5	3.5	
+Drosophila	illusiopolita	Hardy 1965: 311	male		0.5	1.4	2	4.7	0.8	0.8	0.5	1	1	0.4	2.3	
+Drosophila	inciliata	Hardy & Kaneshiro 1968: 251	female		0.4(0.4-0.5)	1.3	1.2 (1.1-1.3)	5.1 (4.3-6.0)	1.3  (1.2-1.4)	0.7 (0.6-0.7)	0.3	3	2.0 (1.8-2.1)	0.5 (0.4-0.5)	4.3  (4.1-4.6)	
+Drosophila	inciliata	Hardy & Kaneshiro 1968: 251	male		0.4 (0.4-0.5)	1.2 (1.2-1.3)	1.4 (1.2-1.7)	4.4 (4.0-4.8)	1.4  (1.2-1.5)	0.7	0.4 (0.3-0.4)	4	1.9  (1.7-2.0)	0.5 (0.4-0.5)	4.1  (4.0-4.2)	
+Drosophila	insignita	Hardy 1965: 326	male		0.5	1.5	2.4	5.8	0.6	NA	0.5	1	0.7	0.4	1.8	
+Drosophila	lissodora	n sp	male		0.5 (0.5-0.6)	1.4 (1.3-1.6)	2.2 (1.6-3.0)	4.6 (4.2-4.7)	0.9  (0.8-1.1)	0.8 (0.8-0.9)	0.5 (0.4-0.6)	10	1.1  (1.0-1.3)	0.5 (0.4-0.5)	2.5  (2.3-2.7)	
+Drosophila	longiperda	n sp	female	Allotype: female, samecollection as type, BPBM 16356a	0.5	1.2	1.4	4.3	1.5	0.7	0.3	NA	2.2	0.4	4.9	
+Drosophila	longiperda	n sp	female		0.5 (0.4-0.6)	1.2 (1.1-1.3)	1.4 (1.1-1.8)	4.4 (4.0-4.8)	1.4  (1.1-1.5)	0.7	0.3 (0.3-0.4)	11	1.9 (1.6-2.2)	0.5 (0.4-0.5)	4.1  (3.3-5.3)	
+Drosophila	longiperda	n sp	male	HAWAI`I: Holotype male, `Ola`a, Volcano Experimental Station Forest, 21.ii.1976,KYK, BPBM 16356	0.5	1.3	1.7	4.9	1.4	0.7	0.3	NA	1.9	0.4	4.6	
+Drosophila	longiperda	n sp	male		0.5 (0.4-0.5)	1.2 (1.1-1.3)	1.5 (1.3-1.7)	4.7 (4.3-5.3)	1.4  (1.1-1.6)	0.7 (0.6-0.8)	0.3	11	1.9  (1.6-2.3)	0.4 (0.4-0.5)	4.5  (3.9-5.1)	
+Drosophila	luteola	Hardy 1965: 347	male		0.5	1.3	1.5	4.2	0.9	0.7	0.3	1	1.2	0.5	2.3	
+Drosophila	macrochaetae	Hardy 1965: 348	female		0.8 (0.7-0.8)	1.7 (1.6-1.8)	2.0 (1.8-2.1)	4.0 (3.9-4.0)	1.1  (1.0-1.2)	0.7	0.6 (0.5-0.6)	2	1.6  (1.4-1.8)	0.4	3.5  (3.2-3.8)	
+Drosophila	mecocnemia	Hardy 1965: 354	male		0.6 (0.5-0.6)	1.6 (1.5-1.6)	2.0 (1.9-2.1)	4.5 (4.1-4.9)	1	0.8	0.5 (0.4-0.5)	2	1.2	0.4	3.1  (3.0-3.2)	
+Drosophila	melanoloma	Grimshaw	female		0.5 (0.4-0.5)	1.3 (1.2-1.4)	1.4 (1.3-1.5)	4.5 (4.2-5.0)	1.1  (1.1-1.2)	0.7 (0.7-0.8)	0.4 (0.3-0.4)	5	1.5 (1.4-1.7)	0.5	3.1 (3.0-3.3)	
+Drosophila	melanoloma	Hardy 1965: 360	female		0.6 (0.5-0.7)	1.5 (1.3-1.7)	1.5 (1.3-1.8)	4.1 (3.7-5.2)	1.0 (0.9-1.1)	0.7	0.4 (0.4-0.5)	5	1.4  (1.3-1.5)	0.4 (0.4-0.5)	3.2  (3.1-3.5)	
+Drosophila	melanoloma	Grimshaw	male		0.5 (0.5-0.6)	1.3 (1.2-1.4)	1.6 (1.5-1.8)	4.3 (3.7-4.8)	1.1  (1.0-1.1)	0.8	0.4 (0.3-0.4)	3	1.3  (1.3-1.4)	0.5 (0.4-0.5)	2.9  (2.8-2.9)	
+Drosophila	melanoloma	Hardy 1965: 360	male		0.6 (0.6-0.8)	1.5 (1.4-1.8)	2.1 (1.8-2.6)	3.7 (3.1-4.1)	0.8  (0.7-0.9)	0.8 (0.7-0.8)	0.5 (0.5-0.6)	10	1.1  (0.8-1.3)	0.4 (0.3-0.5)	2.5  (2.1-2.9)	
+Drosophila	multiciliata	n sp	female	Allotype female, same collection asholotype, BPBM 16355a	0.6	1.6	1.7	4.5	1	0.7	0.5	NA	1.4	0.4	3.4	
+Drosophila	multiciliata	n sp	female		0.5 (0.4-0.6)	1.4 (1.3-1.6)	1.8 (1.6-2.0)	4.9 (4.5-5.4)	1.1  (1.0-1.1)	0.7 (0.7-0.8)	0.4	11	1.5  (1.4-1.6)	0.4	3.6  (3.4-3.9)	
+Drosophila	multiciliata	n sp	male	HAWAI`I: Holotype #, Kipuka male9, Saddle Road, 5110 ft., 13.vii.1967, WBH,BPBM 16355	0.5	1.5	1.8	5	0.8	0.8	0.5	NA	1.1	0.3	3.2	
+Drosophila	multiciliata	n sp	male		0.5 (0.5-0.6)	1.4 (1.3-1.5)	1.9 (1.7-2.0)	4.6 (4.3-5.2)	1.0  (0.8-1.1)	0.7 (0.7-0.8)	0.4 (0.4-0.5)	11	1.3  (1.1-1.4)	0.4 (0.3-0.4)	3.3  (3.0-3.6)	
+Drosophila	nigella	Hardy 1965: 385	female		0.5 (0.5-0.6)	1.4 (1.3-1.4)	1.6 (1.5-1.9)	4.4 (3.7-5.2)	1.3  (1.2-1.3)	0.7	0.4	3	1.8  (1.7-1.8)	0.5(0.4-0.5)	3.8  (3.7-3.8)	
+Drosophila	nigella	Hardy 1965: 385	male		0.5 (0.4-0.5)	1.3	2.0 (1.9-2.1)	4.7	1.3  (1.2-1.3)	0.8	0.4	2	1.6	0.5	3.4  (3.2-3.5)	
+Drosophila	nigropolita	Hardy 1965: 394	male		0.6 (0.5-0.6)	1.5 (1.4-1.5)	2.0 (1.6-2.4)	4.1 (3.5-4.5)	0.9  (0.8-0.9)	0.9 (0.8-0.9)	0.5 (0.4-0.5)	5	1.0  (0.9-1.1)	0.4 (0.4-0.5)	2.3  (2.1-2.7)	
+Drosophila	ochropleura	n sp	female	Allotype female, Kilauea Forest, Volcano, 3.vi.1974, HTS,BPBM 16362a	0.6	1.5	1.7	3.9	1	0.7	0.5	NA	1.5	0.5	3.2	
+Drosophila	ochropleura	n sp	female		0.5 (0.4-0.6)	1.5 (1.3-1.6)	2.0(1.6-2.2)	4.4 (3.8-6.3)	1.0 (0.8-1.2)	0.7 (0.7-0.8)	0.5 (0.4-0.5)	11	1.4  (1.1-1.6)	0.4 (0.4-0.5)	3.2  (2.8-3.6)	
+Drosophila	ochropleura	n sp	male	HAWAI`I: Holotype male, Kipuka Ki, 1285 m, 3.vi.1974, HTS, BPBM 16362	0.6	1.7	1.9	4.2	1	0.7	0.5	NA	1.3	0.4	3.1	
+Drosophila	ochropleura	n sp	male		0.6 (0.4-0.6)	1.6 (1.4-1.7)	2.1 (1.7-2.7)	4.2 (3.7-4.8)	1.0  (0.9-1.1)	0.8 (0.7-0.8)	0.5 (0.4-0.6)	11	1.3  (1.1-1.3)	0.4 (0.4-0.5)	2.9  (2.6-3.1)	
+Drosophila	paraanthrax	n sp	female	Allotype: female, Mohihi Stream, Koke`e, 30.vii.1963,DEH, BPBM 16368a	0.5	1.5	2	4.9	0.8	0.7	0.5	NA	1.2	0.5	2.6	
+Drosophila	paraanthrax	n sp	female		0.5 (0.5-0.6)	1.5 (1.4-1.5)	2.0 (1.8-2.1)	4.5 (3.0-4.9)	0.9  (0.8-1.0)	0.8 (0.7-0.8)	0.5 (0.4-0.5)	4	1.2 (1.2-1.3)	0.4 (0.4-0.5)	2.9  (2.6-3.0)	
+Drosophila	paraanthrax	n sp	male	KAUA`I: Holotype male, Mohihi Stream, Koke`e, 25.vi.1965, KYK, BPBM 16368	0.5	1.4	1.8	4.5	1	0.8	0.5	NA	1.2	0.4	2.7	
+Drosophila	paraanthrax	n sp	male		0.6 (0.5-0.7)	1.5 (1.4-1.7)	1.8 (1.5-2.1)	4.2 (3.9-4.6)	0.9  (0.7-1.0)	0.8	0.5 (0.4-0.5)	11	1.1  (0.9-1.2)	0.4 (0.4-0.5)	2.5	
+Drosophila	polita	Grimshaw 1901: 71	female		0.6 (0.4-0.6)	1.4 (1.3-1.5)	1.9 (1.7-2.2)	4.5 (4.0-5.5)	1.0  (0.9-1.1)	0.8 (0.8-0.9)	0.5 (0.4-0.5)	8	1.4  (1.2-1.6)	0.4 (0.4-0.5)	3.1  (2.7-3.3)	
+Drosophila	pretiosa	Hardy 1965: 423	female		0.4	1.3	1.6	5.5	1.1	0.8	0.4	1	1.3	0.4	2.9	
+Drosophila	pretiosa	Hardy 1965: 423	male		0.6	1.4 (1.3-1.4)	1.9(1.8-2.0)	3.9 (3.8-3.9)	0.8 (0.8-0.9)	0.8	0.5	2	1.1  (1.0-1.1)	0.5	2.1  (2.0-2.1)	
+Drosophila	quinqueramosa	n sp	male	MAUI: Holotype male, Kaupo Gap, Haleakala, 4750 ft., 19.vi.1975, KYK, BPBM16365	0.6	1.6	1.7	4.2	0.9	0.8	0.3	NA	1.1	0.5	2.3	
+Drosophila	quinqueramosa	n sp	male		0.6 (0.5-0.6)	1.5 (1.4-1.6)	2.1 (1.7-2.3)	4.3 (3.7-4.9)	0.9  (0.7-0.9)	0.8	0.5 (0.3-0.6)	11	1.1  (0.9-1.1)	0.4 (0.4-0.5)	2.4  (2.2-2.7)	
+Drosophila	retrusa	Hardy 1965: 450	male		0.5	1.3	1.9	4.4	0.8	0.8	0.4	1	1.2	0.5	2.3	
+Drosophila	scitula	Hardy 1966: 213	male		0.6 (0.6-0.7)	1.4 (1.3-1.5)	1.7 (1.6-1.8)	3.5 (3.4-3.7)	0.8  (0.7-0.9)	0.9	0.4 (0.3-0.4)	4	1.2  (1.2-1.3)	0.5	2.5  (2.3-2.7)	
+Drosophila	seorsa	Hardy 1965: 461	male	MAUI: Holotype male, Paliku, Haleakala Crater, vi.1952, MT, BPBM 6442	0.5	1.6	1.8	4.5	0.9	NA	0.5	NA	1.1	0.5	2.4	
+Drosophila	setositibia	n sp	female	Allotype female, samecollection as type, BPBM 16370a	0.5	1.3	1.5	4.5	1.1	0.8	0.4	NA	1.4	0.5	3	
+Drosophila	setositibia	n sp	female		0.5	1.3	1.5	4.5	1.1	0.8	0.4	1	1.4	0.5	3	
+Drosophila	setositibia	n sp	male	KAUA`I: Holotype male, Power Line Road, “in Pisonia grove,” 1150 ft., vi.1977,DEH, BPBM 16370	0.6	1.4	1.7	3.5	0.9	0.8	0.4	NA	1.2	0.5	2.3	
+Drosophila	setositibia	n sp	male		0.5 (0.4-0.6)	1.4 (1.3-1.4)	1.8 (1.7-2.0)	4.4 (3.5-5.2)	1.0  (0.9-1.1)	0.8	0.4 (0.4-0.5)	3	1.2  (1.2-1.3)	0.5	2.5	
+Drosophila	stenoptera	Hardy 1965: 473	male	MAUI: Holotype #, Paliku, Haleakala Crater, 6500 ft., vi.1953, DEH, BPBMmale6447	0.6	1.6	1.7	4.6	1.3	0.7	0.4	NA	1.8	0.4	5.1	
+Drosophila	subopaca	n sp	male	KAUA`I: Holotype male, Halemanu Valley, Koke`e, 4000 ft., 25.vi.1964, LHT,BPBM 16371	0.5	1.3	1.8	4	1	0.8	0.4	NA	1.2	0.4	2.7	
+Drosophila	swezeyi	Hardy 1965: 474	male	O`AHU: Holotype #, Wai`anae Mountains, 22.i.1924, OHS, BPBM male6448	0.5	1.4	1.4	4.3	1.1	0.8	0.3	NA	1.3	0.5	2.6	
+Drosophila	tamashiroi	Hardy 1965 477	male	O`AHU: Holotype #, Makalehai Valley, “in stream bed,” v.1951, MT, BPBMmale6450	0.3	1.1	3.2	7	0.7	0.9	0.4	NA	0.7	0.4	1.9	
+Drosophila	tanytarsis	n sp	female	Allotype: female, O`AHU: same information as type,BPBM 16357a	0.4	1.1	1.1	5	1.3	0.7	0.3	NA	1.8	0.5	3.6	
+Drosophila	tanytarsis	n sp	female		NA	1.2 (1.1-1.3)	1.5 (1.2-1.7)	4.5(4.0-5.0)	1.2  (1.1-1.3)	NA	0.3 (0.3-0.4)	11	1.6m 46(1.4-1.8)	0.5	3.2  (2.9-3.7)	
+Drosophila	tanytarsis	n sp	male	O`AHU: Holotype male, Mt. Ka`ala, 4000 ft., 22.viii.1974, JO & SLM, BPBM 16357	0.5	1.1	1.1	4.7	1.3	0.7	0.3	NA	1.7	0.5	3.5	
+Drosophila	tanytarsis	n sp	male		0.5 (0.4-0.5)	1.2 (1.1-1.3)	1.2 (1.0-1.7)	4.6 (4.0-5.4)	1.1  (1.0-1.4)	0.8 (0.7-0.8)	0.3 (0.2-0.3)	11	1.7  (1.3-2.0)	0.5	3.4  (2.7-3.9)	
+Drosophila	venusta	Hardy 1965: 502	female		0.5	1.4	1.5	2.3	1.4	0.7	0.4	1	1.9	0.5	4.2	

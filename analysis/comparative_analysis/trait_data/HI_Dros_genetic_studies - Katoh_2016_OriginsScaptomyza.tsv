@@ -1,0 +1,91 @@
+island	group	genus	species	16S	COI	COII	ND2	28S	Adh	cadR	Gpdh	GstD1	Marf2	l(2)not
+Hawaii		Drosophila	ancyla	HQ170952	HQ170749	HQ170632	HQ170861							
+Hawaii		Drosophila	dissita	HQ170964	HQ170763	HQ170649	HQ170876							
+Hawaii		Drosophila	grimshawi	BK006341	BK006341	BK006341	BK006341	GU597390	XM_001993474	XM_001991642	XM_001988117	XM_001993564	XM_001992688	XM_001986304
+Hawaii		Drosophila	malele	HQ170978	HQ170776	HQ170668	HQ170891							
+Hawaii		Drosophila	melanocephala	HQ170980	HQ170778	HQ170670								
+Hawaii		Drosophila	melanoloma	EU494391		EU493791	EU493536							
+Hawaii		Drosophila	mimica	HQ170982	HQ170780	HQ170672	HQ170950		M60792					
+Hawaii		Drosophila	mitchelli	HQ170983	HQ170781	HQ170673	HQ170894							
+Hawaii		Drosophila	nigra	EU494394		EU493796	EU493540		M60793					
+Hawaii		Drosophila	ochropleura	KC609625	KC609728	KC609683						KC609536		KC609564
+Hawaii		Drosophila	percnosoma	HQ171022	HQ170819	HQ170715	HQ170929							
+Hawaii		Drosophila	tanythrix			HQ170726								KC609563
+Hawaii	Alloscaptomyza	Scaptomyza	buccata	KC609600	KC609690		KC609630						KC609488	
+Hawaii	Alloscaptomyza	Scaptomyza	longisetosa		HQ170856	HQ170739	HQ170938			KC609567			KC609482	KC609538
+Hawaii	Alloscaptomyza	Scaptomyza	nr_longisetosa		KC609691	KC609648				KC609570			KC609489	
+	Boninoscaptomyza	Scaptomyza	hexasticha	LC061485	LC061496	LC061507	LC061518	LC061529	LC061644	LC061871	LC061655			LC061883
+Hawaii	Bunostoma	Scaptomyza	anomala			HQ170748			AB03364648					
+Hawaii	Bunostoma	Scaptomyza	boninensis	LC061480	LC061491	LC061502	LC061513	LC061524	LC061640	LC061867	LC061650		LC061889	LC061878
+Hawaii	Bunostoma	Scaptomyza	hamata			KC609685								
+Hawaii	Bunostoma	Scaptomyza	palmae			EU493809	EU493550		AB03364951	KC609571		KC609528	KC609490	
+Hawaii	Bunostoma	Scaptomyza	nr_anomala		KC609692	KC609649				KC609572			KC609491	
+Hawaii	Bunostoma	Scaptomyza	varifrons	KC609598	HQ170859	HQ170744	KC609627							
+Hawaii	Elmomyza	Scaptomyza	akalae	HQ171045	HQ170854	HQ170736							KC609487	KC609541
+Hawaii	Elmomyza	Scaptomyza	apiciguttula	KC609601	KC609693	KC609650	KC609631						KC609492	
+Hawaii	Elmomyza	Scaptomyza	connata		KC609701	KC609656							KC609497	KC609545
+Hawaii	Elmomyza	Scaptomyza	ctenophora		KC609715	KC609670				KC609581			KC609511	
+Hawaii	Elmomyza	Scaptomyza	cuspidata	KC609610	KC609714	KC609669				KC609580			KC609510	
+Hawaii	Elmomyza	Scaptomyza	cyrtandrae	HQ171046	KC609694	HQ170737	HQ170936					KC609529	KC609493	KC609542
+Hawaii	Elmomyza	Scaptomyza	decepta		KC609712	KC609667	KC609638			KC609578			KC609508	KC609551
+Hawaii	Elmomyza	Scaptomyza	dentata	KC609607	KC609703	KC609658							KC609499	
+Hawaii	Elmomyza	Scaptomyza	devexa		KC609716	KC609671				KC609582			KC609512	
+Hawaii	Elmomyza	Scaptomyza	exigua	KC609603	KC609697	KC609652	KC609634						KC609495	KC609543
+Hawaii	Elmomyza	Scaptomyza	fastigata		KC609706	KC609661				KC609573			KC609502	
+Hawaii	Elmomyza	Scaptomyza	hackmani		KC609708	KC609663				KC609575			KC609504	
+Hawaii	Elmomyza	Scaptomyza	intricata		KC609709	KC609664	KC609637			KC609576			KC609505	KC609548
+Hawaii	Elmomyza	Scaptomyza	latitergum		KC609710	KC609665							KC609506	
+Hawaii	Elmomyza	Scaptomyza	lobifera	KC609604		KC609654								
+Hawaii	Elmomyza	Scaptomyza	neocyrtandrae	HQ171049	KC609689	HQ170741	HQ170939							KC609540
+Hawaii	Elmomyza	Scaptomyza	pallifrons		KC609713	KC609668				KC609579			KC609509	KC609552
+Hawaii	Elmomyza	Scaptomyza	protensa	KC609606	KC609702	KC609657								
+Hawaii	Elmomyza	Scaptomyza	pusilla	KC609605	KC609699	KC609655							KC609496	
+Hawaii	Elmomyza	Scaptomyza	recava		KC609696		KC609633							
+Hawaii	Elmomyza	Scaptomyza	recta	KC609611	KC609717	KC609672	KC609639			KC609583			KC609513	KC609553
+Hawaii	Elmomyza	Scaptomyza	scoloplichas		KC609698	KC609653								
+Hawaii	Elmomyza	Scaptomyza	silvicola				HQ170940							
+Hawaii	Elmomyza	Scaptomyza	nr_cuspidata		KC609718	KC609673				KC609584			KC609514	
+Hawaii	Elmomyza	Scaptomyza	nr_decepta		KC609707	KC609662				KC609574			KC609503	
+Hawaii	Elmomyza	Scaptomyza	nr_longipecten		KC609711	KC609666				KC609577			KC609507	KC609550
+Hawaii	Elmomyza	Scaptomyza	trivittata		KC609704	KC609659	KC609635						KC609500	KC609546
+Hawaii	Elmomyza	Scaptomyza	tumidula	KC609619	KC609688	HQ170743	HQ170941						KC609483	
+Hawaii	Elmomyza	Scaptomyza	umbrosa	EU494407	KC609695	KC609651	KC609632						KC609494	
+Hawaii	Elmomyza	Scaptomyza	vagabunda	KC609608	KC609705	KC609660	KC609636						KC609501	KC609547
+Hawaii	Elmomyza	Scaptomyza	varia		KC609700									
+Hawaii	Engiscaptomyza	Scaptomyza	ampliloba	KC609616	KC609721	KC609676	KC609640			KC609588			KC609519	KC609557
+Hawaii	Engiscaptomyza	Scaptomyza	crassifemur	KC609614		EU493806	EU493547		M60790				KC609517	KC609556
+Hawaii	Engiscaptomyza	Scaptomyza	nasalis	KC609617	KC609722	KC609677	KC609641							
+Hawaii	Engiscaptomyza	Scaptomyza	reducta	KC609613	KC609719	KC609674				KC609586			KC609516	KC609555
+Hawaii	Engiscaptomyza	Scaptomyza	nr_inflatus	KC609615	KC609720	KC609675				KC609587			KC609518	
+Hawaii	Exalloscaptomyza	Scaptomyza	caliginosa			EU493805				KC609589		KC609530	KC609520	
+Hawaii	Grimshawomyia	Scaptomyza	palata			KC609686								
+Hawaii	Grimshawomyia	Scaptomyza	undulata	EU494407		EU493810				KC609585			KC609515	KC609554
+	Hemiscaptomyza	Scaptomyza	apicata	KC609623	JX160024	JX160028	KC609646			JX160020		KC609534	JX160038	KC609561
+	Hemiscaptomyza	Scaptomyza	hennigi	LC061484	LC061495	LC061506	LC061517	LC061528			LC061654	LC061875	LC061892	LC061882
+	Hemiscaptomyza	Scaptomyza	hsui	KC609626	KC609729	KC609687				KC609594			KC609480	KC609565
+	Hemiscaptomyza	Scaptomyza	okadai	LC061487	LC061498	LC061509	LC061520	LC061531	LC061646	LC061873	LC061657		LC061894	LC061885
+	Parascaptomyza	Scaptomyza	elmoi_HW			HQ170735								
+	Parascaptomyza	Scaptomyza	elmoi_JP	LC061482	LC061493	LC061504	LC061515	LC061526	LC061642	LC061869	LC061652			LC061880
+	Parascaptomyza	Scaptomyza	frustulifera				EU493549							
+	Parascaptomyza	Scaptomyza	himalayana	LC061486	LC061497	LC061508	LC061519	LC061530	LC061645	LC061872	LC061656		LC061893	LC061884
+	Parascaptomyza	Scaptomyza	pallida_NA	KC609622	JX160023	HQ110571	KC609645			JX160019		KC609533	JX160037	KC609560
+	Parascaptomyza	Scaptomyza	pallida_JP	LC061488	LC061499	LC061510	LC061521	LC061532	LC061647	LC061874	LC061658	LC061876		LC061886
+Hawaii	Rosenwaldia	Scaptomyza	abrupta	KC609618	KC609723	KC609678				KC609590			KC609521	
+Hawaii	Rosenwaldia	Scaptomyza	nr_mitchelli	KC609619	KC609724	KC609679	KC609642			KC609591			KC609522	
+	Scaptomyza	Scaptomyza	baechlii	LC061479	LC061490	LC061501	LC061512	LC061523	LC061639		LC061649		LC061888	LC061877
+	Scaptomyza	Scaptomyza	consimilis	LC061481	LC061492	LC061503	LC061514	LC061525	LC061641	LC061868	LC061651		LC061890	LC061879
+	Scaptomyza	Scaptomyza	flava_NA	KC609621	JX160022		KC609644			JX160018		KC609532	JX160036	KC609559
+	Scaptomyza	Scaptomyza	flava_NZ	KC609599	HQ170855	HQ170738						KC609527	KC609486	
+	Scaptomyza	Scaptomyza	graminum	LC061483	LC061494	LC061505	LC061516	LC061527	LC061643	LC061870	LC061653		LC061891	LC061881
+	Scaptomyza	Scaptomyza	nigrita	KC609624	JX160025	JX160029	KC609647			JX160021		KC609535	JX160039	KC609562
+	Scaptomyza	Scaptomyza	polygonia	LC061489	LC061500	LC061511	LC061522	LC061533	LC061648		LC061659		LC061895	LC061887
+	Siphlodora	Drosophila	hydei		JQ679112	EU493736	DQ471529	HQ110530	X58694		L41650			
+	Siphlodora	Drosophila	mojavensis	BK006339	BK006339	BK006339	BK006339	CH934023	XM_002002893	XM_002009405	XM_002002668	XM_002000706	XM_002009489	XM_002004145
+	Siphlodora	Drosophila	virilis	BK006340	BK006340	BK006340	BK006340	HQ110543	XM_002057548	XM_002055577	XM_002051332	XM_002054301	XM_002057373	XM_002059275
+Hawaii	Tantalia	Scaptomyza	albovittata		KC609725	KC609680			M80925	KC609592			KC609523	
+Hawaii	Tantalia	Scaptomyza	varipicta	HQ171051	HQ170860	HQ170745	KC609628			KC609568		KC609526	KC609484	KC609539
+Hawaii	Titanochaeta	Scaptomyza	bryani	KC609620	KC609726	KC609681						KC609531	KC609524	KC609558
+Hawaii	Titanochaeta	Scaptomyza	chauliodon			KC609684								
+Hawaii	Titanochaeta	Scaptomyza	magnipalpa	HQ171048	HQ170857	HQ170740	HQ170947			KC609566			KC609481	KC609537
+Hawaii	Titanochaeta	Scaptomyza	neosilvicola		HQ170858		KC609629			KC609569			KC609485	
+Hawaii	Titanochaeta	Scaptomyza	setosiscutellum		KC609727	KC609682	KC609643			KC609593			KC609525	

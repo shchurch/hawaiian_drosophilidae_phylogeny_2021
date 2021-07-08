@@ -1,0 +1,306 @@
+#### ALL COMMANDS USED TO RUN THE AGALMA PIPELINE
+
+cd /n/extavour_lab/Lab/shchurch/
+mkdir 2018_Sep_combined_transcriptome_reads
+cd 2018_Sep_combined_transcriptome_reads
+
+conda create -c dunnlab -n agalma_Sep2018 agalma
+source activate agalma_Sep2018
+
+### CONCATENATING SEQUENCE FILES
+
+# S. varia
+
+cat 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/CFBb_S2_L004_R1_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/CFBn_S1_L004_R1_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/CFBo_S6_L004_R1_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/CFB_R1.fastq.gz
+cat 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/CFBb_S2_L004_R2_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/CFBn_S1_L004_R2_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/CFBo_S6_L004_R2_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/CFB_R2.fastq.gz
+
+# D. cf. dives
+
+cat 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/16_1_1_S16_L001_R1_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/16_1_4_S5_L004_R1_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/mystery_bonus_S19_L001_R1_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/16_1_R1.fastq.gz
+cat 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/16_1_1_S16_L001_R2_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/16_1_4_S5_L004_R2_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/mystery_bonus_S19_L001_R2_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/16_1_R2.fastq.gz
+
+# S. cyrtandrae
+
+cat 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/088Bb_S7_L004_R1_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/088Bn_S3_L004_R1_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/088Bo_S4_L004_R1_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/088B_R1.fastq.gz
+cat 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/088Bb_S7_L004_R2_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/088Bn_S3_L004_R2_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/088Bo_S4_L004_R2_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/088B_R2.fastq.gz 
+
+# S. varipicta
+
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/020Atxt_S2_L001_R1_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/020Atxt_S3_L001_R1_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/020Atxt_S9_L004_R1_001.fastq.gz  >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/020Atxt_R1.fastq.gz
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/020Atxt_S2_L001_R2_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/020Atxt_S3_L001_R2_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/020Atxt_S9_L004_R2_001.fastq.gz  >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/020Atxt_R2.fastq.gz
+
+# D. atroscutellata
+
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/029Atxt_S6_L001_R1_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/029Atxt_S5_L001_R1_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/029Atxt_S13_L004_R1_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/029Atxt_R1.fastq.gz
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/029Atxt_S6_L001_R2_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/029Atxt_S5_L001_R2_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/029Atxt_S13_L004_R2_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/029Atxt_R2.fastq.gz
+
+# D. tanythrix
+
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/043Dtxt_S5_L001_R1_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/043Dtxt_S7_L001_R1_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/043Dtxt_S12_L004_R1_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/043Dtxt_R1.fastq.gz
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/043Dtxt_S5_L001_R2_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/043Dtxt_S7_L001_R2_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/043Dtxt_S12_L004_R2_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/043Dtxt_R2.fastq.gz
+
+# D. mimica
+
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/040Ctxt_S3_L001_R1_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/040Ctxt_S6_L001_R1_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/040Ctxt_S10_L004_R1_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/040Ctxt_R1.fastq.gz
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/040Ctxt_S3_L001_R2_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/040Ctxt_S6_L001_R2_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/040Ctxt_S10_L004_R2_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/040Ctxt_R2.fastq.gz
+
+# D. nanella
+
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/002Dtxt_S1_L001_R1_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/002Dtxt_S1_L001_R1_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/002Dtxt_S8_L004_R1_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/002Dtxt_R1.fastq.gz
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/002Dtxt_S1_L001_R2_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/002Dtxt_S1_L001_R2_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/002Dtxt_S8_L004_R2_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/002Dtxt_R2.fastq.gz
+
+# D. primaeva
+
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/008Dtxt_S7_L001_R1_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/008Dtxt_S2_L001_R1_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/008Dtxt_S14_L004_R1_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/008Dtxt_R1.fastq.gz
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/008Dtxt_S7_L001_R2_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/008Dtxt_S2_L001_R2_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/008Dtxt_S14_L004_R2_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/008Dtxt_R2.fastq.gz
+
+# D. picticornis
+
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/025Atxt_S9_L001_R1_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/025Atxt_S4_L001_R1_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/025Atxt_S16_L004_R1_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/025Atxt_R1.fastq.gz
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/025Atxt_S9_L001_R2_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/025Atxt_S4_L001_R2_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/025Atxt_S16_L004_R2_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/025Atxt_R2.fastq.gz
+
+# D. macrothrix
+
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/055Atxt_S4_L001_R1_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/055Atxt_S8_L001_R1_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/055Atxt_S11_L004_R1_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/055Atxt_R1.fastq.gz
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/055Atxt_S4_L001_R2_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/055Atxt_S8_L001_R2_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/055Atxt_S11_L004_R2_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/055Atxt_R2.fastq.gz
+
+# D. sproati
+
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/106Atxt_S8_L001_R1_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/106Atxt_S12_L001_R1_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/106Atxt_S15_L004_R1_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/106Atxt_R1.fastq.gz
+cat 181121_D00742_0257_ACCVU6ANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/106Atxt_S8_L001_R2_001.fastq.gz 180623_D00742_0230_ACCEVCANXX-y126_i6nn_y126/Hawaiian_Drosophila/106Atxt_S12_L001_R2_001.fastq.gz 180725_D00742_0236_ACCH0TANXX-y126_i6nn_nnnnnnnn_y126/Hawaiian_Drosophila/106Atxt_S15_L004_R2_001.fastq.gz >> /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/106Atxt_R2.fastq.gz
+
+### ASSEMBLING TRANSCRIPTOMES
+
+mkdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021
+cd /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021
+
+mkdir -p agalma/data
+mkdir -p agalma/scratch
+mkdir -p agalma/reports
+
+source activate agalma_Sep2018
+export AGALMA_DB=$PWD/agalma/data/agalma.sqlite
+
+agalma catalog insert --id 002D --paths /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/002Dtxt_R1.fastq.gz /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/002Dtxt_R2.fastq.gz  --species "Drosophila nanella" --ncbi_id 937302 --itis_id 146517
+agalma catalog insert --id 025A --paths /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/025Atxt_R1.fastq.gz /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/025Atxt_R2.fastq.gz  --species "Drosophila picticornis" --ncbi_id 7235 --itis_id 146538
+agalma catalog insert --id 043D --paths /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/043Dtxt_R1.fastq.gz /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/043Dtxt_R2.fastq.gz  --species "Drosophila tanythrix" --ncbi_id 46827 --itis_id 146774
+agalma catalog insert --id 106A --paths /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/106Atxt_R1.fastq.gz /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/106Atxt_R2.fastq.gz  --species "Drosophila sproati" --ncbi_id 7289 --itis_id 146212
+agalma catalog insert --id 008D --paths /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/008Dtxt_R1.fastq.gz /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/008Dtxt_R2.fastq.gz  --species "Drosophila primaeva" --ncbi_id 46814 --itis_id 146212
+agalma catalog insert --id 029A --paths /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/029Atxt_R1.fastq.gz /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/029Atxt_R2.fastq.gz  --species "Drosophila atroscutellata" --ncbi_id 937262 --itis_id 146212
+agalma catalog insert --id 055A --paths /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/055Atxt_R1.fastq.gz /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/055Atxt_R2.fastq.gz  --species "Drosophila macrothrix" --ncbi_id 46811 --itis_id 146212
+agalma catalog insert --id 16_1 --paths /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/16_1_R1.fastq.gz /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/16_1_R2.fastq.gz  --species "Drosophila cfdives" --itis_id 146212
+agalma catalog insert --id 020A --paths /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/020Atxt_R1.fastq.gz /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/020Atxt_R2.fastq.gz  --species "Scaptomyza varipicta" --ncbi_id 938077 --itis_id 146680
+agalma catalog insert --id 040C --paths /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/040Ctxt_R1.fastq.gz /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/040Ctxt_R2.fastq.gz  --species "Drosophila mimica" --ncbi_id 7270 --itis_id 146509
+agalma catalog insert --id 088B --paths /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/088B_R1.fastq.gz /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/088B_R2.fastq.gz  --species "Scaptomyza cyrtandrae" --ncbi_id 504600  --itis_id 146618
+agalma catalog insert --id CFB --paths /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/CFB_R1.fastq.gz /n/extavour_lab/Lab/shchurch/combined_sequence_files_May2021/CFB_R2.fastq.gz  --species "Scaptomyza varia" --ncbi_id 1334225 --itis_id 146764
+
+#!/bin/bash
+#SBATCH -n 16                   
+#SBATCH -N 1                    
+#SBATCH -t 7-00:00              
+#SBATCH -p shared       
+#SBATCH --mem=92G              
+#SBATCH --mail-type=ALL         
+#SBATCH --mail-user=church@g.harvard.edu
+
+cd /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021
+source activate agalma_Sep2018
+export AGALMA_DB=$PWD/agalma/data/agalma.sqlite
+
+cd agalma/scratch
+
+agalma -t 16 -m 90G qc --id 002D 
+agalma -t 16 -m 90G qc --id 025A 
+agalma -t 16 -m 90G qc --id 043D 
+agalma -t 16 -m 90G qc --id 106A 
+agalma -t 16 -m 90G qc --id 008D 
+agalma -t 16 -m 90G qc --id 029A 
+agalma -t 16 -m 90G qc --id 055A 
+agalma -t 16 -m 90G qc --id 16_1 
+agalma -t 16 -m 90G qc --id 020A 
+agalma -t 16 -m 90G qc --id 040C 
+agalma -t 16 -m 90G qc --id 088B 
+agalma -t 16 -m 90G qc --id CFB 
+
+agalma -t 16 -m 90G transcriptome --id 002D --ss FR
+agalma -t 16 -m 90G transcriptome --id 025A --ss FR
+agalma -t 16 -m 90G transcriptome --id 043D --ss FR
+agalma -t 16 -m 90G transcriptome --id 106A --ss FR
+agalma -t 16 -m 90G transcriptome --id 008D --ss FR
+agalma -t 16 -m 90G transcriptome --id 029A --ss FR
+agalma -t 16 -m 90G transcriptome --id 055A --ss FR
+agalma -t 16 -m 90G transcriptome --id 16_1 --ss FR
+agalma -t 16 -m 90G transcriptome --id 020A --ss FR
+agalma -t 16 -m 90G transcriptome --id 040C --ss FR
+agalma -t 16 -m 90G transcriptome --id 088B --ss FR
+agalma -t 16 -m 90G transcriptome --id CFB  --ss FR
+
+agalma -t 1 -m 9G report --id 002D --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/002D
+agalma -t 1 -m 9G report --id 025A --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/025A
+agalma -t 1 -m 9G report --id 043D --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/043D
+agalma -t 1 -m 9G report --id 106A --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/106A
+agalma -t 1 -m 9G report --id 008D --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/008D
+agalma -t 1 -m 9G report --id 029A --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/029A
+agalma -t 1 -m 9G report --id 055A --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/055A
+agalma -t 1 -m 9G report --id 16_1 --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/16_1
+agalma -t 1 -m 9G report --id 020A --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/020A
+agalma -t 1 -m 9G report --id 040C --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/040C
+agalma -t 1 -m 9G report --id 088B --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/088B
+agalma -t 1 -m 9G report --id CFB  --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/CFB
+
+### FILTERING GENOME SEQUENCES
+
+python3 filter_isoforms_by_header.py dvir-all-transcript-r1.07.fasta dvir-filtered-transcript-r1.07.fasta
+python3 filter_isoforms_by_header.py dgri-all-transcript-r1.05.fasta dgri-filtered-transcript-r1.05.fasta
+python3 filter_isoforms_by_header.py dmel-all-transcript-r6.29.fasta dmel-filtered-transcript-r6.29.fasta
+python3 filter_isoforms_by_header.py dwil-all-transcript-r1.05.fasta dwil-filtered-transcript-r1.05.fasta
+python3 filter_isoforms_by_header.py dmoj-all-transcript-r1.04.fasta dmoj-filtered-transcript-r1.04.fasta
+python3 filter_isoforms_by_header.py dpse-all-transcript-r3.04.fasta dpse-filtered-transcript-r3.04.fasta
+python3 filter_isoforms_by_header.py dana-all-transcript-r1.06.fasta dana-filtered-transcript-r1.06.fasta
+
+source activate busco_Jan2021
+export BUSCO_CONFIG_FILE=~/miniconda2/envs/busco_Jan2021/share/busco/config.ini
+
+busco -m genome -i D.murphyi.fasta -o D.murphyi.busco -l diptera_odb10
+busco -m genome -i S.pallida.fasta -o S.pallida.busco -l diptera_odb10
+busco -m genome -i S.hsui.fasta -o S.hsui.busco -l diptera_odb10
+busco -m genome -i S.graminum.fasta -o S.graminum.busco -l diptera_odb10
+busco -m genome -i S.montana.fasta -o S.montana.busco -l diptera_odb10
+
+cat D.murphyi.busco/run_diptera_odb10/busco_sequences/single_copy_busco_sequences/*fna >>D.murphyi.single_copy_busco.fa
+cat D.sproati.busco/run_diptera_odb10/busco_sequences/single_copy_busco_sequences/*fna >>D.sproati.single_copy_busco.fa
+cat S.pallida.busco/run_diptera_odb10/busco_sequences/single_copy_busco_sequences/*fna >>S.pallida.single_copy_busco.fa
+cat S.hsui.busco/run_diptera_odb10/busco_sequences/single_copy_busco_sequences/*fna >>S.hsui.single_copy_busco.fa
+cat S.graminum.busco/run_diptera_odb10/busco_sequences/single_copy_busco_sequences/*fna >>S.graminum.single_copy_busco.fa
+cat S.montana.busco/run_diptera_odb10/busco_sequences/single_copy_busco_sequences/*fna >>S.montana.single_copy_busco.fa
+
+### RUN AGALMA 
+#### IMPORT THE SEQUENCES
+
+mkdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021
+cd /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021
+
+mkdir -p agalma/data
+mkdir -p agalma/scratch
+mkdir -p agalma/reports
+
+source activate agalma_Sep2018
+export AGALMA_DB=$PWD/agalma/data/agalma.sqlite
+
+agalma catalog insert --id Dmel --paths /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/filtered_sequence_files/dmel-filtered-transcript-r6.29.fasta  --species "Drosophila melanogaster" --ncbi_id 7227 --itis_id 146290
+agalma catalog insert --id Dvir --paths /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/filtered_sequence_files/dvir-filtered-transcript-r1.07.fasta --species "Drosophila virilis" --ncbi_id 7244 --itis_id 146372
+agalma catalog insert --id Dgri --paths /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/filtered_sequence_files/dgri-filtered-transcript-r1.05.fasta  --species "Drosophila grimshawi" --ncbi_id 7222 --itis_id 146469
+agalma catalog insert --id Dwil --paths /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/filtered_sequence_files/dwil-filtered-transcript-r1.05.fasta  --species "Drosophila willistoni" --ncbi_id 7260 --itis_id 146374
+agalma catalog insert --id Dmoj --paths /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/filtered_sequence_files/dmoj-filtered-transcript-r1.04.fasta  --species "Drosophila mojavensis" --ncbi_id 7230 --itis_id 146298
+agalma catalog insert --id Dpse --paths /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/filtered_sequence_files/dpse-filtered-transcript-r3.04.fasta  --species "Drosophila pseudoobscura" --ncbi_id 7237 --itis_id 146332
+agalma catalog insert --id Dana --paths /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/filtered_sequence_files/dana-filtered-transcript-r1.06.fasta  --species "Drosophila ananassae" --ncbi_id 7217 --itis_id 146217
+
+agalma catalog insert --id Dmur --paths /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/filtered_sequence_files/D.murphyi.single_copy_busco.fa --species "Drosophila murphyi" --ncbi_id 48335 --itis_id 146212
+agalma catalog insert --id Spal --paths /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/filtered_sequence_files/S.pallida.single_copy_busco.fa --species "Scaptomyza pallida" --ncbi_id 7300 --itis_id 146638 
+agalma catalog insert --id Shsu --paths /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/filtered_sequence_files/S.hsui.single_copy_busco.fa --species "Scaptomyza hsui" --ncbi_id 1334208 --itis_id 146631
+agalma catalog insert --id Sgra --paths /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/filtered_sequence_files/S.graminum.single_copy_busco.fa --species "Scaptomyza graminum" --ncbi_id 106258 --itis_id 146627
+agalma catalog insert --id Smon --paths /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/filtered_sequence_files/S.montana.single_copy_busco.fa --species "Scaptomyza montana" --ncbi_id 1740953 --itis_id 146635
+
+#!/bin/bash
+#SBATCH -n 24                   
+#SBATCH -N 1                    
+#SBATCH -t 7-00:00              
+#SBATCH -p unrestricted,shared       
+#SBATCH --mem=82G              
+#SBATCH --mail-type=ALL         
+#SBATCH --mail-user=church@g.harvard.edu
+
+cd /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021
+source activate agalma_Sep2018
+export AGALMA_DB=$PWD/agalma/data/agalma.sqlite
+
+cd agalma/scratch
+
+agalma -t 24 -m 80G import --id Dmur
+agalma -t 24 -m 80G import --id Spal
+agalma -t 24 -m 80G import --id Shsu
+agalma -t 24 -m 80G import --id Sgra
+agalma -t 24 -m 80G import --id Smon
+agalma -t 24 -m 80G import --id Dmel
+agalma -t 24 -m 80G import --id Dvir
+agalma -t 24 -m 80G import --id Dgri
+agalma -t 24 -m 80G import --id Dwil
+agalma -t 24 -m 80G import --id Dmoj
+agalma -t 24 -m 80G import --id Dpse
+agalma -t 24 -m 80G import --id Dana
+
+agalma -t 24 -m 80G translate --id Dmur
+agalma -t 24 -m 80G translate --id Spal
+agalma -t 24 -m 80G translate --id Shsu
+agalma -t 24 -m 80G translate --id Sgra
+agalma -t 24 -m 80G translate --id Smon
+agalma -t 24 -m 80G translate --id Dmel
+agalma -t 24 -m 80G translate --id Dvir
+agalma -t 24 -m 80G translate --id Dgri
+agalma -t 24 -m 80G translate --id Dwil
+agalma -t 24 -m 80G translate --id Dmoj
+agalma -t 24 -m 80G translate --id Dpse
+agalma -t 24 -m 80G translate --id Dana
+
+
+### RUN THE HOMOLOGIZE PIPELINE
+
+#!/bin/bash
+#SBATCH -n 24                   
+#SBATCH -N 1                    
+#SBATCH -t 7-00:00              
+#SBATCH -p shared       
+#SBATCH --mem=148G              
+#SBATCH --mail-type=ALL         
+#SBATCH --mail-user=church@g.harvard.edu
+
+cd /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021
+source activate agalma_Sep2018
+export AGALMA_DB=$PWD/agalma/data/agalma.sqlite
+
+cd agalma/scratch
+
+agalma -t 24 -m 146 homologize --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021
+agalma -t 24 -m 146 multalign --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021 --seq_type nt
+agalma -t 24 -m 146 genetree --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021 -m GTRGAMMA
+agalma -t 24 -m 146 treeinform --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021
+
+agalma -t 24 -m 146 homologize --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021
+agalma -t 24 -m 146 multalign --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021 --seq_type nt
+agalma -t 24 -m 146 genetree --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021 -m GTRGAMMA
+agalma -t 24 -m 146 treeprune --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021
+
+agalma -t 24 -m 146 multalign --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021 --seq_type nt
+agalma -t 24 -m 146 supermatrix --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021 --proportion 0
+
+agalma -t 1 -m 8G report --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021 --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/
+agalma -t 1 -m 8G phylogeny_report --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021 --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/
+
+agalma -t 1 -m 22G supermatrix --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021 --proportion 0.8
+agalma -t 1 -m 22G report --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021 --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/
+agalma -t 1 -m 22G phylogeny_report --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021 --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/
+
+
+#!/bin/bash
+#SBATCH -n 8                   
+#SBATCH -N 1                    
+#SBATCH -t 7-00:00              
+#SBATCH -p shared       
+#SBATCH --mem=45G              
+#SBATCH --mail-type=ALL         
+#SBATCH --mail-user=church@g.harvard.edu
+
+cd /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021
+source activate agalma_Sep2018
+export AGALMA_DB=$PWD/agalma/data/agalma.sqlite
+
+cd agalma/scratch
+
+agalma -t 8 -m 44G speciestree -m GTRGAMMA --bootstrap 100 --seed 12345 --previous 59 --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021 --outgroup Drosophila_melanogaster,Drosophila_willistoni,Drosophila_pseudoobscura,Drosophila_ananassae
+
+agalma -t 1 -m 22G report --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021 --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/
+agalma -t 1 -m 22G phylogeny_report --id assembly_phylogeny_expression_Hawaiian_Drosophila_June2021 --outdir /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/
+
+
+
+

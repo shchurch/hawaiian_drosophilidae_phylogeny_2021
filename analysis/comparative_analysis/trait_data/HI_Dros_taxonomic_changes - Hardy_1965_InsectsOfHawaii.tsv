@@ -1,0 +1,18 @@
+original_subgenus	original_genus	original_species	original_describer	new_subgenus	new_genus	new_species	new_describer	change
+	Drosophila	nigra var iki	Bryan		Drosophila	iki	Bryan	new comb
+	Drosophila	perkinsi	Grimshaw		Grimshawomyia	perkinsi	Grimshaw	new comb
+	Drosophila	varifrons	Grimshaw	Bunostoma	Scaptomyza	varifrons	Grimshaw	new comb
+	Drosophila	exigua	Grimshaw	Trogloscaptomyza	Scaptomyza	exigua	Grimshaw	new comb
+	Drosophila	inaequalis	Grimshaw	Trogloscaptomyza	Scaptomyza	inaequalis	Grimshaw	new comb
+	Drosophila	monticola	Grimshaw	Trogloscaptomyza	Scaptomyza	monticola	Grimshaw	new comb
+	Drosophila	obscuricornis	Grimshaw	Trogloscaptomyza	Scaptomyza	obscuricornis	Grimshaw	new comb
+	Drosophila	obscurifrons	Grimshaw	Trogloscaptomyza	Scaptomyza	obscurifrons	Grimshaw	new comb
+	Drosophila	pusilla	Grimshaw	Trogloscaptomyza	Scaptomyza	pusilla	Grimshaw	new comb
+	Dettopsomyia	argentifrons	Okada		Dettopsomyia	nigrovittata	Malloch	new synonym
+	Drosophila	spinofemora	Patterson and Wheeler		Drosophila	nasuta	Lamb	new synonym
+	Drosophila	lulumahu	Bryan		Drosophila	punalua	Bryan	new synonym
+Bunostoma	Scaptomyza	cordigera	Hackman	Bunostoma	Scaptomyza	varifrons	Grimshaw	new synonym
+Trogloscaptomyza	Scaptomyza	hawaiiensis	Hackman	Trogloscaptomyza	Scaptomyza	inaequalis	Grimshaw	new synonym
+	Drosophila	mauiensis	Grimshaw	Exalloscaptomyza	Scaptomyza	mauiensis	Grimshaw	new synonym
+	Hypenomyia	varipennis	Grimshaw	Hypenomyia	Drosophila	varipennis	Grimshaw	new_synonym
+	Tantalia	albovittata	Malloch	Tantalia	Scaptomyza	albovittata	Malloch	new_synonym

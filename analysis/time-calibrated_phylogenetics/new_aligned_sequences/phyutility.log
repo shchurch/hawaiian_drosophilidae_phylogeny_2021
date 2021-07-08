@@ -1,0 +1,406 @@
+starting log: 08/03/21 11:49
+concat
+in filename: new_16S_aln.fa
+in filename: new_28S_aln.fa
+in filename: new_AChE_aln.fa
+in filename: new_Adh_aln.fa
+in filename: new_COIII_aln.fa
+in filename: new_COII_aln.fa
+in filename: new_COI_aln.fa
+in filename: new_Dip3_aln.fa
+in filename: new_Ef1g_aln.fa
+in filename: new_GLS_aln.fa
+in filename: new_Ge1_aln.fa
+in filename: new_Gpdh_aln.fa
+in filename: new_GstD1_aln.fa
+in filename: new_ITS1_aln.fa
+in filename: new_Marf2_aln.fa
+in filename: new_Marf_aln.fa
+in filename: new_ND1_aln.fa
+in filename: new_ND2_aln.fa
+in filename: new_ND4_aln.fa
+in filename: new_Osi9_aln.fa
+in filename: new_PRY_aln.fa
+in filename: new_Pgi_aln.fa
+in filename: new_Rad23_aln.fa
+in filename: new_Smox_aln.fa
+in filename: new_Yp1_aln.fa
+in filename: new_Yp2_aln.fa
+in filename: new_Yp2_rep_aln.fa
+in filename: new_bin_aln.fa
+in filename: new_boss_aln.fa
+in filename: new_cadR_aln.fa
+in filename: new_fz4_aln.fa
+in filename: new_hb1_aln.fa
+in filename: new_hb2_aln.fa
+in filename: new_kl2_aln.fa
+in filename: new_l2not_aln.fa
+in filename: new_nad1_aln.fa
+in filename: new_ntid_aln.fa
+in filename: new_pds5_aln.fa
+in filename: new_rpt_aln.fa
+in filename: new_sina_aln.fa
+in filename: new_snf_aln.fa
+in filename: new_wee_aln.fa
+in filename: new_wg1_aln.fa
+in filename: new_wg2_aln.fa
+outfile: all_new_full.nex
+starting log: 08/03/21 11:49
+clean
+cleannum: 0.03
+in filename: all_new_full.nex
+outfile: all_new_trim.nex
+starting log: 08/03/21 11:53
+concat
+in filename: new_16S_aln.fa
+in filename: new_28S_aln.fa
+in filename: new_AChE_aln.fa
+in filename: new_Adh_aln.fa
+in filename: new_COIII_aln.fa
+in filename: new_COII_aln.fa
+in filename: new_COI_aln.fa
+in filename: new_Dip3_aln.fa
+in filename: new_Ef1g_aln.fa
+in filename: new_GLS_aln.fa
+in filename: new_Ge1_aln.fa
+in filename: new_Gpdh_aln.fa
+in filename: new_GstD1_aln.fa
+in filename: new_ITS1_aln.fa
+in filename: new_Marf2_aln.fa
+in filename: new_Marf_aln.fa
+in filename: new_ND1_aln.fa
+in filename: new_ND2_aln.fa
+in filename: new_ND4_aln.fa
+in filename: new_Osi9_aln.fa
+in filename: new_PRY_aln.fa
+in filename: new_Pgi_aln.fa
+in filename: new_Rad23_aln.fa
+in filename: new_Smox_aln.fa
+in filename: new_Yp1_aln.fa
+in filename: new_Yp2_aln.fa
+in filename: new_Yp2_rep_aln.fa
+in filename: new_bin_aln.fa
+in filename: new_boss_aln.fa
+in filename: new_cadR_aln.fa
+in filename: new_fz4_aln.fa
+in filename: new_hb1_aln.fa
+in filename: new_hb2_aln.fa
+in filename: new_kl2_aln.fa
+in filename: new_l2not_aln.fa
+in filename: new_nad1_aln.fa
+in filename: new_ntid_aln.fa
+in filename: new_pds5_aln.fa
+in filename: new_rpt_aln.fa
+in filename: new_sina_aln.fa
+in filename: new_snf_aln.fa
+in filename: new_wee_aln.fa
+in filename: new_wg1_aln.fa
+in filename: new_wg2_aln.fa
+outfile: all_new_full.nex
+starting log: 08/03/21 11:53
+clean
+cleannum: 0.03
+in filename: all_new_full.nex
+outfile: all_new_trim.nex
+starting log: 08/03/21 11:58
+concat
+in filename: new_16S_aln.fa
+in filename: new_28S_aln.fa
+in filename: new_AChE_aln.fa
+in filename: new_Adh_aln.fa
+in filename: new_COIII_aln.fa
+in filename: new_COII_aln.fa
+in filename: new_COI_aln.fa
+in filename: new_Dip3_aln.fa
+in filename: new_Ef1g_aln.fa
+in filename: new_GLS_aln.fa
+in filename: new_Ge1_aln.fa
+in filename: new_Gpdh_aln.fa
+in filename: new_GstD1_aln.fa
+in filename: new_ITS1_aln.fa
+in filename: new_Marf2_aln.fa
+in filename: new_Marf_aln.fa
+in filename: new_ND1_aln.fa
+in filename: new_ND2_aln.fa
+in filename: new_ND4_aln.fa
+in filename: new_Osi9_aln.fa
+in filename: new_PRY_aln.fa
+in filename: new_Pgi_aln.fa
+in filename: new_Rad23_aln.fa
+in filename: new_Smox_aln.fa
+in filename: new_Yp1_aln.fa
+in filename: new_Yp2_aln.fa
+in filename: new_Yp2_rep_aln.fa
+in filename: new_bin_aln.fa
+in filename: new_boss_aln.fa
+in filename: new_cadR_aln.fa
+in filename: new_fz4_aln.fa
+in filename: new_hb1_aln.fa
+in filename: new_hb2_aln.fa
+in filename: new_kl2_aln.fa
+in filename: new_l2not_aln.fa
+in filename: new_nad1_aln.fa
+in filename: new_ntid_aln.fa
+in filename: new_pds5_aln.fa
+in filename: new_rpt_aln.fa
+in filename: new_sina_aln.fa
+in filename: new_snf_aln.fa
+in filename: new_wee_aln.fa
+in filename: new_wg1_aln.fa
+in filename: new_wg2_aln.fa
+outfile: all_new_full.nex
+starting log: 08/03/21 11:58
+clean
+cleannum: 0.03
+in filename: all_new_full.nex
+outfile: all_new_trim.nex
+starting log: 08/03/21 01:07
+concat
+in filename: new_16S_aln.fa
+in filename: new_28S_aln.fa
+in filename: new_AChE_aln.fa
+in filename: new_Adh_aln.fa
+in filename: new_COIII_aln.fa
+in filename: new_COII_aln.fa
+in filename: new_COI_aln.fa
+in filename: new_Dip3_aln.fa
+in filename: new_Ef1g_aln.fa
+in filename: new_GLS_aln.fa
+in filename: new_Ge1_aln.fa
+in filename: new_Gpdh_aln.fa
+in filename: new_GstD1_aln.fa
+in filename: new_ITS1_aln.fa
+in filename: new_Marf2_aln.fa
+in filename: new_Marf_aln.fa
+in filename: new_ND1_aln.fa
+in filename: new_ND2_aln.fa
+in filename: new_ND4_aln.fa
+in filename: new_Osi9_aln.fa
+in filename: new_PRY_aln.fa
+in filename: new_Pgi_aln.fa
+in filename: new_Rad23_aln.fa
+in filename: new_Smox_aln.fa
+in filename: new_Yp1_aln.fa
+in filename: new_Yp2_aln.fa
+in filename: new_Yp2_rep_aln.fa
+in filename: new_bin_aln.fa
+in filename: new_boss_aln.fa
+in filename: new_cadR_aln.fa
+in filename: new_fz4_aln.fa
+in filename: new_hb1_aln.fa
+in filename: new_hb2_aln.fa
+in filename: new_kl2_aln.fa
+in filename: new_l2not_aln.fa
+in filename: new_nad1_aln.fa
+in filename: new_ntid_aln.fa
+in filename: new_pds5_aln.fa
+in filename: new_rpt_aln.fa
+in filename: new_sina_aln.fa
+in filename: new_snf_aln.fa
+in filename: new_wee_aln.fa
+in filename: new_wg1_aln.fa
+in filename: new_wg2_aln.fa
+outfile: all_new_full.nex
+starting log: 08/03/21 01:07
+clean
+cleannum: 0.03
+in filename: all_new_full.nex
+outfile: all_new_trim.nex
+starting log: 08/03/21 01:19
+concat
+in filename: new_16S_aln.fa
+in filename: new_28S_aln.fa
+in filename: new_AChE_aln.fa
+in filename: new_Adh_aln.fa
+in filename: new_COIII_aln.fa
+in filename: new_COII_aln.fa
+in filename: new_COI_aln.fa
+in filename: new_Dip3_aln.fa
+in filename: new_Ef1g_aln.fa
+in filename: new_GLS_aln.fa
+in filename: new_Ge1_aln.fa
+in filename: new_Gpdh_aln.fa
+in filename: new_GstD1_aln.fa
+in filename: new_ITS1_aln.fa
+in filename: new_Marf2_aln.fa
+in filename: new_Marf_aln.fa
+in filename: new_ND1_aln.fa
+in filename: new_ND2_aln.fa
+in filename: new_ND4_aln.fa
+in filename: new_Osi9_aln.fa
+in filename: new_PRY_aln.fa
+in filename: new_Pgi_aln.fa
+in filename: new_Rad23_aln.fa
+in filename: new_Smox_aln.fa
+in filename: new_Yp1_aln.fa
+in filename: new_Yp2_aln.fa
+in filename: new_Yp2_rep_aln.fa
+in filename: new_bin_aln.fa
+in filename: new_boss_aln.fa
+in filename: new_cadR_aln.fa
+in filename: new_fz4_aln.fa
+in filename: new_hb1_aln.fa
+in filename: new_hb2_aln.fa
+in filename: new_kl2_aln.fa
+in filename: new_l2not_aln.fa
+in filename: new_nad1_aln.fa
+in filename: new_ntid_aln.fa
+in filename: new_pds5_aln.fa
+in filename: new_rpt_aln.fa
+in filename: new_sina_aln.fa
+in filename: new_snf_aln.fa
+in filename: new_wee_aln.fa
+in filename: new_wg1_aln.fa
+in filename: new_wg2_aln.fa
+outfile: all_new_full.nex
+starting log: 08/03/21 01:19
+clean
+cleannum: 0.03
+in filename: all_new_full.nex
+outfile: all_new_trim.nex
+starting log: 08/03/21 01:35
+concat
+in filename: new_16S_aln.fa
+in filename: new_28S_aln.fa
+in filename: new_AChE_aln.fa
+in filename: new_Adh_aln.fa
+in filename: new_COIII_aln.fa
+in filename: new_COII_aln.fa
+in filename: new_COI_aln.fa
+in filename: new_Dip3_aln.fa
+in filename: new_Ef1g_aln.fa
+in filename: new_GLS_aln.fa
+in filename: new_Ge1_aln.fa
+in filename: new_Gpdh_aln.fa
+in filename: new_GstD1_aln.fa
+in filename: new_ITS1_aln.fa
+in filename: new_Marf2_aln.fa
+in filename: new_Marf_aln.fa
+in filename: new_ND1_aln.fa
+in filename: new_ND2_aln.fa
+in filename: new_ND4_aln.fa
+in filename: new_Osi9_aln.fa
+in filename: new_PRY_aln.fa
+in filename: new_Pgi_aln.fa
+in filename: new_Rad23_aln.fa
+in filename: new_Smox_aln.fa
+in filename: new_Yp1_aln.fa
+in filename: new_Yp2_aln.fa
+in filename: new_Yp2_rep_aln.fa
+in filename: new_bin_aln.fa
+in filename: new_boss_aln.fa
+in filename: new_cadR_aln.fa
+in filename: new_fz4_aln.fa
+in filename: new_hb1_aln.fa
+in filename: new_hb2_aln.fa
+in filename: new_kl2_aln.fa
+in filename: new_l2not_aln.fa
+in filename: new_nad1_aln.fa
+in filename: new_ntid_aln.fa
+in filename: new_pds5_aln.fa
+in filename: new_rpt_aln.fa
+in filename: new_sina_aln.fa
+in filename: new_snf_aln.fa
+in filename: new_wee_aln.fa
+in filename: new_wg1_aln.fa
+in filename: new_wg2_aln.fa
+outfile: all_new_full.nex
+starting log: 08/03/21 01:35
+clean
+cleannum: 0.03
+in filename: all_new_full.nex
+outfile: all_new_trim.nex
+starting log: 08/03/21 03:34
+concat
+in filename: new_AChE_aln.fa
+in filename: new_Adh_aln.fa
+in filename: new_COI_aln.fa
+in filename: new_COII_aln.fa
+in filename: new_COIII_aln.fa
+in filename: new_Dip3_aln.fa
+in filename: new_Ef1g_aln.fa
+in filename: new_GLS_aln.fa
+in filename: new_Ge1_aln.fa
+in filename: new_Gpdh_aln.fa
+in filename: new_GstD1_aln.fa
+in filename: new_ITS1_aln.fa
+in filename: new_Marf_aln.fa
+in filename: new_Marf2_aln.fa
+in filename: new_ND1_aln.fa
+in filename: new_ND2_aln.fa
+in filename: new_ND4_aln.fa
+in filename: new_Osi9_aln.fa
+in filename: new_PRY_aln.fa
+in filename: new_Pgi_aln.fa
+in filename: new_Rad23_aln.fa
+in filename: new_Smox_aln.fa
+in filename: new_16S_aln.fa
+in filename: new_28S_aln.fa
+in filename: new_Yp1_aln.fa
+in filename: new_Yp2_aln.fa
+in filename: new_Yp2_rep_aln.fa
+in filename: new_bin_aln.fa
+in filename: new_boss_aln.fa
+in filename: new_cadR_aln.fa
+in filename: new_fz4_aln.fa
+in filename: new_hb1_aln.fa
+in filename: new_hb2_aln.fa
+in filename: new_kl2_aln.fa
+in filename: new_l2not_aln.fa
+in filename: new_nad1_aln.fa
+in filename: new_ntid_aln.fa
+in filename: new_pds5_aln.fa
+in filename: new_rpt_aln.fa
+in filename: new_sina_aln.fa
+in filename: new_snf_aln.fa
+in filename: new_wee_aln.fa
+in filename: new_wg1_aln.fa
+in filename: new_wg2_aln.fa
+outfile: HI_Dros_new_full.nex
+starting log: 09/03/21 06:46
+concat
+in filename: new_16S_aln.fa
+in filename: new_28S_aln.fa
+in filename: new_AChE_aln.fa
+in filename: new_Adh_aln.fa
+in filename: new_COIII_aln.fa
+in filename: new_COII_aln.fa
+in filename: new_COI_aln.fa
+in filename: new_Dip3_aln.fa
+in filename: new_Ef1g_aln.fa
+in filename: new_GLS_aln.fa
+in filename: new_Ge1_aln.fa
+in filename: new_Gpdh_aln.fa
+in filename: new_GstD1_aln.fa
+in filename: new_ITS1_aln.fa
+in filename: new_Marf2_aln.fa
+in filename: new_Marf_aln.fa
+in filename: new_ND1_aln.fa
+in filename: new_ND2_aln.fa
+in filename: new_ND4_aln.fa
+in filename: new_Osi9_aln.fa
+in filename: new_PRY_aln.fa
+in filename: new_Pgi_aln.fa
+in filename: new_Rad23_aln.fa
+in filename: new_Smox_aln.fa
+in filename: new_Yp1_aln.fa
+in filename: new_Yp2_aln.fa
+in filename: new_Yp2_rep_aln.fa
+in filename: new_bin_aln.fa
+in filename: new_boss_aln.fa
+in filename: new_cadR_aln.fa
+in filename: new_fz4_aln.fa
+in filename: new_hb1_aln.fa
+in filename: new_hb2_aln.fa
+in filename: new_kl2_aln.fa
+in filename: new_l2not_aln.fa
+in filename: new_nad1_aln.fa
+in filename: new_ntid_aln.fa
+in filename: new_pds5_aln.fa
+in filename: new_rpt_aln.fa
+in filename: new_sina_aln.fa
+in filename: new_snf_aln.fa
+in filename: new_wee_aln.fa
+in filename: new_wg1_aln.fa
+in filename: new_wg2_aln.fa
+outfile: all_new_full.nex

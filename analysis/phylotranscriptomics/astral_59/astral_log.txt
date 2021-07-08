@@ -1,0 +1,58 @@
+================== ASTRAL ===================== 
+
+This is ASTRAL version 5.7.7
+Gene trees are treated as unrooted
+10633 trees read from /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/scratch/iqtree_59/June2021_iqtree59_loci.treefile
+index0
+All output trees will be *arbitrarily* rooted at Drosophila_virilis
+
+======== Running the main analysis
+Number of taxa: 24 (24 species)
+Taxa: [Drosophila_virilis, Drosophila_mojavensis, Drosophila_willistoni, Drosophila_melanogaster, Drosophila_ananassae, Drosophila_pseudoobscura, Drosophila_grimshawi, Drosophila_macrothrix, Drosophila_picticornis, Drosophila_sproati, Drosophila_murphyi, Drosophila_nanella, Drosophila_mimica, Drosophila_primaeva, Drosophila_tanythrix, Drosophila_cfdives, Drosophila_atroscutellata, Scaptomyza_cyrtandrae, Scaptomyza_varia, Scaptomyza_varipicta, Scaptomyza_pallida, Scaptomyza_hsui, Scaptomyza_graminum, Scaptomyza_montana]
+Taxon occupancy: {Drosophila_mojavensis=6806, Drosophila_atroscutellata=4296, Drosophila_melanogaster=6663, Drosophila_pseudoobscura=6646, Scaptomyza_montana=2241, Drosophila_grimshawi=6325, Drosophila_mimica=4482, Drosophila_primaeva=3869, Scaptomyza_varipicta=4777, Drosophila_cfdives=5227, Scaptomyza_cyrtandrae=4959, Scaptomyza_hsui=2295, Scaptomyza_pallida=959, Drosophila_sproati=3312, Drosophila_picticornis=2999, Drosophila_murphyi=2141, Scaptomyza_varia=4746, Drosophila_nanella=5245, Drosophila_tanythrix=3879, Drosophila_willistoni=6744, Drosophila_macrothrix=4385, Drosophila_ananassae=6661, Scaptomyza_graminum=2252, Drosophila_virilis=6845}
+Number of gene trees: 10633
+10599 trees have missing taxa
+Calculating quartet distance matrix (for completion of X)
+Species tree distances calculated ...
+Will attempt to complete bipartitions from X before adding using a distance matrix.
+Building set of clusters (X) from gene trees 
+------------------------------
+gradient0: 3171
+Number of Clusters after addition by distance: 3171
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:650
+polytomy size limit : 3
+discarded polytomies:  []
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+Threshold 0.3333333333333333:
+max k is :0
+Number of Clusters after addition by greedy: 3171
+gradient0 in heuristiic: 3171
+partitions formed in 4.681 secs
+Dynamic Programming starting after 4.681 secs
+Using tree-based weight calculation.
+Using polytree-based weight calculation.
+Polytree max score: 10949794
+Polytree building time: 1.275 seconds.
+Number of quartet trees in the gene trees: 10949794
+Size of largest cluster: 24
+Greedy score: 9339736
+estimationFactor: 1.172387956147797
+Sub-optimal score: 9827795
+Total Number of elements weighted: 17425
+Normalized score (portion of input quartet trees satisfied before correcting for multiple individuals): 0.902221174206565
+Optimization score: 9879136
+Optimal tree inferred in 38.943 secs.
+(Scaptomyza_pallida,((Scaptomyza_varia,(Scaptomyza_cyrtandrae,Scaptomyza_varipicta)),((Scaptomyza_graminum,Scaptomyza_montana),(Scaptomyza_hsui,(((Drosophila_virilis,Drosophila_mojavensis),(Drosophila_willistoni,(Drosophila_pseudoobscura,(Drosophila_melanogaster,Drosophila_ananassae)))),((Drosophila_cfdives,((Drosophila_nanella,Drosophila_mimica),(Drosophila_tanythrix,Drosophila_atroscutellata))),(Drosophila_primaeva,(Drosophila_picticornis,(Drosophila_macrothrix,(Drosophila_grimshawi,(Drosophila_sproati,Drosophila_murphyi)))))))))));
+Final quartet score is: 9879136
+Final normalized quartet score is: 0.902221174206565
+Extended species tree:
+(Drosophila_virilis,(Drosophila_mojavensis,((Drosophila_willistoni,(Drosophila_pseudoobscura,(Drosophila_melanogaster,Drosophila_ananassae)1:2.328624198299242)1:1.61723616213455)1:2.3899836265178656,(((Drosophila_cfdives,((Drosophila_nanella,Drosophila_mimica)1:1.0225948914476217,(Drosophila_tanythrix,Drosophila_atroscutellata)1:1.6397282372028932)1:0.06266932279478814)1:0.15692957237156951,(Drosophila_primaeva,(Drosophila_picticornis,(Drosophila_macrothrix,(Drosophila_grimshawi,(Drosophila_sproati,Drosophila_murphyi)1:1.7178433778450015)1:0.2091885938771)1:0.6977011644905721)1:1.2534706176411476)1:0.07618322941388825)1:2.350103437138167,(Scaptomyza_hsui,((Scaptomyza_graminum,Scaptomyza_montana)1:2.9512934097025285,((Scaptomyza_varia,(Scaptomyza_cyrtandrae,Scaptomyza_varipicta)1:0.6789129550644182)1:2.9956697859213177,Scaptomyza_pallida)1:0.9391809338726387)1:0.5711438876571849)1:2.6475010142916076)1:1.8010211331156605)1:0.7630546327740702));
+Weight calculation took 31.916500011 secs
+ASTRAL finished in 40.958 secs

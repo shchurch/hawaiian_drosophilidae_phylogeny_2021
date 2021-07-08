@@ -1,0 +1,474 @@
+starting log: 08/03/21 04:23
+clean
+cleannum: 0.03
+in filename: gappy_16S_aln.fa
+in filename: gappy_28S_aln.fa
+in filename: gappy_AChE_aln.fa
+in filename: gappy_Adh_aln.fa
+in filename: gappy_COIII_aln.fa
+in filename: gappy_COII_aln.fa
+in filename: gappy_COI_aln.fa
+in filename: gappy_Dip3_aln.fa
+in filename: gappy_Ef1g_aln.fa
+in filename: gappy_GLS_aln.fa
+in filename: gappy_Ge1_aln.fa
+in filename: gappy_Gpdh_aln.fa
+in filename: gappy_GstD1_aln.fa
+in filename: gappy_ITS1_aln.fa
+in filename: gappy_Marf2_aln.fa
+in filename: gappy_Marf_aln.fa
+in filename: gappy_ND1_aln.fa
+in filename: gappy_ND2_aln.fa
+in filename: gappy_ND4_aln.fa
+in filename: gappy_Osi9_aln.fa
+in filename: gappy_PRY_aln.fa
+in filename: gappy_Pgi_aln.fa
+in filename: gappy_Rad23_aln.fa
+in filename: gappy_Smox_aln.fa
+in filename: gappy_Yp1_aln.fa
+in filename: gappy_Yp2_aln.fa
+in filename: gappy_Yp2_rep_aln.fa
+in filename: gappy_bin_aln.fa
+in filename: gappy_boss_aln.fa
+in filename: gappy_cadR_aln.fa
+in filename: gappy_fz4_aln.fa
+in filename: gappy_hb1_aln.fa
+in filename: gappy_hb2_aln.fa
+in filename: gappy_kl2_aln.fa
+in filename: gappy_l2not_aln.fa
+in filename: gappy_nad1_aln.fa
+in filename: gappy_ntid_aln.fa
+in filename: gappy_pds5_aln.fa
+in filename: gappy_rpt_aln.fa
+in filename: gappy_sina_aln.fa
+in filename: gappy_snf_aln.fa
+in filename: gappy_wee_aln.fa
+in filename: gappy_wg1_aln.fa
+in filename: gappy_wg2_aln.fa
+starting log: 08/03/21 04:24
+clean
+cleannum: 0.03
+in filename: gappy_16S_aln.fa
+outfile: gappy_16S_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_28S_aln.fa
+outfile: gappy_28S_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_AChE_aln.fa
+outfile: gappy_AChE_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_Adh_aln.fa
+outfile: gappy_Adh_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_bin_aln.fa
+outfile: gappy_bin_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_boss_aln.fa
+outfile: gappy_boss_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_cadR_aln.fa
+outfile: gappy_cadR_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_COI_aln.fa
+outfile: gappy_COI_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_COII_aln.fa
+outfile: gappy_COII_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_COIII_aln.fa
+outfile: gappy_COIII_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_Dip3_aln.fa
+outfile: gappy_Dip3_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_Ef1g_aln.fa
+outfile: gappy_Ef1g_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_fz4_aln.fa
+outfile: gappy_fz4_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_Ge1_aln.fa
+outfile: gappy_Ge1_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_GLS_aln.fa
+outfile: gappy_GLS_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_Gpdh_aln.fa
+outfile: gappy_Gpdh_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_GstD1_aln.fa
+outfile: gappy_GstD1_trim.phyutyutility
+clean
+cleannum: 0.03
+in filename: gappy_hb1_aln.fa
+outfile: gappy_hb1_trim.faphyutiliity
+clean
+cleannum: 0.03
+in filename: gappy_hb2_aln.fa
+outfile: gappy_hb2_trim.faphyutiility
+clean
+cleannum: 0.03
+in filename: gappy_ITS1_aln.fa
+outfile: gappy_ITS1_trim.phyutility
+clean
+cleannum: 0.03
+in filename: gappy_kl2_aln.fa
+outfile: gappy_kl2_trim.faphyutillity
+clean
+cleannum: 0.03
+in filename: gappy_l2not_aln.fa
+outfile: gappy_l2not_trim.phyphyutility
+clean
+cleannum: 0.03
+in filename: gappy_Marf_aln.fa
+outfile: gappy_Marf_triphyutphyutility
+clean
+cleannum: 0.03
+in filename: gappy_Marf2_aln.fa
+outfile: gappy_Marf2_tphyuti
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_nad1_aln.fa
+outfile: gappy_nad1_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_ND1_aln.fa
+outfile: gappy_ND1_trim.phyphyutility
+clean
+cleannum: 0.03
+in filename: gappy_ND2_aln.fa
+outfile: gappy_ND2_trim.faphyutiliity
+clean
+cleannum: 0.03
+in filename: gappy_ND4_aln.fa
+outfile: gappy_ND4_trim.faphyuttility
+clean
+cleannum: 0.03
+in filename: gappy_ntid_aln.fa
+outfile: gappy_ntid_trim.phyutiutility
+clean
+cleannum: 0.03
+in filename: gappy_Osi9_aln.fa
+outfile: gappy_Osi9_triphyutihyutility
+clean
+cleannum: 0.03
+in filename: gappy_pds5_aln.fa
+outfile: gappy_pds5_triphyutihyutility
+clean
+cleannum: 0.03
+in filename: gappy_Pgi_aln.fa
+outfile: gappy_Pgi_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_PRY_aln.fa
+outfile: gappy_PRY_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_Rad23_aln.fa
+outfile: gappy_Rad23_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_rpt_aln.fa
+outfile: gappy_rpt_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_sina_aln.fa
+outfile: gappy_sina_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_Smox_aln.fa
+outfile: gappy_Smox_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_snf_aln.fa
+outfile: gappy_snf_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_wee_aln.fa
+outfile: gappy_wee_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_Yp1_aln.fa
+outfile: gappy_Yp1_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_Yp2_aln.fa
+outfile: gappy_Yp2_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_Yp2_rep_aln.fa
+outfile: gappy_Yp2_rep_trim.fa
+starting log: 08/03/21 04:25
+clean
+cleannum: 0.03
+in filename: gappy_wg2_aln.fa
+outfile: gappy_wg2_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_wg1_aln.fa
+outfile: gappy_wg1_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_ND1_aln.fa
+outfile: gappy_ND1_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_ND2_aln.fa
+outfile: gappy_ND2_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_ND4_aln.fa
+outfile: gappy_ND4_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_ntid_aln.fa
+outfile: gappy_ntid_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_Osi9_aln.fa
+outfile: gappy_Osi9_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_pds5_aln.fa
+outfile: gappy_pds5_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_Pgi_aln.fa
+outfile: gappy_Pgi_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_PRY_aln.fa
+outfile: gappy_PRY_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_hb1_aln.fa
+outfile: gappy_hb1_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_hb2_aln.fa
+outfile: gappy_hb2_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_ITS1_aln.fa
+outfile: gappy_ITS1_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_kl2_aln.fa
+outfile: gappy_kl2_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_l2not_aln.fa
+outfile: gappy_l2not_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_Marf_aln.fa
+outfile: gappy_Marf_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_Marf2_aln.fa
+outfile: gappy_Marf2_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_nad1_aln.fa
+outfile: gappy_nad1_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_ND1_aln.fa
+outfile: gappy_ND1_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_COIII_aln.fa
+outfile: gappy_COIII_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_Dip3_aln.fa
+outfile: gappy_Dip3_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_Ef1g_aln.fa
+outfile: gappy_Ef1g_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_fz4_aln.fa
+outfile: gappy_fz4_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_Ge1_aln.fa
+outfile: gappy_Ge1_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_GLS_aln.fa
+outfile: gappy_GLS_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_Gpdh_aln.fa
+outfile: gappy_Gpdh_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_GstD1_aln.fa
+outfile: gappy_GstD1_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_28S_aln.fa
+outfile: gappy_28S_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_AChE_aln.fa
+outfile: gappy_AChE_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_Adh_aln.fa
+outfile: gappy_Adh_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_bin_aln.fa
+outfile: gappy_bin_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_boss_aln.fa
+outfile: gappy_boss_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_cadR_aln.fa
+outfile: gappy_cadR_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_COI_aln.fa
+outfile: gappy_COI_trim.fa
+starting log: 08/03/21 04:26
+clean
+cleannum: 0.03
+in filename: gappy_COII_aln.fa
+outfile: gappy_COII_trim.fa
+starting log: 08/03/21 04:27
+clean
+cleannum: 0.03
+in filename: gappy_Rad23_aln.fa
+outfile: gappy_Rad23_trim.fa
+starting log: 08/03/21 04:27
+clean
+cleannum: 0.03
+in filename: gappy_rpt_aln.fa
+outfile: gappy_rpt_trim.fa
+starting log: 08/03/21 04:27
+clean
+cleannum: 0.03
+in filename: gappy_sina_aln.fa
+outfile: gappy_sina_trim.fa
+starting log: 08/03/21 04:27
+clean
+cleannum: 0.03
+in filename: gappy_Smox_aln.fa
+outfile: gappy_Smox_trim.fa
+starting log: 08/03/21 04:27
+clean
+cleannum: 0.03
+in filename: gappy_snf_aln.fa
+outfile: gappy_snf_trim.fa
+starting log: 08/03/21 04:27
+clean
+cleannum: 0.03
+in filename: gappy_wee_aln.fa
+outfile: gappy_wee_trim.fa
+starting log: 08/03/21 04:27
+clean
+cleannum: 0.03
+in filename: gappy_wg1_aln.fa
+outfile: gappy_wg1_trim.fa
+starting log: 08/03/21 04:27
+clean
+cleannum: 0.03
+in filename: gappy_wg2_aln.fa
+outfile: gappy_wg2_trim.fa
+starting log: 08/03/21 04:27
+clean
+cleannum: 0.03
+in filename: gappy_Yp1_aln.fa
+outfile: gappy_Yp1_trim.fa
+starting log: 08/03/21 04:27
+clean
+cleannum: 0.03
+in filename: gappy_Yp2_aln.fa
+outfile: gappy_Yp2_trim.fa
+starting log: 08/03/21 04:27
+clean
+cleannum: 0.03
+in filename: gappy_Yp2_rep_aln.fa
+outfile: gappy_Yp2_rep_trim.fa

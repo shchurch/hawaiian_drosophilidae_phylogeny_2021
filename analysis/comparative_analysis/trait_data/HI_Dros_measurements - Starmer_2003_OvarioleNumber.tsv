@@ -1,0 +1,83 @@
+group	genus	species	N	TL	ON	EW	EL
+Scaptomyza	Scaptomyza	caliginosa	24	0.93 ± 0.078	2.5 ± 0.293	NA	NA
+Scaptomyza	Scaptomyza	mauiensis	18	0.87 ± 0.034	4 ± 0	NA	NA
+Scaptomyza	Scaptomyza	oahuensis	19	0.86 ± 0.042	4.05 ± 0.25	NA	NA
+Scaptomyza	Scaptomyza	throckmortoni	29	0.84 ± 0.059	4.07 ± 0.253	NA	NA
+Scaptomyza	Scaptomyza	undulata	6	2 ± 0.078	2 ± 0	NA	NA
+Scaptomyza	Scaptomyza	nasalis	22	1.9 ± 0.342	4.68 ± 1.66	NA	NA
+Scaptomyza	Scaptomyza	reducta	4	1.68 ± 0.15	5.33 ± 1.11	NA	NA
+Scaptomyza	Scaptomyza	crassifemur	14	2.06 ± 0.292	5.36 ± 0.902	NA	NA
+Scaptomyza	Scaptomyza	inflatus	3	1.69 ± 0.025	7.25 ± 0.213	NA	NA
+	Drosophila	villosus	5	2.92 ± 0.087	8.4 ± 0.456	NA	NA
+	Drosophila	aduncus	21	2.94 ± 0.119	11 ± 1.233	NA	NA
+	Drosophila	sp	10	2.33 ± 0.129	14.3 ± 0.642	NA	NA
+	Drosophila	diamphidiopodus	18	2.28 ± 0.131	18.44 ± 1.065	NA	NA
+	Drosophila	prodita	12	1.37 ± 0.138	9 ± 2.311	NA	NA
+	Drosophila	trichetosa	9	1.35 ± 0.096	10.33 ± 1.632	NA	NA
+	Drosophila	disticha	244	1.45 ± 0.101	11.79 ± 1.532	NA	NA
+	Drosophila	pectinitarsus	12	1.26 ± 0.028	12.42 ± 1.604	NA	NA
+	Drosophila	kambysellisi	26	1.51 ± 0.076	15 ± 1.226	NA	NA
+	Drosophila	petalopeza	16	1.75 ± 0.072	17.75 ± 1.82	NA	NA
+	Drosophila	mimica	325	1.78 ± 0.184	23.85 ± 4.214	NA	NA
+	Drosophila	primaeva	7	3 ± 0.124	101.33 ± 8.439	NA	NA
+	Drosophila	attigua	2	2.67 ± 0.063	43 ± 1.003	NA	NA
+	Drosophila	setosimentum	33	2.13 ± 0.086	35.61 ± 3.889	NA	NA
+	Drosophila	adiastola	21	2.41 ± 0.092	45.92 ± 7.246	NA	NA
+	Drosophila	truncipenna	6	3.22 ± 0.129	48 ± 4.896	NA	NA
+	Drosophila	clavisetae	7	2.71 ± 0.114	38.17 ± 3.558	NA	NA
+	Drosophila	picticornis	9	1.77 ± 0.098	27.44 ± 3.654	NA	NA
+	Drosophila	melanocephala	6	3.31 ± 0.342	86.6 ± 9.243	NA	NA
+	Drosophila	silvestris	13	3.16 ± 0.129	52.38 ± 2.672	NA	NA
+	Drosophila	nigribasis	5	2.98 ± 0.305	53.33 ± 1.886	NA	NA
+	Drosophila	pilimana	8	2.19 ± 0.167	45 ± 3.739	NA	NA
+	Drosophila	fasciculisetae	9	2.65 ± 0.222	47.22 ± 6.357	NA	NA
+	Drosophila	punalua	10	2.3 ± 0.136	34 ± 3.267	NA	NA
+	Drosophila	crucigera	16	2.09 ± 0.188	40 ± 4.288	NA	NA
+	Drosophila	engyochracea	13	2.48 ± 0.115	59.73 ± 7.448	NA	NA
+	Drosophila	sproati	42	2.78 ± 0.149	65.55 ± 5.929	NA	NA
+	Drosophila	sejuncta	7	2.24 ± 0.212	56.83 ± 5.895	NA	NA
+	Drosophila	ochracea	5	2.4 ± 0.096	38 ± 4.595	NA	NA
+	Drosophila	murphyi	21	2.43 ± 0.119	41.57 ± 4.798	NA	NA
+	Drosophila	villosipedis	6	2.09 ± 0.144	47 ± 3.633	NA	NA
+	Drosophila	preapicala	2	1.2	37.5	NA	NA
+Scaptomyza	Scaptomyza	caliginosa	10	NA	NA	0.32 ± 0.029	0.88 ± 0.016
+Scaptomyza	Scaptomyza	mauiensis	10	NA	NA	0.28 ± 0.015	0.74 ± 0.022
+Scaptomyza	Scaptomyza	oahuensis	15	NA	NA	0.25 ± 0.016	0.73 ± 0.033
+Scaptomyza	Scaptomyza	throckmortoni	15	NA	NA	0.28 ± 0.014	0.73 ± 0.034
+Scaptomyza	Scaptomyza	undulata	15	NA	NA	0.71 ± 0.015	1.02 ± 0.023
+Scaptomyza	Scaptomyza	nasalis	15	NA	NA	0.48 ± 0.013	1.41 ± 0.038
+Scaptomyza	Scaptomyza	reducta	NA	NA	NA	NA	NA
+Scaptomyza	Scaptomyza	crassifemur	15	NA	NA	0.39 ± 0.019	1.01 ± 0.091
+Scaptomyza	Scaptomyza	inflatus	NA	NA	NA	NA	NA
+	Drosophila	villosus	30	NA	NA	0.47 ± 0.017	1.66 ± 0.063
+	Drosophila	aduncus	30	NA	NA	0.46 ± 0.022	1.61 ± 0.039
+	Drosophila	sp	25	NA	NA	0.37 ± 0.012	1.25 ± 0.033
+	Drosophila	diamphidiopodus	25	NA	NA	0.29 ± 0.016	1.09 ± 0.039
+	Drosophila	prodita	0	NA	NA	NA	NA
+	Drosophila	trichetosa	0	NA	NA	NA	NA
+	Drosophila	disticha	30	NA	NA	0.26 ± 0.008	0.9 ± 0.028
+	Drosophila	pectinitarsus	25	NA	NA	0.22 ± 0.007	0.69 ± 0.033
+	Drosophila	kambysellisi	30	NA	NA	0.23 ± 0.007	0.79 ± 0.021
+	Drosophila	petalopeza	0	NA	NA	NA	NA
+	Drosophila	mimica	39	NA	NA	0.22 ± 0.006	0.74 ± 0.02
+	Drosophila	primaeva	30	NA	NA	0.23 ± 0.006	0.83 ± 0.021
+	Drosophila	attigua	27	NA	NA	0.22 ± 0.009	0.81 ± 0.023
+	Drosophila	setosimentum	24	NA	NA	0.23 ± 0.004	0.86 ± 0.021
+	Drosophila	adiastola	25	NA	NA	0.23 ± 0.006	0.82 ± 0.023
+	Drosophila	truncipenna	25	NA	NA	0.25 ± 0.09	0.96 ± 0.035
+	Drosophila	clavisetae	25	NA	NA	0.31 ± 0.01	0.99 ± 0.031
+	Drosophila	picticornis	33	NA	NA	0.24 ± 0.011	0.81 ± 0.026
+	Drosophila	melanocephala	30	NA	NA	0.22 ± 0.007	0.9 ± 0.034
+	Drosophila	silvestris	36	NA	NA	0.25 ± 0.015	0.94 ± 0.03
+	Drosophila	nigribasis	24	NA	NA	0.24 ± 0.007	1.04 ± 0.024
+	Drosophila	pilimana	25	NA	NA	0.22 ± 0.035	0.75 ± 0.014
+	Drosophila	fasciculisetae	25	NA	NA	0.22 ± 0.007	0.77 ± 0.023
+	Drosophila	punalua	30	NA	NA	0.23 ± 0.011	0.92 ± 0.012
+	Drosophila	crucigera	30	NA	NA	0.21 ± 0.008	0.81 ± 0.021
+	Drosophila	engyochracea	24	NA	NA	0.23 ± 0.014	0.87 ± 0.036
+	Drosophila	sproati	24	NA	NA	0.19 ± 0.008	0.87 ± 0.02
+	Drosophila	sejuncta	21	NA	NA	0.26 ± 0.023	0.97 ± 0.021
+	Drosophila	ochracea	20	NA	NA	0.21 ± 0.007	1.09 ± 0.02
+	Drosophila	murphyi	24	NA	NA	0.21 ± 0.008	0.91 ± 0.013
+	Drosophila	villosipedis	30	NA	NA	0.22 ± 0.006	0.87 ± 0.028
+	Drosophila	preapicala	15	NA	NA	0.2	0.69

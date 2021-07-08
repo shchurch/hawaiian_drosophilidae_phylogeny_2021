@@ -1,0 +1,29 @@
+genus	species	host_family	substrate	host_genus	host_species	flux	fruit	fungus	leaf	stem	bark	flower
+Drosophila	involuta	Fabaceae	flower	Canavalia	hawaiiensis							TRUE
+Drosophila	lobatopalpus	Sapindaceae	flux / dirt	Sapindus		TRUE						
+Drosophila	antecedens	Corynocarpaceae	fruit	Corynocarpus	laevigata		TRUE					
+Drosophila	gagne	Sapindaceae	fruit	Sapindus	oahuensis		TRUE					
+Drosophila	gagne	Sapindaceae	fruit	Saindus	saponaria		TRUE					
+Drosophila	involuta	Campanulaceae	fruit	Clermontia			TRUE					
+Drosophila	kauluai	Apocynaceae	fruit	Pteralyxia			TRUE					
+Drosophila	kauluai	Sapotaceae	fruit	Pouteria			TRUE					
+Drosophila	mimica	Sapindaceae	fruit	Sapindus	saponaria		TRUE					
+Drosophila	mimica	Basidiomycetes	fruiting body	bracket fungus				TRUE				
+Drosophila	chimera	Campanulaceae	leaf	Clermonta					TRUE			
+Drosophila	conjectura	Nyctaginaceae	leaf	Pisonia	umbillifera				TRUE			
+Drosophila	conjectura	Nyctaginaceae	leaf	Pisonia	brunoniana				TRUE			
+Drosophila	flavibasis	Corynocarpaceae	leaf	Corynocarpus	laevigata				TRUE			
+Drosophila	flavibasis	Nyctaginaceae	leaf	Pisonia	umbillifera				TRUE			
+Drosophila	kambysellisi	Campanulaceae	leaf	Clermontia					TRUE			
+Drosophila	kambysellisi	Nyctaginaceae	leaf	Pisonia	sandwicensis				TRUE			
+Drosophila	kambysellisi	Passifloraceae	leaf	Passiflora					TRUE			
+Drosophila	kambysellisi	Piperaceae	leaf	Peperomia					TRUE			
+Drosophila	kambysellisi	Rubiaceae	leaf	Psychotria					TRUE			
+Drosophila	mimica	Nyctaginaceae	leaf	Pisonia					TRUE			
+Drosophila	mimica	Piperaceae	leaf	Peperomia					TRUE			
+Drosophila	xenophaga	Amaranthaceae	leaf	Charpentiera					TRUE			
+Drosophila	xenophaga	Passifloraceae	leaf	Passiflora					TRUE			
+Drosophila	infuscata	Campanulaceae	stem, bark	Clermontia						TRUE	TRUE	
+Drosophila	infuscata	Oleaceae	stem, bark	Nestegis	sandwicensis					TRUE	TRUE	
+Drosophila	infuscata	Pandanaceae	stem, bark	Freycineta	arborea					TRUE	TRUE	
+Drosophila	maemae	Pandanaceae	stem, bark	Freycineta	arborea					TRUE	TRUE	

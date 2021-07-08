@@ -1,0 +1,50 @@
+=============================================================
+                   sowhat results
+=============================================================
+
+Program was called as follows:
+sowhat \
+  --constraint \
+  constraintA.tre \
+  --aln=../phylobayes_59/59.supermatrix.phy \
+  --name \
+  59_constraintA \
+  --dir \
+  constraintA \
+  --raxml_model \
+  GTRGAMMA \
+  --rax \
+  raxmlHPC-PTHREADS -T 1 \
+  --print_tree_scripts \
+  --reps=100 \
+  --restart \
+
+  sowhat was version 0.39
+
+  $SEQGEN variable set to 'seq-gen'
+  seq-gen was version 1.3.2x
+  $RAX variable set to 'raxmlHPC-PTHREADS -T 1'
+  RAxML was version 8.2.11
+
+Distributions and frequencies printed to:
+ /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/scratch/sowhat_59/constraintA/sowhat.distribution.txt
+
+Null_Distribution
+    mean  =  0.06770721
+    lowest value  =  0.007271998
+    25% quartile  =  0.06342875
+    median  =  0.071027
+    75% quartile  =  0.07774475
+    highest value  =  0.119603
+    sample size  =  100
+
+Test_Statistic
+    empirical lnL, unconstrained  =  -61906784.532636
+    empirical lnL, constrained  =  -61908558.596242
+    difference in lnL, test statistic  =  1774.064
+    rank of test statistic  =  0
+
+SOWH_Results
+    upper 95% conf. int. of p-value  =  0.03621669
+    lower 95% conf. int. of p-value  =  0
+    p-value of the null hypothesis   =  <0.01

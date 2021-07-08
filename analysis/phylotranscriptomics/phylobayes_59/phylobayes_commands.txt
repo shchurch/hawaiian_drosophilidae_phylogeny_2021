@@ -1,0 +1,37 @@
+# fasta2phylip from Casey W. Dunn
+# convert output of agalma, run 59, to phylip format
+
+cd /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/scratch/
+mkdir phylobayes_59
+cd phylobayes_59/
+
+python3 fasta2phylip.py /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/59.supermatrix.fa > 59.supermatrix.phy
+
+# Harvard cluster
+
+#!/bin/bash
+#SBATCH -J PhyloBayes                           # Job name 
+#SBATCH -o PhyloBayes.%A.out                    # File to which stdout will be written
+#SBATCH -e PhyloBayes.%A.err                    # File to which stderr will be written
+#SBATCH --mail-type=ALL                         # BEGIN,END,ALL
+#SBATCH --mail-user=church@g.harvard.edu   # Email address
+#SBATCH -n 32                                   # Number of cores/cpus
+#SBATCH --contiguous
+#SBATCH -t 07-00:00                             # Runtime in DD-HH:MM
+#SBATCH --mem-per-cpu 24G                     # Memory for all cores in Mbytes (--mem-per-cpu for MPI jobs)
+#SBATCH -p shared                               # Partition general, serial_requeue, unrestricted, interact
+
+module load gcc/7.1.0-fasrc01 openmpi/2.1.0-fasrc02 pb_mpi/1.7a-fasrc01
+
+cd /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/scratch/phylobayes_59
+
+srun -n $SLURM_NTASKS --mpi=pmi2 pb_mpi -d 59.supermatrix.phy -dc -cat -gtr $1
+
+# sbatch phylobayes.sh chain1
+# sbatch phylobayes.sh chain2
+
+tracecomp -x 100 chain1 chain3 chain4 
+bpcomp -x 100 1 chain1 chain3 chain4
+
+tracecomp -x 100 chain1 chain2 chain3 chain4 
+bpcomp -x 100 1 chain1 chain2 chain3 chain4

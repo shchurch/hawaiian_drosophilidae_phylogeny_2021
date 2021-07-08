@@ -1,0 +1,10 @@
+chain1.treelist : 1302 trees
+chain2.treelist : 1833 trees
+chain3.treelist : 353 trees
+chain4.treelist : 352 trees
+
+maxdiff     : 1
+meandiff    : 0.0111111
+
+bipartition list in : bpcomp.bplist
+consensus in        : bpcomp.con.tre

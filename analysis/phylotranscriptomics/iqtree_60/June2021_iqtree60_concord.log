@@ -1,0 +1,55 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    holy7c18608.rc.fas.harvard.edu (AVX512, FMA3, 188 GB RAM)
+Command: iqtree2 -t June2021_iqtree60_concat.treefile --gcf June2021_iqtree60_loci.treefile -s /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/60.supermatrix.fa --scf 100 --prefix June2021_iqtree60_concord -T 10
+Seed:    859203 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Jun 20 01:08:14 2021
+Kernel:  AVX+FMA - 10 threads (24 CPU cores detected)
+
+Reading alignment file /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/60.supermatrix.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 24 sequences with 1943000 columns, 894876 distinct patterns
+692246 parsimony-informative, 290239 singleton sites, 960515 constant sites
+                           Gap/Ambiguity  Composition  p-value
+   1  Drosophila_virilis           3.58%    failed      0.00%
+   2  Drosophila_mojavensis        3.35%    failed      0.00%
+   3  Drosophila_willistoni        4.62%    failed      0.00%
+   4  Drosophila_melanogaster      3.72%    failed      0.00%
+   5  Drosophila_ananassae         4.11%    failed      0.00%
+   6  Drosophila_pseudoobscura     4.90%    failed      0.00%
+   7  Drosophila_grimshawi         9.31%    failed      0.00%
+   8  Drosophila_nanella          30.47%    failed      0.00%
+   9  Drosophila_cfdives          21.86%    failed      0.00%
+  10  Scaptomyza_cyrtandrae       22.56%    failed      0.00%
+  11  Scaptomyza_varipicta        25.40%    failed      0.00%
+  12  Scaptomyza_varia            21.54%    failed      0.00%
+  13  Drosophila_macrothrix       44.48%    failed      0.00%
+  14  Drosophila_mimica           42.90%    failed      0.00%
+  15  Drosophila_atroscutellata   47.25%    failed      0.00%
+  16  Drosophila_primaeva         59.88%    failed      0.00%
+  17  Drosophila_tanythrix        53.34%    failed      0.00%
+  18  Drosophila_sproati          57.77%    failed      0.00%
+  19  Drosophila_picticornis      68.86%    failed      0.00%
+  20  Scaptomyza_hsui             38.34%    failed      0.00%
+  21  Scaptomyza_graminum         38.10%    failed      0.00%
+  22  Scaptomyza_montana          38.40%    failed      0.00%
+  23  Drosophila_murphyi          43.59%    failed      0.00%
+  24  Scaptomyza_pallida          72.24%    failed      0.00%
+WARNING: 5 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                       31.69%  24 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading tree June2021_iqtree60_concat.treefile ...
+un-rooted tree with 24 taxa and 45 branches
+Reading tree(s) file June2021_iqtree60_loci.treefile ...
+1926 tree(s) loaded (0 rooted and 1926 unrooted)
+Trees have different number of taxa
+Computing gene concordance factor...
+0.092 sec
+Computing site concordance factor...
+5.797 sec
+Tree with concordance factors written to June2021_iqtree60_concord.cf.tree
+Annotated tree (best viewed in FigTree) written to June2021_iqtree60_concord.cf.tree.nex
+Tree with branch IDs written to June2021_iqtree60_concord.cf.branch
+Concordance factors per branch printed to June2021_iqtree60_concord.cf.stat
+Date and Time: Sun Jun 20 01:08:25 2021

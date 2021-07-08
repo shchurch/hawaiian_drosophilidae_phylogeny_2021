@@ -1,0 +1,167 @@
+genus	species	barcode	island	16S	ND2	COI	COII	Refs.b	notes
+Drosophila	adunca	105818	Maui	EU494374	EU493520	EU493644		1	EU493902 = COIII ?
+Drosophila	aethostoma	109440	Kauai		EU493521	EU493645	EU493774	1	
+Drosophila	ambochila	109433	Oahu		EU493522		EU493776	1	
+Drosophila	ancyla	201019	Maui	HQ170952	HQ170861	HQ170749	HQ170632	8	
+Drosophila	anomalipes	201039	Kauai		HQ170862	HQ170750	HQ170633	8	
+Drosophila	antecedens	205061	Kauai	HQ170953	HQ170863	HQ170751	HQ170634	8	
+Drosophila	apicipuncta	200994	Hawaii	HQ170954		HQ170752	HQ170635	8	
+Drosophila	apodasta	201029	Kauai	HQ170955	HQ170948	HQ170753	HQ170636	8	
+Drosophila	aquila	201000	Hawaii	HQ170956	HQ170864	HQ170754	HQ170637	8	
+Drosophila	atroscutellata	200865	Kauai	HQ171020	HQ170927	HQ170817	HQ170713	8	
+Drosophila	barbata	200996	Hawaii	HQ170957	HQ170865		HQ170638	8	
+Drosophila	basimacula	201030	Kauai	HQ170958	HQ170866	HQ170755	HQ170639	8	
+Drosophila	basisetosa	201021	Hawaii	HQ170959	HQ170867	HQ170756	HQ170640	8	
+Drosophila	bipolita	O75.5	Maui				AY343532	2	
+Drosophila	biseriata	200201	Oahu		HQ170868	HQ170757	HQ170641	8	
+Drosophila	bostrycha	109445	Molokai	EU494378	EU493525	EU493649	EU493778	1	
+Drosophila	brevitarsus	201038	Oahu		HQ170869	HQ170758	HQ170642	8	
+Drosophila	canipolita	O86.2	Hawaii				AY343531	2	
+Drosophila	capitata	201050	Kauai		HQ170870		HQ170643	8	
+Drosophila	chaetocephala	201051	Oahu		HQ170871		HQ170644	8	
+Drosophila	clavitibia	201326	Molokai	HQ170960	HQ170872	HQ170759	HQ170645	8	
+Drosophila	cneucopleura	201022a	Hawaii	HQ170961	HQ170873	HQ170760	HQ170646	8	
+Drosophila	comatifemora	109459	Maui	EU494380	EU493527	EU493651	EU493780	1	
+Drosophila	conformis	201312a	Hawaii	HQ171023	HQ170930	HQ170820	HQ170716	8	
+Drosophila	contorta	200120a	Maui	HQ171021	HQ170928	HQ170818	HQ170714	8	
+Drosophila	cracens	O56.8	Hawaii	HQ171037		HQ170834	HQ170731	3, 8	
+Drosophila	crucigera	hd, W41N3	Oahu				AY343526	2	
+Drosophila	cyrtoloma	201798a	Maui	HQ170962	HQ170874	HQ170761	HQ170647	8	
+Drosophila	dasycnemia	202326b	Hawaii	HQ171026	HQ170933	HQ170823	HQ170719	8	
+Drosophila	desallei	200989	Hawaii	HQ170963	HQ170875	HQ170762	HQ170648	8	
+Drosophila	diamphidiopoda	O35.2	Maui	HQ171029		HQ170826	HQ170724	3, 8	
+Drosophila	differens	KYK	Molokai	AY006397		HQ170840	AY006435	3, 5, 2008	
+Drosophila	disjuncta		Maui	U94256			U94213	4	
+Drosophila	dissita	201323	Hawaii	HQ170964	HQ170876	HQ170763	HQ170649	8	
+Drosophila	dolomata	200999	Oahu	HQ170965		HQ170764	HQ170650	8	
+Drosophila	eurypeza	201043	Kauai	HQ170966	HQ170944	HQ170765	HQ170651	8	
+Drosophila	expansa	201012	Maui	HQ170967	HQ170877	HQ170766	HQ170652	8	
+Drosophila	fastigata	200866	Oahu	HQ171019	HQ170926	HQ170816	HQ170712	8	
+Drosophila	flavibasis	205062	Kauai	HQ170968	HQ170878	HQ170767	HQ170653	8	
+Drosophila	forficata	201053	Kauai		HQ170879		HQ170654	8	
+Drosophila	fulgida	O87.9	Kauai				AY343529	2	
+Drosophila	fundita	201023	Maui	HQ170969	HQ170880	HQ170768	HQ170655	8	
+Drosophila	fungiperda	O38.5	Hawaii				AY343535	2	
+Drosophila	furcatarsus	201054	Kauai		HQ170881		HQ170656	8	
+Drosophila	furvifacies	200209	Oahu	HQ170970	HQ170882		HQ170657	8	
+Drosophila	fuscoamoeba	200977	Oahu				HQ170658	8	
+Drosophila	glabriapex	109446	Kauai	EU494384	EU493531	EU493655	EU493784	1	
+Drosophila	grimshawi	hd, G40	Maui	BK006341	BK006341	BK006341	BK006341	6, 7	
+Drosophila	haleakalae	109330	Maui		EU493532		EU493785	1	
+Drosophila	hamifera	109435	Maui	EU494267		EU493657	EU493786	1	
+Drosophila	hanaulae	MPK	Maui	AY006389		HQ170841	AY006427	3, 5, 2008	
+Drosophila	hemipeza	RD	Oahu	AY006391		HQ170842	AY006429	3, 5, 2008	
+Drosophila	heteroneura	hd, W33B4	Hawaii	AY006434		HQ170843	AY006434	3, 5, 2008	
+Drosophila	hirtitibia	109429	Oahu	EU494387	EU493533	EU493658	EU493787	1	
+Drosophila	hystricosa	109444	Maui	EU494388	EU493534	EU493659	EU493788	1	
+Drosophila	iki	MPK	Hawaii	HQ171032		HQ170829	HQ170727	3, 8	
+Drosophila	imparisetae	201014	Hawaii	HQ170971	HQ170883	HQ170769	HQ170659	8	
+Drosophila	inciliata	hd, Y33	Maui	HQ171033		HQ170830	HQ170728	3, 8	
+Drosophila	incognita	202333a	Hawaii	HQ171027	HQ170934	HQ170824	HQ170720	8	
+Drosophila	infuscata	205063	Hawaii	HQ170972	HQ170884	HQ170770	HQ170660	8	
+Drosophila	ingens	hd, Y1862	Maui	AY006406			AY006444	5	
+Drosophila	insignita	O86.1	Oahu				HQ170723	2, 8	
+Drosophila	involuta	205064	Hawaii	HQ170973	HQ170885	HQ170771	HQ170661	8	
+Drosophila	ischnotrix	200990a	Oahu	HQ170974	HQ170886		HQ170662	8	
+Drosophila	kambysellisi	205065a	Hawaii	HQ170975	HQ170949	HQ170772	HQ170663	8	
+Drosophila	kauluai	205072	Oahu		HQ170887	HQ170773	HQ170664	8	
+Drosophila	kokeensis	201055	Kauai		HQ170888		HQ170665	8	
+Drosophila	konaensis	O39.2	Hawaii	HQ171038		HQ170835	HQ170732	3, 8	
+Drosophila	kualapa	201046	Kauai	HQ170976	HQ170889	HQ170774	HQ170666	8	
+Drosophila	latigena	201015	Hawaii	HQ170977	HQ170890	HQ170775	HQ170667	8	
+Drosophila	lineosetae	hd, Y5	Maui	HQ171039		HQ170836	HQ170733	3, 8	
+Drosophila	longiperda	hd, Y5	Hawaii	HQ171034		HQ170831	HQ170729	3, 8	
+Drosophila	longiseta	O58.D	Molokai	HQ171030		HQ170827	HQ170725	3,8	
+Drosophila	malele	201047	Kauai	HQ170978	HQ170891	HQ170776	HQ170668	8	
+Drosophila	medialis	201017	Hawaii	HQ170979	HQ170892	HQ170777	HQ170669	8	
+Drosophila	melanocephala	201799	Maui	HQ170980		HQ170778	HQ170670	8	
+Drosophila	melanoloma	105708	Maui	EU494391	EU493536	EU493662	EU493791	1	
+Drosophila	micromyia	201044	Kauai	HQ170981	HQ170893	HQ170779	HQ170671	8	
+Drosophila	mimica	205066a	Hawaii	HQ170982	HQ170950	HQ170780	HQ170672	8	
+Drosophila	mitchelli	202312	Hawaii	HQ170983	HQ170894	HQ170781	HQ170673	8	
+Drosophila	multiciliata	109439	Hawaii	EU494393	EU493538		EU493794	1	
+Drosophila	nanella	201042	Kauai	HQ170984	HQ170895	HQ170782	HQ170674	8	
+Drosophila	neoperkinsi	MPK	Molokai	AY006398		HQ170844	AY006436	3, 5, 2008	
+Drosophila	neopicta	O41.C	Maui	AY006401			AY006439	5, 8	
+Drosophila	neutralis	202319b	Hawaii	HQ171024	HQ170931	HQ170821	HQ170717	8	
+Drosophila	nigella	105820	Maui		EU493539	EU493666	EU493795	1	
+Drosophila	nigra	105821	Maui	EU494394	EU493540	EU493667	EU493796	1	
+Drosophila	nigribasis	MPK	Oahu	AY006394		HQ170845	AY006432	3, 5, 2008	
+Drosophila	nigrocirrus	200993	Hawaii	HQ170985	HQ170896	HQ170783	HQ170675	8	
+Drosophila	oahuensis	RD	Oahu	AY006393		HQ170846	AY006431	3, 5, 2008	
+Drosophila	obscuripes	hd, Y50	Maui	AY006405			AY006443	5, 8	
+Drosophila	ochracea	109447	Hawaii	EU494395	EU493541		EU493797	1	
+Drosophila	ochropleura	O84.1	Hawaii				AY343530	2	
+Drosophila	papaalai	201045	Kauai	HQ170986	HQ170897	HQ170784	HQ170676	8	
+Drosophila	paraanthrax	O89.2	Kauai				HQ170722	2, 8	
+Drosophila	paucitarsus	201024	Molokai	HQ170987	HQ170898	HQ170785	HQ170677	8	
+Drosophila	pectinitarsus	201025	Hawaii	HQ170988	HQ170899	HQ170786	HQ170678	8	
+Drosophila	percnosoma	200125a	Hawaii	HQ171022	HQ170929	HQ170819	HQ170715	8	
+Drosophila	perissopoda	201034	Kauai	HQ170989	HQ170945	HQ170787	HQ170679	8	
+Drosophila	petalopeza	O41.2	Maui	HQ171036		HQ170833	HQ170730	3, 8	
+Drosophila	picticornis	MPK	Kauai	AY006392		HQ170847	AY006430	3, 5, 2008	
+Drosophila	planitibia	hd, U84 N	Maui	AY006400		HQ170848	AY006438	3, 5, 2008	
+Drosophila	polita	hd, Y56	Lanai	HQ171035		HQ170832	AY343538	2, 3, 2008	
+Drosophila	polliciforma	200976	Hawaii	HQ170990	HQ170900	HQ170788	HQ170680	8	
+Drosophila	poonia	201048	Kauai	HQ170991		HQ170789	HQ170681	8	
+Drosophila	preapicula	201040	Hawaii	HQ170992	HQ170901	HQ170790	HQ170682	8	
+Drosophila	primaeva	200863	Kauai	HQ170993		HQ170791	HQ170683	8	
+Drosophila	procerisetae	201880	Molokai	HQ170994	HQ170902	HQ170792	HQ170684	8	
+Drosophila	prodita	201010	Hawaii	HQ170995	HQ170903	HQ170793	HQ170685	8	
+Drosophila	prolacticilia	O85.6	Hawaii	HQ171040		HQ170837	HQ170734	3, 8	
+Drosophila	propiofacies	201027	Maui	HQ170996	HQ170904	HQ170794	HQ170686	8	
+Drosophila	pullipes	109448	Hawaii			EU493671	EU493800	1	
+Drosophila	pychnochaetae	200991	Oahu	HQ170997	HQ170905	HQ170795	HQ170687	8	
+Drosophila	redunca	201884	Molokai	HQ170998	HQ170906	HQ170796	HQ170688	8	
+Drosophila	reschae	205073	Oahu	HQ170999		HQ170797	HQ170689	8	i switched around the numbers so they would be correct
+Drosophila	scitula	O87.E	Kauai				AY343533	2	
+Drosophila	seclusa	201011	Hawaii	HQ171000	HQ170907	HQ170798	HQ170690	8	
+Drosophila	setosifrons	hd, Y80	Hawaii	AY006404		HQ170849	AY006442	3, 5, 2008	
+Drosophila	silvestris	hd, W34B4	Hawaii	AY006395		HQ170850	AY006433	3, 5, 2008	
+Drosophila	sodomae	O34.2	Molokai	HQ171041		HQ170838	HQ170746	3, 8	
+Drosophila	soonae	109458	Hawaii	EU494398	EU493544	EU493672	EU493801	1	
+Drosophila	sordidapex	202321a	Hawaii	HQ171025	HQ170932	HQ170822	HQ170718	8	
+Drosophila	substenoptera	MPK	Oahu	AY006402		HQ170851	AY006440	3, 5, 2008	
+Drosophila	systenopeza	201026	Maui	HQ171014	HQ170920	HQ170812	HQ170706	8	
+Drosophila	tanythrix	hd, Y48	Hawaii	HQ171031		HQ170828	HQ170726	3, 8	
+Drosophila	tetraspilota	200995	Hawaii	HQ171015	HQ170921		HQ170707	8	
+Drosophila	toxacantha	200864	Hawaii		HQ170922		HQ170708	8	
+Drosophila	trichaetosa	201013	Hawaii	HQ171016	HQ170923	HQ170813	HQ170709	8	
+Drosophila	unicula	200997	Hawaii	HQ171017	HQ170924	HQ170814	HQ170710	8	
+Drosophila	villosepedis	O61.2	Kauai	HQ171042		HQ170839	HQ170747	3, 8	
+Drosophila	waddingtoni	96	Hawaii	HQ171028	HQ170935	HQ170825	HQ170721	8	
+Drosophila	xenophaga	205070	Hawaii	HQ171018	HQ170925	HQ170815	HQ170711	8	
+Drosophila	spKNMa	201325a	Hawaii				HQ170691	8	
+Drosophila	nr_ancyla	201020	Hawaii	HQ171007	HQ170913	HQ170805	HQ170698	8	
+Drosophila	nr_basimacula_1	201031	Kauai	HQ171001	HQ170951	HQ170799	HQ170692	8	
+Drosophila	nr_basimacula_2	201032	Kauai	HQ171003	HQ170909	HQ170801	HQ170694	8	
+Drosophila	nr_basimacula_3	201033	Kauai	HQ171005	HQ170911	HQ170803	HQ170696	8	
+Drosophila	nr_brunneisetae	201018	Maui	HQ171008	HQ170914	HQ170806	HQ170699	8	
+Drosophila	nr_dorsigera	201052	Kauai		HQ170946		HQ170700	8	
+Drosophila	nr_fundita	201028	Hawaii	HQ171009	HQ170915	HQ170807	HQ170701	8	
+Drosophila	nr_hirtitarsus	200998	Kauai	HQ171010	HQ170916	HQ170808	HQ170702	8	
+Drosophila	nr_humeralis	201041	Kauai	HQ171011	HQ170917	HQ170809	HQ170703	8	
+Drosophila	nr_melanopedis	201016	Hawaii	HQ171012	HQ170918	HQ170810	HQ170704	8	
+Drosophila	nr_perissopoda_1	201035	Kauai	HQ171002	HQ170908	HQ170800	HQ170693	8	
+Drosophila	nr_perissopoda_2	201036	Kauai	HQ171004	HQ170910	HQ170802	HQ170695	8	
+Drosophila	nr_perissopoda_3	201037	Kauai	HQ171006	HQ170912	HQ170804	HQ170697	8	
+Drosophila	nr_residua	201324	Hawaii	HQ171013	HQ170919	HQ170811	HQ170705	8	
+Scaptomyza	akalae	201528	Hawaii	HQ171045		HQ170854	HQ170736	8	
+Scaptomyza	albovittata		Oahu	U94262			U94220	4	
+Scaptomyza	anomala	hd, G32C1	Oahu	HQ171043		HQ170852	HQ170748	3, 8	
+Scaptomyza	caliginosa	105680	Hawaii	EU494402		EU493676	EU493805	1	
+Scaptomyza	crassifemur	109449	Hawaii		EU493547	EU493677	U94211	1	
+Scaptomyza	cyrtandrae	201201	Hawaii	HQ171046	HQ170936		HQ170737	8	
+Scaptomyza	elmoi	hd, K22A107	Oahu	HQ171044		HQ170853	HQ170735	3, 8	
+Scaptomyza	flava	201322	Washington	HQ171047	HQ170937	HQ170855	HQ170738	8	
+Scaptomyza	frustulifera	108518	Gough Is.	EU494405	EU493549	EU493679	EU493808	1	
+Scaptomyza	longisetosa	201057a	Hawaii		HQ170938	HQ170856	HQ170739	8	
+Scaptomyza	magnipalpa	201056	Kauai	HQ171048	HQ170947	HQ170857	HQ170740	8	
+Scaptomyza	neocyrtandrae	201368	Maui	HQ171049	HQ170939		HQ170741	8	
+Scaptomyza	palmae	106323	Kauai	EU494406	EU493550	EU493680	EU493809	1	
+Scaptomyza	remota	108519	Gough Is.			EU493675	EU493804	1	
+Scaptomyza	silvicola	201061	Hawaii		HQ170940	HQ170858	HQ170742	8	
+Scaptomyza	tumidula	201059a	Hawaii	HQ171050	HQ170941		HQ170743	8	
+Scaptomyza	undulata	109452	Hawaii	EU494407	EU493551	EU493681	EU493810	1	
+Scaptomyza	varifrons	201058	Oahu		HQ170942	HQ170859	HQ170744	8	
+Scaptomyza	varipicta	201060a	Kauai	HQ171051	HQ170943	HQ170860	HQ170745	8	

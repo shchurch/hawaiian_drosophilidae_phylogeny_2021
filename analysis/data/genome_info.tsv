@@ -1,0 +1,13 @@
+species	publication	genome source
+D. virilis	FlyBase	flybase.org - file dvir-all-transcript-r1.07.fasta
+D. grimshawi	FlyBase	flybase.org - file dgri-all-transcript-r1.05.fasta
+D. melanogaster	FlyBase	flybase.org - file dmel-all-transcript-r6.29.fasta
+D. willistoni	FlyBase	flybase.org - file dwil-all-transcript-r1.05.fasta
+D. mojavensis	FlyBase	flybase.org - file dmoj-all-transcript-r1.04.fasta
+D. pseudoobscura	FlyBase	flybase.org - file dpse-all-transcript-r3.04.fasta
+D. annanassae	FlyBase	flybase.org - file dana-all-transcript-r1.06.fasta
+D. murphyi	Kim et al, 2020	https://web.stanford.edu/~bkim331/files/genomes/ - accessed January 2021
+S. pallida	Kim et al, 2020	https://web.stanford.edu/~bkim331/files/genomes/ - accessed January 2021
+S. hsui	Kim et al, 2020	https://web.stanford.edu/~bkim331/files/genomes/ - accessed January 2021
+S. graminum	Kim et al, 2020	https://web.stanford.edu/~bkim331/files/genomes/ - accessed January 2021
+S. montana	Kim et al, 2020	https://web.stanford.edu/~bkim331/files/genomes/ - accessed January 2021

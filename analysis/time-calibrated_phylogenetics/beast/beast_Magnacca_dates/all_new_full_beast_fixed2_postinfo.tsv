@@ -1,0 +1,12 @@
+Summary Statistic	posterior
+mean	-207066.4343
+stderr of mean	1.7335
+stdev	41.7982
+variance	1747.0871
+median	-207067.0921
+value range	[-207229.9488, -206890.6323]
+geometric mean	n/a
+95% HPD interval	[-207147.7209, -206984.6042]
+auto-correlation time (ACT)	34000.4612
+effective sample size (ESS)	581.3
+number of samples	19766

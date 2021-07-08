@@ -1,0 +1,22 @@
+cd /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021
+
+git clone https://github.com/smirarab/ASTRAL.git
+
+cd ASTRAL
+unzip Astral.5.7.7.zip
+
+salloc -p test --mem 10000 -t 0-06:00
+
+module purge
+module load centos6/0.0.1-fasrc01
+module load java/1.8.0_45-fasrc01
+
+ASTRAL_DATASET=/n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/scratch/iqtree_59/June2021_iqtree59_loci.treefile
+ASTRAL=/n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/ASTRAL/Astral/astral.5.7.7.jar
+
+cd /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/scratch
+mkdir astral_59
+cd astral_59
+
+java -jar $ASTRAL -i $ASTRAL_DATASET -o astral_June2021_iqtree59_loci.tree
+

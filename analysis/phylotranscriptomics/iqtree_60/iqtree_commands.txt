@@ -1,0 +1,43 @@
+cd /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021
+source activate agalma_Sep2018
+
+cd agalma/scratch
+OUTDIR=iqtree_60
+mkdir $OUTDIR
+cd $OUTDIR
+
+SUPERMATRIX=/n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/60.supermatrix.fa
+PARTITION=/n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/60.supermatrix.partition.txt
+PARTITION_NEX=/n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/60.supermatrix.partition.nex
+
+touch $PARTITION_NEX
+echo "#nexus" >> $PARTITION_NEX
+echo "begin sets;" >> $PARTITION_NEX
+cat $PARTITION >> $PARTITION_NEX
+echo "end;" >>$PARTITION_NEX
+sed -i -E "s/^DNA\,\ (.*)$/  charset part\1;/g" $PARTITION_NEX
+
+#!/bin/bash
+#SBATCH -n 24                  
+#SBATCH -N 1                    
+#SBATCH -t 7-00:00              
+#SBATCH -p unrestricted,shared       
+#SBATCH --mem=48G              
+#SBATCH --mail-type=ALL         
+#SBATCH --mail-user=church@g.harvard.edu
+
+cd /n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021
+source activate agalma_Sep2018
+
+cd agalma/scratch
+OUTDIR=iqtree_60
+cd $OUTDIR
+
+SUPERMATRIX=/n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/60.supermatrix.fa
+PARTITION=/n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/60.supermatrix.partition.txt
+PARTITION_NEX=/n/holyscratch01/extavour_lab/shchurch/assembly_phylogeny_expression_Hawaiian_Drosophila_June2021/agalma/reports/60.supermatrix.partition.nex
+
+iqtree2 -s $SUPERMATRIX -p $PARTITION_NEX --prefix June2021_iqtree60_concat -B 1000 -T AUTO
+iqtree2 -s $SUPERMATRIX -S $PARTITION_NEX --prefix June2021_iqtree60_loci -T 1
+iqtree2 -t June2021_iqtree60_concat.treefile --gcf June2021_iqtree60_loci.treefile -s $SUPERMATRIX --scf 100 --prefix June2021_iqtree60_concord -T 10
+

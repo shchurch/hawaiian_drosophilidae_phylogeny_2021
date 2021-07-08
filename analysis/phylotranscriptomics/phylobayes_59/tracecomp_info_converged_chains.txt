@@ -1,0 +1,4 @@
+setting upper limit to : 452
+chain1.trace	 burnin : 100	sample size : 352
+chain3.trace	 burnin : 100	sample size : 352
+chain4.trace	 burnin : 100	sample size : 352

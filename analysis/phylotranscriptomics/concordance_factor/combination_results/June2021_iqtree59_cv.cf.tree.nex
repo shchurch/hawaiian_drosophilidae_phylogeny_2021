@@ -1,0 +1,5 @@
+#NEXUS
+[ See June2021_iqtree59_cv.cf.stat for branch annotation meanings. This file is best viewed in FigTree. ]
+begin trees;
+  tree tree_1 = ((((((((Drosophila_picticornis,(Drosophila_macrothrix,(Drosophila_grimshawi,(Drosophila_sproati,Drosophila_murphyi)))),Drosophila_primaeva),Drosophila_cfdives),(Drosophila_nanella,Drosophila_mimica)),(Drosophila_atroscutellata,Drosophila_tanythrix)),(((((Scaptomyza_cyrtandrae,Scaptomyza_varipicta),Scaptomyza_varia),Scaptomyza_pallida),(Scaptomyza_graminum,Scaptomyza_montana)),Scaptomyza_hsui)),(Drosophila_virilis,Drosophila_mojavensis)),(Drosophila_willistoni,((Drosophila_ananassae,Drosophila_melanogaster),Drosophila_pseudoobscura))):0.0000000000;
+end;
