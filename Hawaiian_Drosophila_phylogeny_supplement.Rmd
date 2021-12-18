@@ -2,7 +2,7 @@
 title: "Supplementary methods - Phylotranscriptomics reveals discordance in the phylogeny of Hawaiian _Drosophila_ and _Scaptomyza_ (Diptera: Drosophilidae)"
 author: 
     - Samuel H. Church^1^\*, 
-    - Cassandra G. Extavour^1,2^
+    - Cassandra G. Extavour^1,2,3^
 output:
   bookdown::pdf_document2:
   keep_tex: yes
@@ -13,6 +13,8 @@ bibliography: Hawaiian_Drosophila_phylogeny.bib
 csl: nature.csl
 link-citations: yes
 header-includes:
+ #\usepackage[left]{lineno}
+ #\linenumbers
  \usepackage{xr}
  \usepackage{float}
  \usepackage{array}
@@ -48,6 +50,8 @@ set.seed(84095)
 ^1^ Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA 02138, USA
 
 ^2^ Department of Molecular and Cellular Biology, Harvard University, Cambridge, MA 02138, USA
+
+^3^ Howard Hughes Medical Institute, Chevy Chase, MD 20815
 
 \* Corresponding author
 
@@ -196,6 +200,41 @@ dev.off()
 knitr::include_graphics("figure_panels/print-iqtree-occupancy-tree-01.png")
 ```
 
+```{r iqtree-spruceup-conservative}
+
+spruceup59_95_tree <- read.tree("analysis/phylotranscriptomics/spruceup_59/Nov2021_spruceup59_95_concord.cf.tree") 
+spruceup59_95_tree$tip.label <- plyr::mapvalues(spruceup59_95_tree$tip.label,transcriptomic_taxa$name,transcriptomic_taxa$name_clean)
+
+root_spruceup59_95_tree <- phangorn::midpoint(spruceup59_95_tree,node.labels="support")
+
+plot_height <- 1.5 * max(node.depth.edgelength(spruceup59_95_tree))
+sp_59_95 <- ggtree(root_spruceup59_95_tree,right=T) + geom_text2(size=1.75,hjust=-0.1,aes(subset=!isTip,label=label))
+sp_59_95 <- sp_59_95 %<+% (transcriptomic_taxa %>% select(name_clean,clade)) + 
+  geom_tiplab(align=T,aes(color=clade),size=3,fontface='bold.italic') + # size of label border
+  scale_color_manual(values=color_scheme) + 
+  theme(legend.position="none")  + xlim_tree(1.5 * max(node.depth.edgelength(spruceup59_95_tree)))
+pdf("figure_panels/print-spruceup-59-95-tree.pdf",height=5,width=6,useDingbats=F)
+print(sp_59_95)
+dev.off()
+```
+
+```{r graphic-iqtree-spruceup-conservative,include=T,results=T,warning=F,fig.align="center",fig.cap="Most likely topology estimated using IQtree on a dataset filtered to exclude poorly aligned sequence fragments, above a 95\\% cutoff. Node labels show boostrap values / gene concordance factors / site concordance factors. Colors correspond to clades described in Fig. 1 and S1."}
+knitr::include_graphics("figure_panels/print-spruceup-59-95-tree-01.png")
+```
+
+```{r spruceup-analysis,include=T,results=T,warning=F,fig.align="center",fig.cap="Comparison of concordance factors across branches using variable cutoff values to filter potentially poorly aligned sequence fragments. In both panels, the x-axis shows the 21 branches of the phylogeny, arranged from lowest concordance factor value to highest."}
+spruceup59_99 <- read.delim("analysis/phylotranscriptomics/spruceup_59/Nov2021_spruceup59_99_concord.cf.stat",header=T,comment="#",stringsAsFactors=F) %>% mutate(spruceup = "99%")
+spruceup59_97 <- read.delim("analysis/phylotranscriptomics/spruceup_59/Nov2021_spruceup59_97_concord.cf.stat",header=T,comment="#",stringsAsFactors=F) %>% mutate(spruceup = "97%")
+spruceup59_95 <- read.delim("analysis/phylotranscriptomics/spruceup_59/Nov2021_spruceup59_95_concord.cf.stat",header=T,comment="#",stringsAsFactors=F) %>% mutate(spruceup = "95%")
+spruceup59 <- bind_rows(spruceup59_99,spruceup59_97,spruceup59_95)
+
+sp1 <- ggplot(spruceup59,aes(x = factor(ID,levels=spruceup59 %>% arrange(gCF) %>% pull(ID) %>% unique()), y = gCF, color = spruceup)) + geom_point() + xlab("phylogenetic branch") + scale_color_manual(name = "filter cutoff",values = c("blue","red","dark green")) + theme(axis.text.x = element_blank(),axis.ticks.x = element_blank())
+
+sp2 <- ggplot(spruceup59,aes(x = factor(ID,levels=spruceup59 %>% arrange(sCF) %>% pull(ID) %>% unique()), y = sCF, color = spruceup)) + geom_point() + xlab("phylogenetic branch") + scale_color_manual(name = "filter cutoff",values = c("blue","red","dark green")) + theme(axis.text.x = element_blank(),axis.ticks.x = element_blank())
+
+grid.arrange(sp1,sp2,ncol=1)
+
+```
 
 \newpage
 ## Concordance factor analysis {-}
@@ -453,6 +492,225 @@ dev.off()
 knitr::include_graphics('figure_panels/branch-sCF_V2-01.png')
 ```
 
+```{r lmap-analysis}
+# read in partition information
+partition_table<-read.table("analysis/phylotranscriptomics/partitions_59/59.supermatrix.partition.txt") %>% 
+  mutate(partition = seq(1:nrow(.))) %>% 
+  tidyr::separate(V1,into=c("type","partition_ID"),sep="_")
+
+# read in table of partition and tree indices
+trees_parts <- read.delim("analysis/phylotranscriptomics/partitions_59/loci_trees_partition_num.tsv",header=T,stringsAsFactors=F) %>% 
+  mutate(tree_number = seq(1:nrow(.))) %>% 
+  tidyr::separate(partition,into=c("t","partition_ID"),sep="part") %>% 
+  left_join(.,partition_table,by="partition_ID") %>% 
+  tidyr::separate(col=seq,into=c("start","end"),sep="-") %>%
+  mutate(length = 1+ as.numeric(end) - as.numeric(start))
+
+##### LMAP PNA position ####
+
+lmap_pna_7 <- read.delim("analysis/phylotranscriptomics/partitions_59/lmap_pna_seven_area_results.tsv",header=F,stringsAsFactors=F,sep="",col.names=c("partition","quartets","area1","perc1","area2","perc2","area3","perc3","area4","perc4","area5","perc5","area6","perc6","area7","perc7")) %>% mutate_if(is.character,as.numeric) 
+lmap_pna_3 <- read.delim("analysis/phylotranscriptomics/partitions_59/lmap_pna_three_area_results.tsv",header=F,stringsAsFactors=F,sep="",col.names=c("partition","quartets","area1","perc1","area2","perc2","area3","perc3")) %>% mutate_if(is.character,as.numeric) 
+
+##### LMAP haleakalae position ####
+
+# read in results of LMAP quartet mapping
+lmap_hal_7 <- read.delim("analysis/phylotranscriptomics/partitions_59/lmap_hal_seven_area_results.tsv",header=F,stringsAsFactors=F,sep="",col.names=c("partition","quartets","area1","perc1","area2","perc2","area3","perc3","area4","perc4","area5","perc5","area6","perc6","area7","perc7")) %>% mutate_if(is.character,as.numeric) 
+lmap_hal_3 <- read.delim("analysis/phylotranscriptomics/partitions_59/lmap_hal_three_area_results.tsv",header=F,stringsAsFactors=F,sep="",col.names=c("partition","quartets","area1","perc1","area2","perc2","area3","perc3")) %>% mutate_if(is.character,as.numeric) 
+
+# count number of informative quartets in each gene
+lmap_hal_informative <- lmap_hal_7 %>% filter(quartets > 0) %>% 
+  rowwise() %>% 
+  mutate(resolved = sum(area1,area2,area3)/quartets * 100,
+  unresolved = sum(area4,area5,area6,area7)/quartets * 100,
+  edges = sum(area4,area5,area6)/quartets *100)
+
+lmap_hal_maj_resolved <- lmap_hal_informative %>% filter(resolved > 49)
+
+lmap_pna_informative <- lmap_pna_7 %>% filter(quartets > 0) %>% 
+  rowwise() %>% 
+  mutate(resolved = sum(area1,area2,area3)/quartets * 100,
+  unresolved = sum(area4,area5,area6,area7)/quartets * 100,
+  edges = sum(area4,area5,area6)/quartets *100)
+
+lmap_pna_maj_resolved <- lmap_pna_informative %>% filter(resolved > 49)
+
+# how many genes are informative for these four groups
+num_total_genes <- nrow(partition_table)
+num_hal_informative <- nrow(lmap_hal_informative)
+num_hal_maj_resolved <- nrow(lmap_hal_maj_resolved)
+num_pna_informative <- nrow(lmap_pna_informative)
+num_pna_maj_resolved <- nrow(lmap_pna_maj_resolved)
+```
+
+```{r print-lmap-plots}
+lh7 <- lmap_hal_informative %>% group_by() %>% summarize(sum1 = sum(area1),
+  sum2 = sum(area2),
+  sum3 = sum(area3),
+  sum4 = sum(area4),
+  sum5 = sum(area5),
+  sum6 = sum(area6),
+  sum7 = sum(area7),
+  g = "sum") %>% 
+  tidyr::pivot_longer(-g) %>% 
+  mutate(val = value / sum(value)) %>% 
+    ggplot(.,aes(x=g,y=name,fill=val,label=value)) + 
+    geom_tile() + 
+    scale_fill_gradient(low="white",high="black",limits=c(0,1))  + 
+    geom_text()
+
+lh3 <- lmap_hal_3 %>% filter(quartets > 0) %>% group_by() %>% summarize(sum1 = sum(area1),
+    sum2 = sum(area2),
+    sum3 = sum(area3),
+    g = "sum") %>% 
+  tidyr::pivot_longer(-g) %>% 
+  mutate(val = value / sum(value)) %>% 
+    ggplot(.,aes(x=g,y=name,fill=val,label=value)) + 
+    geom_tile() + 
+    scale_fill_gradient(low="white",high="black",limits=c(0,1))  + 
+    geom_text()
+
+pdf("figure_panels/print-lh7.pdf")
+print(lh7)
+dev.off()
+
+pdf("figure_panels/print-lh3.pdf")
+print(lh3)
+dev.off()
+
+lp7 <- lmap_pna_informative %>% group_by() %>% summarize(sum1 = sum(area1),
+  sum2 = sum(area2),
+  sum3 = sum(area3),
+  sum4 = sum(area4),
+  sum5 = sum(area5),
+  sum6 = sum(area6),
+  sum7 = sum(area7),
+  g = "sum") %>% 
+  tidyr::pivot_longer(-g) %>% 
+  mutate(val = value / sum(value)) %>% 
+    ggplot(.,aes(x=g,y=name,fill=val,label=value)) + 
+    geom_tile() + 
+    scale_fill_gradient(low="white",high="black",limits=c(0,1))  + 
+    geom_text()
+
+lp3 <- lmap_pna_3 %>% filter(quartets > 0) %>% group_by() %>% summarize(sum1 = sum(area1),
+    sum2 = sum(area2),
+    sum3 = sum(area3),
+    g = "sum") %>% 
+  tidyr::pivot_longer(-g) %>% 
+  mutate(val = value / sum(value)) %>% 
+    ggplot(.,aes(x=g,y=name,fill=val,label=value)) + 
+    geom_tile() + 
+    scale_fill_gradient(low="white",high="black",limits=c(0,1))  + 
+    geom_text()
+
+pdf("figure_panels/print-lp7.pdf")
+print(lp7)
+dev.off()
+
+pdf("figure_panels/print-lp3.pdf")
+print(lp3)
+dev.off()
+```
+
+(ref:lmap-cap) Results of a likelihood mapping analysis of all taxon quartets across all genes. A-B show support for the branches subtending the _haleakalae_ group, relative to AMC, MM, and PNA+_D. primaeva_. C-D show support for the branches subtending the PNA group, relative to _D. primaeva_, AMC+MM+_haleakalae_, and _Scaptomyza_. Panels A and C show the number of taxon quartets that support the arrangements shown at the vertices. Panels B and D show the number of quartets that are clearly informative for these arrangements, compared to quartets that are only partly informative or uninformative in distinguishing these arrangements. Triangle panels are shaded by the percent of quartets.
+
+```{r graphic-lmap,include=T,fig.align="center",fig.cap='(ref:lmap-cap)',results=TRUE}
+knitr::include_graphics('figure_panels/print-lmap-results-V1-01.png')
+```
+
+```{r partition-analysis}
+partition_info <- read.delim("analysis/phylotranscriptomics/partitions_59/June2021_iqtree59_loci_partition_information.tsv",header=T,stringsAsFactors=F,sep="\t") %>% tidyr::separate(Name,into=c("p","partition_ID"),sep="part")
+
+trimal <- read.delim("analysis/phylotranscriptomics/partitions_59/avg_trimal_scores",header=T,stringsAsFactors=F,sep="") %>% tidyr::separate(OG,into=c("partition","f"),sep="\\.") %>% mutate(partition = as.numeric(partition))
+
+full_parts_info <- trees_parts %>% left_join(.,partition_info,by="partition_ID") %>% left_join(.,trimal,by="partition")
+
+# grab gene trees
+iqtree_genetrees <- read.tree("analysis/phylotranscriptomics/iqtree_59/June2021_iqtree59_loci.treefile")
+
+# check in gene trees which monophyletic arrangements appear
+count_monophyletic <- function(tree,group_list){
+  tip_list <- lapply(group_list,function(x){tree$tip.label[tree$tip.label %in% x]})
+  if(any(sapply(tip_list,length)<1)){
+    res <- NA
+  } else {
+    res <- is.monophyletic(tree,unlist(tip_list))
+  }
+  return(res)
+}
+
+
+# define clades of interest by capital letters
+cladeA <- c("Drosophila_picticornis","Drosophila_macrothrix","Drosophila_grimshawi","Drosophila_sproati","Drosophila_murphyi")
+cladeB <- c("Drosophila_atroscutellata","Drosophila_tanythrix")
+cladeC <- c("Drosophila_nanella","Drosophila_mimica")
+cladeD <- c("Drosophila_primaeva")
+cladeE <- c("Drosophila_cfdives")
+cladeF <- c("Scaptomyza_varipicta","Scaptomyza_cyrtandrae","Scaptomyza_varia","Scaptomyza_pallida","Scaptomyza_hsui","Scaptomyza_montana","Scaptomyza_graminum")
+cladeG <- c("Drosophila_virilis","Drosophila_mojavensis")
+cladeH <- c("Drosophila_melanogaster","Drosophila_ananassae","Drosophila_willistoni","Drosophila_pseudoobscura")
+
+hal_parts <- full_parts_info %>% filter(partition %in% lmap_hal_informative$partition)
+hal_genetrees <- lapply(lapply(iqtree_genetrees[hal_parts %>% pull(tree_number)],drop.tip,tip=c(cladeF,cladeG,cladeH)),unroot)
+
+E_AD_mono <- sapply(hal_genetrees,count_monophyletic,group_list=list(cladeE,c(cladeA,cladeD)))
+E_B_mono <- sapply(hal_genetrees,count_monophyletic,group_list=list(cladeE,cladeB))
+E_C_mono <- sapply(hal_genetrees,count_monophyletic,group_list=list(cladeE,cladeC))
+
+hal_parts$hal <- "other"
+hal_parts[which(E_AD_mono),]$hal <- "PNA_primaeva"
+hal_parts[which(E_B_mono),]$hal <- "AMC"
+hal_parts[which(E_C_mono),]$hal <- "MM"
+
+
+pna_parts <- full_parts_info %>% filter(partition %in% lmap_pna_informative$partition)
+pna_genetrees <- lapply(lapply(iqtree_genetrees[pna_parts %>% pull(tree_number)],drop.tip,tip=c(cladeG,cladeH)),unroot)
+
+A_D_mono <- sapply(pna_genetrees,count_monophyletic,group_list=list(cladeA,c(cladeD)))
+A_BCE_mono <- sapply(pna_genetrees,count_monophyletic,group_list=list(cladeA,c(cladeB,cladeC,cladeE)))
+A_F_mono <- sapply(pna_genetrees,count_monophyletic,group_list=list(cladeA,cladeF))
+
+pna_parts$pna <- "other"
+pna_parts[which(A_D_mono),]$pna <- "primaeva"
+pna_parts[which(A_BCE_mono),]$pna <- "AMC_MM_HAL"
+pna_parts[which(A_F_mono),]$pna <- "SCAP"
+
+
+h1 <- ggplot(hal_parts,aes(x=factor(hal,levels=c("AMC","MM","PNA_primaeva","other")),y=Sites)) + 
+  geom_jitter(color="gray",size=0.5) + 
+  geom_boxplot(alpha=0) + 
+  xlab("arrangement") + 
+  ylab("gene length") + 
+  scale_y_log10()
+h2 <- ggplot(hal_parts,aes(x=factor(hal,levels=c("AMC","MM","PNA_primaeva","other")),y=Conservation_Score)) + 
+  geom_jitter(color="gray",size=0.5) + 
+  geom_boxplot(alpha=0) + 
+  xlab("arrangement") + 
+  ylab("conservation score")
+p1 <- ggplot(pna_parts,aes(x=factor(pna,levels=c("primaeva","AMC_MM_HAL","SCAP","other")),y=Sites)) + 
+  geom_jitter(color="gray",size=0.5) + 
+  geom_boxplot(alpha=0) + 
+  xlab("arrangement") + 
+  ylab("gene length") + 
+  scale_y_log10()
+p2 <- ggplot(pna_parts,aes(x=factor(pna,levels=c("primaeva","AMC_MM_HAL","SCAP","other")),y=Conservation_Score)) + 
+  geom_jitter(color="gray",size=0.5) + 
+  geom_boxplot(alpha=0) + 
+  xlab("arrangement") + 
+  ylab("conservation score")
+
+pdf("figure_panels/print-partition-results.pdf",width=7,height=4,useDingbats=F)
+grid.arrange(h1,h2,p1,p2,ncol=2)
+dev.off()
+```
+
+(ref:gp-cap) Distributions of genes supporting particular arrangements by gene length and evolutionary conservation. A-B show support for the branches subtending the _haleakalae_ group, relative to AMC, MM, and PNA+_D. primaeva_. C-D show support for the branches subtending the PNA group, relative to _D. primaeva_, AMC+MM+_haleakalae_, and _Scaptomyza_. Boxplots show the median, quartiles, and outlier values.
+
+```{r graphic-partitions,include=T,fig.align="center",fig.cap='(ref:gp-cap)',results=TRUE}
+knitr::include_graphics('figure_panels/print_partition_results_V1-01.png')
+```
+
+
 \newpage
 ## Expanded phylogenetic analysis {-}
   
@@ -581,6 +839,7 @@ beast_starting_tree$node.label <- NULL
 ```{r beast-results}
 beast_tree <- read.beast("analysis/time-calibrated_phylogenetics/beast/beast_Landis_dates/all_new_full_beast_fixed_Landis_mcc.tre")
 alt_beast_tree <- read.beast("analysis/time-calibrated_phylogenetics/beast/beast_Magnacca_dates/all_new_full_beast_fixed2_mcc.tre")
+Rus_beast_tree <- read.beast("analysis/time-calibrated_phylogenetics/beast/beast_Russo_dates/all_new_full_beast_fixed_Russo_subsample_mcc.tre")
 
 time_tree <- beast_tree@phylo
 
@@ -1216,7 +1475,7 @@ knitr::kable(reads_info,
     kableExtra::kable_styling(font_size = 8) 
 ```
 
-(ref:genome-info) information[@larkin2021flybase;@kim2020highly]
+(ref:genome-info) information[@larkin2021flybase;@kim2021highly]
 
 ```{r genome-info,include=T,results=T}
 genome_info <- read.delim("analysis/data/genome_info.tsv",stringsAsFactors=F,sep="\t",header=T,check.names=F)    
@@ -1235,6 +1494,8 @@ beast_tree_eff <- read.delim("analysis/time-calibrated_phylogenetics/beast/beast
 beast_post_eff <- read.delim("analysis/time-calibrated_phylogenetics/beast/beast_Landis_dates/all_new_full_beast_fixed_Landis_postinfo.tsv",sep="\t",header=F,stringsAsFactors=F) %>% filter(V1 == "effective sample size (ESS)") %>% pull(V2) %>% as.numeric()
 beast_alttree_eff <- read.delim("analysis/time-calibrated_phylogenetics/beast/beast_Magnacca_dates/all_new_full_beast_fixed2_treeinfo.tsv",sep="\t",header=F,stringsAsFactors=F) %>% filter(V1 == "effective sample size (ESS)") %>% pull(V2) %>% as.numeric()
 beast_altpost_eff <- read.delim("analysis/time-calibrated_phylogenetics/beast/beast_Magnacca_dates/all_new_full_beast_fixed2_postinfo.tsv",sep="\t",header=F,stringsAsFactors=F) %>% filter(V1 == "effective sample size (ESS)") %>% pull(V2) %>% as.numeric()
+beast_Rustree_eff <- read.delim("analysis/time-calibrated_phylogenetics/beast/beast_Russo_dates/all_new_full_beast_Russo_treeinfo.tsv",sep="\t",header=F,stringsAsFactors=F) %>% filter(V1 == "effective sample size (ESS)") %>% pull(V2) %>% as.numeric()
+beast_Ruspost_eff <- read.delim("analysis/time-calibrated_phylogenetics/beast/beast_Russo_dates/all_new_full_beast_Russo_postinfo.tsv",sep="\t",header=F,stringsAsFactors=F) %>% filter(V1 == "effective sample size (ESS)") %>% pull(V2) %>% as.numeric()
 ```
 
 ```{r substrate-categories,include=T,results=T}

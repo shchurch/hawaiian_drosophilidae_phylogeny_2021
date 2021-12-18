@@ -1,0 +1,8 @@
+#NEXUS
+begin sets;
+    taxset PNA_primaeva = Drosophila_grimshawi Drosophila_sproati Drosophila_murphyi Drosophila_macrothrix Drosophila_picticornis Drosophila_primaeva;
+    taxset Haleakalae = Drosophila_cfdives;
+    taxset AMC = Drosophila_atroscutellata Drosophila_tanythrix;
+    taxset MM = Drosophila_mimica Drosophila_nanella;
+    taxset IGNORED = Drosophila_virilis Drosophila_mojavensis Drosophila_willistoni Drosophila_melanogaster Drosophila_ananassae Drosophila_pseudoobscura Scaptomyza_varia Scaptomyza_varipicta Scaptomyza_cyrtandrae Scaptomyza_pallida Scaptomyza_graminum Scaptomyza_montana Scaptomyza_hsui;
+end;

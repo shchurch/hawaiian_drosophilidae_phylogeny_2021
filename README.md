@@ -23,11 +23,14 @@ This directory contains figures used in the manuscript. This is where the output
 
 	The directory `DNA_barcoding/` includes newly generated DNA vouchers for male and female specimens, as well as downloaded existing barcode sequences, alignments, and estimated gene trees.
 
+
 	- `phylotranscriptomics/`
 
 	This directory contains all analyses for estimating the phylogeny using genomic and transcriptomic data. Each subdirectory contains the commands used for individual software packages, as well as results. These include `agalma`, `IQtree` on two supermatrices (full occupancy, dataset 59, and reduced occupancy, dataset 60), `RAxML` (under `speciestree-166/`), `PhyloBayes`, `ASTRAL`, and `SOWHAT`.
 
 	The `concordance_factor/` directory contains a script for building all possibly permutations of a phylogeny (`all_trees.py`) the set of all possible trees, the commands for analyzing discordance across all trees using IQtree, and the results.
+
+	The directory `spruceup` describes commands to clean the supermatric of poorly aligned sequence fragments. The directory `partitions_59` describes commands for the quartet mapping analysis.
 
 	- `time-calibrated_phylogenetics/`
 

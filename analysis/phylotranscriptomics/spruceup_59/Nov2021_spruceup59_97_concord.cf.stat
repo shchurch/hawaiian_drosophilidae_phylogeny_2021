@@ -1,0 +1,46 @@
+# Concordance factor statistics
+# This file can be read in MS Excel or in R with command:
+#   tab=read.table('Nov2021_spruceup59_97_concord.cf.stat',header=TRUE)
+# Columns are tab-separated with following meaning:
+#   ID: Branch ID
+#   gCF: Gene concordance factor (=gCF_N/gN %)
+#   gCF_N: Number of trees concordant with the branch
+#   gDF1: Gene discordance factor for NNI-1 branch (=gDF1_N/gN %)
+#   gDF1_N: Number of trees concordant with NNI-1 branch
+#   gDF2: Gene discordance factor for NNI-2 branch (=gDF2_N/gN %)
+#   gDF2_N: Number of trees concordant with NNI-2 branch
+#   gDFP: Gene discordance factor due to polyphyly (=gDFP_N/gN %)
+#   gDFP_N: Number of trees decisive but discordant due to polyphyly
+#   gN: Number of trees decisive for the branch
+#   sCF: Site concordance factor averaged over 100 quartets (=sCF_N/sN %)
+#   sCF_N: sCF in absolute number of sites
+#   sDF1: Site discordance factor for alternative quartet 1 (=sDF1_N/sN %)
+#   sDF1_N: sDF1 in absolute number of sites
+#   sDF2: Site discordance factor for alternative quartet 2 (=sDF2_N/sN %)
+#   sDF2_N: sDF2 in absolute number of sites
+#   sN: Number of informative sites averaged over 100 quartets
+#   Label: Existing branch label
+#   Length: Branch length
+# *NOTE*: (gCF+gDF1+gDF2+gDFP) = 100% and (gCF_N+gDF1_N+gDF2_N+gDFP_N) = gN
+ID	gCF	gCF_N	gDF1	gDF1_N	gDF2	gDF2_N	gDFP	gDFP_N	gN	sCF	sCF_N	sDF1	sDF1_N	sDF2	sDF2_N	sN	Label	Length
+25	91.79	5767	2.61	164	2.9	182	2.71	170	6283	45.4	94560.84	27.21	56444.15	27.39	56627.59	207632.58	100	3.77315
+26	84.84	5110	6.39	385	5.1	307	3.67	221	6023	45.99	80253.88	27.42	48242.23	26.59	46462.09	174958.2	100	3.42054
+27	91.25	5061	2.87	159	1.51	84	4.36	242	5546	51.87	80988.6	25.71	40195.04	22.42	34619.93	155803.57	100	6.36024
+28	85.05	3863	3.13	142	5.31	241	6.52	296	4542	47.67	25891.11	26.29	14093.73	26.04	13979.57	53964.41	100	2.87477
+29	91.86	3511	1.07	41	1.15	44	5.91	226	3822	73.99	14075.11	12.75	2444.74	13.25	2583.92	19103.77	100	3.54773
+30	19.4	438	18.11	409	24.22	547	38.26	864	2258	31.21	1886.95	28.87	1784.13	39.92	2506.92	6178	100	0.125864
+31	27.45	694	12.58	318	8.7	220	51.27	1296	2528	35.68	2339.65	35.24	2525.51	29.07	2035.62	6900.78	100	0.169362
+32	82.9	2128	1.83	47	1.99	51	13.28	341	2567	72.21	5926.17	13.3	1148.35	14.49	1241.6	8316.12	100	1.08572
+33	18.84	596	17.39	550	20.8	658	42.97	1359	3163	30.56	3181.98	30.37	3158.6	39.07	4287.5	10628.08	96	0.0887581
+34	69.77	1853	5.01	133	5.61	149	19.62	521	2656	58.38	8251.97	20.55	3042.55	21.07	3086.77	14381.29	100	0.535485
+35	76.38	1371	4.79	86	3.84	69	14.99	269	1795	59.19	2962.48	23.3	1191.85	17.51	869.68	5024.01	100	0.628919
+36	63.26	1195	10.01	189	10.06	190	16.68	315	1889	61.76	1886.45	19.34	611.53	18.9	602.15	3100.13	100	0.291875
+37	42.38	1182	21.44	598	23.49	655	12.69	354	2789	43.54	1444.79	28.81	1001.93	27.65	947.07	3393.79	100	0.0812526
+38	84.85	1064	3.83	48	2.55	32	8.77	110	1254	78.73	1819.18	12.83	314.82	8.44	207.05	2341.05	100	0.369744
+39	92.73	1619	1.95	34	0.74	13	4.58	80	1746	57.41	15850.67	20.77	5712.37	21.83	5944.44	27507.48	100	2.51589
+40	59.53	1196	15.28	307	16.38	329	8.81	177	2009	37.53	8916.12	31.26	7657.58	31.21	7412.39	23986.09	100	0.581082
+41	70.62	584	9.55	79	6.29	52	13.54	112	827	43.09	4720.05	32.17	3686.51	24.74	2735.07	11141.63	100	0.632642
+42	95.04	670	0.85	6	0.57	4	3.55	25	705	72.32	6470.74	13.2	1175.83	14.48	1295.67	8942.24	100	1.31392
+43	66.38	2162	18.11	590	13.82	450	1.69	55	3257	42.57	7099.7	32.54	5682.77	24.9	4386.93	17169.4	100	0.322827
+44	94.69	1962	0.39	8	1.3	27	3.62	75	2072	63.86	17211.53	13.26	3710.29	22.88	6439.04	27360.86	100	1.60382
+45	66.19	3765	6.1	347	22.82	1298	4.89	278	5688	41.02	46867.68	25.35	28896.9	33.63	38316	114080.58	100	1.49503

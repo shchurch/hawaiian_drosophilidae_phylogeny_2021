@@ -1,0 +1,30 @@
+2021-11-01 11:09:39,311 - Parsing alignment analysis/phylotranscriptomics/agalma/reports/59.supermatrix.fa ...
+
+2021-11-01 11:09:42,051 - Reading in guide tree spruceup_guide_59.newick ...
+
+2021-11-01 11:09:42,068 - Splitting into size-50 windows with 25 overlap ...
+
+2021-11-01 11:32:35,246 - Writing distances to file uncorrected-distances-50window-25overlap.json ...
+
+2021-11-01 11:33:08,868 - Used 3698.59 MB memory
+
+2021-11-01 11:33:08,877 - Finding outliers for 0.95 lognorms cutoff ...
+2021-11-01 11:39:27,293 - Sites removed: 5240025
+2021-11-01 11:39:27,294 - Removed 1.71% of sites at cutoff of 0.95 lognorms
+2021-11-01 11:39:27,341 - Wrote report 0.95_lognorms-cutoff-supermatrix_59_spruceup_report.txt
+2021-11-01 11:39:28,878 - Wrote trimmed alignment 0.95_lognorms-cutoff-supermatrix_59_spruceup.fasta
+
+2021-11-01 11:39:28,878 - Finding outliers for 0.97 lognorms cutoff ...
+2021-11-01 11:43:00,558 - Sites removed: 2827475
+2021-11-01 11:43:00,558 - Removed 0.92% of sites at cutoff of 0.97 lognorms
+2021-11-01 11:43:00,583 - Wrote report 0.97_lognorms-cutoff-supermatrix_59_spruceup_report.txt
+2021-11-01 11:43:02,092 - Wrote trimmed alignment 0.97_lognorms-cutoff-supermatrix_59_spruceup.fasta
+
+2021-11-01 11:43:02,092 - Finding outliers for 0.99 lognorms cutoff ...
+2021-11-01 11:44:11,031 - Sites removed: 868850
+2021-11-01 11:44:11,031 - Removed 0.28% of sites at cutoff of 0.99 lognorms
+2021-11-01 11:44:11,040 - Wrote report 0.99_lognorms-cutoff-supermatrix_59_spruceup_report.txt
+2021-11-01 11:44:12,627 - Wrote trimmed alignment 0.99_lognorms-cutoff-supermatrix_59_spruceup.fasta
+
+2021-11-01 11:44:12,628 - Plotting distance distributions and cutoffs
+2021-11-01 11:44:29,441 - Finished in 2090.13 seconds

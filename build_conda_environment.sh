@@ -3,16 +3,16 @@
 ###    all analyses were performed
  
 # build an R environment with base R
-conda create -n r-phylo-4.0.3 -c conda-forge -c bioconda r-base=4.0.3 gdal libgdal r-rgdal r-gdalutils r-sf udunits2 r-devtools r-magick r-tidyverse r-ggplot2 bioconductor-ggtree
+conda create -n r-phylo-4.1.1 -c conda-forge -c bioconda r-base=4.1.1 gdal libgdal r-rgdal r-gdalutils r-sf udunits2 r-devtools r-magick r-tidyverse r-ggplot2 bioconductor-ggtree
 # activate the environment
-conda activate r-phylo-4.0.3
+conda activate r-phylo-4.1.1
 
 # install R packages
 R
 install.packages("ape")
 install.packages("nlme")
 install.packages("phytools")
-install.packages("bayou")
+devtools::install_github("uyedaj/bayou")
 install.packages("surface")
 
 install.packages("kableExtra")
